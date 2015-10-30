@@ -65,8 +65,14 @@ document.getElementById("xycoordinates").innerHTML="";
 
   </head>
   <body>
-
-      <header>
+  <div id="main" class="page_index"> 
+  <!--左边-->
+  <div id="left">
+  <br /><br /><br /><br /><br /><br /><br /><div id="xycoordinates"></div>
+  </div> 
+  <!--中间-->
+  <div id="middle">
+   <header>
         <h1>Pyhoooo.GitHub.com</h1>
         <p>test homepage</p>
       </header>
@@ -76,14 +82,6 @@ document.getElementById("xycoordinates").innerHTML="";
 
         <a href="https://github.com/Pyhoooo" class="button fork"><strong>View On GitHub</strong></a>
       </div><!-- end banner -->
-
-  <div id="main" class="page_index"> 
-  <!--左边-->
-  <div id="left">
-  <br /><br /><br /><br /><br /><br /><br /><div id="xycoordinates"></div>
-  </div> 
-  <!--中间-->
-  <div id="middle">
   <div id="coordiv" style="float:left;width:900px;height:220px;solid #c3c3c3" onmousemove="cnvs_getCoordinates(event)" onmouseout="cnvs_clearCoordinates()"></div>
   <br /><br /><br />
   <div>&nbsp;&nbsp;</div>
