@@ -1,6 +1,6 @@
 body{
   background-repeat:repeat;
-  background-image:url(bg.jpg);
+  background-image:url(../images/bg.jpg);
 }
 .page_index{ 
   width:1250px; 
@@ -10,14 +10,14 @@ body{
 #left{ 
   width:226px; 
   height:675px;
-  background-image:url(left.png);
+  background-image:url(../images/left.png);
   position:absolute; 
 } 
 
 #middle{ 
   width:300px; 
   height:675px;
-  background-image:url(title.png);
+  background-image:url(../images/title.png);
   margin-left:226px; 
 } 
 
@@ -47,12 +47,20 @@ body{
 .a_menu:hover {color:white;text-decoration:none;}
 .a_menu:active {color:white;text-decoration:none;}
 #right{ 
-  width:363px; 
+  width:523px; 
   height:675px;
   position:absolute;
   top:0;
   right:0;
 } 
+.right_image
+{
+  height:670px;
+  width:363px;
+  position:absolute;
+  background-image:url(../images/right.png);
+  left:200px;
+}
 #foot{ 
   background-color:blue; 
 } 

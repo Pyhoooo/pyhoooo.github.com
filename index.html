@@ -6,6 +6,7 @@
     <title>Pyhoooo.GitHub.com by Pyhoooo</title>
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/github-dark.css">
+    <link rel="stylesheet" href="stylesheets/index.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="javascripts/main.js"></script>
     <!--[if lt IE 9]>
@@ -13,37 +14,37 @@
     <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-    <style type = "text/css">
-    @import url(index.css);
-    </style>
     <script>
     $(document).ready(function () {
         $("#menu1").hover(function () {
-            $("#div2").animate({ left: '-350px' }, 300);
-            $("#basicInform").show();
+            $("#div2").animate({ left: '-142px', width: '110px' }, 250);
+            $("#skilltree").fadeIn(500);
         });
         $("#menu1").mouseleave(function () {
-            $("#div2").stop(true,true,false);
-            $("#basicInform").hide();
-            $("#div2").animate({ left: '0px' }, 0);
+            $("#div2").stop(true, true, false);
+            $("#skilltree").stop(true, true, false);
+            $("#div2").animate({ left: '200px', width: '363px' }, 0);
+            $("#skilltree").hide();
         });
         $("#menu2").hover(function () {
-            $("#div2").animate({ left: '-350px' }, 300);
-            $("#Project").show();
+            $("#div2").animate({ left: '-142px', width: '110px' }, 250);
+            $("#projects").fadeIn(500);
         });
         $("#menu2").mouseleave(function () {
             $("#div2").stop(true, true, false);
-            $("#Project").hide();
-            $("#div2").animate({ left: '0px' }, 0);
+            $("#projects").stop(true, true, false);
+            $("#div2").animate({ left: '200px', width: '363px' }, 0);
+            $("#projects").hide();
         });
         $("#menu3").hover(function () {
-            $("#div2").animate({ left: '-350px' }, 300);
-            $("#Works").show();
+            $("#div2").animate({ left: '-142px', width: '110px' }, 250);
+            $("#albums").fadeIn(500);
         });
         $("#menu3").mouseleave(function () {
             $("#div2").stop(true, true, false);
-            $("#Works").hide();
-            $("#div2").animate({ left: '0px' }, 0);
+            $("#albums").stop(true, true, false);
+            $("#div2").animate({ left: '200px', width: '363px' }, 0);
+            $("#albums").hide();
         });
     });
 </script> 
@@ -78,27 +79,27 @@ document.getElementById("xycoordinates").innerHTML="";
   <div>&nbsp;&nbsp;</div>
   <!--菜单-->
   <div>
-  <div  class="div_menu"><a id="menu1" class="a_menu" href="Basic_1.html" target="view_frame"><b>基本信息&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></a></div>
-  <div class="div_menu"><a id="menu2" class="a_menu" href="Project_1.html" target="view_frame"><b>参与项目&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></a></div>
-  <div class="div_menu"><a id="menu3" class="a_menu" href="Works_1.html" target="view_frame"><b>作品集&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></a></div>
+  <div  class="div_menu"><a id="menu1" class="a_menu" href="skilltree.html" target="view_frame"><b>技能树&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></a></div>
+  <div class="div_menu"><a id="menu2" class="a_menu" href="projects.html" target="view_frame"><b>参与项目&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></a></div>
+  <div class="div_menu"><a id="menu3" class="a_menu" href="albums.html" target="view_frame"><b>作品集&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></a></div>
   <div class="div_menu"><a class="a_menu" href="file4.html" target="view_frame"><b>与我联系&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></a></div>
   <div class="div_menu"><a class="a_menu" href="https://github.com/Pyhoooo"><b>View On GitHub&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></a></div>
   </div>
   </div>  
   <!--右边-->
   <div id="right">
-  <div id="div2" style="height:670px;width:363px;position:absolute;background-image:url(right.png);"></div>
+  <div id="div2" class="right_image"></div>
   <!--基本信息-->
-  <div id="basicInform" style="display:none;">
-  <iframe src="Basic_1.html" name="view_frame" scrolling="no" frameborder="0" width="363" height="670"></iframe>
+  <div id="skilltree" style="display:none;">
+  <iframe src="skilltree.html" name="view_frame" scrolling="no" frameborder="0" width="563" height="670"></iframe>
   </div>
   <!--参与项目-->
-  <div id="Project" style="display:none;">
-  <iframe src="Project_1.html" name="view_frame" scrolling="no" frameborder="0" width="363" height="670"></iframe>
+  <div id="projects" style="display:none;">
+  <iframe src="projects.html" name="view_frame" scrolling="no" frameborder="0" width="563" height="670"></iframe>
   </div>
   <!--作品集-->
-  <div id="Works" style="display:none;">
-  <iframe src="Works_1.html" name="view_frame" scrolling="no" frameborder="0" width="363" height="670"></iframe>
+  <div id="albums" style="display:none;">
+  <iframe src="albums.html" name="view_frame" scrolling="no" frameborder="0" width="563" height="670"></iframe>
   </div>
 
 
