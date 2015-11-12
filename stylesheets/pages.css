@@ -1,8 +1,5 @@
 /*背景*/
-body{
-  background-repeat:repeat;
-  background-image:url(../images/bg.jpg);
-}
+
 /*页面居中*/
 .page_centre{ 
   width:900px; 
@@ -76,16 +73,16 @@ body{
 }
 /*中部的左边*/
 #left{ 
-  width:190px; 
+  width:240px; 
   height:1670px;
-  background-image:url(../images/Projects/menu_bg.png);
+  background-image:url(../images/Projects/right_bg.png);
   position:absolute; 
 } 
 .div_menu{
   width:160px;
   height:50px;
   text-align:left;
-  margin:50px 0 0 30px;
+  margin:50px 0 0 80px;
   list-style-type:none;
   background-image:url(../images/Projects/menu.png);
   padding-top:70px;
@@ -101,9 +98,8 @@ body{
 
 /*中部的右边*/
 #right{ 
-  width:700px; 
+  width:650px; 
   height:1670px;
-  background-color:#e8f2f2;
   position:absolute;
   top:0;
   right:0;
@@ -113,7 +109,7 @@ body{
 {
   width:560px;
   height:418px;
-  margin:45px 0 0 35px;
+  margin:70px 0 0 30px;
 }
 #start_point
 {
