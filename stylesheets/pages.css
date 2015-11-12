@@ -61,8 +61,7 @@ body{
 }
 #nav ul li a:hover,#nav ul li a:active
 {
-  color:white;
-  background-color:#7A991A;
+  color:green;
   background-image:url(../images/Projects/nav2.png);
 }
 
@@ -78,7 +77,7 @@ body{
 /*中部的左边*/
 #left{ 
   width:190px; 
-  height:670px;
+  height:1670px;
   background-image:url(../images/Projects/menu_bg.png);
   position:absolute; 
 } 
@@ -103,73 +102,74 @@ body{
 /*中部的右边*/
 #right{ 
   width:700px; 
-  height:670px;
-  background-image:url(../images/Projects/single_bg.jpg);
+  height:1670px;
+  background-color:#e8f2f2;
   position:absolute;
   top:0;
   right:0;
+  background-image:url(../images/Projects/right_bg.png);
 } 
 #single_project
 {
-  width:640px;
-  height:500px;
-  margin:60px 0 0 35px;
+  width:560px;
+  height:418px;
+  margin:45px 0 0 35px;
 }
 #start_point
 {
-  width:40px;
-  height:40px;
+  width:35px;
+  height:35px;
   margin:0 0 0 5px;
   background-image:url(../images/Projects/start_point.png);
 }
 #date
 {
-  width:450px;
-  height:40px;
-  margin:-40px 0 0 50px;
-  font-size:28px;
+  width:393px;
+  height:35px;
+  margin:-32px 0 0 50px;
+  font-size:24px;
   padding:5px;
 }
 #zhou
 {
-  width:40px;
-  height:450px;
-  margin:5px 0 0 5px;
+  width:35px;
+  height:370px;
+  margin:-10px 0 0 5px;
   background-image:url(../images/Projects/zhou.png);
 }
 #title
 {
-  width:190px;
-  height:450px;
-  margin:-450px 0 0 50px;
+  width:150px;
+  height:370px;
+  margin:-370px 0 0 50px;
   background-image:url(../images/Projects/title.png);
 }
 #image1
 {
-  width:100px;
-  height:100px;
-  margin:-450px 0 0 245px;
+  width:87px;
+  height:87px;
+  margin:-370px 0 0 204px;
   background-image:url(../images/Projects/image1.jpg);
 }
 #image2
 {
-  width:100px;
-  height:100px;
-  margin:5px 0 0 245px;
+  width:87px;
+  height:87px;
+  margin:2px 0 0 204px;
   background-image:url(../images/Projects/image2.jpg);
 }
 #intro
 {
-  width:290px;
-  height:205px;
-  margin:-205px 0 0 350px;
-  background-image:url(../images/Projects/intro.png);
+  width:253px;
+  height:176px;
+  margin:-179px 0 0 293px;
+
 }
 #image3
 {
-  width:395px;
-  height:240px;
-  margin:5px 0 0 245px;
+  width:341px;
+  height:192px;
+  margin:2px 0 0 204px;
   background-image:url(../images/Projects/image3.jpg);
 }
 
@@ -180,6 +180,6 @@ body{
 #foot{ 
   color:white;
   background-color:#678293; 
-  margin-top:750px;
+  margin-top:1750px;
   text-align:center;
 } 
