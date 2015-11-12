@@ -66,8 +66,6 @@ body{
 } 
 #main{ 
   position:relative; 
-  <!--background-color:green; 
-  background-image:url(5.gif); -->
   background-repeat:repeat-y; 
   background-position:left; 
 }
