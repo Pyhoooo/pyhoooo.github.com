@@ -61,20 +61,23 @@
     <img style="margin:43px 0 0 260px;" src="images/title.png" />
     <div id="menu">
       <ul>
-        <li><a id="ski" href="pages/projects2.html">SKILLTREE&nbsp;&nbsp;</a></li>
-        <li><a id="pro" href="pages/projects2.html">PROJECTS&nbsp;&nbsp;</a></li>
-        <li><a id="alb" href="pages/projects2.html">ALBUMS&nbsp;&nbsp;</a></li>
-        <li><a id="stu" href="pages/projects2.html">STUDYNOTE&nbsp;&nbsp;</a></li>
-        <li><a id="con" href="pages/projects2.html">CONTACT&nbsp;&nbsp;</a></li>
+        <li><a id="ski" href="skilltree.html" target="new_frame">SKILLTREE&nbsp;&nbsp;</a></li>
+        <li><a id="pro" href="pages/projects2.html" target="_new">PROJECTS&nbsp;&nbsp;</a></li>
+        <li><a id="alb" href="pages/projects2.html" target="_new">ALBUMS&nbsp;&nbsp;</a></li>
+        <li><a id="stu" href="studynote.html" target="new_frame">STUDYNOTE&nbsp;&nbsp;</a></li>
+        <li><a id="con" href="contact.html" target="new_frame">CONTACT&nbsp;&nbsp;</a></li>
       </ul>
     </div>
 
-    <div id="SkiImg" style="display:none;position:absolute;"><img style="margin:-398px 0 0 690px;" src="images/SkillTree_Poster.png" /></div>
-    <div id="ProImg" style="display:none;position:absolute;"><img style="margin:-398px 0 0 690px;" src="images/Projects_Poster.png" /></div>
-    <div id="AlbImg" style="display:none;position:absolute;"><img style="margin:-398px 0 0 690px;" src="images/Albums_Poster.png" /></div>
-    <div id="StuImg" style="display:none;position:absolute;"><img style="margin:-398px 0 0 690px;" src="images/Studynote_Poster.png" /></div>
-    <div id="ConImg" style="display:none;position:absolute;"><img style="margin:-398px 0 0 690px;" src="images/Contact.png" /></div>
-
+    <div id="SkiImg" style="display:none;position:absolute;z-index:10;"><img style="margin:-398px 0 0 690px;" src="images/SkillTree_Poster.png" /></div>
+    <div id="ProImg" style="display:none;position:absolute;z-index:10;"><img style="margin:-398px 0 0 690px;" src="images/Projects_Poster.png" /></div>
+    <div id="AlbImg" style="display:none;position:absolute;z-index:10;"><img style="margin:-398px 0 0 690px;" src="images/Albums_Poster.png" /></div>
+    <div id="StuImg" style="display:none;position:absolute;z-index:10;"><img style="margin:-398px 0 0 690px;" src="images/Studynote_Poster.png" /></div>
+    <div id="ConImg" style="display:none;position:absolute;z-index:10;"><img style="margin:-398px 0 0 690px;" src="images/Contact.png" /></div>
+    <iframe src="blank.html" name="new_frame" scrolling="no" frameborder="0" width="489" height="530"  style="position:absolute;margin:-398px 0 0 690px;"></iframe>
+    <iframe src="skilltree.html" name="new_frame" scrolling="no" frameborder="0" width="489" height="530"  style="display:none;position:absolute;margin:-398px 0 0 690px;"></iframe>
+    <iframe src="studynote.html" name="new_frame" scrolling="no" frameborder="0" width="489" height="530"  style="display:none;position:absolute;margin:-398px 0 0 690px;"></iframe>
+    <iframe src="contact.html" name="new_frame" scrolling="no" frameborder="0" width="489" height="530"  style="display:none;position:absolute;margin:-398px 0 0 690px;"></iframe>
 
     <footer style="margin:195px 0 0 0px;" ><p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p></footer>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
