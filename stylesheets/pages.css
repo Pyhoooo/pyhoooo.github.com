@@ -4,6 +4,7 @@
   width:112px;
   height:675px;
   background-image:url(../images/blueNav.png);
+  position:fixed;
 }
 #nav1 ul
 {
@@ -20,80 +21,21 @@
 {
   color:White;
   font-family:Consolas;
-  font-size:31px;
+  font-size:27px;
   padding:0px 11px 0px 11px;
 }
 #nav1 ul li a:hover
 {
   border:1px solid white;
+  text-decoration:none;
 }
 #nav1 ul li a:active
 {
   color:#563f2e;
   background-color:White;
 }
-
-
-
-
-
-
-
-/*第二导航栏*/
-#nav2
+#nav1 ul li a.selected
 {
-  width:250px;
-  height:675px;
-  background-image:url(../images/redNav.png);
-  margin:-675px 0 0 112px;
-}
-#nav2 ul
-{
-  margin:13px 0 0 -19px;
-  position:absolute;
-  list-style:none;
-}
-#nav2 ul li
-{
-  padding-bottom:25px;
-  text-align:left;
-}
-#nav2 ul li a:link,#nav2 ul li a:visited
-{
-  color:black;/*注意修改成黑橡*/
-  font-family:Consolas;
-  font-size:24px;
-}
-#nav2 ul li a:hover
-{
-  color:#b84a37;
-}
-#nav2 ul li a:active
-{
-  color:white;
-}
-.title
-{
-  font-size:48px;
-  font-family:Consolas;
-  color:black;/*注意修改成黑橡*/
-  margin:50px 0 0 20px;
-  position:inherit;
-  padding-top:50px;
-}
-.date
-{
-  font-size:24px;
-  font-family:Consolas;
-  color:#787d7b;
-  margin:20px 0 0 52px;
-}
-.descrip
-{
-  width:363px;
-  height:388px;
-  font-size:20px;/*知道行间距怎么改后注意修改字体大小为30*/
-  font-family:Consolas;
-  color:#3a3226;
-  margin:30px 0 0 52px;
+  color:#563f2e;
+  background-color:White;
 }
