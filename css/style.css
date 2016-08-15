@@ -1,0 +1,228 @@
+/*	
+	@色彩表：
+	背景淡棕色	#F7F7F0
+	状态栏黄色	#FFCC00
+	分栏线灰色	#EAEAE0
+	字体黑色	#5A5A50
+	字体桃红色	#FA6650
+	字体灰色	#CCCCCA
+	字体深灰色	#B5B5B1
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+input[type='checkbox']{
+	margin-left: 8px;
+	margin-right: 8px;
+	width: 14px;
+}
+
+body{
+	/*background-color: #202020;*/
+	background-color: #F7F7F0;
+	font-family: "Segoe UI","Lucida Grande",Helvetica,Arial,"Microsoft YaHei",FreeSans,Arimo,"Droid Sans","wenquanyi micro hei","Hiragino Sans GB","Hiragino Sans GB W3",FontAwesome,sans-serif;
+	color: #5A5A50;
+}
+
+/***购物车主体***/
+.mainbody{
+	max-width: 640px;
+	background-color: #F7F7F0;
+	margin: auto;
+}
+
+/***购物车标题***/
+.titlebox{
+	overflow: hidden;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #fff;
+}
+.layout-3{
+	width: 33.33%;
+	float: left;
+}
+.arrow,.pattern,.title{
+	font-size: 17px;
+}
+.arrow{
+	margin-left: 10px;
+	color: #FA6650;
+	float: left;
+}
+.pattern{
+	margin-right: 10px;
+	color: #FA6650;
+	float: right;
+}
+.title{
+	display: block;
+	text-align: center;
+	margin: auto;
+}
+
+/***物品清单***/
+.shoplist{
+	font-size: 13px;
+}
+.shopbox{
+	margin-top: 5px;
+	background-color: #fff;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.shopname{
+	overflow: hidden;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.shopname input{
+	height: 30px;
+	float: left;
+}
+.shopname span{
+	margin-left: 5px;
+	display: block;
+	float: left;
+	line-height: 30px;
+}
+.shopbox hr{
+	border: 0px;
+	height: 1px;
+	color: #EAEAE0;
+	background-color: #EAEAE0;
+}
+.itembox>hr{
+	margin-left: 30px;
+}
+
+/***单个商品***/
+.shopitem{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	overflow: hidden;
+	position: relative;
+}
+.shopitem input[type='checkbox']{
+	height: 60px;
+	float: left;
+}
+.itemshow{
+	margin-left: 5px;
+	float: left;
+	position: relative;
+}
+.itempic{
+	width: 60px;
+	height: 60px;
+	float: left;
+	background-position: center center;
+	background-size: cover;
+}
+.itemstatus{
+	width: 100%;
+	height: 20px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: #FFCC00;
+	color: #fff;
+	line-height: 20px;
+	text-align: center;
+	display: none;
+}
+.itemname{
+	margin-left: 105px;
+	margin-right: 60px;
+}
+.iteminputbox{
+	width: 80px;
+	position: absolute;
+	top: 10px;
+	right: 0px;
+}
+.iteminputbox .price{
+	float: right;
+	margin-bottom: 10px;
+}
+.iteminputbox input{
+	width: 40px;
+	height: 28px;
+	text-align: center;
+	float: right;
+	clear: both;
+}
+
+/***商品被禁用***/
+.disableditem .itemstatus{
+	display: inline;
+}
+.disableditem .itempic{
+	opacity: 0.5;
+}
+.disableditem .itemname,.disableditem .price{
+	color: #CCCCCA;
+}
+
+/***商店被禁用***/
+.disabledshop{
+	color: #CCCCCA;
+}
+
+/***完成区域***/
+.done{
+	padding: 5px 5px 5px 5px;
+	margin-top: 20px;
+	background-color: #fff;
+	color: #B5B5B5;
+	font-size: 15px;
+	overflow: hidden;
+}
+.done input{
+	height: 40px;
+	float: left;
+}
+.done input + span{
+	line-height: 40px;
+	float: left;
+}
+.totalfreight{
+	float: right;
+	width: 150px;
+	margin-right: 10px;
+	font-size: 13px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+.total{
+	color: #FA6650;
+	display: block;
+	float: right;
+}
+.freight{
+	clear: both;
+	display: block;
+	margin-left: auto;
+	float: right;
+}
+.done button{
+	font-size: 15px;
+	float: right;
+	height: 40px;
+	width: 80px;
+	line-height: 40px;
+	text-align: center;
+	border: 0px;
+	border-radius: 2px;
+	cursor: pointer;
+	color: #fff;
+	background-color: #FA6650;
+	font-family: inherit;
+}
