@@ -1,62 +1,42 @@
 [
 	{
-		"shopname": "优衣库",
-		"items": [
+		"id":"0101",
+		"shopname":"课程内容",
+		"items":[
 			{
-				"itemname": "茄汁意面配嫩煎带子",
-				"price": 20.01,
-				"itemstatus": "takenOff",
-				"picUrl": "image/4c4b1ceea11711e4865eb8ca3aeed2d7.jpg",
-				"id":"095872"
+				"id":"0101001",
+				"itemname":"数据库应用",
+				"author": "田萱",
+				"resUrl":"http://www.baidu.com",
+				"remarks":"***"
+			},
+			{
+				"id":"0101002",
+				"itemname":"Java应用",
+				"author": "孙俏",
+				"resUrl":"http://www.baidu.com",
+				"remarks":"****"
 			}
-			],
-		"id":"123422"
+		]
 	},
 	{
-		"shopname": "无印良品",
-		"items": [
+		"id":"0102",
+		"shopname":"参考资料",
+		"items":[
 			{
-				"itemname": "青井老师的焦糖戚风蛋糕",
-				"price": 12.01,
-				"itemstatus": "regular",
-				"picUrl": "image/9714fb545eab11e4a3f8b8ca3aeed2d7.jpg",
-				"id":"097405"
+				"id":"0102001",
+				"itemname":"SQLSever2010安装包",
+				"author": "田萱",
+				"resUrl":"http://www.baidu.com",
+				"remarks":"***"
 			},
 			{
-				"itemname": "新手轻松hold住的土豆炖排骨",
-				"price": 25.02,
-				"itemstatus": "regular",
-				"picUrl": "image/7352373e9f1311e38844b8ca3aeed2d7.jpg",
-				"id":"483672"
-			},
-			{
-				"itemname": "布鲁耶尔洋梨塔(tarte bourdaloue)",
-				"price": 40.03,
-				"itemstatus": "soldOut",
-				"picUrl": "image/e873f7a2989411e49d2be0db5512b208.jpg",
-				"id":"937654"
+				"id":"0102002",
+				"itemname":"Java安装包",
+				"author": "孙俏",
+				"resUrl":"http://www.baidu.com",
+				"remarks":"****"
 			}
-		],
-		"id":"234122"
-	},
-	{
-		"shopname": "图灵出版社",
-		"items": [
-			{
-				"itemname": "家庭自制无添加披萨酱",
-				"price": 10.04,
-				"itemstatus": "regular",
-				"picUrl": "image/faa204329ef311e3b4a6e0db5512b209.jpg",
-				"id":"857648"
-			},
-			{
-				"itemname": "大人小孩都爱不释口的【蜂蜜牛奶小餐包】",
-				"price": 34.05,
-				"itemstatus": "regular",
-				"picUrl": "image/c28c5d9c9f1911e3b4a6e0db5512b209.jpg",
-				"id":"468572"
-			}
-		],
-		"id":"897988"
+		]
 	}
 ]
