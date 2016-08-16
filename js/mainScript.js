@@ -331,7 +331,7 @@ var TitleBox=React.createClass({
             //更改图片和大名字标题
             //var file0 = "Artists/" + content + "/0.jpg";
             //document.getElementById('icon').src = file0;
-    },
+    }
 	
     function addEvent(el, name, fn) {//绑定事件
         if (el.addEventListener) return el.addEventListener(name, fn, false);
