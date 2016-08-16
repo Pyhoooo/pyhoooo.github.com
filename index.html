@@ -715,29 +715,16 @@ var ShopItem=React.createClass({
 
 		return(
 			<div className={this.classString}>
-				<input ref="checkbox"
-				type="checkbox" 
-				disabled={this.disabled} 
-				checked={this.checked}
-				onChange={this.itemCheckedChange}></input>
 				<div className="itemshow">
 					<div>{this.props.itemId}</div>
-					
 					<div>{this.props.itemauthor}</div>
-					<div className="itempic"><a href={this.props.itemresUrl}>地址</a></div>
-					<div>{this.props.itemremarks}</div>
 				</div>
 				<div className="itemname">
 					{this.props.itemname}
 				</div>
 				<div className="iteminputbox">
-					<div className="price">￥{this.props.price}</div>
-					<input ref="number"
-					type="text"
-					disabled={this.disabled} 
-					value={this.number}
-					onChange={this.numberChange}
-					onFocus={this.numberChange}></input>
+					<div className="itempic"><a href={this.props.itemresUrl}>地址</a></div>
+					<div>{this.props.itemremarks}</div>
 				</div>
 			</div>
 			);
