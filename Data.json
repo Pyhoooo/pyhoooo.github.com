@@ -4,7 +4,7 @@
 		"shopname":"课程内容",
 		"items":[
 			{
-				"id":"0101001",
+				"id":"01",
 				"itemname":"数据库应用",
 				"author": "田萱",
 				"resUrl":"http://www.baidu.com",
@@ -12,7 +12,7 @@
 				"remarks":"最新最全"
 			},
 			{
-				"id":"0101002",
+				"id":"02",
 				"itemname":"Java应用",
 				"author": "孙俏",
 				"resUrl":"http://www.baidu.com",
@@ -26,7 +26,7 @@
 		"shopname":"参考资料",
 		"items":[
 			{
-				"id":"0102001",
+				"id":"01",
 				"itemname":"SQLSever2010安装包",
 				"author": "田萱",
 				"resUrl":"http://www.baidu.com",
@@ -34,7 +34,7 @@
 				"remarks":"***"
 			},
 			{
-				"id":"0102002",
+				"id":"02",
 				"itemname":"Java安装包",
 				"author": "孙俏",
 				"resUrl":"http://www.baidu.com",
