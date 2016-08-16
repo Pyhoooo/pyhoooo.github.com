@@ -397,7 +397,6 @@ var TitleBox=React.createClass({
 		var clickEvent=this.mode=="edit"?this.allDone:this.changeMode;
 		this.modeWord=this.mode=="edit"?"完成":"编辑";
 		return(
-		<div className="titlebox">
 			<img src="../image/banner.jpg"/>//banner
 			<div id="nav2">//二层菜单
 				<ul>
@@ -421,8 +420,18 @@ var TitleBox=React.createClass({
 				</li>
 				</ul>
 			</div>
-		</div>
-			
+			/*<div className="titlebox">
+				<div className="layout-3">
+					<a href="http://jayustree.gitcafe.io/" className="arrow">←</a>
+				</div>
+				<div className="layout-3">
+					<span className="title">购物车</span>
+				</div>
+				<div className="layout-3">
+					<a onClick={clickEvent}
+					href="#" className="pattern">{this.modeWord}</a>
+				</div>
+			</div>*/
 			);
 	}
 });
@@ -455,7 +464,7 @@ var SubTitleBox=React.createClass({
 		var clickEvent=this.mode=="edit"?this.allDone:this.changeMode;
 		this.modeWord=this.mode=="edit"?"完成":"编辑";
 		
-		//if(this.mouseGet == "TVP Animation"){
+		if(this.mouseGet == "TVP Animation"){
 			return(
 				<div id="menu" style="position: absolute;">
 					<ul>
@@ -463,10 +472,21 @@ var SubTitleBox=React.createClass({
 						<li><a href="#" onclick="getDataSub(this)" style="text-decoration:none;">TVP软件下载</a></li>
 					</ul>
 				</div>
-				
+				/*<div className="titlebox">
+					<div className="layout-3">
+						<a href="http://jayustree.gitcafe.io/" className="arrow">←</a>
+					</div>
+					<div className="layout-3">
+						<span className="title">购物车</span>
+					</div>
+					<div className="layout-3">
+						<a onClick={clickEvent}
+						href="#" className="pattern">{this.modeWord}</a>
+					</div>
+				</div>*/
 			);
-		//}
-		//else{
+		}
+		else{
 			return(
 				<div id="menu" style="position: absolute;">
 					<ul>
@@ -475,7 +495,7 @@ var SubTitleBox=React.createClass({
 					</ul>
 				</div>
 			);
-		//}
+		}
 	}
 });
 
