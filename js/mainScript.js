@@ -1,7 +1,4 @@
 var MainBody=React.createClass({
-	//添加全局变量A=鼠标选中的值，默认为"null"
-	mouseGet: "null",
-	
 	allChecked: "",
 	amountOfAllRegular:0,
 	uncheckedPrice:0,
@@ -11,9 +8,6 @@ var MainBody=React.createClass({
 	initialiseTimes:0,
 	getInitialState: function() {
 		return {
-			//添加全局变量A=鼠标选中的值，默认为"null"
-			mouseGet: "null";
-			
 			amountOfAllCheckedItem: 0,
 			allPrice: 0,
 			mode: "settle",
@@ -51,12 +45,12 @@ var MainBody=React.createClass({
 			}.bind(this)
 		});
 	},
-	handleModeChange:function(mode){//点击编辑
+	handleModeChange:function(mode){
 		this.setState({
 			mode:mode
 		});
 	},
-	allDone:function(){//点击完成
+	allDone:function(){
 		this.setState({
 			amountOfAllCheckedItem:0,
 			allPrice:0,
@@ -64,14 +58,14 @@ var MainBody=React.createClass({
 			initialiseTimes:this.state.initialiseTimes+1
 		});
 	},
-	deleteItem:function(){//删除商品
-		var itemIds=this.checkedId;//获取选中的商品id
-		var itemData=[];//存储删除后的商品列表
-		var shopIndex=-1;//控制push的位置
-		this.state.data.forEach(function(shop){//和for循环类似
-			var shopnameIsOK=false;//控制逐个商店地判断是否push
+	deleteItem:function(){
+		var itemIds=this.checkedId;
+		var itemData=[];
+		var shopIndex=-1;
+		this.state.data.forEach(function(shop){
+			var shopnameIsOK=false;
 			shop.items.forEach(function(item){
-				if (itemIds.indexOf(item.id)==-1) {//若不是选中之一的
+				if (itemIds.indexOf(item.id)==-1) {
 					if (!shopnameIsOK) {
 						itemData.push({
 							shopname:shop.shopname,
@@ -79,9 +73,9 @@ var MainBody=React.createClass({
 							id:shop.id
 						});
 						shopnameIsOK=true;
-						shopIndex++;//进一
+						shopIndex++;
 					};
-					itemData[shopIndex].items.push(item);//push进来的就会删除后还显示出来
+					itemData[shopIndex].items.push(item);
 				}
 			});
 		});
@@ -121,7 +115,7 @@ var MainBody=React.createClass({
 			this.setState();
 		}
 	},
-	handleAllSelect:function(allIsChecked){//全选
+	handleAllSelect:function(allIsChecked){
 
 		if(allIsChecked){
 			var thisRef=this;
@@ -130,14 +124,14 @@ var MainBody=React.createClass({
 					if ((item.itemstatus=="regular"||thisRef.state.mode=="edit")
 						&&item.id!==""
 						&&thisRef.checkedId.indexOf(item.id)==-1) {
-						thisRef.checkedId+=item.id+"[']";//还没选中的加入选中id
+						thisRef.checkedId+=item.id+"[']";
 					}
 				});
 			});
 			if (this.state.mode=="edit") {
 				this.setState({
-					allPrice:  this.state.allPrice+this.uncheckedPrice,//价格是全部加起来
-					amountOfAllCheckedItem:this.allItem//数量也是总数
+					allPrice:  this.state.allPrice+this.uncheckedPrice,
+					amountOfAllCheckedItem:this.allItem
 				});
 			}else{
 				this.setState({
@@ -146,8 +140,8 @@ var MainBody=React.createClass({
 				});
 			}
 			
-			this.uncheckedPrice=0;//未选中的价格清零
-		}else{//取消全选
+			this.uncheckedPrice=0;
+		}else{
 			this.checkedId="";
 			this.uncheckedPrice=this.uncheckedPrice+this.state.allPrice;
 			this.setState({
@@ -156,17 +150,17 @@ var MainBody=React.createClass({
 			});
 		}
 	},
-	handleItemChange:function(itemIsChecked,priceChange,id){//处理商品选中或取消选中
+	handleItemChange:function(itemIsChecked,priceChange,id){
 		var CheckedItem=itemIsChecked?
 		this.state.amountOfAllCheckedItem+1:this.state.amountOfAllCheckedItem-1;
-		if (itemIsChecked) {//选中的情况
-			this.checkedId+=id+"[']";//添加到选中id中
-			this.uncheckedPrice=this.uncheckedPrice-priceChange;//未选中价格减少
+		if (itemIsChecked) {
+			this.checkedId+=id+"[']";
+			this.uncheckedPrice=this.uncheckedPrice-priceChange;
 			this.setState({
-				allPrice: this.state.allPrice+priceChange,//结算价格增加
+				allPrice: this.state.allPrice+priceChange,
 				amountOfAllCheckedItem: CheckedItem
 			});
-		}else{//取消选中的情况，处理就和前面相反
+		}else{
 			this.checkedId=this.checkedId.replace(id+"[']","");
 			this.uncheckedPrice=this.uncheckedPrice+priceChange;
 			this.setState({
@@ -176,21 +170,21 @@ var MainBody=React.createClass({
 			
 		}
 	},
-	handleShopChange:function(shopIsChecked,amountOfChangedItem,priceChange,id){//处理商店选中或取消选中
+	handleShopChange:function(shopIsChecked,amountOfChangedItem,priceChange,id){
 		var idArray=id.split("[']");
 		var thisRef=this;
-		if(shopIsChecked){//选中的情况
-			idArray.forEach(function(id,index){//for循环该商店下的每个商品
-				if (id!==""&&thisRef.checkedId.indexOf(id)==-1) {//如果某商品id不在选中id中
-					thisRef.checkedId+=(id+"[']");//就加进去
+		if(shopIsChecked){
+			idArray.forEach(function(id,index){
+				if (id!==""&&thisRef.checkedId.indexOf(id)==-1) {
+					thisRef.checkedId+=(id+"[']");
 				}
 			});
-			this.uncheckedPrice=this.uncheckedPrice-priceChange;//价格的处理同上个函数
+			this.uncheckedPrice=this.uncheckedPrice-priceChange;
 			this.setState({
 				allPrice: this.state.allPrice+priceChange,
 				amountOfAllCheckedItem:this.state.amountOfAllCheckedItem+amountOfChangedItem
 			});
-		}else{//取消选中的情况
+		}else{
 			idArray.forEach(function(id,index){
 				if (id!=="") {
 					thisRef.checkedId=thisRef.checkedId.replace(id+"[']","");
@@ -250,223 +244,42 @@ var MainBody=React.createClass({
 	}
 });
 
+/*<div>{"amountOfAllCheckedItem______"+this.state.amountOfAllCheckedItem}</div>*/
+/*<div>{"this.amountOfAllRegular______"+this.amountOfAllRegular}</div>*/
+/*<div>{"this.allItem______"+this.allItem}</div>*/
+/*<div>{"缓冲池"+this.uncheckedPrice}</div>*/
+/*<div>{"反应池"+this.state.allPrice}</div>*/
+
 var TitleBox=React.createClass({
 	mode:"settle",
 	modeWord:"编辑",
-	changeMode:function(){//点击编辑
+	changeMode:function(){
 		this.mode=this.mode=="edit"?"settle":"edit";
 		this.props.handleModeChange(this.mode);
 		return false;
 	},
-	allDone:function(){//点击完成
+	allDone:function(){
 		this.mode=this.mode=="edit"?"settle":"edit";
 		this.props.allDone(this.mode);
 		return false;
 	},
-	
-    	
 	render:function(){
-
-	
 		var clickEvent=this.mode=="edit"?this.allDone:this.changeMode;
 		this.modeWord=this.mode=="edit"?"完成":"编辑";
 		return(
-			<img src="../image/banner.jpg"/>
-			<div id="nav2">
-				<ul>
-				<li>
-				<label className="year"><a href="javascript:;" style="font-size:23px;">|学院资料|</a></label>
-				<ul className="two">
-					<li><label><a onclick="applySelectedTo(this);return false;" className="selected" href="#">
-						|课程内容</a></label></li>
-					<li><label><a onclick="applySelectedTo(this);return false;" href="#">|参考资料</a></label></li>
-				</ul>
-				<label className="year"><a href="javascript:;" style="font-size:23px;">|二次元相关|</a></label>
-				<ul className="two">
-					<li><label><a onclick="applySelectedTo(this);return false;" href="#">
-						|TVP Animation<br />
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;in UIChina</a></label></li>
-					<li><label><a onclick="applySelectedTo(this);return false;" href="#">
-						|VOCALOID</a></label></li>
-					<li><label><a onclick="applySelectedTo(this);return false;" href="#">
-						|MediBang Paint</a></label></li>
-				</ul>
-				</li>
-				</ul>
+			<div className="titlebox">
+				<div className="layout-3">
+					<a href="http://jayustree.gitcafe.io/" className="arrow">←</a>
+				</div>
+				<div className="layout-3">
+					<span className="title">购物车</span>
+				</div>
+				<div className="layout-3">
+					<a onClick={clickEvent}
+					href="#" className="pattern">{this.modeWord}</a>
+				</div>
 			</div>
-			
 			);
-			
-			<script type="text/javascript" >
-	
-
-    function applySelectedTo(obj) {
-
-		getData(obj);
-			
-		var ul = document.getElementById("nav2")[0]; // get the first ul tag on the page
-		var allLinks = document.getElementById("nav2").getElementsByTagName("a"); // get all the links within that ul
-		for (var i = 0; i < allLinks.length; i++) { // iterate through all those links
-			allLinks[i].className = ""; // and assign their class names to nothing
-		}
-		link.className = "selected"; // finally, assign class="selected" to our chosen link
-		var allDivs = document.getElementById("nav2");
-		for (var k = 0; k < allDivs.length; k++) {
-			allDivs[k].className = "";
-		}
-		var lyricId = link.getAttribute("href").split("#")[1];
-		lyricId = document.getElementById(lyricId);
-		lyricId.className = "on";
-    }
-	function getData:(obj) {
-
-            var content = obj.innerText;
-			this.mouseGet = content;
-
-    }
-	
-    function addEvent(el, name, fn) {
-        if (el.addEventListener) return el.addEventListener(name, fn, false);
-        return el.attachEvent('on' + name, fn);
-    }
-    function nextnode(node) {
-        if (!node) return;
-        if (node.nodeType == 1)
-            return node;
-        if (node.nextSibling)
-            return nextnode(node.nextSibling);
-    }
-    function prevnode(node) {
-        if (!node) return;
-        if (node.nodeType == 1)
-            return node;
-        if (node.previousSibling)
-            return prevnode(node.previousSibling);
-    }
-    function parcheck(self, checked) {
-        var par = prevnode(self.parentNode.parentNode.parentNode.previousSibling), parspar;
-        if (par && par.getElementsByTagName('input')[0]) {
-            par.getElementsByTagName('input')[0].checked = checked;
-            parcheck(par.getElementsByTagName('input')[0], sibcheck(par.getElementsByTagName('input')[0]));
-        }
-    }
-    function sibcheck(self) {
-        var sbi = self.parentNode.parentNode.parentNode.childNodes, n = 0;
-        for (var i = 0; i < sbi.length; i++) {
-            if (sbi[i].nodeType != 1)
-                n++;
-            else if (sbi[i].getElementsByTagName('input')[0].checked)
-                n++;
-        }
-        return n == sbi.length ? true : false;
-    }
-    addEvent(document.getElementById('nav2'), 'click', function (e) {
-        e = e || window.event;
-        var target = e.target || e.srcElement;
-        var tp = nextnode(target.parentNode.nextSibling);
-        switch (target.nodeName) {
-            case 'A': 
-                if (tp && tp.nodeName == 'UL') {
-                    if (tp.style.display != 'block') {
-                        tp.style.display = 'block';
-                        prevnode(target.parentNode.previousSibling).className = 'ren'
-                    } else {
-                        tp.style.display = 'none';
-                        prevnode(target.parentNode.previousSibling).className = 'add'
-                    }
-                }
-                break;
-            case 'SPAN':
-                var ap = nextnode(nextnode(target.nextSibling).nextSibling);
-                if (ap.style.display != 'block') {
-                    ap.style.display = 'block';
-                    target.className = 'ren'
-                } else {
-                    ap.style.display = 'none';
-                    target.className = 'add'
-                }
-                break;
-            case 'INPUT': 
-                if (target.checked) {
-                    if (tp) {
-                        var checkbox = tp.getElementsByTagName('input');
-                        for (var i = 0; i < checkbox.length; i++)
-                            checkbox[i].checked = true;
-                    }
-                } else {
-                    if (tp) {
-                        var checkbox = tp.getElementsByTagName('input');
-                        for (var i = 0; i < checkbox.length; i++)
-                            checkbox[i].checked = false;
-                    }
-                }
-                parcheck(target, sibcheck(target));
-                break;
-        }
-    });
-    window.onload = function () {
-        var labels = document.getElementById('nav2').getElementsByTagName('label');
-        for (var i = 0; i < labels.length; i++) {
-            var span = document.createElement('span');
-            span.style.cssText = 'display:inline-block;height:40px;vertical-align:middle;width:180px;cursor:pointer;';
-            span.innerHTML = ' '
-            span.className = 'add';
-            if (nextnode(labels[i].nextSibling) && nextnode(labels[i].nextSibling).nodeName == 'UL')
-                labels[i].parentNode.insertBefore(span, labels[i]);
-            else
-                labels[i].className = 'rem'
-        }
-    }
-	</script>
-	}
-});
-
-var SubTitleBox=React.createClass({
-	mode:"settle",
-	modeWord:"编辑",
-	changeMode:function(){//点击编辑
-		this.mode=this.mode=="edit"?"settle":"edit";
-		this.props.handleModeChange(this.mode);
-		return false;
-	},
-	allDone:function(){//点击完成
-		this.mode=this.mode=="edit"?"settle":"edit";
-		this.props.allDone(this.mode);
-		return false;
-	},
-	getDataSub:function(obj) {
-
-            var contentSub = obj.innerText;
-			this.mouseGet = content;
-
-
-    },
-	render:function(){
-
-		var clickEvent=this.mode=="edit"?this.allDone:this.changeMode;
-		this.modeWord=this.mode=="edit"?"完成":"编辑";
-		
-		if(this.mouseGet == "TVP Animation"){
-			return(
-				<div id="menu" style="position: absolute;">
-					<ul>
-						<li><a href="#" onclick="getDataSub(this)" style="text-decoration:none;">TVP视频教学</a></li>
-						<li><a href="#" onclick="getDataSub(this)" style="text-decoration:none;">TVP软件下载</a></li>
-					</ul>
-				</div>
-
-			);
-		}
-		else{
-			return(
-				<div id="menu" style="position: absolute;">
-					<ul>
-						<li><a href="#" onclick="getDataSub(this)" style="text-decoration:none;">VOCALOID视频教学</a></li>
-						<li><a href="#" onclick="getDataSub(this)" style="text-decoration:none;">VOCALOID软件下载</a></li>
-					</ul>
-				</div>
-			);
-		}
 	}
 });
 
@@ -475,30 +288,23 @@ var ShopList=React.createClass({
 		var shops=[];
 		var thisRef=this;
 		this.props.trolleyinformation.forEach(function(shop){
-
-
-				shops.push(<ShopBox 
-					shopname={shop.shopname} 
-					items={shop.items} 
-					allItem={thisRef.props.allItem}
-					itemTellAllDone={thisRef.props.itemTellAllDone}
-					shopTellAllDone={thisRef.props.shopTellAllDone}
-					initialiseTimes={thisRef.props.initialiseTimes} 
-					itemTellDonePrice={thisRef.props.itemTellDonePrice} 
-					amountOfAllCheckedItem={thisRef.props.amountOfAllCheckedItem}
-					amountOfAllRegular={thisRef.props.amountOfAllRegular}
-					mode={thisRef.props.mode}/>);
-
-			
+			shops.push(<ShopBox 
+				shopname={shop.shopname} 
+				items={shop.items} 
+				allItem={thisRef.props.allItem}
+				itemTellAllDone={thisRef.props.itemTellAllDone}
+				shopTellAllDone={thisRef.props.shopTellAllDone}
+				initialiseTimes={thisRef.props.initialiseTimes} 
+				itemTellDonePrice={thisRef.props.itemTellDonePrice} 
+				amountOfAllCheckedItem={thisRef.props.amountOfAllCheckedItem}
+				amountOfAllRegular={thisRef.props.amountOfAllRegular}
+				mode={thisRef.props.mode}/>);
 		});
-
-			return(
-		
-				<div className="shoplist">
-					{shops}
-				</div>
+		return(
+			<div className="shoplist">
+				{shops}
+			</div>
 			);
-
 	}
 });
 
@@ -672,19 +478,19 @@ var ShopBox=React.createClass({
 			this.checked="";
 		}
 
-		//处理子组件
-		//json变了之后这里要更改
+		// 处理子组件
 		var thisRef=this;
 		var items=[];
 		this.props.items.forEach(function(item,index){
 			items.push(<ShopItem 
 				itemname={item.itemname} 
+				price={item.price} 
+				itemstatus={item.itemstatus}
+				itempicurl={item.picUrl} 
 				itemId={item.id} 
 				itemauthor={item.author}
 				itemresUrl={item.resUrl}
 				itemremarks={item.remarks}
-				
-
 				
 				allShopItem={thisRef.allShopItem} 
 				itemTellShop={thisRef.handleItemChange}
@@ -723,6 +529,15 @@ var ShopBox=React.createClass({
 	}
 });
 
+/* <div>{"this.allItemDisabled______"+this.allItemDisabled}</div> */
+/* <div>{"this.amountOfRegular______"+this.amountOfRegular}</div> */
+/* <div>{"this.allShopItem______"+this.allShopItem}</div> */
+/* <div>{"this.checked______"+this.checked}</div> */
+/* <div>{"this.amountOfCheckedItem______"+this.amountOfCheckedItem}</div> */
+/* <div>{"反应池______"+this.selectedPrice}</div> */
+/* <div>{"缓冲池______"+this.unselectedPrice}</div> */
+/* <div>{"this.checkedId______"+this.checkedId}</div> */
+
 var ShopItem=React.createClass({
 	classString: "shopitem disableditem",
 	itemstatusword: "",
@@ -760,11 +575,11 @@ var ShopItem=React.createClass({
 			this.initialiseTimes++;
 		}
 	},
-	numberChange:function(){//改变商品数量
+	numberChange:function(){
 		if (this.firstInput) this.number="";
 		var isSelected=this.refs.checkbox.getDOMNode().checked;
 		var temp=this.refs.number.getDOMNode().value.replace(/^0*/,"");
-		if(temp.match(/^(?:1|[1-9][0-9]?|99)$/)){//数量可以是1/1-99/99
+		if(temp.match(/^(?:1|[1-9][0-9]?|99)$/)){
 			if (this.number==""&&this.firstInput) {
 				this.number="";
 				this.firstInput=false;
@@ -781,7 +596,7 @@ var ShopItem=React.createClass({
 			}
 		}
 		if (isSelected) {
-			var newAllPrice=this.number*this.props.price;//新的价格=数量*单价
+			var newAllPrice=this.number*this.props.price;
 			var oldAllPrice=this.selectedPrice;
 			this.selectedPrice=newAllPrice;
 			this.unselectedPrice=0;
@@ -884,25 +699,37 @@ var ShopItem=React.createClass({
 
 
 		return(
-
 			<div className={this.classString}>
-
+				<input ref="checkbox"
+				type="checkbox" 
+				disabled={this.disabled} 
+				checked={this.checked}
+				onChange={this.itemCheckedChange}></input>
+				<div className="itemshow">
+					<div className="itempic" 
+					style={{backgroundImage: 'url('+this.props.itempicurl+')'}}></div>
+					<div className="itemstatus">{this.itemstatusword}</div>
+				</div>
 				<div>{this.props.itemId}</div>
 				<div className="itemname">
 					{this.props.itemname}
 				</div>
-				<div className="itemshow">
-					<div>{this.props.itemauthor}</div>
-					<div><a href=this.props.itemresUrl地址</a></div>
-					<div>{this.props.itemremarks}</div>
-
+				<div>{this.props.itemauthor}</div>
+				<div><a href=this.props.itemresUrl地址</a></div>
+				<div>{this.props.itemremarks}</div>
+				<div className="iteminputbox">
+					<div className="price">￥{this.props.price}</div>
+					<input ref="number"
+					type="text"
+					disabled={this.disabled} 
+					value={this.number}
+					onChange={this.numberChange}
+					onFocus={this.numberChange}></input>
 				</div>
-
 			</div>
 			);
 	}
 });
-
 
 var Done=React.createClass({
 	allChecked:"",
