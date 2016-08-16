@@ -284,14 +284,7 @@ var TitleBox=React.createClass({
 		return(
 			<div className="titlebox">
 				<div className="layout-3">
-					<a href="http://jayustree.gitcafe.io/" className="arrow">←</a>
-				</div>
-				<div className="layout-3">
-					<span className="title">购物车</span>
-				</div>
-				<div className="layout-3">
-					<a onClick={clickEvent}
-					href="#" className="pattern">{this.modeWord}</a>
+					<span className="title">信息学院资源</span>
 				</div>
 			</div>
 			);
@@ -528,11 +521,6 @@ var ShopBox=React.createClass({
 
 
 				<div className="shopname">
-					<input disabled={this.allItemDisabled} 
-					checked={this.checked} 
-					type="checkbox" 
-					ref="shopSelect" 
-					onChange={this.shopCheckedChange}></input>
 					<span>{this.props.shopname}</span>
 				</div>
 				<hr></hr>
@@ -748,18 +736,7 @@ var Done=React.createClass({
 		var clickEvent=this.props.mode=="edit"?this.deleteItem:"";
 		return(
 			<div className="done">
-				<input 
-				type="checkbox" 
-				checked={this.allChecked} 
-				onChange={this.handleAllSelect}
-				ref="checkbox"></input><span>全选</span>
-				<button 
-				onClick={clickEvent} 
-				type="button">{buttonWord}</button>
-				<div className="totalfreight">
-					<span className="total" style={this.style}>合计：￥{parseFloat(this.props.allPrice).toFixed(2)}</span>
-					<span className="freight" style={this.style}>不含运费</span>
-				</div>
+				
 			</div>
 			);
 	}
