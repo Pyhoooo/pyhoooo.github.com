@@ -282,17 +282,13 @@ var TitleBox=React.createClass({
 	
     	
 	render:function(){
-	//在这里弄banner和二层菜单
-	//每个a对应getData函数，赋值A
-	
-	//二层菜单的控制函数
 
 	
 		var clickEvent=this.mode=="edit"?this.allDone:this.changeMode;
 		this.modeWord=this.mode=="edit"?"完成":"编辑";
 		return(
-			<img src="../image/banner.jpg"/>//banner
-			<div id="nav2">//二层菜单
+			<img src="../image/banner.jpg"/>
+			<div id="nav2">
 				<ul>
 				<li>
 				<label className="year"><a href="javascript:;" style="font-size:23px;">|学院资料|</a></label>
@@ -319,10 +315,9 @@ var TitleBox=React.createClass({
 			
 			<script type="text/javascript" >
 	
-	//获取mouseGet（不知道这样弄对不对）
-	//导航保持高亮（在这里调用getData写在一起，因为考虑到clickon=会冲突）
+
     function applySelectedTo(obj) {
-		//调用getData
+
 		getData(obj);
 			
 		var ul = document.getElementById("nav2")[0]; // get the first ul tag on the page
@@ -340,56 +335,53 @@ var TitleBox=React.createClass({
 		lyricId.className = "on";
     }
 	function getData:(obj) {
-            //获取点击项的名字
-            var content = obj.innerText;
-			this.mouseGet = content;//mouseGet的赋值方式不确定
 
-            //更改图片和大名字标题
-            //var file0 = "Artists/" + content + "/0.jpg";
-            //document.getElementById('icon').src = file0;
+            var content = obj.innerText;
+			this.mouseGet = content;
+
     }
 	
-    function addEvent(el, name, fn) {//绑定事件
+    function addEvent(el, name, fn) {
         if (el.addEventListener) return el.addEventListener(name, fn, false);
         return el.attachEvent('on' + name, fn);
     }
-    function nextnode(node) {//寻找下一个兄弟并剔除空的文本节点
+    function nextnode(node) {
         if (!node) return;
         if (node.nodeType == 1)
             return node;
         if (node.nextSibling)
             return nextnode(node.nextSibling);
     }
-    function prevnode(node) {//寻找上一个兄弟并剔除空的文本节点
+    function prevnode(node) {
         if (!node) return;
         if (node.nodeType == 1)
             return node;
         if (node.previousSibling)
             return prevnode(node.previousSibling);
     }
-    function parcheck(self, checked) {//递归寻找父亲元素，并找到input元素进行操作
+    function parcheck(self, checked) {
         var par = prevnode(self.parentNode.parentNode.parentNode.previousSibling), parspar;
         if (par && par.getElementsByTagName('input')[0]) {
             par.getElementsByTagName('input')[0].checked = checked;
             parcheck(par.getElementsByTagName('input')[0], sibcheck(par.getElementsByTagName('input')[0]));
         }
     }
-    function sibcheck(self) {//判断兄弟节点是否已经全部选中
+    function sibcheck(self) {
         var sbi = self.parentNode.parentNode.parentNode.childNodes, n = 0;
         for (var i = 0; i < sbi.length; i++) {
-            if (sbi[i].nodeType != 1)//由于孩子结点中包括空的文本节点，所以这里累计长度的时候也要算上去
+            if (sbi[i].nodeType != 1)
                 n++;
             else if (sbi[i].getElementsByTagName('input')[0].checked)
                 n++;
         }
         return n == sbi.length ? true : false;
     }
-    addEvent(document.getElementById('nav2'), 'click', function (e) {//绑定input点击事件，使用menu_zzjs_net根元素代理
+    addEvent(document.getElementById('nav2'), 'click', function (e) {
         e = e || window.event;
         var target = e.target || e.srcElement;
         var tp = nextnode(target.parentNode.nextSibling);
         switch (target.nodeName) {
-            case 'A': //点击A标签展开和收缩树形目录，并改变其样式会选中checkbox
+            case 'A': 
                 if (tp && tp.nodeName == 'UL') {
                     if (tp.style.display != 'block') {
                         tp.style.display = 'block';
@@ -400,7 +392,7 @@ var TitleBox=React.createClass({
                     }
                 }
                 break;
-            case 'SPAN': //点击图标只展开或者收缩
+            case 'SPAN':
                 var ap = nextnode(nextnode(target.nextSibling).nextSibling);
                 if (ap.style.display != 'block') {
                     ap.style.display = 'block';
@@ -410,7 +402,7 @@ var TitleBox=React.createClass({
                     target.className = 'add'
                 }
                 break;
-            case 'INPUT': //点击checkbox，父亲元素选中，则孩子节点中的checkbox也同时选中，孩子结点取消父元素随之取消
+            case 'INPUT': 
                 if (target.checked) {
                     if (tp) {
                         var checkbox = tp.getElementsByTagName('input');
@@ -424,11 +416,11 @@ var TitleBox=React.createClass({
                             checkbox[i].checked = false;
                     }
                 }
-                parcheck(target, sibcheck(target)); //当孩子结点取消选中的时候调用该方法递归其父节点的checkbox逐一取消选中
+                parcheck(target, sibcheck(target));
                 break;
         }
     });
-    window.onload = function () {//页面加载时给有孩子结点的元素动态添加图标
+    window.onload = function () {
         var labels = document.getElementById('nav2').getElementsByTagName('label');
         for (var i = 0; i < labels.length; i++) {
             var span = document.createElement('span');
@@ -459,17 +451,14 @@ var SubTitleBox=React.createClass({
 		return false;
 	},
 	getDataSub:function(obj) {
-            //获取点击项的名字
-            var contentSub = obj.innerText;
-			this.mouseGet = content;//mouseGet的赋值方式不确定
 
-            //更改图片和大名字标题
-            //var file0 = "Artists/" + content + "/0.jpg";
-            //document.getElementById('icon').src = file0;
+            var contentSub = obj.innerText;
+			this.mouseGet = content;
+
+
     },
 	render:function(){
-	//在这里实现子菜单，据点击A不同return不同内容（选中一项后悔消失，不过也不妨碍）
-	//这里的每个a同样的响应getData函数，赋值A（getData函数是不同的？）
+
 		var clickEvent=this.mode=="edit"?this.allDone:this.changeMode;
 		this.modeWord=this.mode=="edit"?"完成":"编辑";
 		
@@ -481,18 +470,7 @@ var SubTitleBox=React.createClass({
 						<li><a href="#" onclick="getDataSub(this)" style="text-decoration:none;">TVP软件下载</a></li>
 					</ul>
 				</div>
-				/*<div className="titlebox">
-					<div className="layout-3">
-						<a href="http://jayustree.gitcafe.io/" className="arrow">←</a>
-					</div>
-					<div className="layout-3">
-						<span className="title">购物车</span>
-					</div>
-					<div className="layout-3">
-						<a onClick={clickEvent}
-						href="#" className="pattern">{this.modeWord}</a>
-					</div>
-				</div>*/
+
 			);
 		}
 		else{
@@ -513,8 +491,8 @@ var ShopList=React.createClass({
 		var shops=[];
 		var thisRef=this;
 		this.props.trolleyinformation.forEach(function(shop){
-		//在这里添加if约束，符合字符串（添加判断变量A（应为全局）的内容才push到shops中（应该可行）
-			//if(shop.shopname == this.mouseGet){
+
+
 				shops.push(<ShopBox 
 					shopname={shop.shopname} 
 					items={shop.items} 
@@ -526,22 +504,17 @@ var ShopList=React.createClass({
 					amountOfAllCheckedItem={thisRef.props.amountOfAllCheckedItem}
 					amountOfAllRegular={thisRef.props.amountOfAllRegular}
 					mode={thisRef.props.mode}/>);
-			//}
+
 			
 		});
-		//if(this.mouseGet !== "null"){
+
 			return(
-				//A为空时return别的东西
+		
 				<div className="shoplist">
 					{shops}
 				</div>
 			);
-		//}
-		//else{
-		//	return(
-		//		<div>Nothing</div>
-		//	);
-		//}
+
 	}
 });
 
@@ -727,10 +700,7 @@ var ShopBox=React.createClass({
 				itemresUrl={item.resUrl}
 				itemremarks={item.remarks}
 				
-				//原来的不删除会不会影响结果输出
-				/*price={item.price} 
-				itemstatus={item.itemstatus}
-				itempicurl={item.picUrl} */
+
 				
 				allShopItem={thisRef.allShopItem} 
 				itemTellShop={thisRef.handleItemChange}
@@ -930,13 +900,9 @@ var ShopItem=React.createClass({
 
 
 		return(
-		//json变了之后这里显示的内容也会更改
+
 			<div className={this.classString}>
-				// <input ref="checkbox"
-				// type="checkbox" 
-				// disabled={this.disabled} 
-				// checked={this.checked}
-				// onChange={this.itemCheckedChange}></input>
+
 				<div>{this.props.itemId}</div>
 				<div className="itemname">
 					{this.props.itemname}
@@ -945,25 +911,15 @@ var ShopItem=React.createClass({
 					<div>{this.props.itemauthor}</div>
 					<div><a href=this.props.itemresUrl地址</a></div>
 					<div>{this.props.itemremarks}</div>
-					//<div className="itempic" 
-					//style={{backgroundImage: 'url('+this.props.itempicurl+')'}}></div>
-					//<div className="itemstatus">{this.itemstatusword}</div>
+
 				</div>
-				// <div className="iteminputbox">
-					// <div className="price">￥{this.props.price}</div>
-					// <input ref="number"
-					// type="text"
-					// disabled={this.disabled} 
-					// value={this.number}
-					// onChange={this.numberChange}
-					// onFocus={this.numberChange}></input>
-				// </div>
+
 			</div>
 			);
 	}
 });
 
-//这个也许没用，也可以加别的js效果
+
 var Done=React.createClass({
 	allChecked:"",
 	style:{display:"inline"},
