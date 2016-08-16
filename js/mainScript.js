@@ -498,7 +498,7 @@ var ShopList=React.createClass({
 		var thisRef=this;
 		this.props.trolleyinformation.forEach(function(shop){
 		//在这里添加if约束，符合字符串（添加判断变量A（应为全局）的内容才push到shops中（应该可行）
-			if(shop.shopname == this.mouseGet){
+			//if(shop.shopname == this.mouseGet){
 				shops.push(<ShopBox 
 					shopname={shop.shopname} 
 					items={shop.items} 
@@ -510,7 +510,7 @@ var ShopList=React.createClass({
 					amountOfAllCheckedItem={thisRef.props.amountOfAllCheckedItem}
 					amountOfAllRegular={thisRef.props.amountOfAllRegular}
 					mode={thisRef.props.mode}/>);
-			}
+			//}
 			
 		});
 		if(this.mouseGet !== "null"){
@@ -927,7 +927,7 @@ var ShopItem=React.createClass({
 				</div>
 				<div className="itemshow">
 					<div>{this.props.itemauthor}</div>
-					<div><a href=this.props.itemauthor>地址</a></div>
+					<div><a href=this.props.itemresUrl地址</a></div>
 					<div>{this.props.itemremarks}</div>
 					//<div className="itempic" 
 					//style={{backgroundImage: 'url('+this.props.itempicurl+')'}}></div>
