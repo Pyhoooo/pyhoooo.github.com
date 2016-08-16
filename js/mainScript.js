@@ -271,7 +271,37 @@ var TitleBox=React.createClass({
 	
 	//二层菜单的控制函数
 
-	<script type="text/javascript" >
+	
+		var clickEvent=this.mode=="edit"?this.allDone:this.changeMode;
+		this.modeWord=this.mode=="edit"?"完成":"编辑";
+		return(
+			<img src="../image/banner.jpg"/>//banner
+			<div id="nav2">//二层菜单
+				<ul>
+				<li>
+				<label className="year"><a href="javascript:;" style="font-size:23px;">|学院资料|</a></label>
+				<ul className="two">
+					<li><label><a onclick="applySelectedTo(this);return false;" className="selected" href="#">
+						|课程内容</a></label></li>
+					<li><label><a onclick="applySelectedTo(this);return false;" href="#">|参考资料</a></label></li>
+				</ul>
+				<label className="year"><a href="javascript:;" style="font-size:23px;">|二次元相关|</a></label>
+				<ul className="two">
+					<li><label><a onclick="applySelectedTo(this);return false;" href="#">
+						|TVP Animation<br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;in UIChina</a></label></li>
+					<li><label><a onclick="applySelectedTo(this);return false;" href="#">
+						|VOCALOID</a></label></li>
+					<li><label><a onclick="applySelectedTo(this);return false;" href="#">
+						|MediBang Paint</a></label></li>
+				</ul>
+				</li>
+				</ul>
+			</div>
+			
+			);
+			
+			<script type="text/javascript" >
 	
 	//获取mouseGet（不知道这样弄对不对）
 	//导航保持高亮（在这里调用getData写在一起，因为考虑到clickon=会冲突）
@@ -396,45 +426,6 @@ var TitleBox=React.createClass({
         }
     }
 	</script>
-		var clickEvent=this.mode=="edit"?this.allDone:this.changeMode;
-		this.modeWord=this.mode=="edit"?"完成":"编辑";
-		return(
-			<img src="../image/banner.jpg"/>//banner
-			<div id="nav2">//二层菜单
-				<ul>
-				<li>
-				<label className="year"><a href="javascript:;" style="font-size:23px;">|学院资料|</a></label>
-				<ul className="two">
-					<li><label><a onclick="applySelectedTo(this);return false;" className="selected" href="#">
-						|课程内容</a></label></li>
-					<li><label><a onclick="applySelectedTo(this);return false;" href="#">|参考资料</a></label></li>
-				</ul>
-				<label className="year"><a href="javascript:;" style="font-size:23px;">|二次元相关|</a></label>
-				<ul className="two">
-					<li><label><a onclick="applySelectedTo(this);return false;" href="#">
-						|TVP Animation<br />
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;in UIChina</a></label></li>
-					<li><label><a onclick="applySelectedTo(this);return false;" href="#">
-						|VOCALOID</a></label></li>
-					<li><label><a onclick="applySelectedTo(this);return false;" href="#">
-						|MediBang Paint</a></label></li>
-				</ul>
-				</li>
-				</ul>
-			</div>
-			/*<div className="titlebox">
-				<div className="layout-3">
-					<a href="http://jayustree.gitcafe.io/" className="arrow">←</a>
-				</div>
-				<div className="layout-3">
-					<span className="title">购物车</span>
-				</div>
-				<div className="layout-3">
-					<a onClick={clickEvent}
-					href="#" className="pattern">{this.modeWord}</a>
-				</div>
-			</div>*/
-			);
 	}
 });
 
