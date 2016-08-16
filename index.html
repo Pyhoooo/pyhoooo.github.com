@@ -721,9 +721,11 @@ var ShopItem=React.createClass({
 				checked={this.checked}
 				onChange={this.itemCheckedChange}></input>
 				<div className="itemshow">
-					<div className="itempic" 
-					style={{backgroundImage: 'url('+this.props.itempicurl+')'}}></div>
-					<div className="itemstatus">{this.itemstatusword}</div>
+					<div>{this.props.itemId}</div>
+					
+					<div>{this.props.itemauthor}</div>
+					<div className="itempic"><a href={this.props.itemresUrl}>地址</a></div>
+					<div>{this.props.itemremarks}</div>
 				</div>
 				<div className="itemname">
 					{this.props.itemname}
