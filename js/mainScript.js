@@ -484,13 +484,15 @@ var ShopBox=React.createClass({
 		this.props.items.forEach(function(item,index){
 			items.push(<ShopItem 
 				itemname={item.itemname} 
-				price={item.price} 
-				itemstatus={item.itemstatus}
-				itempicurl={item.picUrl} 
 				itemId={item.id} 
 				itemauthor={item.author}
 				itemresUrl={item.resUrl}
 				itemremarks={item.remarks}
+				
+				//原来的不删除会不会影响结果输出
+				/*price={item.price} 
+				itemstatus={item.itemstatus}
+				itempicurl={item.picUrl} */
 				
 				allShopItem={thisRef.allShopItem} 
 				itemTellShop={thisRef.handleItemChange}
@@ -700,32 +702,32 @@ var ShopItem=React.createClass({
 
 		return(
 			<div className={this.classString}>
-				<input ref="checkbox"
-				type="checkbox" 
-				disabled={this.disabled} 
-				checked={this.checked}
-				onChange={this.itemCheckedChange}></input>
-				<div className="itemshow">
-					<div className="itempic" 
-					style={{backgroundImage: 'url('+this.props.itempicurl+')'}}></div>
-					<div className="itemstatus">{this.itemstatusword}</div>
-				</div>
+				// <input ref="checkbox"
+				// type="checkbox" 
+				// disabled={this.disabled} 
+				// checked={this.checked}
+				// onChange={this.itemCheckedChange}></input>
 				<div>{this.props.itemId}</div>
 				<div className="itemname">
 					{this.props.itemname}
 				</div>
-				<div>{this.props.itemauthor}</div>
-				<div><a href=this.props.itemresUrl地址</a></div>
-				<div>{this.props.itemremarks}</div>
-				<div className="iteminputbox">
-					<div className="price">￥{this.props.price}</div>
-					<input ref="number"
-					type="text"
-					disabled={this.disabled} 
-					value={this.number}
-					onChange={this.numberChange}
-					onFocus={this.numberChange}></input>
+				<div className="itemshow">
+					<div>{this.props.itemauthor}</div>
+					<div><a href=this.props.itemresUrl地址</a></div>
+					<div>{this.props.itemremarks}</div>
+					//<div className="itempic" 
+					//style={{backgroundImage: 'url('+this.props.itempicurl+')'}}></div>
+					//<div className="itemstatus">{this.itemstatusword}</div>
 				</div>
+				// <div className="iteminputbox">
+					// <div className="price">￥{this.props.price}</div>
+					// <input ref="number"
+					// type="text"
+					// disabled={this.disabled} 
+					// value={this.number}
+					// onChange={this.numberChange}
+					// onFocus={this.numberChange}></input>
+				// </div>
 			</div>
 			);
 	}
