@@ -709,10 +709,11 @@ var ShopItem=React.createClass({
 				</div>
 				<div className="itemname">
 					{this.props.itemname}
+					<div>{this.props.itemremarks}</div>
 				</div>
 				<div className="iteminputbox">
 					<div className="itempic"><a href={this.props.itemresUrl} target="_new">链接地址</a></div>
-					<div>{this.props.itemremarks}</div>
+					
 				</div>
 			</div>
 			);
