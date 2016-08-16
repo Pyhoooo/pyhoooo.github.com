@@ -293,13 +293,7 @@ var TitleBox=React.createClass({
             //var file0 = "Artists/" + content + "/0.jpg";
             //document.getElementById('icon').src = file0;
     },
-    	
-	render:function(){
-	//在这里弄banner和二层菜单
-	//每个a对应getData函数，赋值A
-	
-	//二层菜单的控制函数
-	<script type="text/javascript" >
+    	<script type="text/javascript" >
     function addEvent(el, name, fn) {//绑定事件
         if (el.addEventListener) return el.addEventListener(name, fn, false);
         return el.attachEvent('on' + name, fn);
@@ -393,6 +387,12 @@ var TitleBox=React.createClass({
         }
     }
 	</script>
+	render:function(){
+	//在这里弄banner和二层菜单
+	//每个a对应getData函数，赋值A
+	
+	//二层菜单的控制函数
+
 	
 		var clickEvent=this.mode=="edit"?this.allDone:this.changeMode;
 		this.modeWord=this.mode=="edit"?"完成":"编辑";
