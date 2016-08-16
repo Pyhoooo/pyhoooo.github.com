@@ -264,35 +264,6 @@ var TitleBox=React.createClass({
 		return false;
 	},
 	
-	//获取mouseGet（不知道这样弄对不对）
-	//导航保持高亮（在这里调用getData写在一起，因为考虑到clickon=会冲突）
-    applySelectedTo:function(obj) {
-		//调用getData
-		getData(obj);
-			
-		var ul = document.getElementById("nav2")[0]; // get the first ul tag on the page
-		var allLinks = document.getElementById("nav2").getElementsByTagName("a"); // get all the links within that ul
-		for (var i = 0; i < allLinks.length; i++) { // iterate through all those links
-			allLinks[i].className = ""; // and assign their class names to nothing
-		}
-		link.className = "selected"; // finally, assign class="selected" to our chosen link
-		var allDivs = document.getElementById("nav2");
-		for (var k = 0; k < allDivs.length; k++) {
-			allDivs[k].className = "";
-		}
-		var lyricId = link.getAttribute("href").split("#")[1];
-		lyricId = document.getElementById(lyricId);
-		lyricId.className = "on";
-    },
-	getData:function(obj) {
-            //获取点击项的名字
-            var content = obj.innerText;
-			this.mouseGet = content;//mouseGet的赋值方式不确定
-
-            //更改图片和大名字标题
-            //var file0 = "Artists/" + content + "/0.jpg";
-            //document.getElementById('icon').src = file0;
-    },
     	
 	render:function(){
 	//在这里弄banner和二层菜单
