@@ -8,6 +8,7 @@
 				"itemname":"数据库应用",
 				"author": "田萱",
 				"resUrl":"http://www.baidu.com",
+				"itemstatus": "regular",
 				"remarks":"***"
 			},
 			{
@@ -15,6 +16,7 @@
 				"itemname":"Java应用",
 				"author": "孙俏",
 				"resUrl":"http://www.baidu.com",
+				"itemstatus": "regular",
 				"remarks":"****"
 			}
 		]
@@ -28,6 +30,7 @@
 				"itemname":"SQLSever2010安装包",
 				"author": "田萱",
 				"resUrl":"http://www.baidu.com",
+				"itemstatus": "regular",
 				"remarks":"***"
 			},
 			{
@@ -35,6 +38,7 @@
 				"itemname":"Java安装包",
 				"author": "孙俏",
 				"resUrl":"http://www.baidu.com",
+				"itemstatus": "regular",
 				"remarks":"****"
 			}
 		]
