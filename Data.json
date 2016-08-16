@@ -4,20 +4,22 @@
 		"shopname":"课程内容",
 		"items":[
 			{
-				"id":"01",
-				"itemname":"数据库应用",
-				"author": "田萱",
-				"resUrl":"http://www.baidu.com",
+				"id":"1",
+				"majorname":"数媒",
+				"itemname":"计算机动画原理与技术",
+				"author": "杨猛",
+				"resUrl":"ftp://211.71.149.41/Yang_Meng/teaching plan/计算机动画原理与技术/今年课件/1. 课件",
 				"itemstatus": "regular",
-				"remarks":"最新最全"
+				"remarks":""
 			},
 			{
-				"id":"02",
-				"itemname":"Java应用",
-				"author": "孙俏",
-				"resUrl":"http://www.baidu.com",
+				"id":"43",
+				"majorname":"信息",
+				"itemname":" 计算机网络（信息专业）",
+				"author": "齐建东",
+				"resUrl":"ftp://202.204.121.57/齐建东老师讲义下载/计算机网络（双语——信息专业）",
 				"itemstatus": "regular",
-				"remarks":"非常棒的一个网站，帮助新手"
+				"remarks":"用户名net无密码"
 			}
 		]
 	},
@@ -26,20 +28,22 @@
 		"shopname":"参考资料",
 		"items":[
 			{
-				"id":"01",
-				"itemname":"SQLSever2010安装包",
-				"author": "田萱",
-				"resUrl":"http://www.baidu.com",
+				"id":"1",
+				"majorname":"软件",
+				"itemname":"[Acronis系统备份还原工具].Acronis.True.Image.Home.2011.v14.0.5105.WORKING-DOA",
+				"author": "",
+				"resUrl":"ftp://211.71.149.41/_software/Tools/Acronis 2011",
 				"itemstatus": "regular",
-				"remarks":"***"
+				"remarks":""
 			},
 			{
-				"id":"02",
-				"itemname":"Java安装包",
-				"author": "孙俏",
-				"resUrl":"http://www.baidu.com",
+				"id":"94",
+				"majorname":"电子书",
+				"itemname":"Visual C++ 2005 入门经典",
+				"author": "",
+				"resUrl":"ftp://211.71.149.41/Yang_Meng/teaching plan/资料",
 				"itemstatus": "regular",
-				"remarks":"****"
+				"remarks":""
 			}
 		]
 	}

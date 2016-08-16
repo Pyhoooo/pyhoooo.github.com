@@ -496,6 +496,7 @@ var ShopBox=React.createClass({
 				itemstatus={item.itemstatus}
 				itempicurl={item.picUrl} 
 				itemId={item.id} 
+				itemmajorname={item.majorname}
 				itemauthor={item.author}
 				itemresUrl={item.resUrl}
 				itemremarks={item.remarks}
@@ -706,6 +707,7 @@ var ShopItem=React.createClass({
 				<div className="itemshow">
 					<div>{this.props.itemId}</div>
 					<div>{this.props.itemauthor}</div>
+					<div>{this.props.itemmajorname}</div>
 				</div>
 				<div className="itemname">
 					{this.props.itemname}
