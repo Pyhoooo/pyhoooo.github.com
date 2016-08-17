@@ -120,9 +120,9 @@ body{
 
 .item{
 	margin-top: -10px;
-	background-color: #51A8DD;
+	background-color: #A5DEE4;
 	box-shadow: 5px 5px 2px #7DB9DE;
-	height: 100px;
+	height: 60px;
 }
 .itemshow{
 	margin-left: 5px;
@@ -132,14 +132,17 @@ body{
 	color: #554236;
 }
 .authorshow{
-	color:#FCFAF2;
-	font-size:12px;
+	margin-top: 10px;
+	color: #D7B98E;
+	font-size: 12px;
 	width: 50px;
 }
 .itempic{
 	text-align: center;
 	background-position: center center;
 	background-size: cover;
+}
+.itempic.a{
 	color:grey;
 }
 .itemstatus{
@@ -155,15 +158,14 @@ body{
 	display: none;
 }
 .itemname{
-	margin-left: 105px;
-	margin-right: 60px;
+	margin: 20px 60px 0 105px;
 	color: #554236;
 	font-size: 15px;
 }
 .remarksshow{
 	margin-left: 105px;
 	margin-top: 5px;
-	color: #91989F;
+	color: #D7C4BB;
 	font-size: 10px;
 }
 .linkbox{
@@ -172,7 +174,6 @@ body{
 	position: absolute;
 	top: 10px;
 	right: 10px;
-	padding: 5px 0 0 5px;
 	border-radius:5px;
 	background-color:white;
 	font-size: 12px;
