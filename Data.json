@@ -14,36 +14,12 @@
 			},
 			{
 				"id":"43",
-				"majorname":"信息",
+				"majorname":"信息很长很长很长",
 				"itemname":" 计算机网络（信息专业）",
 				"author": "齐建东",
 				"resUrl":"ftp://202.204.121.57/齐建东老师讲义下载/计算机网络（双语——信息专业）",
 				"itemstatus": "regular",
 				"remarks":"用户名net无密码"
-			}
-		]
-	},
-	{
-		"id":"0102",
-		"shopname":"参考资料",
-		"items":[
-			{
-				"id":"1",
-				"majorname":"软件",
-				"itemname":"[Acronis系统备份还原工具].Acronis.True.Image.Home.2011.v14.0.5105.WORKING-DOA",
-				"author": "",
-				"resUrl":"ftp://211.71.149.41/_software/Tools/Acronis 2011",
-				"itemstatus": "regular",
-				"remarks":""
-			},
-			{
-				"id":"94",
-				"majorname":"电子书",
-				"itemname":"Visual C++ 2005 入门经典",
-				"author": "",
-				"resUrl":"ftp://211.71.149.41/Yang_Meng/teaching plan/资料",
-				"itemstatus": "regular",
-				"remarks":""
 			}
 		]
 	}

@@ -119,6 +119,11 @@ body{
 	float: left;
 	position: relative;
 }
+.authorshow{
+	margin-left: 5px;
+	float: left;
+	position: relative;
+}
 .itempic{
 	width: 60px;
 	height: 60px;
@@ -142,7 +147,10 @@ body{
 	margin-left: 105px;
 	margin-right: 60px;
 }
-.iteminputbox{
+.remarksshow{
+	margin-left: 105px;
+}
+.linkbox{
 	width: 80px;
 	position: absolute;
 	top: 10px;

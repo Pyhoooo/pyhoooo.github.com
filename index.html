@@ -706,16 +706,19 @@ var ShopItem=React.createClass({
 			<div className={this.classString}>
 				<div className="itemshow">
 					<div>{this.props.itemId}</div>
+				</div>
+				<div className="authorshow">
 					<div>{this.props.itemauthor}</div>
 					<div>{this.props.itemmajorname}</div>
 				</div>
 				<div className="itemname">
 					{this.props.itemname}
-					<div>{this.props.itemremarks}</div>
 				</div>
-				<div className="iteminputbox">
+				<div className="remarksshow">
+					{this.props.itemremarks}
+				</div>
+				<div className="linkbox">
 					<div className="itempic"><a href={this.props.itemresUrl} target="_new">链接地址</a></div>
-					
 				</div>
 			</div>
 			);
