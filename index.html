@@ -702,6 +702,7 @@ var ShopItem=React.createClass({
 
 		return(
 			<div className={this.classString}>
+			<div className="item">
 				<div className="itemshow">
 					<div>{this.props.itemId}</div>
 				</div>
@@ -716,8 +717,9 @@ var ShopItem=React.createClass({
 					{this.props.itemremarks}
 				</div>
 				<div className="linkbox">
-					<div className="itempic"><a href={this.props.itemresUrl} target="_new" style="color:grey;">链接地址</a></div>
+					<div className="itempic"><a href={this.props.itemresUrl} target="_new">链接地址</a></div>
 				</div>
+			</div>	
 			</div>
 			);
 	}
