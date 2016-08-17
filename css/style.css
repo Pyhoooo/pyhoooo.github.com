@@ -147,7 +147,7 @@ a:link,a:visited{
 	color:#DB4042;
 }
 a:hover,a:active{
-	color:white;
+	color:#554236;
 	text-shadow: 1px 1px 1px #DB4042;
 }
 .itemstatus{
@@ -182,9 +182,10 @@ a:hover,a:active{
 	margin-top: 18px;
 	margin-left: 520px;
 	padding-top: 9px;
-	border-radius:5px;
+	border-radius:10px;
 	background-color:white;
 	font-size: 12px;
+	box-shadow: 1px 1px 3px #51A8DD;
 }
 .iteminputbox .price{
 	float: right;
