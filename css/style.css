@@ -127,13 +127,16 @@ body{
 	width: 625px;
 }
 .itemshow{
-	margin-top: 2px;
-	margin-left: 20px;
+	margin-top: 10px;
+	margin-left: 10px;
 	position: absolute;
-	font-size: 14px;
+	font-size: 16px;
 	color: #554236;
 }
 .authorshow{
+	margin-top: 2px;
+	margin-left: 20px;
+	position: absolute;
 	color: white;
 	font-size: 9px;
 	width: 80px;
@@ -144,7 +147,7 @@ body{
 	background-size: cover;
 }
 a:link,a:visited{
-	font-size: 9px;
+	font-size: 8px;
 	color: #DB4042;
 }
 a:hover,a:active{
@@ -163,21 +166,21 @@ a:hover,a:active{
 	display: none;
 }
 .itemname{
-	margin: 3px 60px 0 115px;
+	margin: 4px 60px 0 115px;
 	color: #554236;
 	font-size: 14px;
 	position: absolute;
 }
 .remarksshow{
 	margin-left: 115px;
-	margin-top: 15px;
+	margin-top: 20px;
 	color: #3A8FB7;
 	font-size: 9px;
 	position: absolute;
 }
 .linkbox{
 	width: 80px;
-	height: 18px;
+	height: 20px;
 	position: absolute;
 	margin-top: 9px;
 	margin-left: 520px;
