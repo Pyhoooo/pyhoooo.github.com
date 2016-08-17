@@ -33,7 +33,7 @@ body{
 
 /***购物车主体***/
 .mainbody{
-	max-width: 640px;
+	/*max-width: 640px;*/
 	background-color: #F7F7F0;
 	margin: auto;
 }
