@@ -36,6 +36,7 @@ body{
 	/*max-width: 640px;*/
 	background-color: #F7F7F0;
 	margin: auto;
+	float: left;
 }
 
 /***购物车标题***/
