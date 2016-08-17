@@ -1,758 +1,258 @@
-<!DOCTYPE HTML>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-	<title>ReactYourTrolley</title>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"><!--Âº∫Âà∂ÊµèËßàÂô®ÊåâÁÖßÊúÄÊñ∞ÁöÑÊ†áÂáÜÂéªÊ∏≤Êüì-->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"><!--ËßÜÂå∫ÂÆΩÂ∫¶‰∏∫Â±èÂπïÂÆΩÂ∫¶„ÄÅÁº©Êîæ‰∏∫1ÂÄç„ÄÅÁî®Êà∑‰∏çÂèØÁº©Êîæ-->
-	<meta name="format-detection" content="telephone=no"><!--ÊâãÊú∫Âè∑Á†Å‰∏çË¢´ÊòæÁ§∫‰∏∫Êã®Âè∑ËøûÊé•-->
-	<meta name="renderer" content="webkit"><!--ÊûÅÈÄüÊ®°Âºè-->
-	<meta http-equiv="Cache-Control" content="no-siteapp"/><!--‰∏çÂ∏åÊúõË¢´ÊüêÁΩëÈ°µËΩ¨Á†Å-->
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script type="text/javascript" src="js/JSXTransformer.js"></script>
-	<script type="text/javascript" src="js/react.min.js"></script>
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script type="text/jsx">
-		var MainBody=React.createClass({
-	allChecked: "",
-	amountOfAllRegular:0,
-	uncheckedPrice:0,
-	isInitialised:false,
-	checkedId:"",
-	allItem:0,
-	initialiseTimes:0,
-	getInitialState: function() {
-		return {
-			amountOfAllCheckedItem: 0,
-			allPrice: 0,
-			mode: "settle",
-			data: [],
-			initialiseTimes:0
-		};
-	},
-	componentDidMount: function() {
-
-		this.loadItemFromServer();
-	},
-	loadItemFromServer: function() {
-		$.ajax({
-			url: this.props.url,
-			dataType: 'json',
-			success: function(data) {
-				this.setState({data: data});
-				var regular=0;
-				var allPrice=0;
-				var thisRef=this;
-				this.state.data.forEach(function(shop){
-					shop.items.forEach(function(item){
-						thisRef.allItem++;
-						if (item.itemstatus=="regular") {
-							allPrice+=item.price;
-							regular++;
-						}
-					});
-				});
-				this.amountOfAllRegular=regular;
-				this.uncheckedPrice=allPrice;
-			}.bind(this),
-			error: function(xhr, status, err) {
-				console.error(this.props.url, status, err.toString());
-			}.bind(this)
-		});
-	},
-	handleModeChange:function(mode){
-		this.setState({
-			mode:mode
-		});
-	},
-	allDone:function(){
-		this.setState({
-			amountOfAllCheckedItem:0,
-			allPrice:0,
-			mode: "settle",
-			initialiseTimes:this.state.initialiseTimes+1
-		});
-	},
-	deleteItem:function(){
-		var itemIds=this.checkedId;
-		var itemData=[];
-		var shopIndex=-1;
-		this.state.data.forEach(function(shop){
-			var shopnameIsOK=false;
-			shop.items.forEach(function(item){
-				if (itemIds.indexOf(item.id)==-1) {
-					if (!shopnameIsOK) {
-						itemData.push({
-							shopname:shop.shopname,
-							items:[],
-							id:shop.id
-						});
-						shopnameIsOK=true;
-						shopIndex++;
-					};
-					itemData[shopIndex].items.push(item);
-				}
-			});
-		});
-		this.setState({
-			data:itemData,
-			initialiseTimes:this.state.initialiseTimes+1
-		});
-	},
-	initialise: function(doInitialised){
-		if (doInitialised) {
-			var regular=0;
-			var allPrice=0;
-			var thisRef=this;
-			this.allItem=0;
-			this.state.data.forEach(function(shop){
-				thisRef.allItem++;
-				shop.items.forEach(function(item){
-					if (item.itemstatus=="regular") {
-						allPrice+=item.price;
-						regular++;
-					}
-				});
-			});
-			this.checkedId="";
-			this.amountOfAllRegular=regular;
-			this.uncheckedPrice=allPrice;
-			this.initialiseTimes++;
-		}
-	},
-	handleNumberChange: function(addPrice,isSelected){
-		if (isSelected) {
-			this.setState({
-				allPrice: this.state.allPrice+addPrice
-			});
-		}else{
-			this.uncheckedPrice+=addPrice;
-			this.setState();
-		}
-	},
-	handleAllSelect:function(allIsChecked){
-
-		if(allIsChecked){
-			var thisRef=this;
-			this.state.data.forEach(function(shop){
-				shop.items.forEach(function(item){
-					if ((item.itemstatus=="regular"||thisRef.state.mode=="edit")
-						&&item.id!==""
-						&&thisRef.checkedId.indexOf(item.id)==-1) {
-						thisRef.checkedId+=item.id+"[']";
-					}
-				});
-			});
-			if (this.state.mode=="edit") {
-				this.setState({
-					allPrice:  this.state.allPrice+this.uncheckedPrice,
-					amountOfAllCheckedItem:this.allItem
-				});
-			}else{
-				this.setState({
-					allPrice:  this.state.allPrice+this.uncheckedPrice,
-					amountOfAllCheckedItem:this.amountOfAllRegular
-				});
-			}
-			
-			this.uncheckedPrice=0;
-		}else{
-			this.checkedId="";
-			this.uncheckedPrice=this.uncheckedPrice+this.state.allPrice;
-			this.setState({
-				allPrice:  0,
-				amountOfAllCheckedItem:0
-			});
-		}
-	},
-	handleItemChange:function(itemIsChecked,priceChange,id){
-		var CheckedItem=itemIsChecked?
-		this.state.amountOfAllCheckedItem+1:this.state.amountOfAllCheckedItem-1;
-		if (itemIsChecked) {
-			this.checkedId+=id+"[']";
-			this.uncheckedPrice=this.uncheckedPrice-priceChange;
-			this.setState({
-				allPrice: this.state.allPrice+priceChange,
-				amountOfAllCheckedItem: CheckedItem
-			});
-		}else{
-			this.checkedId=this.checkedId.replace(id+"[']","");
-			this.uncheckedPrice=this.uncheckedPrice+priceChange;
-			this.setState({
-				allPrice: this.state.allPrice-priceChange,
-				amountOfAllCheckedItem: CheckedItem
-			});
-			
-		}
-	},
-	handleShopChange:function(shopIsChecked,amountOfChangedItem,priceChange,id){
-		var idArray=id.split("[']");
-		var thisRef=this;
-		if(shopIsChecked){
-			idArray.forEach(function(id,index){
-				if (id!==""&&thisRef.checkedId.indexOf(id)==-1) {
-					thisRef.checkedId+=(id+"[']");
-				}
-			});
-			this.uncheckedPrice=this.uncheckedPrice-priceChange;
-			this.setState({
-				allPrice: this.state.allPrice+priceChange,
-				amountOfAllCheckedItem:this.state.amountOfAllCheckedItem+amountOfChangedItem
-			});
-		}else{
-			idArray.forEach(function(id,index){
-				if (id!=="") {
-					thisRef.checkedId=thisRef.checkedId.replace(id+"[']","");
-				}
-			});
-			this.uncheckedPrice=this.uncheckedPrice+priceChange;
-			this.setState({
-				allPrice: this.state.allPrice-priceChange,
-				amountOfAllCheckedItem:this.state.amountOfAllCheckedItem-amountOfChangedItem
-			});
-		}
-	},
-	render:function(){
-		
-		this.initialise(this.initialiseTimes!==this.state.initialiseTimes)
-
-		// Â§ÑÁêÜÂÖ®ÈÄâÁöÑÊÉÖÂÜµ
-		var thisRef=this;
-		if (this.amountOfAllRegular==this.state.amountOfAllCheckedItem
-			&&this.amountOfAllRegular!==0
-			&&this.state.mode!=="edit") {
-			this.allChecked="checked";
-		}else if(this.allItem==this.state.amountOfAllCheckedItem
-			&&this.state.mode=="edit"){
-			this.allChecked="checked";
-		}else{
-			this.allChecked="";
-		}
-
-
-		return(
-			
-			<div className="mainbody">
-
-				<TitleBox
-				handleModeChange={this.handleModeChange}
-				allDone={this.allDone}></TitleBox>
-				<ShopList 
-				allItem={this.allItem} 
-				trolleyinformation={this.state.data} 
-				itemTellAllDone={this.handleItemChange}
-				shopTellAllDone={this.handleShopChange}
-				initialiseTimes={this.state.initialiseTimes} 
-				itemTellDonePrice={this.handleNumberChange}
-				amountOfAllCheckedItem={this.state.amountOfAllCheckedItem}
-				amountOfAllRegular={this.amountOfAllRegular}
-				mode={this.state.mode}></ShopList>
-				<Done 
-				allChecked={this.allChecked}
-				amountOfAllCheckedItem={this.state.amountOfAllCheckedItem}
-				tellMainBody={this.handleAllSelect}
-				allPrice={this.state.allPrice}
-				mode={this.state.mode}
-				deleteItem={this.deleteItem}></Done>
-			</div>
-			);
-	}
-});
-
-/*<div>{"amountOfAllCheckedItem______"+this.state.amountOfAllCheckedItem}</div>*/
-/*<div>{"this.amountOfAllRegular______"+this.amountOfAllRegular}</div>*/
-/*<div>{"this.allItem______"+this.allItem}</div>*/
-/*<div>{"ÁºìÂÜ≤Ê±†"+this.uncheckedPrice}</div>*/
-/*<div>{"ÂèçÂ∫îÊ±†"+this.state.allPrice}</div>*/
-
-var TitleBox=React.createClass({
-	mode:"settle",
-	modeWord:"ÁºñËæë",
-	changeMode:function(){
-		this.mode=this.mode=="edit"?"settle":"edit";
-		this.props.handleModeChange(this.mode);
-		return false;
-	},
-	allDone:function(){
-		this.mode=this.mode=="edit"?"settle":"edit";
-		this.props.allDone(this.mode);
-		return false;
-	},
-	render:function(){
-		var clickEvent=this.mode=="edit"?this.allDone:this.changeMode;
-		this.modeWord=this.mode=="edit"?"ÂÆåÊàê":"ÁºñËæë";
-		return(
-			<div className="titlebox">
-			</div>
-			);
-	}
-});
-
-var ShopList=React.createClass({
-	render:function(){
-		var shops=[];
-		var thisRef=this;
-		this.props.trolleyinformation.forEach(function(shop){
-			shops.push(<ShopBox 
-				shopname={shop.shopname} 
-				items={shop.items} 
-				allItem={thisRef.props.allItem}
-				itemTellAllDone={thisRef.props.itemTellAllDone}
-				shopTellAllDone={thisRef.props.shopTellAllDone}
-				initialiseTimes={thisRef.props.initialiseTimes} 
-				itemTellDonePrice={thisRef.props.itemTellDonePrice} 
-				amountOfAllCheckedItem={thisRef.props.amountOfAllCheckedItem}
-				amountOfAllRegular={thisRef.props.amountOfAllRegular}
-				mode={thisRef.props.mode}/>);
-		});
-		return(
-			<div className="shoplist">
-				{shops}
-			</div>
-			);
-	}
-});
-
-var ShopBox=React.createClass({
-	classString:"shopbox",
-	isDisabled:true,
-	allItemDisabled:"disabled",
-	amountOfRegular:0,
-	checked: "",
-	amountOfCheckedItem:0,
-	selectedPrice:0,
-	unselectedPrice:0,
-	isInitialised:false,
-	checkedId:"",
-	allShopItem:0,
-	initialiseTimes:0,
-	initialise:function(isInitialised,doInitialised){
-		if (!isInitialised||doInitialised) {
-			var thisRef=this;
-			var regular=0;
-			this.selectedPrice=0;
-			this.unselectedPrice=0;
-			this.allShopItem=0;
-			this.amountOfCheckedItem=0;
-			this.props.items.forEach(function(item,index){
-				thisRef.allShopItem++;
-				if (item.itemstatus=="regular") {
-					regular++;
-					thisRef.isDisabled=false;
-					thisRef.allItemDisabled="";
-					thisRef.unselectedPrice+=item.price;
-				}
-			});
-			this.classString=this.isDisabled?"shopbox disabledshop":"shopbox";
-			this.amountOfRegular=regular;
-			this.isInitialised=true;
-		}
-		if(doInitialised){
-			this.checked="";
-			this.initialiseTimes++;
-		}
-	},
-	handleItemNumberChange:function(addPrice,isSelected){
-		if (isSelected) {
-			this.selectedPrice+=addPrice;
-		}else{
-			this.unselectedPrice+=addPrice;
-		}
-	},
-	handleItemChange:function(itemIsChecked,priceChange,id){
-		this.amountOfCheckedItem=itemIsChecked?
-		this.amountOfCheckedItem+1:this.amountOfCheckedItem-1;
-		if (itemIsChecked) {
-			this.checkedId+=id+"[']";
-			this.unselectedPrice=this.unselectedPrice-priceChange;
-			this.selectedPrice=this.selectedPrice+priceChange;
-		}else{
-			this.checkedId=this.checkedId.replace(id+"[']","");
-			this.selectedPrice=this.selectedPrice-priceChange;
-			this.unselectedPrice=this.unselectedPrice+priceChange;
-		}
-		if(this.props.mode=="edit"){
-			this.checked=this.allShopItem==this.amountOfCheckedItem?"checked":"";
-		}else{
-			this.checked=this.amountOfRegular==this.amountOfCheckedItem?"checked":"";
-		}
-	},
-	shopCheckedChange:function(){
-		var allId="";
-		if (this.props.mode=="edit") {
-			this.props.items.forEach(function(item){
-				allId+=item.id+"[']";
-			});
-		}else{
-			this.props.items.forEach(function(item){
-				if (item.itemstatus=="regular") {
-					allId+=item.id+"[']";
-				}
-			});	
-		}
-		if (this.refs.shopSelect.getDOMNode().checked) {
-			var thisRef=this;
-			this.checkedId=allId;
-			this.selectedPrice=this.selectedPrice+this.unselectedPrice;
-			if(this.props.mode=="edit"){
-				this.props.shopTellAllDone(
-					this.refs.shopSelect.getDOMNode().checked,
-					this.allShopItem-this.amountOfCheckedItem,
-					this.unselectedPrice,
-					allId
-				);
-			}else{
-				this.props.shopTellAllDone(
-					this.refs.shopSelect.getDOMNode().checked,
-					this.amountOfRegular-this.amountOfCheckedItem,
-					this.unselectedPrice,
-					allId
-				);
-			}
-			this.unselectedPrice=0;
-		}else{
-			this.checkedId="";
-			this.unselectedPrice=this.unselectedPrice+this.selectedPrice;
-			this.props.shopTellAllDone(
-				this.refs.shopSelect.getDOMNode().checked,
-				this.amountOfCheckedItem,
-				this.selectedPrice,
-				allId
-			);
-			this.selectedPrice=0;
-		}
-		this.checked=this.refs.shopSelect.getDOMNode().checked?"checked":"";
-		if(this.props.mode=="edit"){
-			this.amountOfCheckedItem=this.refs.shopSelect.getDOMNode().checked?
-			this.allShopItem:0;
-		}else{
-			this.amountOfCheckedItem=this.refs.shopSelect.getDOMNode().checked?
-			this.amountOfRegular:0;
-		}
-		
-	},
-	render:function(){
-
-		// ÂàùÂßãÂåñ
-		this.initialise(
-			this.isInitialised,
-			this.initialiseTimes!==this.props.initialiseTimes
-			);
-
-		if (this.props.mode=="edit") {
-			this.isDisabled=false;
-			this.allItemDisabled="";
-		}
-
-		// Â§ÑÁêÜÂÖ®ÈÄâÁöÑÊÉÖÂÜµ
-		if(this.props.amountOfAllCheckedItem==this.props.amountOfAllRegular
-			&&this.props.amountOfAllRegular!==0
-			&&this.amountOfRegular!==0
-			&&this.props.mode!=="edit"){
-			if (this.checked!=="checked") {
-				this.selectedPrice=this.selectedPrice+this.unselectedPrice;
-				this.unselectedPrice=this.selectedPrice-this.unselectedPrice;
-				this.selectedPrice=this.selectedPrice-this.unselectedPrice;
-			}
-			this.checkedId="";
-			var thisRef=this;
-			this.props.items.forEach(function(item){
-				if (item.itemstatus=="regular") {
-					thisRef.checkedId+=item.id+"[']";
-				}
-			});
-			this.amountOfCheckedItem=this.amountOfRegular;
-			this.checked="checked";
-		}else if(this.props.amountOfAllCheckedItem==this.props.allItem
-			&&this.props.allItem!==0&&this.props.mode=="edit"){
-			this.checkedId="";
-			var thisRef=this;
-			this.props.items.forEach(function(item){
-				thisRef.checkedId+=item.id+"[']";
-			});
-			this.amountOfCheckedItem=this.allShopItem;
-			this.checked="checked";
-		}else if(this.props.amountOfAllCheckedItem==0){
-			if (this.checked=="checked") {
-				this.selectedPrice=this.selectedPrice+this.unselectedPrice;
-				this.unselectedPrice=this.selectedPrice-this.unselectedPrice;
-				this.selectedPrice=this.selectedPrice-this.unselectedPrice;
-			}
-			this.checkedId="";
-			this.amountOfCheckedItem=0;
-			this.checked="";
-		}
-
-		// Â§ÑÁêÜÂ≠êÁªÑ‰ª∂
-		var thisRef=this;
-		var items=[];
-		this.props.items.forEach(function(item,index){
-			items.push(<ShopItem 
-				itemname={item.itemname} 
-				price={item.price} 
-				itemstatus={item.itemstatus}
-				itempicurl={item.picUrl} 
-				itemId={item.id} 
-				itemmajorname={item.majorname}
-				itemauthor={item.author}
-				itemresUrl={item.resUrl}
-				itemremarks={item.remarks}
-				
-				allShopItem={thisRef.allShopItem} 
-				itemTellShop={thisRef.handleItemChange}
-				mode={thisRef.props.mode} 
-				itemTellAllDone={thisRef.props.itemTellAllDone}
-				itemTellDonePrice={thisRef.props.itemTellDonePrice} 
-				itemTellShopPrice={thisRef.handleItemNumberChange}
-				shopAmountOfCheckedItem={thisRef.amountOfCheckedItem} 
-				shopAmountOfRegular={thisRef.amountOfRegular}
-				initialiseTimes={thisRef.props.initialiseTimes} 
-				mode={thisRef.props.mode}/>);
-			if (index!==(thisRef.props.items.length-1)) {
-				items.push(<hr/>);
-			}
-		});
-
-
-		return(
-			<div className={this.classString}>
-				<div className="shopname">
-					<span>{this.props.shopname}</span>
-				</div>
-				<hr></hr>
-				<div className="itembox">
-					{items}
-				</div>
-			</div>
-			);
-	}
-});
-
-/* <div>{"this.allItemDisabled______"+this.allItemDisabled}</div> */
-/* <div>{"this.amountOfRegular______"+this.amountOfRegular}</div> */
-/* <div>{"this.allShopItem______"+this.allShopItem}</div> */
-/* <div>{"this.checked______"+this.checked}</div> */
-/* <div>{"this.amountOfCheckedItem______"+this.amountOfCheckedItem}</div> */
-/* <div>{"ÂèçÂ∫îÊ±†______"+this.selectedPrice}</div> */
-/* <div>{"ÁºìÂÜ≤Ê±†______"+this.unselectedPrice}</div> */
-/* <div>{"this.checkedId______"+this.checkedId}</div> */
-
-var ShopItem=React.createClass({
-	classString: "shopitem disableditem",
-	itemstatusword: "",
-	disabled: "disabled",
-	checked: "",
-	number:0,
-	selectedPrice:0,
-	unselectedPrice:0,
-	isInitialised:false,
-	firstInput:true,
-	initialiseTimes:0,
-	initialise:function(isInitialised,doInitialised){
-		if (!isInitialised||doInitialised) {
-			if (this.props.itemstatus=="takenOff"){
-				this.itemstatusword="Â∑≤‰∏ãÊû∂";
-				this.unselectedPrice=0;
-				this.selectedPrice=0;
-				this.number=0;
-			}else if(this.props.itemstatus=="soldOut"){
-				this.itemstatusword="ÂçñÂÆå‰∫Ü";
-				this.unselectedPrice=0;
-				this.selectedPrice=0;
-				this.number=0;
-			}else{
-				this.classString="shopitem";
-				this.disabled="";
-				this.unselectedPrice=this.props.price;
-				this.selectedPrice=0;
-				this.number=1;
-			}
-			this.isInitialised=true;
-		}
-		if(doInitialised){
-			this.checked="";
-			this.initialiseTimes++;
-		}
-	},
-	numberChange:function(){
-		if (this.firstInput) this.number="";
-		var isSelected=this.refs.checkbox.getDOMNode().checked;
-		var temp=this.refs.number.getDOMNode().value.replace(/^0*/,"");
-		if(temp.match(/^(?:1|[1-9][0-9]?|99)$/)){
-			if (this.number==""&&this.firstInput) {
-				this.number="";
-				this.firstInput=false;
-			}else{
-				this.number=(this.number>99)?99:temp;
-			}
-		}else{
-			if (temp.match(/^-?\d+$/)) {
-				if (temp>99) {
-					this.number=99;
-				}
-			}else{
-				this.number=0;
-			}
-		}
-		if (isSelected) {
-			var newAllPrice=this.number*this.props.price;
-			var oldAllPrice=this.selectedPrice;
-			this.selectedPrice=newAllPrice;
-			this.unselectedPrice=0;
-			this.props.itemTellShopPrice(newAllPrice-oldAllPrice,isSelected);
-			this.props.itemTellDonePrice(newAllPrice-oldAllPrice,isSelected);
-		}else{
-			var newAllPrice=this.number*this.props.price;
-			var oldAllPrice=this.unselectedPrice;
-			this.unselectedPrice=newAllPrice;
-			this.selectedPrice=0;
-			this.props.itemTellShopPrice(newAllPrice-oldAllPrice,isSelected);
-			this.props.itemTellDonePrice(newAllPrice-oldAllPrice,isSelected);
-		}
-
-	},
-	itemCheckedChange:function(){
-		this.checked=this.refs.checkbox.getDOMNode().checked?"checked":"";
-		if (this.checked=="checked") {
-			this.selectedPrice=this.unselectedPrice;
-			this.unselectedPrice=0;
-			this.props.itemTellShop(
-				this.refs.checkbox.getDOMNode().checked,
-				this.selectedPrice,
-				this.props.itemId
-				);
-			this.props.itemTellAllDone(
-				this.refs.checkbox.getDOMNode().checked,
-				this.selectedPrice,
-				this.props.itemId
-				);
-		}else{
-			this.unselectedPrice=this.selectedPrice;
-			this.selectedPrice=0;
-			this.props.itemTellShop(
-				this.refs.checkbox.getDOMNode().checked,
-				this.unselectedPrice,
-				this.props.itemId
-				);
-			this.props.itemTellAllDone(
-				this.refs.checkbox.getDOMNode().checked,
-				this.unselectedPrice,
-				this.props.itemId
-				);
-		}
-		
-	},
-	render:function(){
-
-		// ÂàùÂßãÂåñ
-		this.initialise(
-			this.isInitialised,
-			this.initialiseTimes!==this.props.initialiseTimes
-			);
-		if (this.props.itemstatus=="takenOff"){
-			this.classString="shopitem disableditem";
-			if (this.props.mode=="edit") {
-				this.disabled="";
-			}else{
-				this.disabled="disabled";
-			}
-			this.itemstatusword="Â∑≤‰∏ãÊû∂";
-		}else if(this.props.itemstatus=="soldOut"){
-			this.classString="shopitem disableditem";
-			if (this.props.mode=="edit") {
-				this.disabled="";
-			}else{
-				this.disabled="disabled";
-			}
-			this.itemstatusword="ÂçñÂÆå‰∫Ü";
-		}else{
-			this.classString="shopitem";
-			this.disabled="";
-		}
-
-		// Â§ÑÁêÜÂÖ®ÈÄâ
-		if(this.props.shopAmountOfCheckedItem==this.props.allShopItem
-			&&this.props.allShopItem!==0
-			&&this.props.mode=="edit"){
-			this.checked="checked";
-		}else if(this.props.shopAmountOfCheckedItem==this.props.shopAmountOfRegular
-			&&this.props.shopAmountOfRegular!==0
-			&&this.props.mode!=="edit"){
-			
-			if (this.checked!=="checked") {
-				this.selectedPrice=this.selectedPrice+this.unselectedPrice;
-				this.unselectedPrice=this.selectedPrice-this.unselectedPrice;
-				this.selectedPrice=this.selectedPrice-this.unselectedPrice;
-				if (this.disabled!=="disabled") {
-					this.checked="checked";
-				}
-			}
-		}else if(this.props.shopAmountOfCheckedItem==0){
-			if (this.checked=="checked") {
-				this.selectedPrice=this.selectedPrice+this.unselectedPrice;
-				this.unselectedPrice=this.selectedPrice-this.unselectedPrice;
-				this.selectedPrice=this.selectedPrice-this.unselectedPrice;
-				this.checked="";
-			}
-		}
-
-
-		return(
-			<div className={this.classString}>
-			<div className="item">
-				<div className="itemshow">
-					<div>{this.props.itemId}</div>
-					<div className="authorshow">
-						<div>{this.props.itemauthor}</div>
-						<div>{this.props.itemmajorname}</div>
-					</div>
-				</div>
-				
-				<div className="itemname">
-					{this.props.itemname}
-				</div>
-				<div className="remarksshow">
-					{this.props.itemremarks}
-				</div>
-				<div className="linkbox">
-					<div className="itempic"><a href={this.props.itemresUrl} target="_new">ËΩ¨Âà∞Âú∞ÂùÄ</a></div>
-				</div>
-			</div>	
-			</div>
-			);
-	}
-});
-
-var Done=React.createClass({
-	allChecked:"",
-	style:{display:"inline"},
-	handleAllSelect:function(){
-		this.props.tellMainBody(this.refs.checkbox.getDOMNode().checked);
-	},
-	deleteItem:function(){
-		this.props.deleteItem();
-	},
-	render:function(){
-		this.allChecked=this.props.allChecked;
-		this.style=(this.props.mode=="edit")?{display:"none"}:{display:"inline"};
-		var buttonWord=(this.props.mode=="edit")?
-		"Âà†Èô§":"ÁªìÁÆó("+this.props.amountOfAllCheckedItem+")";
-		var clickEvent=this.props.mode=="edit"?this.deleteItem:"";
-		return(
-			<div className="done">
-				
-			</div>
-			);
-	}
-});
-
-React.render(
-	<MainBody url="Data.json"/>,
-	document.getElementById('myBody')
-	);
-	</script>
+    <meta charset="gb2312">
+    <title>Projects by Pyhoooo</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/prostyle.css">
+    <link rel="stylesheet" href="css/pages.css">
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>-->
+    <script src="js/main.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--µº∫Ω±£≥÷∏ﬂ¡¡-->
+    <script type="text/javascript">
+        function applySelectedTo(link) {
+            var ul = document.getElementById("nav2")[0]; // get the first ul tag on the page
+            var allLinks = document.getElementById("nav2").getElementsByTagName("a"); // get all the links within that ul
+            for (var i = 0; i < allLinks.length; i++) { // iterate through all those links
+                allLinks[i].className = ""; // and assign their class names to nothing
+            }
+            link.className = "selected"; // finally, assign class="selected" to our chosen link
+            var allDivs = document.getElementById("nav2");
+            for (var k = 0; k < allDivs.length; k++) {
+                allDivs[k].className = "";
+            }
+            var lyricId = link.getAttribute("href").split("#")[1];
+            lyricId = document.getElementById(lyricId);
+            lyricId.className = "on";
+        }
+    </script>
 </head>
-<body id="myBody">
+<body>
+	<div id="banner"></div>
+    <!--µ⁄∂˛µº∫Ω¿∏-->
+    <div id="nav2">
+        <ul>
+        <li>
+        <label class="year"><a href="javascript:;" style="font-size:20px;">|—ß‘∫◊ ¡œ|</a></label>
+        <ul class="two">
+            <li><label><a onclick="applySelectedTo(this);return false;" class="selected" href="proIframes/candyball.html" target="pro_frame">
+                |øŒ≥Ãƒ⁄»›</a></label></li>
+            <li><label><a onclick="applySelectedTo(this);return false;" href="proIframes/gamesworld.html"
+                target="pro_frame">|≤Œøº◊ ¡œ</a></label></li>
+        </ul>
+        <label class="year"><a href="javascript:;" style="font-size:20px;">|±‡≥Ã”Ô—‘|</a></label>
+        <ul class="two">
+            <li><label><a onclick="applySelectedTo(this);return false;" href="proIframes/volunteer.html" target="pro_frame">
+                |Java</a></label></li>
+            <li><label><a onclick="applySelectedTo(this);return false;" href="proIframes/comicinwuya.html" target="pro_frame">
+                |C”Ô—‘</a></label></li>
+            <li><label><a onclick="applySelectedTo(this);return false;" href="proIframes/gamesuitcase.html" target="pro_frame">
+                |C++</a></label></li>
+			<li><label><a onclick="applySelectedTo(this);return false;" href="proIframes/volunteer.html" target="pro_frame">
+                |Python</a></label></li>
+            <li><label><a onclick="applySelectedTo(this);return false;" href="proIframes/comicinwuya.html" target="pro_frame">
+                |PHP</a></label></li>
+            <li><label><a onclick="applySelectedTo(this);return false;" href="proIframes/gamesuitcase.html" target="pro_frame">
+                |Ruby</a></label></li>
+			<li><label><a onclick="applySelectedTo(this);return false;" href="proIframes/volunteer.html" target="pro_frame">
+                |Matlab</a></label></li>
+            <li><label><a onclick="applySelectedTo(this);return false;" href="proIframes/comicinwuya.html" target="pro_frame">
+                |Swift</a></label></li>
+        </ul>
+		<label class="year"><a href="javascript:;" style="font-size:20px;">|Õ¯’æ÷∆◊˜|</a></label>
+        <ul class="two">
+            <li><label><a onclick="applySelectedTo(this);return false;" href="proIframes/volunteer.html" target="pro_frame">
+                |Õ¯’æ÷∆◊˜—ßœ∞’æ</a></label></li>
+        </ul>
+		<label class="year"><a href="javascript:;" style="font-size:20px;">|Adobeœµ¡–|</a></label>
+        <ul class="two">
+            <li><label><a onclick="applySelectedTo(this);return false;" href="proIframes/volunteer.html" target="pro_frame">
+                |Photoshop</a></label></li>
+            <li><label><a onclick="applySelectedTo(this);return false;" href="proIframes/comicinwuya.html" target="pro_frame">
+                |Premiere</a></label></li>
+            <li><label><a onclick="applySelectedTo(this);return false;" href="proIframes/gamesuitcase.html" target="pro_frame">
+                |After Effects</a></label></li>
+        </ul>
+		<label class="year"><a href="javascript:;" style="font-size:20px;">|”Ô—‘|</a></label>
+        <ul class="two">
+            <li><label><a onclick="applySelectedTo(this);return false;" href="proIframes/volunteer.html" target="pro_frame">
+                |∫´”Ô</a></label></li>
+            <li><label><a onclick="applySelectedTo(this);return false;" href="proIframes/comicinwuya.html" target="pro_frame">
+                |”¢”Ô</a></label></li>
+            <li><label><a onclick="applySelectedTo(this);return false;" href="proIframes/gamesuitcase.html" target="pro_frame">
+                |»’”Ô</a></label></li>
+			<li><label><a onclick="applySelectedTo(this);return false;" href="proIframes/gamesuitcase.html" target="pro_frame">
+                |∑®”Ô</a></label></li>
+        </ul>
+		<label class="year"><a href="javascript:;" style="font-size:20px;">| ±…–|</a></label>
+        <ul class="two">
+            <li><label><a onclick="applySelectedTo(this);return false;" href="proIframes/volunteer.html" target="pro_frame">
+                |¥Ó≈‰</a></label></li>
+            <li><label><a onclick="applySelectedTo(this);return false;" href="proIframes/comicinwuya.html" target="pro_frame">
+                |◊±»›</a></label></li>
+            <li><label><a onclick="applySelectedTo(this);return false;" href="proIframes/gamesuitcase.html" target="pro_frame">
+                |…„”∞</a></label></li>
+			<li><label><a onclick="applySelectedTo(this);return false;" href="proIframes/gamesuitcase.html" target="pro_frame">
+                |¿Ò“«</a></label></li>
+        </ul>
+		<label class="year"><a href="javascript:;" style="font-size:20px;">|¿÷∆˜|</a></label>
+        <ul class="two">
+            <li><label><a onclick="applySelectedTo(this);return false;" href="proIframes/volunteer.html" target="pro_frame">
+                |∏÷«Ÿ</a></label></li>
+            <li><label><a onclick="applySelectedTo(this);return false;" href="proIframes/comicinwuya.html" target="pro_frame">
+                |º™À˚</a></label></li>
+            <li><label><a onclick="applySelectedTo(this);return false;" href="proIframes/gamesuitcase.html" target="pro_frame">
+                |”»øÀ¿Ô¿Ô</a></label></li>
+			<li><label><a onclick="applySelectedTo(this);return false;" href="proIframes/gamesuitcase.html" target="pro_frame">
+                |≈˝≈√</a></label></li>
+        </ul>
+		<label class="year"><a href="javascript:;" style="font-size:20px;">|ŒËµ∏|</a></label>
+        <ul class="two">
+            <li><label><a onclick="applySelectedTo(this);return false;" href="proIframes/volunteer.html" target="pro_frame">
+                |∫´∑ÁΩ÷ŒËΩÃ—ß</a></label></li>
+            <li><label><a onclick="applySelectedTo(this);return false;" href="proIframes/comicinwuya.html" target="pro_frame">
+                |≈∑√¿∑ÁΩ÷ŒËΩÃ—ß</a></label></li>
+            <li><label><a onclick="applySelectedTo(this);return false;" href="proIframes/gamesuitcase.html" target="pro_frame">
+                |æÙ øŒË≤ΩΩÃ—ß</a></label></li>
+        </ul>
+		<label class="year"><a href="javascript:;" style="font-size:20px;">|‘À∂Ø|</a></label>
+        <ul class="two">
+            <li><label><a onclick="applySelectedTo(this);return false;" href="proIframes/volunteer.html" target="pro_frame">
+                |ºı÷¨Ω°…Ì</a></label></li>
+            <li><label><a onclick="applySelectedTo(this);return false;" href="proIframes/comicinwuya.html" target="pro_frame">
+                |«Ú¿‡‘À∂Ø</a></label></li>
+            <li><label><a onclick="applySelectedTo(this);return false;" href="proIframes/gamesuitcase.html" target="pro_frame">
+                |—¯…˙</a></label></li>
+        </ul>
+		<label class="year"><a href="javascript:;" style="font-size:20px;">|”Œœ∑÷∆◊˜|</a></label>
+        <ul class="two">
+            <li><label><a onclick="applySelectedTo(this);return false;" href="proIframes/volunteer.html" target="pro_frame">
+                |3DsMax</a></label></li>
+            <li><label><a onclick="applySelectedTo(this);return false;" href="proIframes/comicinwuya.html" target="pro_frame">
+                |Unity</a></label></li>
+        </ul>
+		<label class="year"><a href="javascript:;" style="font-size:20px;">|ŒƒªØ|</a></label>
+        <ul class="two">
+            <li><label><a onclick="applySelectedTo(this);return false;" href="proIframes/volunteer.html" target="pro_frame">
+                |∫√ ÈÕ∆ºˆ</a></label></li>
+            <li><label><a onclick="applySelectedTo(this);return false;" href="proIframes/comicinwuya.html" target="pro_frame">
+                |¿˙ ∑</a></label></li>
+        </ul>
+		<label class="year"><a href="javascript:;" style="font-size:20px;">|∂˛¥Œ‘™œ‡πÿ|</a></label>
+        <ul class="two">
+            <li><label><a onclick="applySelectedTo(this);return false;" href="proIframes/volunteer.html" target="pro_frame">
+                |TVP Animation</a></label></li>
+            <li><label><a onclick="applySelectedTo(this);return false;" href="proIframes/comicinwuya.html" target="pro_frame">
+                |VOCALOID</a></label></li>
+            <li><label><a onclick="applySelectedTo(this);return false;" href="proIframes/gamesuitcase.html" target="pro_frame">
+                |MediBang Paint</a></label></li>
+        </ul>
+        </li>
+        </ul>
+        </div>
+
+    <!--iframe-->
+    <iframe src="iframes/0301.html" name="pro_frame" scrolling="yes" frameborder="0"
+        width="965px"style="position: absolute; margin: 165px 0 0 -415px;">
+    </iframe>
 	
+
+	<script type="text/javascript" >
+    function addEvent(el, name, fn) {//∞Û∂® ¬º˛
+        if (el.addEventListener) return el.addEventListener(name, fn, false);
+        return el.attachEvent('on' + name, fn);
+    }
+    function nextnode(node) {//—∞’“œ¬“ª∏ˆ–÷µ‹≤¢Ãﬁ≥˝ø’µƒŒƒ±æΩ⁄µ„
+        if (!node) return;
+        if (node.nodeType == 1)
+            return node;
+        if (node.nextSibling)
+            return nextnode(node.nextSibling);
+    }
+    function prevnode(node) {//—∞’“…œ“ª∏ˆ–÷µ‹≤¢Ãﬁ≥˝ø’µƒŒƒ±æΩ⁄µ„
+        if (!node) return;
+        if (node.nodeType == 1)
+            return node;
+        if (node.previousSibling)
+            return prevnode(node.previousSibling);
+    }
+    function parcheck(self, checked) {//µ›πÈ—∞’“∏∏«◊‘™Àÿ£¨≤¢’“µΩinput‘™ÀÿΩ¯––≤Ÿ◊˜
+        var par = prevnode(self.parentNode.parentNode.parentNode.previousSibling), parspar;
+        if (par && par.getElementsByTagName('input')[0]) {
+            par.getElementsByTagName('input')[0].checked = checked;
+            parcheck(par.getElementsByTagName('input')[0], sibcheck(par.getElementsByTagName('input')[0]));
+        }
+    }
+    function sibcheck(self) {//≈–∂œ–÷µ‹Ω⁄µ„ «∑Ò“—æ≠»´≤ø—°÷–
+        var sbi = self.parentNode.parentNode.parentNode.childNodes, n = 0;
+        for (var i = 0; i < sbi.length; i++) {
+            if (sbi[i].nodeType != 1)//”…”⁄∫¢◊”Ω·µ„÷–∞¸¿®ø’µƒŒƒ±æΩ⁄µ„£¨À˘“‘’‚¿Ô¿€º∆≥§∂»µƒ ±∫Ú“≤“™À„…œ»•
+                n++;
+            else if (sbi[i].getElementsByTagName('input')[0].checked)
+                n++;
+        }
+        return n == sbi.length ? true : false;
+    }
+    addEvent(document.getElementById('nav2'), 'click', function (e) {//∞Û∂®inputµ„ª˜ ¬º˛£¨ π”√menu_zzjs_net∏˘‘™Àÿ¥˙¿Ì
+        e = e || window.event;
+        var target = e.target || e.srcElement;
+        var tp = nextnode(target.parentNode.nextSibling);
+        switch (target.nodeName) {
+            case 'A': //µ„ª˜A±Í«©’πø™∫Õ ’Àı ˜–Œƒø¬º£¨≤¢∏ƒ±‰∆‰—˘ Ωª·—°÷–checkbox
+                if (tp && tp.nodeName == 'UL') {
+                    if (tp.style.display != 'block') {
+                        tp.style.display = 'block';
+                        prevnode(target.parentNode.previousSibling).className = 'ren'
+                    } else {
+                        tp.style.display = 'none';
+                        prevnode(target.parentNode.previousSibling).className = 'add'
+                    }
+                }
+                break;
+            case 'SPAN': //µ„ª˜Õº±Í÷ª’πø™ªÚ’ﬂ ’Àı
+                var ap = nextnode(nextnode(target.nextSibling).nextSibling);
+                if (ap.style.display != 'block') {
+                    ap.style.display = 'block';
+                    target.className = 'ren'
+                } else {
+                    ap.style.display = 'none';
+                    target.className = 'add'
+                }
+                break;
+            case 'INPUT': //µ„ª˜checkbox£¨∏∏«◊‘™Àÿ—°÷–£¨‘Ú∫¢◊”Ω⁄µ„÷–µƒcheckbox“≤Õ¨ ±—°÷–£¨∫¢◊”Ω·µ„»°œ˚∏∏‘™ÀÿÀÊ÷Æ»°œ˚
+                if (target.checked) {
+                    if (tp) {
+                        var checkbox = tp.getElementsByTagName('input');
+                        for (var i = 0; i < checkbox.length; i++)
+                            checkbox[i].checked = true;
+                    }
+                } else {
+                    if (tp) {
+                        var checkbox = tp.getElementsByTagName('input');
+                        for (var i = 0; i < checkbox.length; i++)
+                            checkbox[i].checked = false;
+                    }
+                }
+                parcheck(target, sibcheck(target)); //µ±∫¢◊”Ω·µ„»°œ˚—°÷–µƒ ±∫Úµ˜”√∏√∑Ω∑®µ›πÈ∆‰∏∏Ω⁄µ„µƒcheckbox÷“ª»°œ˚—°÷–
+                break;
+        }
+    });
+    window.onload = function () {//“≥√Êº”‘ÿ ±∏¯”–∫¢◊”Ω·µ„µƒ‘™Àÿ∂ØÃ¨ÃÌº”Õº±Í
+        var labels = document.getElementById('nav2').getElementsByTagName('label');
+        for (var i = 0; i < labels.length; i++) {
+            var span = document.createElement('span');
+            span.style.cssText = 'display:inline-block;height:40px;vertical-align:middle;width:180px;cursor:pointer;';
+            span.innerHTML = ' '
+            span.className = 'add';
+            if (nextnode(labels[i].nextSibling) && nextnode(labels[i].nextSibling).nodeName == 'UL')
+                labels[i].parentNode.insertBefore(span, labels[i]);
+            else
+                labels[i].className = 'rem'
+        }
+    }
+	</script>
 </body>
 </html>

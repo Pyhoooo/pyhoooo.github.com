@@ -5,9 +5,9 @@
 		"items":[
 			{
 				"id":"1",
-				"majorname":"计算机类",
+				"majorname":"",
 				"itemname":"W3School 在线教程",
-				"author": "asdfgg樱花",
+				"author": "",
 				"resUrl":"http://www.w3school.com.cn/",
 				"itemstatus": "regular",
 				"remarks":""
