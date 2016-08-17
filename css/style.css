@@ -121,9 +121,9 @@ body{
 .item{
 	margin-top: -10px;
 	background-color: #7DB9DE;
-	box-shadow: 5px 5px 2px #7DB9DE;
-	height: 60px;
-	width: 620px;
+	box-shadow: 5px 5px 2px #51ABDD;
+	height: 70px;
+	width: 630px;
 }
 .itemshow{
 	margin-top: 5px;
@@ -159,7 +159,7 @@ body{
 	display: none;
 }
 .itemname{
-	margin: 5px 60px 0 105px;
+	margin: 10px 60px 0 105px;
 	color: #554236;
 	font-size: 18px;
 	position: absolute;
@@ -173,10 +173,10 @@ body{
 }
 .linkbox{
 	width: 80px;
-	height: 20px;
+	height: 30px;
 	position: absolute;
 	margin-top: 18px;
-	margin-right: 20px;
+	margin-left: 520px;
 	border-radius:5px;
 	background-color:white;
 	font-size: 12px;
