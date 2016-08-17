@@ -701,6 +701,7 @@ var ShopItem=React.createClass({
 
 
 		return(
+		<div className={this.classString}>
 			<div className="item">
 				<div className="itemshow">
 					<div>{this.props.itemId}</div>
@@ -719,6 +720,7 @@ var ShopItem=React.createClass({
 					<a href={this.props.itemresUrl} target="_new" style="color:grey;">转到地址</a>
 				</div>
 			</div>
+		</div>
 			);
 	}
 });
