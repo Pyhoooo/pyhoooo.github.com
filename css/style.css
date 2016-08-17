@@ -128,7 +128,7 @@ body{
 }
 .itemshow{
 	margin-top: 8px;
-	margin-left: 15px;
+	margin-left: 20px;
 	position: absolute;
 	font-size: 14px;
 	color: #554236;
@@ -144,10 +144,11 @@ body{
 	background-size: cover;
 }
 a:link,a:visited{
-	color:#CB4042;
+	color:#DB4042;
 }
 a:hover,a:active{
-	color:blue;
+	color:#DB4042;
+	text-shadow: 2px 2px 2px #DB4042;
 }
 .itemstatus{
 	width: 100%;
@@ -162,13 +163,13 @@ a:hover,a:active{
 	display: none;
 }
 .itemname{
-	margin: 13px 60px 0 125px;
+	margin: 13px 60px 0 120px;
 	color: #554236;
 	font-size: 16px;
 	position: absolute;
 }
 .remarksshow{
-	margin-left: 125px;
+	margin-left: 120px;
 	margin-top: 38px;
 	color: #3A8FB7;
 	font-size: 10px;
