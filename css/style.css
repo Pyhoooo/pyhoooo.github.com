@@ -122,7 +122,7 @@ body{
 	margin-top: -10px;
 	background-color: #7DB9DE;
 	border-radius:3px;
-	box-shadow: 3px 3px 5px #3A8FB7;
+	box-shadow: 2px 2px 5px #3A8FB7;
 	height: 70px;
 	width: 625px;
 }
@@ -143,8 +143,11 @@ body{
 	background-position: center center;
 	background-size: cover;
 }
-.itempic.a{
-	color:grey;
+.itempic.a:link,.itempic.a:visited{
+	color:#CB4042;
+}
+.itempic.a:hover,.itempic.a:active{
+	color:blue;
 }
 .itemstatus{
 	width: 100%;
@@ -167,7 +170,7 @@ body{
 .remarksshow{
 	margin-left: 125px;
 	margin-top: 38px;
-	color: #FFFFFB;
+	color: #FAD689;
 	font-size: 10px;
 	position: absolute;
 }
