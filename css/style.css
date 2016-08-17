@@ -128,7 +128,7 @@ body{
 }
 .itemshow{
 	margin-top: 8px;
-	margin-left: 40px;
+	margin-left: 20px;
 	position: absolute;
 	font-size: 16px;
 	color: #554236;
@@ -136,7 +136,7 @@ body{
 .authorshow{
 	color: white;
 	font-size: 11px;
-	width: 50px;
+	width: 80px;
 }
 .itempic{
 	text-align: center;
