@@ -147,8 +147,8 @@ a:link,a:visited{
 	color:#DB4042;
 }
 a:hover,a:active{
-	color:#DB4042;
-	text-shadow: 2px 2px 2px #DB4042;
+	color:white;
+	text-shadow: 1px 1px 1px #DB4042;
 }
 .itemstatus{
 	width: 100%;
