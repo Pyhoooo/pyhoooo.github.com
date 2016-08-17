@@ -145,11 +145,10 @@ body{
 	background-size: cover;
 }
 a:link,a:visited{
-	font-size: 12px;
+	font-size: 13px;
 	color: #DB4042;
 }
 a:hover,a:active{
-	font-size: 14px;
 	color: #FFC408;
 }
 .itemstatus{
