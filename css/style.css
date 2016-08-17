@@ -131,7 +131,7 @@ body{
 	margin-top: 8px;
 	margin-left: 20px;
 	position: absolute;
-	font-size: 14px;
+	font-size: 18px;
 	color: #554236;
 }
 .authorshow{
@@ -148,7 +148,7 @@ a:link,a:visited{
 	color:#DB4042;
 }
 a:hover,a:active{
-	color:#554236;
+	color:#FFC408;
 }
 .itemstatus{
 	width: 100%;
