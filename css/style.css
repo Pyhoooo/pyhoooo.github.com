@@ -138,7 +138,7 @@ body{
 	margin-left: 23px;
 	position: absolute;
 	color: white;
-	font-size: 8px;
+	font-size: 6px;
 	width: 80px;
 }
 .itempic{
@@ -173,9 +173,9 @@ a:hover,a:active{
 }
 .remarksshow{
 	margin-left: 115px;
-	margin-top: 20px;
+	margin-top: 21px;
 	color: #3A8FB7;
-	font-size: 8px;
+	font-size: 6px;
 	position: absolute;
 }
 .linkbox{
