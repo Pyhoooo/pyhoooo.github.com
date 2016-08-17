@@ -122,19 +122,18 @@ body{
 	margin-top: -10px;
 	background-color: #7DB9DE;
 	border-radius:3px;
-	box-shadow: 5px 5px 2px #51ABDD;
+	box-shadow: 2px 2px 5px #3A8FB7;
 	height: 70px;
 	width: 625px;
 }
 .itemshow{
-	margin-top: 5px;
+	margin-top: 8px;
 	margin-left: 15px;
 	position: absolute;
 	font-size: 14px;
 	color: #554236;
 }
 .authorshow{
-	margin-left: 15px;
 	color: white;
 	font-size: 11px;
 	width: 50px;
