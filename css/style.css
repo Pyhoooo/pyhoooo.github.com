@@ -122,7 +122,7 @@ body{
 	margin-top: -10px;
 	background-color: #7DB9DE;
 	border-radius:3px;
-	box-shadow: 2px 2px 5px #3A8FB7;
+	box-shadow: 3px 3px 5px #3A8FB7;
 	height: 70px;
 	width: 625px;
 }
@@ -159,15 +159,15 @@ body{
 	display: none;
 }
 .itemname{
-	margin: 13px 60px 0 105px;
+	margin: 13px 60px 0 125px;
 	color: #554236;
 	font-size: 16px;
 	position: absolute;
 }
 .remarksshow{
-	margin-left: 105px;
+	margin-left: 125px;
 	margin-top: 38px;
-	color: #91989F;
+	color: #FFFFFB;
 	font-size: 10px;
 	position: absolute;
 }
@@ -177,7 +177,7 @@ body{
 	position: absolute;
 	margin-top: 18px;
 	margin-left: 520px;
-	padding-top: 8px;
+	padding-top: 9px;
 	border-radius:5px;
 	background-color:white;
 	font-size: 12px;
