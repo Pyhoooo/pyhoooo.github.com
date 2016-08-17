@@ -120,19 +120,21 @@ body{
 
 .item{
 	margin-top: -10px;
-	background-color: #A5DEE4;
+	background-color: #78C2C4;
 	box-shadow: 5px 5px 2px #7DB9DE;
 	height: 60px;
+	width: 400px;
 }
 .itemshow{
+	margin-top: 10px;
 	margin-left: 5px;
 	float: left;
-	position: relative;
+	position: absolute;
 	font-size: 15px;
 	color: #554236;
 }
 .authorshow{
-	margin-top: 10px;
+	margin-top: 5px;
 	color: #D7B98E;
 	font-size: 12px;
 	width: 50px;
@@ -158,21 +160,22 @@ body{
 	display: none;
 }
 .itemname{
-	margin: 20px 60px 0 105px;
+	margin: 10px 60px 0 105px;
 	color: #554236;
 	font-size: 15px;
+	position: absolute;
 }
 .remarksshow{
 	margin-left: 105px;
 	margin-top: 5px;
-	color: #D7C4BB;
+	color: grey;
 	font-size: 10px;
 }
 .linkbox{
 	width: 80px;
 	height: 20px;
 	position: absolute;
-	top: 10px;
+	margin-top: 20px;
 	right: 10px;
 	border-radius:5px;
 	background-color:white;
