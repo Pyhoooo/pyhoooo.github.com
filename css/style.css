@@ -119,8 +119,10 @@ body{
 }
 
 .item{
+	margin-top: -10px;
 	background-color: #51A8DD;
 	box-shadow: 5px 5px 2px #7DB9DE;
+	height: 100px;
 }
 .itemshow{
 	margin-left: 5px;
@@ -130,19 +132,15 @@ body{
 	color: #554236;
 }
 .authorshow{
-	margin-top: 10px;
-	float: left;
-	position: relative;
-	color:#FEDFE1;
+	color:#FCFAF2;
 	font-size:12px;
 	width: 50px;
 }
 .itempic{
-	width: 60px;
-	height: 60px;
-	float: left;
+	text-align: center;
 	background-position: center center;
 	background-size: cover;
+	color:grey;
 }
 .itemstatus{
 	width: 100%;
@@ -165,18 +163,18 @@ body{
 .remarksshow{
 	margin-left: 105px;
 	margin-top: 5px;
-	color: #7DB9DE;
+	color: #91989F;
 	font-size: 10px;
 }
 .linkbox{
 	width: 80px;
-	height: 40px;
+	height: 20px;
 	position: absolute;
 	top: 10px;
 	right: 10px;
 	padding: 5px 0 0 5px;
 	border-radius:5px;
-	background-color:#FEDFE1;
+	background-color:white;
 	font-size: 12px;
 }
 .iteminputbox .price{

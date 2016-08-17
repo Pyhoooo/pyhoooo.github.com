@@ -705,11 +705,12 @@ var ShopItem=React.createClass({
 			<div className="item">
 				<div className="itemshow">
 					<div>{this.props.itemId}</div>
+					<div className="authorshow">
+						<div>{this.props.itemauthor}</div>
+						<div>{this.props.itemmajorname}</div>
+					</div>
 				</div>
-				<div className="authorshow">
-					<div>{this.props.itemauthor}</div>
-					<div>{this.props.itemmajorname}</div>
-				</div>
+				
 				<div className="itemname">
 					{this.props.itemname}
 				</div>
@@ -717,7 +718,7 @@ var ShopItem=React.createClass({
 					{this.props.itemremarks}
 				</div>
 				<div className="linkbox">
-					<div className="itempic"><a href={this.props.itemresUrl} target="_new">链接地址</a></div>
+					<div className="itempic"><a href={this.props.itemresUrl} target="_new">转到地址</a></div>
 				</div>
 			</div>	
 			</div>
