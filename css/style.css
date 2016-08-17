@@ -121,19 +121,20 @@ body{
 .item{
 	margin-top: -10px;
 	background-color: #7DB9DE;
+	border-radius:3px;
 	box-shadow: 5px 5px 2px #51ABDD;
 	height: 70px;
 	width: 625px;
 }
 .itemshow{
 	margin-top: 5px;
-	margin-left: 5px;
-	float: left;
+	margin-left: 15px;
 	position: absolute;
 	font-size: 14px;
 	color: #554236;
 }
 .authorshow{
+	margin-left: 15px;
 	color: white;
 	font-size: 11px;
 	width: 50px;
@@ -159,14 +160,14 @@ body{
 	display: none;
 }
 .itemname{
-	margin: 10px 60px 0 105px;
+	margin: 13px 60px 0 105px;
 	color: #554236;
 	font-size: 16px;
 	position: absolute;
 }
 .remarksshow{
 	margin-left: 105px;
-	margin-top: 35px;
+	margin-top: 38px;
 	color: #91989F;
 	font-size: 10px;
 	position: absolute;
@@ -177,7 +178,7 @@ body{
 	position: absolute;
 	margin-top: 18px;
 	margin-left: 520px;
-	padding-top: 5px;
+	padding-top: 8px;
 	border-radius:5px;
 	background-color:white;
 	font-size: 12px;
