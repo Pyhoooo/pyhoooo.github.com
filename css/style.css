@@ -123,10 +123,10 @@ body{
 	background-color: #78C2C4;
 	box-shadow: 5px 5px 2px #7DB9DE;
 	height: 60px;
-	width: 400px;
+	width: 600px;
 }
 .itemshow{
-	margin-top: 10px;
+	margin-top: 5px;
 	margin-left: 5px;
 	float: left;
 	position: absolute;
@@ -135,7 +135,7 @@ body{
 }
 .authorshow{
 	margin-top: 5px;
-	color: #D7B98E;
+	color: white;
 	font-size: 12px;
 	width: 50px;
 }
@@ -167,15 +167,16 @@ body{
 }
 .remarksshow{
 	margin-left: 105px;
-	margin-top: 5px;
+	margin-top: 25px;
 	color: grey;
 	font-size: 10px;
+	position: absolute;
 }
 .linkbox{
 	width: 80px;
 	height: 20px;
 	position: absolute;
-	margin-top: 20px;
+	margin-top: 15px;
 	right: 10px;
 	border-radius:5px;
 	background-color:white;
