@@ -45,7 +45,6 @@ body{
 	overflow: hidden;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	position: fixed;
 }
 .layout-3{
 	width: 33.33%;
@@ -84,6 +83,7 @@ body{
 	overflow: hidden;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	position:fixed;
 }
 .shopname input{
 	height: 30px;
