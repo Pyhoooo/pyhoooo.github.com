@@ -44,8 +44,9 @@
 	position: absolute; margin: 165px 0 0 -400px;
 }
 
-@media screen and (max-device-width: 600px) {
+@media screen and (max-device-width: 400px) {
 ¡¡¡¡¡¡.frameshow{
+position: absolute;
 	margin: 165px 0 0 -100px;
 }
 }
