@@ -46,6 +46,6 @@
 
 @media screen and (max-device-width: 600px) {
 ¡¡¡¡¡¡.frameshow{
-	margin: 165px 0 0 0px;
+	margin: 165px 0 0 -100px;
 }
 }
