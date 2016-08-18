@@ -87,7 +87,7 @@ body{
 	position:fixed;
 	font-size: 20px;
 	color: #566C73;
-
+	background-color: white;
 }
 .shopname input{
 	height: 30px;
@@ -107,7 +107,9 @@ body{
 	color: #EAEAE0;
 	background-color: #EAEAE0;
 }
-
+.itembox>{
+	margin-top: 35px;
+}
 .itembox>hr{
 	margin-left: 30px;
 }
