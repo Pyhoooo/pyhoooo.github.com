@@ -81,13 +81,15 @@ body{
 }
 .shopname{
 	width: 625px;
-	height: 30px;
+	height: 40px;
 	overflow: hidden;
 	z-index:1;
 	position:fixed;
 	font-size: 20px;
 	color: #566C73;
 	background-color: white;
+	text-align: center;
+	box-shadow: 1px 1px 3px grey;
 }
 .shopname input{
 	height: 30px;
@@ -107,7 +109,7 @@ body{
 	color: #EAEAE0;
 	background-color: #EAEAE0;
 }
-.itembox>{
+.itembox{
 	margin-top: 35px;
 }
 .itembox>hr{
