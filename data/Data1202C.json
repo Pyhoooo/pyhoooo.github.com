@@ -1,50 +1,50 @@
 [
 	{
-		"id":"0301",
-		"shopname":"网站制作学习站",
+		"id":"1202C",
+		"shopname":"VOCALOID曲目下载",
 		"items":[
 			{
 				"id":"1",
 				"majorname":"",
-				"itemname":"W3School 在线教程",
-				"author": "",
-				"resUrl":"http://www.w3school.com.cn/",
+				"itemname":"Vocaloid传说级名曲补完计划(10989L下载)",
+				"author": "托管中的Kriefare",
+				"resUrl":"http://www.bilibili.com/video/av188136/",
 				"itemstatus": "regular",
 				"remarks":""
 			},
 			{
 				"id":"2",
 				"majorname":"",
-				"itemname":" 菜鸟教程 RUNOOB.COM",
-				"author": "",
-				"resUrl":"http://www.runoob.com/",
+				"itemname":"【人力vocaloid合作】圣地亚哥唱片2015金曲CD",
+				"author": "圣地亚哥唱片公司",
+				"resUrl":"http://www.bilibili.com/video/av3104645/",
 				"itemstatus": "regular",
 				"remarks":""
 			},
 			{
 				"id":"3",
 				"majorname":"",
-				"itemname":"极客学院 互联网职业在线大学",
-				"author": "",
-				"resUrl":"http://www.jikexueyuan.com/",
+				"itemname":"初音未来中文字幕专集 VOCALOID家族合集",
+				"author": "冰の羽翼",
+				"resUrl":"http://www.bilibili.com/video/av531221/",
 				"itemstatus": "regular",
 				"remarks":""
 			},
 			{
 				"id":"4",
 				"majorname":"",
-				"itemname":"jQuery插件库 收集最全最新最好的jQuery插件",
-				"author": "",
-				"resUrl":"http://www.jq22.com/",
+				"itemname":"VOCALOID黑暗曲风歌曲合集【60P】",
+				"author": "肠子不含糖",
+				"resUrl":"http://www.bilibili.com/video/av306071/",
 				"itemstatus": "regular",
 				"remarks":""
 			},
 			{
 				"id":"5",
 				"majorname":"",
-				"itemname":"CodeSchool 在线网站制作教育平台",
-				"author": "",
-				"resUrl":"https://www.codeschool.com/",
+				"itemname":"Vocaloid神曲大合唱合集【8P】",
+				"author": "小溪",
+				"resUrl":"http://www.bilibili.com/video/av26712/",
 				"itemstatus": "regular",
 				"remarks":""
 			},

@@ -1,50 +1,50 @@
 [
 	{
-		"id":"0301",
-		"shopname":"网站制作学习站",
+		"id":"1202B",
+		"shopname":"VOCALOID相关下载",
 		"items":[
 			{
 				"id":"1",
 				"majorname":"",
-				"itemname":"W3School 在线教程",
+				"itemname":"VOCALOID全部声源/声库与工具",
 				"author": "",
-				"resUrl":"http://www.w3school.com.cn/",
+				"resUrl":"http://vocakey.info/",
 				"itemstatus": "regular",
-				"remarks":""
+				"remarks":"非常全"
 			},
 			{
 				"id":"2",
 				"majorname":"",
-				"itemname":" 菜鸟教程 RUNOOB.COM",
-				"author": "",
-				"resUrl":"http://www.runoob.com/",
+				"itemname":"【两个工程】轩子的渣工程",
+				"author": "猫的生命哲理",
+				"resUrl":"http://pan.baidu.com/s/1jHDtZsq",
 				"itemstatus": "regular",
 				"remarks":""
 			},
 			{
 				"id":"3",
 				"majorname":"",
-				"itemname":"极客学院 互联网职业在线大学",
-				"author": "",
-				"resUrl":"http://www.jikexueyuan.com/",
+				"itemname":"【工程合集】卡尔的无参工程",
+				"author": "卡尔的工程配布地",
+				"resUrl":"hhttp://karl-vsqx.lofter.com/tag/%E6%97%A0%E5%8F%82%E5%B7%A5%E7%A8%8B",
 				"itemstatus": "regular",
 				"remarks":""
 			},
 			{
 				"id":"4",
 				"majorname":"",
-				"itemname":"jQuery插件库 收集最全最新最好的jQuery插件",
-				"author": "",
-				"resUrl":"http://www.jq22.com/",
+				"itemname":"VSQ/VSQX/UST工程文件共享",
+				"author": "IT_modal",
+				"resUrl":"http://tieba.baidu.com/p/3545449468",
 				"itemstatus": "regular",
-				"remarks":""
+				"remarks":"非常多"
 			},
 			{
 				"id":"5",
 				"majorname":"",
-				"itemname":"CodeSchool 在线网站制作教育平台",
-				"author": "",
-				"resUrl":"https://www.codeschool.com/",
+				"itemname":"七首二次元歌曲的音乐工程",
+				"author": "夜雪Alice",
+				"resUrl":"http://pan.baidu.com/s/1c0eYwhE",
 				"itemstatus": "regular",
 				"remarks":""
 			},

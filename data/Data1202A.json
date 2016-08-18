@@ -1,50 +1,50 @@
 [
 	{
-		"id":"0301",
-		"shopname":"网站制作学习站",
+		"id":"1202A",
+		"shopname":"VOCALOID教程",
 		"items":[
 			{
 				"id":"1",
 				"majorname":"",
-				"itemname":"W3School 在线教程",
-				"author": "",
-				"resUrl":"http://www.w3school.com.cn/",
+				"itemname":"Vocaloid3初级教程",
+				"author": "Etherwork",
+				"resUrl":"http://wenku.baidu.com/view/56cf173a5727a5e9856a618d.html",
 				"itemstatus": "regular",
 				"remarks":""
 			},
 			{
 				"id":"2",
 				"majorname":"",
-				"itemname":" 菜鸟教程 RUNOOB.COM",
+				"itemname":"【官方】VOCALOID3中文版使用教程",
 				"author": "",
-				"resUrl":"http://www.runoob.com/",
+				"resUrl":"http://www.bilibili.com/video/av314637/",
 				"itemstatus": "regular",
 				"remarks":""
 			},
 			{
 				"id":"3",
 				"majorname":"",
-				"itemname":"极客学院 互联网职业在线大学",
-				"author": "",
-				"resUrl":"http://www.jikexueyuan.com/",
+				"itemname":"【合集在线】VOCALOID3新手速成教程",
+				"author": "我不叫杰哥",
+				"resUrl":"http://i.youku.com/i/UNjA5MTMyOTY=/videos",
 				"itemstatus": "regular",
 				"remarks":""
 			},
 			{
 				"id":"4",
 				"majorname":"",
-				"itemname":"jQuery插件库 收集最全最新最好的jQuery插件",
-				"author": "",
-				"resUrl":"http://www.jq22.com/",
+				"itemname":"VOCALOID调音技巧",
+				"author": "卡尔的工程配布地",
+				"resUrl":"http://karl-vsqx.lofter.com/post/1de35ae2_b6383f0",
 				"itemstatus": "regular",
 				"remarks":""
 			},
 			{
 				"id":"5",
 				"majorname":"",
-				"itemname":"CodeSchool 在线网站制作教育平台",
-				"author": "",
-				"resUrl":"https://www.codeschool.com/",
+				"itemname":"从扒歌谱到后期混音",
+				"author": "夜雪Alice",
+				"resUrl":"http://tieba.baidu.com/p/3471641752",
 				"itemstatus": "regular",
 				"remarks":""
 			},
