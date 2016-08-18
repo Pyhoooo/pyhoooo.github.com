@@ -1,0 +1,26 @@
+[
+	{
+		"id":"0401A",
+		"shopname":"PS视频教学",
+		"items":[
+			{
+				"id":"1",
+				"majorname":"",
+				"itemname":"Photoshop 的窗口和视图",
+				"author": "",
+				"resUrl":"http://www.jikexueyuan.com/course/667.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"2",
+				"majorname":"",
+				"itemname":"Photoshop 软件工作界面",
+				"author": "",
+				"resUrl":"http://www.jikexueyuan.com/course/637.html",
+				"itemstatus": "regular",
+				"remarks":""
+			}
+		]
+	}
+]

@@ -1,0 +1,26 @@
+[
+	{
+		"id":"0206A",
+		"shopname":"Ruby资源",
+		"items":[
+			{
+				"id":"1",
+				"majorname":"教程",
+				"itemname":"Ruby_Ruby语言学习系列--基本的ruby语法",
+				"author": "hahhah_08",
+				"resUrl":"http://pan.baidu.com/s/1hr2BOpQ",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"4",
+				"majorname":"软件",
+				"itemname":"Ruby_Ruby 2.3.1版本",
+				"author": "",
+				"resUrl":"https://www.ruby-lang.org/zh_cn/downloads/",
+				"itemstatus": "regular",
+				"remarks":""
+			}
+		]
+	}
+]

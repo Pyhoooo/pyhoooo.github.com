@@ -51,135 +51,54 @@
 			{
 				"id":"6",
 				"majorname":"",
-				"itemname":"Channel 9 Web Development",
-				"author": "",
-				"resUrl":"https://channel9.msdn.com/Series/HTML5-CSS3-Fundamentals-Development-for-Absolute-Beginners",
+				"itemname":"piepro stidio简体中文版",
+				"author": "折夜袭",
+				"resUrl":"http://tieba.baidu.com/p/3942552863",
 				"itemstatus": "regular",
-				"remarks":"21个视频课程"
+				"remarks":""
 			},
 			{
 				"id":"7",
 				"majorname":"",
-				"itemname":"TeamTreeHouse:在线网站设计教育平台",
-				"author": "",
-				"resUrl":"https://teamtreehouse.com/techdegree",
+				"itemname":"你绝对从未见过如此丰厚的编曲资源整合贴",
+				"author": "IT_modal",
+				"resUrl": "http://tieba.baidu.com/p/3578000624",
 				"itemstatus": "regular",
-				"remarks":""
+				"remarks":"包含很多其他音频处理软件"
 			},
 			{
 				"id":"8",
 				"majorname":"",
-				"itemname":"Goto and Learn",
-				"author": "",
-				"resUrl":"http://gotoandlearn.com/",
+				"itemname":"在这里丢一个我花了30分钟写完的歌词处理工具",
+				"author": "AK2806君",
+				"resUrl":"http://tieba.baidu.com/p/2430868371",
 				"itemstatus": "regular",
-				"remarks":"提供HTML5、游戏开发等方面的学习资源"
+				"remarks":""
 			},
 			{
 				"id":"9",
 				"majorname":"",
-				"itemname":"Replit",
-				"author": "",
-				"resUrl":"https://repl.it/languages",
+				"itemname":"不定时更新分享VSQX资源（自翻+下载有注备）",
+				"author": "bun櫻ing",
+				"resUrl":"http://tieba.baidu.com/p/2213423815",
 				"itemstatus": "regular",
-				"remarks":"可以任意选择语言来学习"
+				"remarks":""
 			},
 			{
 				"id":"10",
 				"majorname":"",
-				"itemname":"Codewars",
-				"author": "",
-				"resUrl":"http://www.codewars.com/",
+				"itemname":"【安卓福利】移动演奏家+vocaloid歌曲midi 下载",
+				"author": "mayuko2012",
+				"resUrl":"http://tieba.baidu.com/p/1394728589",
 				"itemstatus": "regular",
-				"remarks":"他的奖励系统激励程序员们像打游戏升级一样地做习题"
+				"remarks":""
 			},
 			{
 				"id":"11",
 				"majorname":"",
-				"itemname":"Node School",
-				"author": "",
-				"resUrl":"http://nodeschool.io/zh-cn/",
-				"itemstatus": "regular",
-				"remarks":"开源平台，教大家学习各种Web编程技能"
-			},
-			{
-				"id":"12",
-				"majorname":"",
-				"itemname":"Programmr",
-				"author": "",
-				"resUrl":"http://www.programmr.com/",
-				"itemstatus": "regular",
-				"remarks":"在线学习网站，也是程序员门评估、提高和展示他们编程技能的实验室"
-			},
-			{
-				"id":"13",
-				"majorname":"",
-				"itemname":"Lynda.com 网络教育平台",
-				"author": "",
-				"resUrl":"https://www.lynda.com/",
-				"itemstatus": "regular",
-				"remarks":""
-			},
-			{
-				"id":"14",
-				"majorname":"",
-				"itemname":"UI中国 专业界面设计平台",
-				"author": "",
-				"resUrl":"http://www.ui.cn/",
-				"itemstatus": "regular",
-				"remarks":""
-			},
-			{
-				"id":"15",
-				"majorname":"",
-				"itemname":"自化-分享交流合作 终身学习社区-课程",
-				"author": "",
-				"resUrl":"http://zihua.com.cn/",
-				"itemstatus": "regular",
-				"remarks":""
-			},
-			{
-				"id":"16",
-				"majorname":"",
-				"itemname":"Dribbble 设计达人",
-				"author": "",
-				"resUrl":"https://dribbble.com/shots",
-				"itemstatus": "regular",
-				"remarks":""
-			},
-			{
-				"id":"17",
-				"majorname":"",
-				"itemname":"站酷 设计师互动平台官网",
-				"author": "",
-				"resUrl":"http://www.zcool.com.cn/",
-				"itemstatus": "regular",
-				"remarks":""
-			},
-			{
-				"id":"18",
-				"majorname":"",
-				"itemname":"优设 优秀网页设计联盟-网页设计师交流平台",
-				"author": "",
-				"resUrl":"http://www.uisdc.com/",
-				"itemstatus": "regular",
-				"remarks":""
-			},
-			{
-				"id":"19",
-				"majorname":"",
-				"itemname":"Github 开源代码托管平台",
-				"author": "",
-				"resUrl":"https://github.com/",
-				"itemstatus": "regular",
-				"remarks":""
-			},
-			{
-				"id":"20",
-				"majorname":"",
-				"itemname":"Coding.net 代码托管-项目管理",
-				"author": "",
-				"resUrl":"https://coding.net/",
+				"itemname":"自制音乐手游】Future Melody",
+				"author": "729kn",
+				"resUrl":"http://tieba.baidu.com/p/4695687416?fr=good",
 				"itemstatus": "regular",
 				"remarks":""
 			}

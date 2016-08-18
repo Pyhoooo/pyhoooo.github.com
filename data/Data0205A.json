@@ -1,0 +1,26 @@
+[
+	{
+		"id":"0205A",
+		"shopname":"PHP教材",
+		"items":[
+			{
+				"id":"1",
+				"majorname":"",
+				"itemname":"从零开始学PHP",
+				"author": "",
+				"resUrl":"http://pan.baidu.com/s/1hr2BOpQ",
+				"itemstatus": "regular",
+				"remarks":"提取码：n9ay"
+			},
+			{
+				"id":"2",
+				"majorname":"",
+				"itemname":"[PHP从入门到精通].(潘凯华).(扫描版)",
+				"author": "",
+				"resUrl":"http://pan.baidu.com/s/1slpI4hB",
+				"itemstatus": "regular",
+				"remarks":"提取码：vte9"
+			}
+		]
+	}
+]

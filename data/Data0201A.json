@@ -1,0 +1,26 @@
+[
+	{
+		"id":"0201A",
+		"shopname":"Java教材",
+		"items":[
+			{
+				"id":"1",
+				"majorname":"Java 基础教程",
+				"itemname":"Java 教程",
+				"author": "",
+				"resUrl":"http://www.runoob.com/java/java-tutorial.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"23",
+				"majorname":"Java 面向对象",
+				"itemname":"Java 继承",
+				"author": "",
+				"resUrl":"http://www.runoob.com/java/java-inheritance.html",
+				"itemstatus": "regular",
+				"remarks":""
+			}
+		]
+	}
+]

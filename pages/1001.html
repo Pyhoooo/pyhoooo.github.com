@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Brunch of Resource</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/pages.css">
+    <link href="../css/albstyle.css" rel="stylesheet" media="all">
+	<!--导航高亮-->
+    <script type="text/javascript">
+        function applySelectedTo(link) {
+            var ul = document.getElementById("nav")[0]; // get the first ul tag on the page
+            var allLinks = document.getElementById("nav").getElementsByTagName("a"); // get all the links within that ul
+            for (var i = 0; i < allLinks.length; i++) { // iterate through all those links
+                allLinks[i].className = ""; // and assign their class names to nothing
+            }
+            link.className = "current"; // finally, assign class="selected" to our chosen link
+            var allDivs = document.getElementById("nav");
+            for (var k = 0; k < allDivs.length; k++) {
+                allDivs[k].className = "";
+            }
+            var lyricId = link.getAttribute("href").split("#")[1];
+            lyricId = document.getElementById(lyricId);
+            lyricId.className = "on";
+        }
+    </script>
+</head>
+<body>
+    <!--跟踪导航-->
+	<div style="float:left;">
+    <div id="nav">
+        <ul>
+            <li class="current"><a href="#first">|V3DsMax 视频教学</a></li>
+            <li><a href="#second">|3DsMax 案例教程</a></li>
+        </ul>
+    </div>
+    <div id="container">
+        <div class="section">
+                <iframe  id="first" src="../iframes/1001A.html" scrolling="yes" frameborder="0"
+					width="655px" height="430px" style="position: absolute; ">
+				</iframe>
+        </div>
+        <div class="section">
+                <iframe  id="second" src="../iframes/1001B.html" scrolling="yes" frameborder="0"
+					width="655px" height="430px" style="position: absolute; margin: 490px 0 0 0px;">
+				</iframe>
+        </div>
+    </div>
+	</div>
+    <!--[if lte IE 8]><script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script><![endif]-->
+    <!--[if gt IE 8]><!-->
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <!--<![endif]-->
+    <script src="../js/jquery.nav.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#nav').onePageNav();
+        });
+    </script>
+	
+    <script type="text/javascript">
+        // 去除微信浏览器的拖拉效果
+        document.addEventListener('touchmove', function (event) {
+            event.preventDefault();
+        }, false);
+    </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+[
+	{
+		"id":"1002A",
+		"shopname":"Unity软件及视频教学",
+		"items":[
+			{
+				"id":"1",
+				"majorname":"",
+				"itemname":"Unity历史版本官方下载地址",
+				"author": "",
+				"resUrl":"http://www.ceeger.com/Unity/Resources/2011/Unity_History_download.html",
+				"itemstatus": "regular",
+				"remarks":"该网址含所有版本链接"
+			},
+			{
+				"id":"2",
+				"majorname":"",
+				"itemname":"Unity3D入门到精通视频教程",
+				"author": "",
+				"resUrl":"http://www.icoolxue.com/album/show/91",
+				"itemstatus": "regular",
+				"remarks":""
+			}
+		]
+	}
+]

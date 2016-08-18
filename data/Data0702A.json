@@ -1,0 +1,26 @@
+[
+	{
+		"id":"0702A",
+		"shopname":"吉他基本",
+		"items":[
+			{
+				"id":"1",
+				"majorname":"",
+				"itemname":"吉他基础知识及快速入门",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/link?url=hApZJM_ME1C_M3Z9YGdFHjqTb5WfKt9MgLwHQlkwKfCve9pjRmY6iePsKhiL53HuavoA4lJrkQuAHn02GaIIS6VTo6Bw4Mv5CrbVTMVqJPi",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"2",
+				"majorname":"",
+				"itemname":"吉他基础问题解答",
+				"author": "",
+				"resUrl":"https://www.douban.com/group/topic/53851444/",
+				"itemstatus": "regular",
+				"remarks":""
+			}
+		]
+	}
+]

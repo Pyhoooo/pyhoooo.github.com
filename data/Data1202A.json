@@ -51,135 +51,153 @@
 			{
 				"id":"6",
 				"majorname":"",
-				"itemname":"Channel 9 Web Development",
-				"author": "",
-				"resUrl":"https://channel9.msdn.com/Series/HTML5-CSS3-Fundamentals-Development-for-Absolute-Beginners",
+				"itemname":"Vocaloid 4 技巧调教",
+				"author": "PeterC159357",
+				"resUrl":"http://tieba.baidu.com/p/3984539594",
 				"itemstatus": "regular",
-				"remarks":"21个视频课程"
+				"remarks":""
 			},
 			{
 				"id":"7",
 				"majorname":"",
-				"itemname":"TeamTreeHouse:在线网站设计教育平台",
-				"author": "",
-				"resUrl":"https://teamtreehouse.com/techdegree",
+				"itemname":"Linux安装Vocaloid4图文全攻略",
+				"author": "596195894",
+				"resUrl":"http://tieba.baidu.com/p/3866220025",
 				"itemstatus": "regular",
 				"remarks":""
 			},
 			{
 				"id":"8",
 				"majorname":"",
-				"itemname":"Goto and Learn",
-				"author": "",
-				"resUrl":"http://gotoandlearn.com/",
+				"itemname":"【视频教学】Vocaloid4最最基础教程",
+				"author": "想想就好呵呵",
+				"resUrl":"http://www.bilibili.com/video/av2154405/",
 				"itemstatus": "regular",
-				"remarks":"提供HTML5、游戏开发等方面的学习资源"
+				"remarks":""
 			},
 			{
 				"id":"9",
 				"majorname":"",
-				"itemname":"Replit",
-				"author": "",
-				"resUrl":"https://repl.it/languages",
+				"itemname":"【视频教学】vocaloid4最最初级教程之十二大参数讲解",
+				"author": "想想就好呵呵",
+				"resUrl":"http://www.bilibili.com/video/av2282581/",
 				"itemstatus": "regular",
-				"remarks":"可以任意选择语言来学习"
+				"remarks":""
 			},
 			{
 				"id":"10",
 				"majorname":"",
-				"itemname":"Codewars",
-				"author": "",
-				"resUrl":"http://www.codewars.com/",
+				"itemname":"调教与后期那点事",
+				"author": "hiragasaitou",
+				"resUrl":"http://tieba.baidu.com/p/3413563217",
 				"itemstatus": "regular",
-				"remarks":"他的奖励系统激励程序员们像打游戏升级一样地做习题"
+				"remarks":""
 			},
 			{
 				"id":"11",
 				"majorname":"",
-				"itemname":"Node School",
-				"author": "",
-				"resUrl":"http://nodeschool.io/zh-cn/",
+				"itemname":"Vocaloid3初心者+进阶者向教程",
+				"author": "宇喜多诗也",
+				"resUrl":"http://qq.100bt.com/topic-10651601-1.html",
 				"itemstatus": "regular",
-				"remarks":"开源平台，教大家学习各种Web编程技能"
+				"remarks":""
 			},
 			{
 				"id":"12",
 				"majorname":"",
-				"itemname":"Programmr",
-				"author": "",
-				"resUrl":"http://www.programmr.com/",
+				"itemname":"3分钟教你VOCALOID混音技术-让VOCALOID的声音表现更自然",
+				"author": "樂天-p",
+				"resUrl":"http://www.bilibili.com/video/av1557558/",
 				"itemstatus": "regular",
-				"remarks":"在线学习网站，也是程序员门评估、提高和展示他们编程技能的实验室"
+				"remarks":""
 			},
 			{
 				"id":"13",
 				"majorname":"",
-				"itemname":"Lynda.com 网络教育平台",
-				"author": "",
-				"resUrl":"https://www.lynda.com/",
+				"itemname":"aLIEz-人人都能看懂的人力V教程",
+				"author": "Floating-Dream",
+				"resUrl":"http://www.bilibili.com/video/av4214061/",
 				"itemstatus": "regular",
 				"remarks":""
 			},
 			{
 				"id":"14",
 				"majorname":"",
-				"itemname":"UI中国 专业界面设计平台",
-				"author": "",
-				"resUrl":"http://www.ui.cn/",
+				"itemname":"超详细人力V教程-用大Pi的声音唱小星星全过程",
+				"author": "星鼻鼹鼠",
+				"resUrl":"http://www.bilibili.com/video/av2706267/",
 				"itemstatus": "regular",
 				"remarks":""
 			},
 			{
 				"id":"15",
 				"majorname":"",
-				"itemname":"自化-分享交流合作 终身学习社区-课程",
-				"author": "",
-				"resUrl":"http://zihua.com.cn/",
+				"itemname":"日本作曲家教你玩转vocaloid",
+				"author": "alay编曲启蒙教室",
+				"resUrl":"http://www.bilibili.com/video/av2053393/",
 				"itemstatus": "regular",
 				"remarks":""
 			},
 			{
 				"id":"16",
 				"majorname":"",
-				"itemname":"Dribbble 设计达人",
-				"author": "",
-				"resUrl":"https://dribbble.com/shots",
+				"itemname":"Vocaloid-Adobe Audition 简易15分钟混音教程",
+				"author": "东汉の无双",
+				"resUrl":"http://tieba.baidu.com/p/3256251148",
 				"itemstatus": "regular",
 				"remarks":""
 			},
 			{
 				"id":"17",
 				"majorname":"",
-				"itemname":"站酷 设计师互动平台官网",
-				"author": "",
-				"resUrl":"http://www.zcool.com.cn/",
+				"itemname":"在Windows下实现内录",
+				"author": "Hope_Phenom",
+				"resUrl":"http://tieba.baidu.com/p/3187798203",
 				"itemstatus": "regular",
 				"remarks":""
 			},
 			{
 				"id":"18",
 				"majorname":"",
-				"itemname":"优设 优秀网页设计联盟-网页设计师交流平台",
-				"author": "",
-				"resUrl":"http://www.uisdc.com/",
+				"itemname":"歌曲的伴奏是怎么来的/如何制作的",
+				"author": "mnmnppy",
+				"resUrl":"http://tieba.baidu.com/p/1366528367",
 				"itemstatus": "regular",
 				"remarks":""
 			},
 			{
 				"id":"19",
 				"majorname":"",
-				"itemname":"Github 开源代码托管平台",
-				"author": "",
-				"resUrl":"https://github.com/",
+				"itemname":"某新人のVocaloid3入门教程",
+				"author": "957763719",
+				"resUrl":"http://tieba.baidu.com/p/3092821405",
 				"itemstatus": "regular",
 				"remarks":""
 			},
 			{
 				"id":"20",
 				"majorname":"",
-				"itemname":"Coding.net 代码托管-项目管理",
-				"author": "",
-				"resUrl":"https://coding.net/",
+				"itemname":"JOB PLUGIN设计略解",
+				"author": "腐蚀品恐惧者",
+				"resUrl":"http://tieba.baidu.com/p/1891805644",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"21",
+				"majorname":"",
+				"itemname":"【量产洛天依勿入】中文调教总纲教程",
+				"author": "ShinicHoshi",
+				"resUrl":"http://tieba.baidu.com/p/1752011211",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"22",
+				"majorname":"",
+				"itemname":"【小白毕业】这里是小白们常常遇到的问题的汇总",
+				"author": "957763719",
+				"resUrl":"http://tieba.baidu.com/p/2097243076",
 				"itemstatus": "regular",
 				"remarks":""
 			}

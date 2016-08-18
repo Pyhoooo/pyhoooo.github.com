@@ -1,185 +1,59 @@
 [
 	{
-		"id":"0301",
-		"shopname":"网站制作学习站",
+		"id":"1203B",
+		"shopname":"MediBang 相关下载",
 		"items":[
 			{
 				"id":"1",
 				"majorname":"",
-				"itemname":"W3School 在线教程",
+				"itemname":"WMediBang Paint软件官方下载",
 				"author": "",
-				"resUrl":"http://www.w3school.com.cn/",
+				"resUrl":"http://medibangpaint.com/zh_CN/pc/",
 				"itemstatus": "regular",
 				"remarks":""
 			},
 			{
 				"id":"2",
 				"majorname":"",
-				"itemname":" 菜鸟教程 RUNOOB.COM",
+				"itemname":"MediBang Paint软件云盘下载",
 				"author": "",
-				"resUrl":"http://www.runoob.com/",
+				"resUrl":"http://yun.baidu.com/pcloud/album/info?uk=2113971267&album_id=9077301264072908938",
 				"itemstatus": "regular",
 				"remarks":""
 			},
 			{
 				"id":"3",
 				"majorname":"",
-				"itemname":"极客学院 互联网职业在线大学",
-				"author": "",
-				"resUrl":"http://www.jikexueyuan.com/",
+				"itemname":"各种漂亮的自制笔刷-持续更新中",
+				"author": "abunda",
+				"resUrl":"http://tieba.baidu.com/p/3921112376",
 				"itemstatus": "regular",
 				"remarks":""
 			},
 			{
 				"id":"4",
 				"majorname":"",
-				"itemname":"jQuery插件库 收集最全最新最好的jQuery插件",
+				"itemname":"日本网友提供自制笔刷素材",
 				"author": "",
-				"resUrl":"http://www.jq22.com/",
+				"resUrl":"http://tieba.baidu.com/p/3995653920",
 				"itemstatus": "regular",
 				"remarks":""
 			},
 			{
 				"id":"5",
 				"majorname":"",
-				"itemname":"CodeSchool 在线网站制作教育平台",
-				"author": "",
-				"resUrl":"https://www.codeschool.com/",
+				"itemname":"绘画相关的资料（植物、人体、灯光颜色）",
+				"author": "abunda",
+				"resUrl":"http://yun.baidu.com/pcloud/album/info?uk=2113971267&album_id=4079997589526901943",
 				"itemstatus": "regular",
 				"remarks":""
 			},
 			{
 				"id":"6",
 				"majorname":"",
-				"itemname":"Channel 9 Web Development",
-				"author": "",
-				"resUrl":"https://channel9.msdn.com/Series/HTML5-CSS3-Fundamentals-Development-for-Absolute-Beginners",
-				"itemstatus": "regular",
-				"remarks":"21个视频课程"
-			},
-			{
-				"id":"7",
-				"majorname":"",
-				"itemname":"TeamTreeHouse:在线网站设计教育平台",
-				"author": "",
-				"resUrl":"https://teamtreehouse.com/techdegree",
-				"itemstatus": "regular",
-				"remarks":""
-			},
-			{
-				"id":"8",
-				"majorname":"",
-				"itemname":"Goto and Learn",
-				"author": "",
-				"resUrl":"http://gotoandlearn.com/",
-				"itemstatus": "regular",
-				"remarks":"提供HTML5、游戏开发等方面的学习资源"
-			},
-			{
-				"id":"9",
-				"majorname":"",
-				"itemname":"Replit",
-				"author": "",
-				"resUrl":"https://repl.it/languages",
-				"itemstatus": "regular",
-				"remarks":"可以任意选择语言来学习"
-			},
-			{
-				"id":"10",
-				"majorname":"",
-				"itemname":"Codewars",
-				"author": "",
-				"resUrl":"http://www.codewars.com/",
-				"itemstatus": "regular",
-				"remarks":"他的奖励系统激励程序员们像打游戏升级一样地做习题"
-			},
-			{
-				"id":"11",
-				"majorname":"",
-				"itemname":"Node School",
-				"author": "",
-				"resUrl":"http://nodeschool.io/zh-cn/",
-				"itemstatus": "regular",
-				"remarks":"开源平台，教大家学习各种Web编程技能"
-			},
-			{
-				"id":"12",
-				"majorname":"",
-				"itemname":"Programmr",
-				"author": "",
-				"resUrl":"http://www.programmr.com/",
-				"itemstatus": "regular",
-				"remarks":"在线学习网站，也是程序员门评估、提高和展示他们编程技能的实验室"
-			},
-			{
-				"id":"13",
-				"majorname":"",
-				"itemname":"Lynda.com 网络教育平台",
-				"author": "",
-				"resUrl":"https://www.lynda.com/",
-				"itemstatus": "regular",
-				"remarks":""
-			},
-			{
-				"id":"14",
-				"majorname":"",
-				"itemname":"UI中国 专业界面设计平台",
-				"author": "",
-				"resUrl":"http://www.ui.cn/",
-				"itemstatus": "regular",
-				"remarks":""
-			},
-			{
-				"id":"15",
-				"majorname":"",
-				"itemname":"自化-分享交流合作 终身学习社区-课程",
-				"author": "",
-				"resUrl":"http://zihua.com.cn/",
-				"itemstatus": "regular",
-				"remarks":""
-			},
-			{
-				"id":"16",
-				"majorname":"",
-				"itemname":"Dribbble 设计达人",
-				"author": "",
-				"resUrl":"https://dribbble.com/shots",
-				"itemstatus": "regular",
-				"remarks":""
-			},
-			{
-				"id":"17",
-				"majorname":"",
-				"itemname":"站酷 设计师互动平台官网",
-				"author": "",
-				"resUrl":"http://www.zcool.com.cn/",
-				"itemstatus": "regular",
-				"remarks":""
-			},
-			{
-				"id":"18",
-				"majorname":"",
-				"itemname":"优设 优秀网页设计联盟-网页设计师交流平台",
-				"author": "",
-				"resUrl":"http://www.uisdc.com/",
-				"itemstatus": "regular",
-				"remarks":""
-			},
-			{
-				"id":"19",
-				"majorname":"",
-				"itemname":"Github 开源代码托管平台",
-				"author": "",
-				"resUrl":"https://github.com/",
-				"itemstatus": "regular",
-				"remarks":""
-			},
-			{
-				"id":"20",
-				"majorname":"",
-				"itemname":"Coding.net 代码托管-项目管理",
-				"author": "",
-				"resUrl":"https://coding.net/",
+				"itemname":"自制的四款笔刷",
+				"author": "mdeathearth",
+				"resUrl":"http://pan.baidu.com/share/link?shareid=743580896&uk=1296490125",
 				"itemstatus": "regular",
 				"remarks":""
 			}

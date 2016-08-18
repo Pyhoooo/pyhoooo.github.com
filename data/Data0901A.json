@@ -1,0 +1,26 @@
+[
+	{
+		"id":"0901A",
+		"shopname":"减脂健身文章介绍",
+		"items":[
+			{
+				"id":"1",
+				"majorname":"",
+				"itemname":"实用课程",
+				"author": "",
+				"resUrl":"http://mt.sohu.com/20160129/n436338685.shtml",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"2",
+				"majorname":"",
+				"itemname":"8种减脂运动之一",
+				"author": "",
+				"resUrl":"http://bbs.hupu.com/12554806.html",
+				"itemstatus": "regular",
+				"remarks":""
+			}
+		]
+	}
+]
