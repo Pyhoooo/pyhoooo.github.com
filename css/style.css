@@ -45,6 +45,7 @@ body{
 	overflow: hidden;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	position: fixed;
 }
 .layout-3{
 	width: 33.33%;
