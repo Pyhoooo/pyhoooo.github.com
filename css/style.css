@@ -80,14 +80,14 @@ body{
 	padding-right: 5px;
 }
 .shopname{
+	width: 625px;
+	height: 30px;
 	overflow: hidden;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	z-index:1;
 	position:fixed;
 	font-size: 20px;
 	color: #566C73;
-	background-color: white;
-	display: block;
+
 }
 .shopname input{
 	height: 30px;
