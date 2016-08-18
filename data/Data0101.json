@@ -1,0 +1,26 @@
+[
+	{
+		"id":"0101",
+		"shopname":"课程内容",
+		"items":[
+			{
+				"id":"1",
+				"majorname":"数媒",
+				"itemname":"计算机动画原理与技术",
+				"author": "杨猛",
+				"resUrl":"ftp://211.71.149.41/Yang_Meng/teaching plan/计算机动画原理与技术/今年课件/1. 课件",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"43",
+				"majorname":"信息",
+				"itemname":" 计算机网络（信息专业）",
+				"author": "齐建东",
+				"resUrl":"ftp://202.204.121.57/齐建东老师讲义下载/计算机网络（双语——信息专业）",
+				"itemstatus": "regular",
+				"remarks":"用户名net无密码"
+			}
+		]
+	}
+]

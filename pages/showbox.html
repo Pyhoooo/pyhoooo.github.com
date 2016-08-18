@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Albums by Pyhoooo</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/pages.css">
+    <link href="../css/albstyle.css" rel="stylesheet" media="all">
+</head>
+<body>
+    <!--跟踪导航-->
+    <div id="nav">
+        <ul>
+            <li class="current"><a href="#first">|VOCALOID 教学视频</a></li>
+            <li><a href="#second">|VOCALOID 软件下载</a></li>
+            <li><a href="#third">|VOCALOID 曲目下载</a></li>
+        </ul>
+    </div>
+    <div id="container">
+        <div class="section" id="first">
+                <iframe src="../iframes/1202A.html" scrolling="yes" frameborder="0"
+					width="655px" height="50%" style="position: absolute; margin: 0px 0 0 -400px;">
+				</iframe>
+        </div>
+        <div class="section" id="second">
+                <iframe src="../iframes/1202B.html" scrolling="yes" frameborder="0"
+					width="655px" height="50%" style="position: absolute; margin: 340px 0 0 -400px;">
+				</iframe>
+        </div>
+        <div class="section" id="third">
+                <iframe src="../iframes/1202C.html" scrolling="yes" frameborder="0"
+					width="655px" height="50%" style="position: absolute; margin: 680px 0 0 -400px;">
+				</iframe>
+        </div>
+    </div>
+    <!--[if lte IE 8]><script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script><![endif]-->
+    <!--[if gt IE 8]><!-->
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <!--<![endif]-->
+    <script src="../javascripts/jquery.nav.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#nav').onePageNav();
+        });
+    </script>
+    <script type="text/javascript">
+        // 去除微信浏览器的拖拉效果
+        document.addEventListener('touchmove', function (event) {
+            event.preventDefault();
+        }, false);
+    </script>
+</body>
+</html>

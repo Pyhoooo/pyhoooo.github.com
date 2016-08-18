@@ -1,0 +1,26 @@
+[
+	{
+		"id":"0102",
+		"shopname":"参考资料",
+		"items":[
+			{
+				"id":"1",
+				"majorname":"软件",
+				"itemname":"[Acronis系统备份还原工具].Acronis.True.Image.Home.2011.v14.0.5105.WORKING-DOA",
+				"author": "",
+				"resUrl":"ftp://211.71.149.41/_software/Tools/Acronis 2011",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"94",
+				"majorname":"电子书",
+				"itemname":"Visual C++ 2005 入门经典",
+				"author": "",
+				"resUrl":"ftp://211.71.149.41/Yang_Meng/teaching plan/资料",
+				"itemstatus": "regular",
+				"remarks":""
+			}
+		]
+	}
+]
