@@ -39,3 +39,13 @@
   color:#563f2e;
   background-color:White;
 }
+
+.frameshow{
+	position: absolute; margin: 165px 0 0 -400px;
+}
+
+@media screen and (max-device-width: 600px) {
+¡¡¡¡¡¡.frameshow{
+	margin: 165px 0 0 0px;
+}
+}
