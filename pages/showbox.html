@@ -6,6 +6,24 @@
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/pages.css">
     <link href="../css/albstyle.css" rel="stylesheet" media="all">
+	<!--导航高亮-->
+    <script type="text/javascript">
+        function applySelectedTo(link) {
+            var ul = document.getElementById("nav")[0]; // get the first ul tag on the page
+            var allLinks = document.getElementById("nav").getElementsByTagName("a"); // get all the links within that ul
+            for (var i = 0; i < allLinks.length; i++) { // iterate through all those links
+                allLinks[i].className = ""; // and assign their class names to nothing
+            }
+            link.className = "current"; // finally, assign class="selected" to our chosen link
+            var allDivs = document.getElementById("nav");
+            for (var k = 0; k < allDivs.length; k++) {
+                allDivs[k].className = "";
+            }
+            var lyricId = link.getAttribute("href").split("#")[1];
+            lyricId = document.getElementById(lyricId);
+            lyricId.className = "on";
+        }
+    </script>
 </head>
 <body>
     <!--跟踪导航-->
@@ -20,17 +38,17 @@
     <div id="container">
         <div class="section">
                 <iframe  id="first" src="../iframes/1202A.html" scrolling="yes" frameborder="0"
-					width="655px" height="440px" style="position: absolute; ">
+					width="655px" height="430px" style="position: absolute; ">
 				</iframe>
         </div>
         <div class="section">
                 <iframe  id="second" src="../iframes/1202B.html" scrolling="yes" frameborder="0"
-					width="655px" height="440px" style="position: absolute; margin: 480px 0 0 0px;">
+					width="655px" height="430px" style="position: absolute; margin: 490px 0 0 0px;">
 				</iframe>
         </div>
         <div class="section" >
                 <iframe id="third" src="../iframes/1202C.html" scrolling="yes" frameborder="0"
-					width="655px" height="440px" style="position: absolute; margin: 960px 0 0 -0px;">
+					width="655px" height="430px" style="position: absolute; margin: 980px 0 0 -0px;">
 				</iframe>
         </div>
     </div>
@@ -45,6 +63,7 @@
             $('#nav').onePageNav();
         });
     </script>
+	
     <script type="text/javascript">
         // 去除微信浏览器的拖拉效果
         document.addEventListener('touchmove', function (event) {
