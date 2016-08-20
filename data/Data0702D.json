@@ -1,0 +1,116 @@
+[
+	{
+		"id":"0702D",
+		"shopname":"吉他曲谱",
+		"items":[
+			{
+				"id":"1",
+				"majorname":"",
+				"itemname":"热门吉他谱",
+				"author": "",
+				"resUrl":"http://www.jitaba.cn/top/",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"2",
+				"majorname":"",
+				"itemname":"吉他六线谱+图片谱",
+				"author": "",
+				"resUrl":"http://www.jitaba.cn/jitapu/",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"3",
+				"majorname":"",
+				"itemname":"六线吉他谱",
+				"author": "",
+				"resUrl":"http://www.ccguitar.cn/pu_list.htm",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"4",
+				"majorname":"",
+				"itemname":"吉他谱合集（百度云）",
+				"author": "",
+				"resUrl":"http://pan.baidu.com/s/1qW3DF5M#path=%252F",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"5",
+				"majorname":"",
+				"itemname":"吉他谱",
+				"author": "",
+				"resUrl":"http://www.xiayiqu.com/pu/",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"6",
+				"majorname":"",
+				"itemname":"吉他谱（曲风混杂）",
+				"author": "",
+				"resUrl":"http://www.chapuw.com/jita/",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"7",
+				"majorname":"",
+				"itemname":"吉他谱合集",
+				"author": "",
+				"resUrl":"http://www.tan8.com/guitar.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"8",
+				"majorname":"",
+				"itemname":"电子版吉他谱80000首（百度云）",
+				"author": "",
+				"resUrl":"http://pan.baidu.com/s/15UECX",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"9",
+				"majorname":"",
+				"itemname":"《民谣吉他经典歌曲弹唱谱集》",
+				"author": "",
+				"resUrl":"http://www.17jita.com/ba/3606.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"10",
+				"majorname":"",
+				"itemname":"吉他谱合集",
+				"author": "",
+				"resUrl":"http://www.mumujita.com/",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"11",
+				"majorname":"",
+				"itemname":"吉他谱合集",
+				"author": "",
+				"resUrl":"http://www.yueqixuexi.com/jita/special/jitapu.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"12",
+				"majorname":"",
+				"itemname":"吉他谱（吉他吧）",
+				"author": "",
+				"resUrl":"http://www.jitaba.cn/pic/",
+				"itemstatus": "regular",
+				"remarks":""
+			}
+		]
+	}
+]

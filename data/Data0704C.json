@@ -1,0 +1,98 @@
+[
+	{
+		"id":"0704C",
+		"shopname":"琵琶曲谱",
+		"items":[
+			{
+				"id":"1",
+				"majorname":"",
+				"itemname":"（中国曲谱网）琵琶曲谱",
+				"author": "",
+				"resUrl":"http://www.qupu123.com/qiyue/pipa/",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"2",
+				"majorname":"",
+				"itemname":"琵琶语-琵琶谱",
+				"author": "",
+				"resUrl":"http://www.chapuw.com/qitaqupu/0524/60748.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"3",
+				"majorname":"",
+				"itemname":"（中国古曲网）琵琶曲谱",
+				"author": "",
+				"resUrl":"http://pu.guqu.net/pipa/",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"4",
+				"majorname":"",
+				"itemname":"（歌谱网）琵琶曲谱",
+				"author": "",
+				"resUrl":"http://www.gepuwang.net/pipajianpu/",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"5",
+				"majorname":"",
+				"itemname":"经典琵琶谱子精选集",
+				"author": "",
+				"resUrl":"http://www.yueqixuexi.com/pipa/qupu.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"6",
+				"majorname":"",
+				"itemname":"（歌谱收藏站）琵琶曲谱",
+				"author": "",
+				"resUrl":"http://pu.onegreen.net/GePu/List/List_14.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"7",
+				"majorname":"",
+				"itemname":"（爱学艺）琵琶曲谱",
+				"author": "",
+				"resUrl":"http://www.ixueyi.com/qupu/s34.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"8",
+				"majorname":"",
+				"itemname":"（51曲谱）琵琶曲谱",
+				"author": "",
+				"resUrl":"http://www.51qupu.com/qiyue/pipa/",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"9",
+				"majorname":"",
+				"itemname":"（樂沙）琵琶曲谱（需登录）",
+				"author": "",
+				"resUrl":"http://www.yuesha.com/forum-106-1.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"10",
+				"majorname":"",
+				"itemname":"《十面埋伏》琵琶曲谱",
+				"author": "",
+				"resUrl":"http://www.qupu123.com/qiyue/pipa/shimianmaifu.html",
+				"itemstatus": "regular",
+				"remarks":""
+			}
+		]
+	}
+]

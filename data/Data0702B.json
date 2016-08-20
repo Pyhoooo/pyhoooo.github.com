@@ -1,0 +1,134 @@
+[
+	{
+		"id":"0702B",
+		"shopname":"吉他入门",
+		"items":[
+			{
+				"id":"1",
+				"majorname":"",
+				"itemname":"各类吉他入门教学视频",
+				"author": "",
+				"resUrl":"http://video.1kejian.com/search.php",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"2",
+				"majorname":"",
+				"itemname":"吉他入门教学视频之从零学吉他",
+				"author": "",
+				"resUrl":"http://www.ixueyi.com/yinyue/list94.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"3",
+				"majorname":"",
+				"itemname":"吉他从入门到精通教学视频",
+				"author": "",
+				"resUrl":"http://www.tan8.com/video-0-1-0.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"4",
+				"majorname":"",
+				"itemname":"吉他弹唱视频教学",
+				"author": "",
+				"resUrl":"http://www.jitaba.cn/html/video/",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"5",
+				"majorname":"",
+				"itemname":"吉他视频教程",
+				"author": "",
+				"resUrl":"http://www.yueqixuexi.com/jita/shipin/",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"6",
+				"majorname":"",
+				"itemname":"吉他入门课程（视频）",
+				"author": "",
+				"resUrl":"http://www.xiayiqu.com/xue/",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"7",
+				"majorname":"",
+				"itemname":"吉他教学（百度文库）",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/course/list/902?tagID=228",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"8",
+				"majorname":"",
+				"itemname":"十分钟学会吉他（吉他初学者必看）（文档）",
+				"author": "",
+				"resUrl":"http://www.docin.com/p-107814304.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"9",
+				"majorname":"",
+				"itemname":"《吉他入门标准教程》（网易云课堂）",
+				"author": "",
+				"resUrl":"http://study.163.com/course/introduction/821008.htm#/courseDetail",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"10",
+				"majorname":"",
+				"itemname":"从新手到高手最齐全的吉他练习教程链接（推荐！！）",
+				"author": "",
+				"resUrl":"https://www.douban.com/group/topic/44010403/",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"11",
+				"majorname":"",
+				"itemname":"吉他入门视频教程（自学网）",
+				"author": "",
+				"resUrl":"http://www.52zxw.com/kecheng_84.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"12",
+				"majorname":"",
+				"itemname":"吉他入门零基础完整教程01",
+				"author": "",
+				"resUrl":"http://www.iqiyi.com/w_19rrq5o18p.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"13",
+				"majorname":"",
+				"itemname":"吉他在线教程（需注册）",
+				"author": "",
+				"resUrl":"http://www.jtzxxt.com/index.php?act=show_reg",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"14",
+				"majorname":"",
+				"itemname":"脸谱吉他教学视频",
+				"author": "",
+				"resUrl":"http://www.17jita.com/course/lianpu/",
+				"itemstatus": "regular",
+				"remarks":""
+			}
+		]
+	}
+]

@@ -1,0 +1,89 @@
+[
+	{
+		"id":"0703A",
+		"shopname":"尤克里里基本",
+		"items":[
+			{
+				"id":"1",
+				"majorname":"",
+				"itemname":"尤克里里的种类和结构",
+				"author": "",
+				"resUrl":"http://www.yueqixuexi.com/ukulele/rumen/20140924123007.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"2",
+				"majorname":"",
+				"itemname":"尤克里里乐理学习",
+				"author": "",
+				"resUrl":"http://www.ukulelefan.com/teaching/musictheory",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"3",
+				"majorname":"",
+				"itemname":"尤克里里详情介绍",
+				"author": "",
+				"resUrl":"http://www.iqiyi.com/w_19rs7qpyup.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"4",
+				"majorname":"",
+				"itemname":"尤克里里简介与各部名称介绍",
+				"author": "",
+				"resUrl":"http://blog.sina.com.cn/s/blog_bfc243340102vp63.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"5",
+				"majorname":"",
+				"itemname":"尤克里里介绍",
+				"author": "",
+				"resUrl":"http://sanwen8.cn/p/183WvFj.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"6",
+				"majorname":"",
+				"itemname":"教你尤克里里乐谱怎么看",
+				"author": "",
+				"resUrl":"http://tieba.baidu.com/p/3367161811",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"7",
+				"majorname":"",
+				"itemname":"尤克里里如何看谱？方法很简单！",
+				"author": "",
+				"resUrl":"http://jingyan.baidu.com/article/27fa7326e3ef9546f8271f2a.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"8",
+				"majorname":"",
+				"itemname":"怎么看尤克里里谱",
+				"author": "",
+				"resUrl":"http://www.ukulelefan.com/how-to-see-ukulele-spectrum.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"9",
+				"majorname":"",
+				"itemname":"桃子&鱼仔乐理基础教学",
+				"author": "",
+				"resUrl":"http://www.ukulelefan.com/videos/uyueli",
+				"itemstatus": "regular",
+				"remarks":""
+			}
+		]
+	}
+]
