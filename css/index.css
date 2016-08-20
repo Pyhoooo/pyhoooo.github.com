@@ -1,0 +1,118 @@
+@font-face {
+  font-family: 'consola';
+  src: url("../fonts/consola¡£ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+body{
+  background-image:url(../images/bg.png);
+}
+#top
+{
+  width:261px;
+  height:3px;
+  margin:-7px 0 0 260px;
+  background-color:#0b1013;
+  animation:widthchange 2s;
+  -webkit-animation:widthchange 2s;
+}
+
+.entrance{
+	margin: 55px 0 0 30px;
+	padding: 5px 10px 5px 10px;
+	background-color: #7DB9DE;
+	color: white;
+	box-shadow: 2px 2px 3px #3A8FB7;
+	position: absolute;
+}
+a:link,a:visited{
+	
+}
+a:hover,a:active{
+	box-shadow: 1px 1px 1px #3A8FB7;
+}
+
+.left{
+	margin: -250px 0 0 360px;
+	
+	position: absolute;
+}
+.left ul li{
+	padding-bottom: 5px;
+}
+.middleA{
+	margin: -250px 0 0 560px;
+	
+	position: absolute;
+}
+.middleA ul li{
+	padding-bottom: 5px;
+}
+.middleB{
+	margin: -250px 0 0 760px;
+	
+	position: absolute;
+}
+.middleB ul li{
+	padding-bottom: 5px;
+}
+.right{
+	margin: -250px 0 0 960px;
+	
+	position: absolute;
+}
+.right ul li{
+	padding-bottom: 5px;
+}
+
+.contact{
+	margin: 220px 0 0 30px;
+	padding: 5px 10px 5px 10px;
+	background-color: #7DB9DE;
+	color: white;
+	box-shadow: 2px 2px 3px #3A8FB7;
+	position: absolute;
+}
+.contactB{
+	margin: -85px 0 0 380px;
+	padding: 5px 10px 5px 10px;
+	
+	color: #554236;
+	position: absolute;
+}
+
+
+
+@keyframes widthchange
+{
+from {width:0px;opacity:0.0;}
+to {width: 261px;opacity:1.0;}
+}
+
+@-webkit-keyframes widthchange /* Safari ºÍ Chrome */
+{
+from {width:0px;opacity:0.0;}
+to {width: 261px;opacity:1.0;}
+}
+@keyframes heightchange
+{
+from {height:0px;opacity:0.0;}
+to {height: 306px;opacity:1.0;}
+}
+
+@-webkit-keyframes heightchange /* Safari ºÍ Chrome */
+{
+from {height:0px;opacity:0.0;}
+to {height: 306px;opacity:1.0;}
+}
+@keyframes opacitychange
+{
+from {opacity:0.0;}
+to {opacity:1.0;}
+}
+
+@-webkit-keyframes opacitychange /* Safari ºÍ Chrome */
+{
+from {opacity:0.0;}
+to {opacity:1.0;}
+}

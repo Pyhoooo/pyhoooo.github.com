@@ -862,8 +862,8 @@ footer {
   left: 50%;
   margin-left: -530px;
   bottom: 20px;
-  text-align: right;
-  line-height: 16px;
+  text-align: center;
+  line-height: 8px;
 }
 
 @media print, screen and (max-width: 1060px) {
