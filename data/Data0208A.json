@@ -1,0 +1,188 @@
+[
+	{
+		"id":"0208A",
+		"shopname":"Swift资源",
+		"items":[
+			{
+				"id":"1",
+				"majorname":"教程",
+				"itemname":"Swift_Swift语言入门教程",
+				"author": "gashero的Geek前哨",
+				"resUrl":"http://www.chinaz.com/program/2014/0603/353894.shtml",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"2",
+				"majorname":"软件",
+				"itemname":"Swift_swift编程语言官方最新版 2014.6.5",
+				"author": "",
+				"resUrl":"http://www.apple.com/cn/itunes/download/",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"3",
+				"majorname":"教程",
+				"itemname":"Swift_Swift 开发 iOS 应用教程1",
+				"author": "AndyLam",
+				"resUrl":"http://www.oschina.net/translate/developing-ios-apps-using-swift-tutorial",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"4",
+				"majorname":"教程",
+				"itemname":"Swift_Swift 开发 iOS 应用教程2",
+				"author": "AndyLam",
+				"resUrl":"http://www.oschina.net/translate/developing-ios-apps-using-swift-tutorial?lang=chs&page=2#",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"5",
+				"majorname":"教程",
+				"itemname":"Swift_Swift 开发 iOS 应用教程3",
+				"author": "AndyLam",
+				"resUrl":"http://www.oschina.net/translate/developing-ios-apps-using-swift-tutorial?lang=chs&page=3#",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"6",
+				"majorname":"教程",
+				"itemname":"Swift_Swift 开发 iOS 应用教程4",
+				"author": "AndyLam",
+				"resUrl":"http://www.oschina.net/translate/developing-ios-apps-using-swift-tutorial?lang=chs&page=4#",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"7",
+				"majorname":"教程",
+				"itemname":"Swift_苹果Swift编程语言快速上手入门教程",
+				"author": "",
+				"resUrl":"http://mobile.51cto.com/iphone-441496.htm",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"8",
+				"majorname":"案例",
+				"itemname":"Swift_Swift学习之UI开发初探",
+				"author": "",
+				"resUrl":"http://mobile.51cto.com/iphone-441722.htm",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"9",
+				"majorname":"案例",
+				"itemname":"Swift_如何使用swift语言开发一个款app",
+				"author": "brzhang",
+				"resUrl":"http://www.jianshu.com/p/a2f6c1f0c3d6",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"10",
+				"majorname":"案例",
+				"itemname":"Swift_swift一起做一些练手小把戏",
+				"author": "brzhang",
+				"resUrl":"http://www.jianshu.com/p/9a1d55b03f2d",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"11",
+				"majorname":"案例",
+				"itemname":"Swift_swift中怎么像android一样使用",
+				"author": "brzhang",
+				"resUrl":"http://www.jianshu.com/p/7a24115df763",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"12",
+				"majorname":"案例",
+				"itemname":"Swift_swift函数式编程-抽象计算过程",
+				"author": "brzhang",
+				"resUrl":"http://www.jianshu.com/p/49b1d75600bc",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"13",
+				"majorname":"案例",
+				"itemname":"Swift_swift函数式编程-解决回调地狱",
+				"author": "brzhang",
+				"resUrl":"http://www.jianshu.com/p/7587daf0175f",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"14",
+				"majorname":"案例",
+				"itemname":"Swift_swift绘图简介",
+				"author": "brzhang",
+				"resUrl":"http://www.jianshu.com/p/5fea0201181e",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"15",
+				"majorname":"案例",
+				"itemname":"Swift_swift代码实现群聊缩略图的自定义控件",
+				"author": "brzhang",
+				"resUrl":"http://www.jianshu.com/p/ded9ceb9a6ce",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"16",
+				"majorname":"案例",
+				"itemname":"Swift_基于 Swift 的地图应用开发",
+				"author": "",
+				"resUrl":"http://lbs.amap.com/api/ios-sdk/guide/swift/",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"17",
+				"majorname":"案例",
+				"itemname":"Swift_在Swift怎样创建CocoaPod",
+				"author": "开发技术前线",
+				"resUrl":"http://www.devtf.cn/?p=963",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"18",
+				"majorname":"案例",
+				"itemname":"Swift_Swift 开发的15个技巧",
+				"author": "极客头条",
+				"resUrl":"http://www.tuicool.com/articles/FRZJzmQ",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"19",
+				"majorname":"案例",
+				"itemname":"Swift_17条 Swift开发规范 最佳实践",
+				"author": "",
+				"resUrl":"http://mobile.51cto.com/news-493482.htm",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"20",
+				"majorname":"案例",
+				"itemname":"Swift_Swift 2.0 下面向协议的MVVM架构实践",
+				"author": "",
+				"resUrl":"http://mobile.51cto.com/iphone-491401.htm",
+				"itemstatus": "regular",
+				"remarks":""
+			}
+		]
+	}
+]

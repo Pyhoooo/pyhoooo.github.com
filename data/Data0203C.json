@@ -1,0 +1,125 @@
+[
+	{
+		"id":"0203C",
+		"shopname":"C_C++_Java软件下载",
+		"items":[
+			{
+				"id":"1",
+				"majorname":"c语言",
+				"itemname":"vc++6.0(Visual C++)简体中文企业版",
+				"author": "",
+				"resUrl":"http://www.pc6.com/softview/SoftView_51072.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"2",
+				"majorname":"c语言",
+				"itemname":"TurboC/C++v3.0中文版",
+				"author": "",
+				"resUrl":"http://www.pc6.com/softview/SoftView_57258.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"3",
+				"majorname":"c语言",
+				"itemname":"C语言编译器(win tc)v1.9.1中文版",
+				"author": "",
+				"resUrl":"http://www.pc6.com/softview/SoftView_83510.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"4",
+				"majorname":"c语言",
+				"itemname":"Dev-C++v5.10.0中文版(32位&64位)",
+				"author": "",
+				"resUrl":"http://www.pc6.com/softview/SoftView_9317.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"5",
+				"majorname":"c语言",
+				"itemname":"CMake编译工具v3.0.2绿色版",
+				"author": "",
+				"resUrl":"http://www.pc6.com/softview/SoftView_126263.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"6",
+				"majorname":"c语言",
+				"itemname":"C-Free(编译器)v5.0中文汉化版",
+				"author": "",
+				"resUrl":"http://www.pc6.com/softview/SoftView_45947.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"7",
+				"majorname":"c语言",
+				"itemname":"C/C++集成开发环境(CodeBlocks)v10.05汉化版",
+				"author": "",
+				"resUrl":"http://www.pc6.com/softview/SoftView_56759.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"8",
+				"majorname":"c++",
+				"itemname":"vc++6.0(Visual C++)简体中文企业版",
+				"author": "",
+				"resUrl":"http://www.pc6.com/softview/SoftView_51072.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"9",
+				"majorname":"c++",
+				"itemname":"TurboC/C++v3.0中文版",
+				"author": "",
+				"resUrl":"http://www.pc6.com/softview/SoftView_57258html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"10",
+				"majorname":"c++",
+				"itemname":"Dev-C++v5.10.0中文版(32位&64位)",
+				"author": "",
+				"resUrl":"http://www.pc6.com/softview/SoftView_9317.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"11",
+				"majorname":"c++",
+				"itemname":"C/C++集成开发环境(CodeBlocks)v10.05汉化版",
+				"author": "",
+				"resUrl":"http://www.pc6.com/softview/SoftView_56759.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"12",
+				"majorname":"Java",
+				"itemname":"Version 8 Update 101",
+				"author": "",
+				"resUrl":"http://www.java.com/zh_CN/download/win8.jsp",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"13",
+				"majorname":"Java",
+				"itemname":"Version 7 Update 55",
+				"author": "",
+				"resUrl":"http://down.52pk.com/xiazai/10976.shtml",
+				"itemstatus": "regular",
+				"remarks":""
+			}
+		]
+	}
+]

@@ -1,0 +1,176 @@
+[
+	{
+		"id":"0205C",
+		"shopname":"PHP软件下载",
+		"items":[
+			{
+				"id":"1",
+				"majorname":"PHP 7.0.9",
+				"itemname":"php-7.0.9.tar.bz2 ",
+				"author": "",
+				"resUrl":"http://php.net/get/php-7.0.9.tar.bz2/from/a/mirror",
+				"remarks":""
+			},
+			{
+				"id":"2",
+				"majorname":"PHP 7.0.9",
+				"itemname":"php-7.0.9.tar.gz ",
+				"author": "",
+				"resUrl":"http://php.net/get/php-7.0.9.tar.gz/from/a/mirror",
+				"remarks":""
+			},
+			{
+				"id":"3",
+				"majorname":"PHP 7.0.9",
+				"itemname":"php-7.0.9.tar.xz",
+				"author": "",
+				"resUrl":"http://php.net/get/php-7.0.9.tar.xz/from/a/mirror",
+				"remarks":""
+			},
+			{
+				"id":"4",
+				"majorname":"PHP 7.0.9",
+				"itemname":"Windows downloads VC14 x86 Non Thread Safe ",
+				"author": "",
+				"resUrl":"http://windows.php.net/downloads/releases/php-7.0.9-nts-Win32-VC14-x86.zip",
+				"remarks":""
+			},
+			{
+				"id":"5",
+				"majorname":"PHP 7.0.9",
+				"itemname":"Windows downloads VC14 x86 Non Thread Safe ",
+				"author": "",
+				"resUrl":"http://windows.php.net/downloads/releases/php-7.0.9-Win32-VC14-x86.zip",
+				"remarks":""
+			},
+			{
+				"id":"6",
+				"majorname":"PHP 7.0.9",
+				"itemname":"Windows downloads VC14 x64 Non Thread Safe",
+				"author": "",
+				"resUrl":"http://windows.php.net/downloads/releases/php-7.0.9-nts-Win32-VC14-x64.zip",
+				"remarks":""
+			},
+			{
+				"id":"7",
+				"majorname":"PHP 7.0.9",
+				"itemname":"Windows downloads VC14 x64 Thread Safe",
+				"author": "",
+				"resUrl":"http://windows.php.net/downloads/releases/php-7.0.9-Win32-VC14-x64.zip",
+				"remarks":""
+			},
+			{
+				"id":"8",
+				"majorname":"PHP 5.6.24",
+				"itemname":"php-5.6.24.tar.bz2",
+				"author": "",
+				"resUrl":"http://php.net/get/php-5.6.24.tar.bz2/from/a/mirror",
+				"remarks":""
+			},
+			{
+				"id":"9",
+				"majorname":"PHP 5.6.24",
+				"itemname":"php-5.6.24.tar.gz",
+				"author": "",
+				"resUrl":"http://php.net/get/php-5.6.24.tar.gz/from/a/mirror",
+				"remarks":""
+			},
+			{
+				"id":"10",
+				"majorname":"PHP 5.6.24",
+				"itemname":"php-5.6.24.tar.xz",
+				"author": "",
+				"resUrl":"http://php.net/get/php-5.6.24.tar.xz/from/a/mirror",
+				"remarks":""
+			},
+			{
+				"id":"11",
+				"majorname":"PHP 5.6.24",
+				"itemname":"Windows downloads VC11 x86 Non Thread Safe",
+				"author": "",
+				"resUrl":"http://windows.php.net/downloads/releases/php-5.6.24-nts-Win32-VC11-x86.zip",
+				"remarks":""
+			},
+			{
+				"id":"12",
+				"majorname":"PHP 5.6.24",
+				"itemname":"Windows downloads VC11 x86 Thread Safe",
+				"author": "",
+				"resUrl":"http://windows.php.net/downloads/releases/php-5.6.24-Win32-VC11-x86.zip",
+				"remarks":""
+			},
+			{
+				"id":"13",
+				"majorname":"PHP 5.6.24",
+				"itemname":"Windows downloads VC11 x64 Non Thread Safe",
+				"author": "",
+				"resUrl":"http://windows.php.net/downloads/releases/php-5.6.24-nts-Win32-VC11-x64.zip",
+				"remarks":""
+			},
+			{
+				"id":"14",
+				"majorname":"PHP 5.6.24",
+				"itemname":"Windows downloads VC11 x64 Thread Safe",
+				"author": "",
+				"resUrl":"http://windows.php.net/downloads/releases/php-5.6.24-Win32-VC11-x64.zip",
+				"remarks":""
+			},
+			{
+				"id":"15",
+				"majorname":"PHP 5.5.38",
+				"itemname":"php-5.5.38.tar.bz2",
+				"author": "",
+				"resUrl":"http://php.net/get/php-5.5.38.tar.bz2/from/a/mirror",
+				"remarks":""
+			},
+			{
+				"id":"16",
+				"majorname":"PHP 5.5.38",
+				"itemname":"php-5.5.38.tar.gz",
+				"author": "",
+				"resUrl":"http://php.net/get/php-5.5.38.tar.gz/from/a/mirror",
+				"remarks":""
+			},
+			{
+				"id":"17",
+				"majorname":"PHP 5.5.38",
+				"itemname":"php-5.5.38.tar.xz",
+				"author": "",
+				"resUrl":"http://php.net/get/php-5.5.38.tar.xz/from/a/mirror",
+				"remarks":""
+			},
+			{
+				"id":"18",
+				"majorname":"PHP 5.5.38",
+				"itemname":"Windows downloads VC11 x86 Non Thread Safe",
+				"author": "",
+				"resUrl":"http://windows.php.net/downloads/releases/php-5.5.38-nts-Win32-VC11-x86.zip",
+				"remarks":""
+			},
+			{
+				"id":"19",
+				"majorname":"PHP 5.5.38",
+				"itemname":"Windows downloads VC11 x86 Thread Safe",
+				"author": "",
+				"resUrl":"http://windows.php.net/downloads/releases/php-5.5.38-Win32-VC11-x86.zip",
+				"remarks":""
+			},
+			{
+				"id":"20",
+				"majorname":"PHP 5.5.38",
+				"itemname":"Windows downloads VC11 x64 Non Thread Safe",
+				"author": "",
+				"resUrl":"http://windows.php.net/downloads/releases/php-5.5.38-nts-Win32-VC11-x64.zip",
+				"remarks":""
+			},
+			{
+				"id":"21",
+				"majorname":"PHP 5.5.38",
+				"itemname":"Windows downloads VC11 x64 Thread Safe",
+				"author": "",
+				"resUrl":"http://windows.php.net/downloads/releases/php-5.5.38-Win32-VC11-x64.zip",
+				"remarks":""
+			}
+		]
+	}
+]

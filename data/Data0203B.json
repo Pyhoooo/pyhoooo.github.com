@@ -1,0 +1,80 @@
+[
+	{
+		"id":"0203B",
+		"shopname":"C++案例及资源库",
+		"items":[
+			{
+				"id":"1",
+				"majorname":"C++ 案例",
+				"itemname":"学c++经典例题",
+				"author": "",
+				"resUrl":"http://www.doc88.com/p-1903061224716.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"2",
+				"majorname":"C++ 案例",
+				"itemname":"c++经典例题54道",
+				"author": "",
+				"resUrl":"http://www.doc88.com/p-3177132167218.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"3",
+				"majorname":"C++ 案例",
+				"itemname":"c++经典例题",
+				"author": "",
+				"resUrl":"http://www.docin.com/p-782518259.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"4",
+				"majorname":"C++ 案例",
+				"itemname":"c++经典例题及答案",
+				"author": "",
+				"resUrl":"http://www.docin.com/p-335572834.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"5",
+				"majorname":"C++ 案例",
+				"itemname":"C++经典例题1",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/view/9e83c959ad02de80d4d840d7.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"6",
+				"majorname":"C++ 资源库",
+				"itemname":"C++ STL 教程",
+				"author": "",
+				"resUrl":"http://www.runoob.com/cplusplus/cpp-stl-tutorial.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"7",
+				"majorname":"C++ 资源库",
+				"itemname":"C++ 标准库",
+				"author": "",
+				"resUrl":"http://www.runoob.com/cplusplus/cpp-standard-library.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"8",
+				"majorname":"C++ 资源库",
+				"itemname":"C++ 有用的资源",
+				"author": "",
+				"resUrl":"http://www.runoob.com/cplusplus/cpp-useful-resources.html",
+				"itemstatus": "regular",
+				"remarks":""
+			}
+		]
+	}
+]

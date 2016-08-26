@@ -20,6 +20,176 @@
 				"resUrl":"http://www.icoolxue.com/album/show/91",
 				"itemstatus": "regular",
 				"remarks":""
+			},
+			{
+				"id":"3",
+				"majorname":"",
+				"itemname":"unity3D中文教程",
+				"author": "",
+				"resUrl":"http://bbs.9ria.com/thread-130022-1-1.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"4",
+				"majorname":"",
+				"itemname":"Unity 3D游戏引擎—大型RPG游戏教程",
+				"author": "",
+				"resUrl":"http://www.yiihuu.com/a_1323.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"5",
+				"majorname":"",
+				"itemname":"Unity3D次时代游戏开发教程",
+				"author": "",
+				"resUrl":"http://www.yiihuu.com/a_1819.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"6",
+				"majorname":"",
+				"itemname":"Maya MotionBuilder Unity3D游戏开发流程教学",
+				"author": "",
+				"resUrl":"http://www.yiihuu.com/a_1393.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"7",
+				"majorname":"",
+				"itemname":"Unity3d游戏实战之旋转泡泡龙游戏开发讲解",
+				"author": "",
+				"resUrl":"http://www.yiihuu.com/a_4865.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"8",
+				"majorname":"",
+				"itemname":"unity3d的人工智能系统－AI脚本开发教程",
+				"author": "",
+				"resUrl":"http://www.yiihuu.com/a_4867.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"9",
+				"majorname":"",
+				"itemname":"Animator Scripting 动画控制键的脚本控制",
+				"author": "",
+				"resUrl":"http://www.jikexueyuan.com/course/1296.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"10",
+				"majorname":"",
+				"itemname":"Animator IK 反向动力学的应用",
+				"author": "",
+				"resUrl":"http://www.jikexueyuan.com/course/1404.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"11",
+				"majorname":"",
+				"itemname":"Unity3D 粒子的旋转、外部作用力与碰撞",
+				"author": "",
+				"resUrl":"http://www.jikexueyuan.com/course/1438.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"12",
+				"majorname":"",
+				"itemname":"Unity 3D 粒子系统的子发射器、序列帧动画纹理与粒子渲染器",
+				"author": "",
+				"resUrl":"http://www.jikexueyuan.com/course/1811.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"13",
+				"majorname":"",
+				"itemname":"Xffect 粒子系统 - 技能粒子制作",
+				"author": "",
+				"resUrl":"http://www.jikexueyuan.com/course/2395.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"14",
+				"majorname":"",
+				"itemname":"Xffect 粒子系统 - 场景粒子制作",
+				"author": "",
+				"resUrl":"http://www.jikexueyuan.com/course/2473.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},{
+				"id":"15",
+				"majorname":"",
+				"itemname":"粒子形状模块及生命周期速度类模块",
+				"author": "",
+				"resUrl":"http://www.jikexueyuan.com/course/948.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"16",
+				"majorname":"",
+				"itemname":"Animation View 动画的编辑",
+				"author": "",
+				"resUrl":"http://www.jikexueyuan.com/course/914.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"17",
+				"majorname":"",
+				"itemname":"Unity5.0 渲染系统介绍",
+				"author": "",
+				"resUrl":"http://www.jikexueyuan.com/course/850.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"18",
+				"majorname":"",
+				"itemname":"Unity3D 粒子界面及创建",
+				"author": "",
+				"resUrl":"http://www.jikexueyuan.com/course/740.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"19",
+				"majorname":"",
+				"itemname":"Unity5.0 着色器系统介绍",
+				"author": "",
+				"resUrl":"http://www.jikexueyuan.com/course/734.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"20",
+				"majorname":"",
+				"itemname":"课程准备与动画系统介绍",
+				"author": "",
+				"resUrl":"http://www.jikexueyuan.com/course/664.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"21",
+				"majorname":"",
+				"itemname":"脚本开发的输入与控制",
+				"author": "",
+				"resUrl":"http://www.jikexueyuan.com/course/518.html",
+				"itemstatus": "regular",
+				"remarks":""
 			}
 		]
 	}

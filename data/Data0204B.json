@@ -1,0 +1,104 @@
+[
+	{
+		"id":"0204B",
+		"shopname":"Python案例教程",
+		"items":[
+			{
+				"id":"1",
+				"majorname":"",
+				"itemname":"Python简介",
+				"author": "",
+				"resUrl":"http://pan.baidu.com/s/1i5FGZ9z",
+				"remarks":"提取码：rfpv"
+			},
+			{
+				"id":"2",
+				"majorname":"",
+				"itemname":"Python环境搭建",
+				"author": "",
+				"resUrl":"http://pan.baidu.com/s/1hsrw6pu",
+				"remarks":"提取码：w2aq"
+			},
+			{
+				"id":"3",
+				"majorname":"",
+				"itemname":"Python基本语法",
+				"author": "",
+				"resUrl":"http://pan.baidu.com/s/1dELE7Xv",
+				"remarks":"提取码：yokj"
+			},
+			{
+				"id":"4",
+				"majorname":"",
+				"itemname":"Python运算符",
+				"author": "",
+				"resUrl":"http://pan.baidu.com/s/1mi6N2YW",
+				"remarks":"提取码：dx5w"
+			},
+			{
+				"id":"5",
+				"majorname":"",
+				"itemname":"Python各类语句",
+				"author": "",
+				"resUrl":"http://pan.baidu.com/s/1dFfr12T",
+				"remarks":"提取码：tf6j"
+			},
+			{
+				"id":"6",
+				"majorname":"",
+				"itemname":"Python数据类型",
+				"author": "",
+				"resUrl":"http://pan.baidu.com/s/1eSiDkLO",
+				"remarks":"提取码：0hqp"
+			},
+			{
+				"id":"7",
+				"majorname":"",
+				"itemname":"Python函数",
+				"author": "",
+				"resUrl":"http://pan.baidu.com/s/1o84b8ee",
+				"remarks":"提取码：2ap6"
+			},
+			{
+				"id":"8",
+				"majorname":"",
+				"itemname":"Python时间日期",
+				"author": "",
+				"resUrl":"http://pan.baidu.com/s/1jIax7Hc",
+				"remarks":"提取码：kb93"
+			},
+			{
+				"id":"9",
+				"majorname":"",
+				"itemname":"Python模块",
+				"author": "",
+				"resUrl":"http://pan.baidu.com/s/1kUWXGO3",
+				"remarks":"提取码：hja0"
+			},
+			{
+				"id":"10",
+				"majorname":"",
+				"itemname":"Python文件",
+				"author": "",
+				"resUrl":"http://pan.baidu.com/s/1i4QqkJV",
+				"remarks":"提取码：l82k"
+			},
+			{
+				"id":"11",
+				"majorname":"",
+				"itemname":"Python异常处理",
+				"author": "",
+				"resUrl":"http://pan.baidu.com/s/1mhQkcKo",
+				"remarks":"提取码：aqo7"
+			},
+			{
+				"id":"12",
+				"majorname":"",
+				"itemname":"Python高级教程",
+				"author": "",
+				"resUrl":"http://pan.baidu.com/s/1mim4H5m",
+				"remarks":"提取码：i0bc"
+			}
+		]
+	}
+]

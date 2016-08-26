@@ -1,0 +1,188 @@
+[
+	{
+		"id":"1001B",
+		"shopname":"3DsMax案例教程",
+		"items":[
+			{
+				"id":"1",
+				"majorname":"案例",
+				"itemname":"X战机主体",
+				"author": "",
+				"resUrl":"http://tieba.baidu.com/p/4344041054",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"2",
+				"majorname":"案例",
+				"itemname":"蜂窝类网状结构",
+				"author": "",
+				"resUrl":"http://tieba.baidu.com/p/4305872993#",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"3",
+				"majorname":"案例",
+				"itemname":"异形建筑",
+				"author": "",
+				"resUrl":"http://tieba.baidu.com/p/4359087254",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"4",
+				"majorname":"案例",
+				"itemname":"花",
+				"author": "",
+				"resUrl":"http://tieba.baidu.com/p/4326142458",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"5",
+				"majorname":"案例",
+				"itemname":"手机下面的那些洞",
+				"author": "",
+				"resUrl":"http://tieba.baidu.com/p/4304353681",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"6",
+				"majorname":"案例",
+				"itemname":"吊顶",
+				"author": "",
+				"resUrl":"http://tieba.baidu.com/p/4351411639",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"7",
+				"majorname":"案例",
+				"itemname":"光剑",
+				"author": "",
+				"resUrl":"http://tieba.baidu.com/p/4347974175",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"8",
+				"majorname":"案例",
+				"itemname":"魔方",
+				"author": "",
+				"resUrl":"http://tieba.baidu.com/p/4311533071",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"9",
+				"majorname":"案例",
+				"itemname":"生物建模",
+				"author": "",
+				"resUrl":"http://tieba.baidu.com/p/4406547246",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"10",
+				"majorname":"案例",
+				"itemname":"体育场馆",
+				"author": "",
+				"resUrl":"http://tieba.baidu.com/p/4329970028",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"11",
+				"majorname":"案例",
+				"itemname":"古建圆形顶",
+				"author": "",
+				"resUrl":"http://tieba.baidu.com/p/4304313803",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"12",
+				"majorname":"案例",
+				"itemname":"一个生物感的玻璃球",
+				"author": "",
+				"resUrl":"http://tieba.baidu.com/p/4339473856",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"13",
+				"majorname":"案例",
+				"itemname":"层层叠加的装饰",
+				"author": "",
+				"resUrl":"http://tieba.baidu.com/p/4309357515",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"14",
+				"majorname":"案例",
+				"itemname":"曲面扣圆洞的三种方法",
+				"author": "",
+				"resUrl":"http://tieba.baidu.com/p/4310797819",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"15",
+				"majorname":"案例",
+				"itemname":"一个凹凸有致的箱子",
+				"author": "",
+				"resUrl":"http://tieba.baidu.com/p/4366640387",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"16",
+				"majorname":"案例",
+				"itemname":"一个扭曲的麻花桌子",
+				"author": "",
+				"resUrl":"http://tieba.baidu.com/p/4393069099",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"17",
+				"majorname":"案例",
+				"itemname":"星战场景制作",
+				"author": "",
+				"resUrl":"http://tieba.baidu.com/p/4346143668",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"18",
+				"majorname":"案例",
+				"itemname":"一个软包的座",
+				"author": "",
+				"resUrl":"http://tieba.baidu.com/p/4396049820",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"19",
+				"majorname":"案例",
+				"itemname":"沙发椅",
+				"author": "",
+				"resUrl":"http://tieba.baidu.com/p/4351394173",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"20",
+				"majorname":"案例",
+				"itemname":"跑泉小动画",
+				"author": "",
+				"resUrl":"http://tieba.baidu.com/p/4306869220",
+				"itemstatus": "regular",
+				"remarks":""
+			}
+		]
+	}
+]

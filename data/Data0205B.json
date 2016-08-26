@@ -1,0 +1,104 @@
+[
+	{
+		"id":"0205B",
+		"shopname":"PHP案例教程",
+		"items":[
+			{
+				"id":"1",
+				"majorname":"",
+				"itemname":"PHP简介",
+				"author": "",
+				"resUrl":"http://pan.baidu.com/s/1o8tSolk",
+				"remarks":"提取码：bkyt"
+			},
+			{
+				"id":"2",
+				"majorname":"",
+				"itemname":"PHP安装",
+				"author": "",
+				"resUrl":"http://pan.baidu.com/s/1hrWxVLi",
+				"remarks":"提取码：w5xf"
+			},
+			{
+				"id":"3",
+				"majorname":"",
+				"itemname":"PHP语法",
+				"author": "",
+				"resUrl":"http://pan.baidu.com/s/1qYlGERi",
+				"remarks":"提取码：e7k5"
+			},
+			{
+				"id":"4",
+				"majorname":"",
+				"itemname":"PHP变量",
+				"author": "",
+				"resUrl":"http://pan.baidu.com/s/1pLrOuMJ",
+				"remarks":"提取码：zphd"
+			},
+			{
+				"id":"5",
+				"majorname":"",
+				"itemname":"PHP数据类型",
+				"author": "",
+				"resUrl":"http://pan.baidu.com/s/1jHAFgPK",
+				"remarks":"提取码：6nvw"
+			},
+			{
+				"id":"6",
+				"majorname":"",
+				"itemname":"PHP各类语句",
+				"author": "",
+				"resUrl":"http://pan.baidu.com/s/1qYQsluG",
+				"remarks":"提取码：e3ty"
+			},
+			{
+				"id":"7",
+				"majorname":"",
+				"itemname":"PHP魔术变量",
+				"author": "",
+				"resUrl":"http://pan.baidu.com/s/1bZrYto",
+				"remarks":"提取码：clnd"
+			},
+			{
+				"id":"8",
+				"majorname":"",
+				"itemname":"PHP函数",
+				"author": "",
+				"resUrl":"http://pan.baidu.com/s/1dEU2k3v",
+				"remarks":"提取码：f503"
+			},
+			{
+				"id":"9",
+				"majorname":"",
+				"itemname":"PHP命名空间",
+				"author": "",
+				"resUrl":"http://pan.baidu.com/s/1pKMGp2z",
+				"remarks":"提取码：izgk"
+			},
+			{
+				"id":"10",
+				"majorname":"",
+				"itemname":"PHP面向对象",
+				"author": "",
+				"resUrl":"http://pan.baidu.com/s/1qXYj4hm",
+				"remarks":"提取码：njxv"
+			},
+			{
+				"id":"11",
+				"majorname":"",
+				"itemname":"PHP表单",
+				"author": "",
+				"resUrl":"http://pan.baidu.com/s/1pLvSfOZ",
+				"remarks":"提取码：g6s9"
+			},
+			{
+				"id":"12",
+				"majorname":"",
+				"itemname":"PHP高级教程",
+				"author": "",
+				"resUrl":"http://pan.baidu.com/s/1mi4LEJI",
+				"remarks":"提取码：tt1t"
+			}
+		]
+	}
+]

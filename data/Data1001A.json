@@ -1,0 +1,187 @@
+[
+	{
+		"id":"1001A",
+		"shopname":"3DsMax视频教学",
+		"items":[
+			{
+				"id":"1",
+				"majorname":"视频课",
+				"itemname":"3DMAX入门到精通【全】 教学课程",
+				"author": "",
+				"resUrl":"http://www.56.com/w59/album-aid-5939196.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"2",
+				"majorname":"视频课",
+				"itemname":"公开课录屏建筑模型",
+				"author": "",
+				"resUrl":"http://tieba.baidu.com/p/4232520450",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"3",
+				"majorname":"视频课",
+				"itemname":"公开课录屏 动画入门",
+				"author": "",
+				"resUrl":"http://tieba.baidu.com/p/3925800069",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"4",
+				"majorname":"视频课",
+				"itemname":"兽头制作教程",
+				"author": "",
+				"resUrl":"http://tieba.baidu.com/p/2018724321",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"5",
+				"majorname":"视频课",
+				"itemname":"3DMAX贴吧0基础视频第一期",
+				"author": "",
+				"resUrl":"http://tieba.baidu.com/p/3217883509",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"6",
+				"majorname":"视频课",
+				"itemname":"3DMAX贴吧0基础视频第二期",
+				"author": "",
+				"resUrl":"http://tieba.baidu.com/p/3235946905",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"7",
+				"majorname":"视频课",
+				"itemname":"3DMAX0基础视频第3期",
+				"author": "",
+				"resUrl":"http://tieba.baidu.com/p/3268289005",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"8",
+				"majorname":"视频课",
+				"itemname":"3dmax软件及vray渲染器的安装方法",
+				"author": "",
+				"resUrl":"http://tieba.baidu.com/p/2221093372",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"9",
+				"majorname":"视频课",
+				"itemname":"3Dmax魔方绑定教程",
+				"author": "",
+				"resUrl":"http://tieba.baidu.com/p/2508421029",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"10",
+				"majorname":"视频课",
+				"itemname":"游戏角色制作录屏",
+				"author": "",
+				"resUrl":"http://tieba.baidu.com/p/2367599975#",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"11",
+				"majorname":"视频课",
+				"itemname":"皮卡丘",
+				"author": "",
+				"resUrl":"http://v.youku.com/v_show/id_XNTQyMTA5OTA0.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"12",
+				"majorname":"视频课",
+				"itemname":"汽车模型",
+				"author": "",
+				"resUrl":"http://tieba.baidu.com/p/1330138022",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"13",
+				"majorname":"视频课",
+				"itemname":"3Dmax2009认识界面及基础模型制作",
+				"author": "",
+				"resUrl":"http://tieba.baidu.com/p/2123683491",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"14",
+				"majorname":"视频课",
+				"itemname":"3dmax视频课程",
+				"author": "",
+				"resUrl":"http://www.iqiyi.com/w_19rsdw62dl.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},{
+				"id":"15",
+				"majorname":"视频课",
+				"itemname":"3dmax室内设计学习课程_材质运用",
+				"author": "",
+				"resUrl":"http://www.iqiyi.com/w_19rrxw4lpd.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"16",
+				"majorname":"视频课",
+				"itemname":"3ds Max2015完全自学教程",
+				"author": "",
+				"resUrl":"http://www.3dmax8.com/3dmax/2015/0907/7736.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"17",
+				"majorname":"视频课",
+				"itemname":"3Ds MAX 7.0视频教程",
+				"author": "",
+				"resUrl":"http://tech.163.com/special/j/00091EMV/jingying3d.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"18",
+				"majorname":"视频课",
+				"itemname":"3Dsmax2012基础视频教程",
+				"author": "",
+				"resUrl":"http://www.51zxw.net/list.aspx?cid=431",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"19",
+				"majorname":"视频课",
+				"itemname":"3Dmax基础课程",
+				"author": "",
+				"resUrl":"http://dna.yiihuu.com/v/150231.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"20",
+				"majorname":"视频课",
+				"itemname":"3dmax基础的学习入门课程",
+				"author": "",
+				"resUrl":"http://dna.yiihuu.com/v/150272.html",
+				"itemstatus": "regular",
+				"remarks":""
+			}
+		]
+	}
+]

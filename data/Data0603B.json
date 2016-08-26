@@ -1,0 +1,62 @@
+[
+	{
+		"id":"0603B",
+		"shopname":"摄影视频教学",
+		"items":[
+			{
+				"id":"1",
+				"majorname":"",
+				"itemname":"单反相机摄影技巧，入门必学！",
+				"author": "",
+				"resUrl":"http://toutiao.com/a6288597950249009409/",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"2",
+				"majorname":"",
+				"itemname":"买单反还是单电微单",
+				"author": "",
+				"resUrl":"http://toutiao.com/a6298782761168158978/",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                        {
+				"id":"3",
+				"majorname":"",
+				"itemname":"吴宗恩讲解单反说明书",
+				"author": "",
+				"resUrl":"http://toutiao.com/a6287475403082760449/",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                        {
+				"id":"4",
+				"majorname":"",
+				"itemname":"尼康入门单反教程—风景拍摄",
+				"author": "",
+				"resUrl":"http://toutiao.com/a6301424255250727426/",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                        {
+				"id":"5",
+				"majorname":"",
+				"itemname":"摄影教程之拍太阳光芒四射",
+				"author": "",
+				"resUrl":"http://toutiao.com/a6308678099690242305/",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                        {
+				"id":"6",
+				"majorname":"",
+				"itemname":"吴宗恩评价测光 点测光 曝光补偿 曝光锁定 剪影",
+				"author": "",
+				"resUrl":"http://www.le.com/ptv/vplay/25458819.html?site=toutiaonews&ref=toutiaonewspv&tt_group_id=6286626433268744449",
+				"itemstatus": "regular",
+				"remarks":""
+			}
+		        ]
+	}
+]

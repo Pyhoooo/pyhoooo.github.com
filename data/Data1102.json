@@ -1,0 +1,188 @@
+[
+	{
+		"id":"1102",
+		"shopname":"历史",
+		"items":[
+			{
+				"id":"1",
+				"majorname":"",
+				"itemname":"明朝那些事儿",
+				"author": "石悦",
+				"resUrl":"https://pan.baidu.com/share/init?shareid=4225802125&uk=1279618140",
+				"itemstatus": "regular",
+				"remarks":"提取码：3fwg"
+			},
+			{
+				"id":"2",
+				"majorname":"",
+				"itemname":"白话二十四史",
+				"author": "",
+				"resUrl":"http://www.uus8.org/c/175/",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"3",
+				"majorname":"",
+				"itemname":"史记",
+				"author": "司马迁",
+				"resUrl":"http://yuedu.baidu.com/ebook/0226681dbd64783e09122bbd?pn=1&click_type=10010002&rf=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DB-bNS6EDlkQ83aezeI9V9NcpTp3MQ6RAWVlNiIi1bVVac6owBltqz19sbRrxfhOfY2-gXQtYkXXNrfAs1RgKkR3acwvw07v2JHoNnLOEkm7zjM7yfkd8qTweP8daMG7_ZOjnIxI_hBZpHz0k5tm_K_%26wd%3D%26eqid%3D95080b9b0001a1520000000257a48d3c",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"4",
+				"majorname":"",
+				"itemname":"汉书",
+				"author": "班固",
+				"resUrl":"http://so.gushiwen.org/guwen/book.aspx?b=%E6%B1%89%E4%B9%A6",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"5",
+				"majorname":"",
+				"itemname":"后汉书",
+				"author": "范晔",
+				"resUrl":"http://so.gushiwen.org/guwen/book.aspx?b=%E5%90%8E%E6%B1%89%E4%B9%A6",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"6",
+				"majorname":"",
+				"itemname":"三国志",
+				"author": "陈寿",
+				"resUrl":"http://yuedu.baidu.com/ebook/2a524ecbf705cc17552709b2?pn=1&click_type=10010002&rf=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DsWGAfG77FiHthdNEVUuswsZvzZDM2kAFcV6j6RBYNuXnp3Q17PQ84fcrRW53CXQMomXz84APhuGoYMXh-uWm4RumNQtl00afgN8tqrg55XhON8TtvwKCm9X4CSEyvUbmLq5Yk2vd2ANW_M_ibyXX2K%26wd%3D%26eqid%3D932541070001bd860000000257a48d8d",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"7",
+				"majorname":"",
+				"itemname":"晋书",
+				"author": "房玄龄等",
+				"resUrl":"http://guoxue.lishichunqiu.com/shibu/jinshu/",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"8",
+				"majorname":"",
+				"itemname":"隋书",
+				"author": "魏征",
+				"resUrl":"http://www.guoxue.com/shibu/24shi/suisu/suiml.htm",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"9",
+				"majorname":"",
+				"itemname":"旧唐书",
+				"author": "",
+				"resUrl":"http://guoxue.lishichunqiu.com/shibu/jiutangshu/",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"10",
+				"majorname":"",
+				"itemname":"新唐书",
+				"author": "宋祁、欧阳修、范镇、吕夏卿等",
+				"resUrl":"http://www.360doc.com/content/13/0409/11/313676_277104735.shtml",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"11",
+				"majorname":"",
+				"itemname":"春秋",
+				"author": "孔子",
+				"resUrl":"http://www.quanxue.cn/CT_RuJia/ChunQiu/ChunQiu00.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"12",
+				"majorname":"",
+				"itemname":"宋书",
+				"author": "梁沈约",
+				"resUrl":"http://www.guoxue.com/shibu/24shi/songsu/sonsml.htm",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"13",
+				"majorname":"",
+				"itemname":"明书",
+				"author": "",
+				"resUrl":"http://4.supfree.net/balass.asp?id=22476",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"14",
+				"majorname":"",
+				"itemname":"四库全书",
+				"author": "",
+				"resUrl":"http://www.uus8.org/4/",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"15",
+				"majorname":"",
+				"itemname":"南齐书",
+				"author": "",
+				"resUrl":"http://www.uus8.org/4/%E5%9B%9B%E5%BA%93%E5%85%A8%E4%B9%A6%E7%B1%BB/%E5%8F%B2%E9%83%A8/25%E5%8F%B2/%E5%8D%97%E9%BD%90%E4%B9%A6/zw.HTM",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"16",
+				"majorname":"",
+				"itemname":"梁书",
+				"author": "",
+				"resUrl":"http://www.uus8.org/4/%E5%9B%9B%E5%BA%93%E5%85%A8%E4%B9%A6%E7%B1%BB/%E5%8F%B2%E9%83%A8/25%E5%8F%B2/%E6%A2%81%E4%B9%A6/zw.HTM",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"17",
+				"majorname":"",
+				"itemname":"魏书",
+				"author": "",
+				"resUrl":"http://www.uus8.org/4/%E5%9B%9B%E5%BA%93%E5%85%A8%E4%B9%A6%E7%B1%BB/%E5%8F%B2%E9%83%A8/25%E5%8F%B2/%E9%AD%8F%E4%B9%A6/index.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"18",
+				"majorname":"",
+				"itemname":"新五代史",
+				"author": "欧阳修",
+				"resUrl":"http://www.uus8.org/4/%E5%9B%9B%E5%BA%93%E5%85%A8%E4%B9%A6%E7%B1%BB/%E5%8F%B2%E9%83%A8/25%E5%8F%B2/%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2/zw.HTM",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"19",
+				"majorname":"",
+				"itemname":"拉贝日记",
+				"author": "约翰·拉贝",
+				"resUrl":"http://lz.book.sohu.com/serialize-id-12690.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"20",
+				"majorname":"",
+				"itemname":"东史郎日记",
+				"author": "东史郎",
+				"resUrl":"http://www.555zw.com/book/10/10103/",
+				"itemstatus": "regular",
+				"remarks":""
+			}
+		]
+	}
+]

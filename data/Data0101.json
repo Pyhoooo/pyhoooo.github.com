@@ -13,6 +13,375 @@
 				"remarks":""
 			},
 			{
+				"id":"2",
+				"majorname":"数媒",
+				"itemname":"计算机动画原理与技术",
+				"author": "杨猛",
+				"resUrl":"ftp://211.71.149.41/Yang_Meng/teaching plan/计算机动画原理与技术/今年课件/3. 实验",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"3",
+				"majorname":"数媒",
+				"itemname":"网站设计",
+				"author": "杨猛",
+				"resUrl":"ftp://211.71.149.41/Yang_Meng/teaching plan/网站设计/1. 课件",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"4",
+				"majorname":"数媒",
+				"itemname":"网站设计",
+				"author": "杨猛",
+				"resUrl":"ftp://211.71.149.41/Yang_Meng/teaching plan/网站设计/2. 实验",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"5",
+				"majorname":"数媒",
+				"itemname":"三维图形设计",
+				"author": "杨猛",
+				"resUrl":"ftp://211.71.149.41//Yang_Meng/teaching plan/三维图形设计/1 课件",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"6",
+				"majorname":"数媒",
+				"itemname":"三维图形设计",
+				"author": "杨猛",
+				"resUrl":"ftp://211.71.149.41//Yang_Meng/teaching plan/三维图形设计/2 论文_实验_课程设计要求/1 实验与练习",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"7",
+				"majorname":"数媒",
+				"itemname":"游戏开发技术",
+				"author": "杨刚",
+				"resUrl":"ftp://211.71.149.41//Yang_Gang/teaching plan/游戏开发技术",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"8",
+				"majorname":"数媒",
+				"itemname":"游戏开发技术",
+				"author": "杨刚",
+				"resUrl":"ftp://211.71.149.41//Yang_Gang/teaching plan/游戏开发技术/Unity3D实验指导书",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"9",
+				"majorname":"数媒",
+				"itemname":"图形编程技术",
+				"author": "杨刚",
+				"resUrl":"ftp://211.71.149.41//Yang_Gang/teaching plan/图形编程技术",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"10",
+				"majorname":"数媒",
+				"itemname":"图形编程技术",
+				"author": "杨刚",
+				"resUrl":"ftp://211.71.149.41//Yang_Gang/teaching plan/图形编程技术/实验",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"11",
+				"majorname":"数媒",
+				"itemname":"面向对象程序设计语言A",
+				"author": "王忠芝",
+				"resUrl":"ftp://211.71.149.41//Wang_Zhongzhi/teaching plan/面向对象程序设计语言A/PPT",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"12",
+				"majorname":"数媒",
+				"itemname":"面向对象程序设计语言A",
+				"author": "王忠芝",
+				"resUrl":"ftp://211.71.149.41//Wang_Zhongzhi/teaching plan/面向对象程序设计语言A/PPT",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"13",
+				"majorname":"数媒",
+				"itemname":"图像处理",
+				"author": "王忠芝",
+				"resUrl":"ftp://211.71.149.41//Wang_Zhongzhi/teaching plan/图像处理/ppt",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"14",
+				"majorname":"数媒",
+				"itemname":"图像处理",
+				"author": "王忠芝",
+				"resUrl":"ftp://211.71.149.41//Wang_Zhongzhi/teaching plan/图像处理/实验任务书",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"15",
+				"majorname":"数媒",
+				"itemname":"C语言",
+				"author": "王晗",
+				"resUrl":"ftp://211.71.149.41//Wang_Han/teaching plan/程序设计基础（C语言）",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"16",
+				"majorname":"数媒",
+				"itemname":"C语言",
+				"author": "王晗",
+				"resUrl":"ftp://211.71.149.41//Wang_Han/teaching plan/程序设计基础（C语言）",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"17",
+				"majorname":"数媒",
+				"itemname":"移动媒体内容制作",
+				"author": "王晗",
+				"resUrl":"ftp://211.71.149.41//Wang_Han/teaching plan/移动媒体内容制作（数媒）",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"18",
+				"majorname":"数媒",
+				"itemname":"数字音频技术及应用",
+				"author": "王晗",
+				"resUrl":"ftp://211.71.149.41//Wang_Han/teaching plan/数字音频技术及应用/PPT",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"19",
+				"majorname":"数媒",
+				"itemname":"数字音频技术及应用",
+				"author": "王晗",
+				"resUrl":"ftp://211.71.149.41//Wang_Han/teaching plan/数字音频技术及应用/实验",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"20",
+				"majorname":"数媒",
+				"itemname":"数字音频技术及应用",
+				"author": "刘文萍",
+				"resUrl":"ftp://211.71.149.41//Liu_Wenping/teaching plan/数字视频技术及应用",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"21",
+				"majorname":"数媒",
+				"itemname":"数字音频技术及应用",
+				"author": "刘文萍",
+				"resUrl":"ftp://211.71.149.41//Liu_Wenping/teaching plan/数字视频技术及应用/实验相关",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"22",
+				"majorname":"数媒",
+				"itemname":"数字媒体导论",
+				"author": "淮永建",
+				"resUrl":"ftp://211.71.149.41//Huai_Yongjian/teaching plan/数字媒体导论/讲义",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"23",
+				"majorname":"数媒",
+				"itemname":"数字媒体导论",
+				"author": "淮永建",
+				"resUrl":"ftp://211.71.149.41//Huai_Yongjian/teaching plan/数字媒体导论/实验任务",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"24",
+				"majorname":"数媒",
+				"itemname":"二维图形技术",
+				"author": "淮永建",
+				"resUrl":"ftp://211.71.149.41//Huai_Yongjian/teaching plan/二维图形技术/讲义资料/脚本编程讲义",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"25",
+				"majorname":"数媒",
+				"itemname":"专业概论",
+				"author": "淮永建",
+				"resUrl":"ftp://211.71.149.41//Huai_Yongjian/teaching plan/专业概论",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"26",
+				"majorname":"数媒",
+				"itemname":"photoshop图像处理",
+				"author": "淮永建",
+				"resUrl":"ftp://211.71.149.41//Huai_Yongjian/teaching plan/Photoshop图像处理",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"27",
+				"majorname":"数媒",
+				"itemname":"flash辅修",
+				"author": "淮永建",
+				"resUrl":"ftp://211.71.149.41//Huai_Yongjian/teaching plan/flash辅修",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"28",
+				"majorname":"数媒",
+				"itemname":"c++",
+				"author": "淮永建",
+				"resUrl":"ftp://211.71.149.41//Huai_Yongjian/teaching plan/C++/C++讲义",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"29",
+				"majorname":"数媒",
+				"itemname":"c++",
+				"author": "淮永建",
+				"resUrl":"ftp://211.71.149.41//Huai_Yongjian/teaching plan/C++/C++实验",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"30",
+				"majorname":"数媒",
+				"itemname":"数据结构",
+				"author": "付慧",
+				"resUrl":"ftp://211.71.149.41//Fu_Hui/teaching plan/数据结构",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"31",
+				"majorname":"数媒",
+				"itemname":"数据结构",
+				"author": "付慧",
+				"resUrl":"ftp://211.71.149.41//Fu_Hui/teaching plan/数据结构/实验要求",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"32",
+				"majorname":"数媒",
+				"itemname":"多媒体技术及应用",
+				"author": "付慧",
+				"resUrl":"ftp://211.71.149.41//Fu_Hui/teaching plan/多媒体技术及应用",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"33",
+				"majorname":"数媒",
+				"itemname":"多媒体技术及应用",
+				"author": "付慧",
+				"resUrl":"ftp://211.71.149.41//Fu_Hui/teaching plan/多媒体技术及应用/ 实验",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"34",
+				"majorname":"数媒",
+				"itemname":"图像处理算法及应用",
+				"author": "付慧",
+				"resUrl":"ftp://211.71.149.41//Fu_Hui/teaching plan/图像处理算法及应用",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"35",
+				"majorname":"数媒",
+				"itemname":"opengl",
+				"author": "曹卫群",
+				"resUrl":"ftp://211.71.149.41//Cao_Weiqun/teaching plan/cg/课件",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"36",
+				"majorname":"计算机类",
+				"itemname":"大学计算机基础",
+				"author": "李群",
+				"resUrl":"ftp://211.71.149.87/李群/课件/大学计算机基础",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"37",
+				"majorname":"计算机类",
+				"itemname":"计算机辅修",
+				"author": "韩慧",
+				"resUrl":"ftp://211.71.149.21/韩慧/授课材料/计算机辅修",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"38",
+				"majorname":"计算机类",
+				"itemname":"计算机导论",
+				"author": "马杰",
+				"resUrl":"ftp://211.71.149.21/马杰/授课材料/计算机导论",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"39",
+				"majorname":"计算机类",
+				"itemname":"计算机体系结构",
+				"author": "蔡娟",
+				"resUrl":"ftp://211.71.149.21/蔡娟/授课材料/计算机体系结构",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"40",
+				"majorname":"计算机类",
+				"itemname":"计算机网络基础",
+				"author": "蔡祥",
+				"resUrl":"ftp://211.71.149.87/蔡祥/课件/计算机网络基础",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"41",
+				"majorname":"计算机类",
+				"itemname":"计算机网络基础",
+				"author": "曹佳",
+				"resUrl":"ftp://211.71.149.87/曹佳/课件/计算机网络基础",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"42",
+				"majorname":"计算机类",
+				"itemname":"计算机网络基础",
+				"author": "蒋东辰",
+				"resUrl":"ftp://211.71.149.87/蒋东辰/讲稿/计算机网络基础",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
 				"id":"43",
 				"majorname":"信息",
 				"itemname":" 计算机网络（信息专业）",
@@ -20,6 +389,690 @@
 				"resUrl":"ftp://202.204.121.57/齐建东老师讲义下载/计算机网络（双语——信息专业）",
 				"itemstatus": "regular",
 				"remarks":"用户名net无密码"
+			},
+			{
+				"id":"44",
+				"majorname":"计算机类",
+				"itemname":"计算机网络",
+				"author": "袁津生",
+				"resUrl":"ftp://211.71.149.87/袁津生/讲稿/计算机网络",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"45",
+				"majorname":"计算机类",
+				"itemname":"计算机网络B",
+				"author": "蒋东辰",
+				"resUrl":"ftp://211.71.149.87/蒋东辰/讲稿/2016_计算机网络B",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"46",
+				"majorname":"计算机类",
+				"itemname":"无线网络",
+				"author": "柏荣刚",
+				"resUrl":"ftp://211.71.149.21/柏荣刚/授课材料/无线网络/ppt",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"47",
+				"majorname":"计算机类",
+				"itemname":"计算机应用基础",
+				"author": "韩慧",
+				"resUrl":"ftp://211.71.149.21/韩慧/授课材料/计算机应用基础/课件下载",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"48",
+				"majorname":"计算机类",
+				"itemname":"计算机应用基础",
+				"author": "蔡娟",
+				"resUrl":"ftp://211.71.149.21/蔡娟/授课材料/计算机应用基础",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"49",
+				"majorname":"计算机类",
+				"itemname":"计算机应用基础",
+				"author": "徐秋红",
+				"resUrl":"ftp://211.71.149.21/徐秋红/授课材料/计算机应用基础",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"50",
+				"majorname":"计算机类",
+				"itemname":"计算机组成原理A",
+				"author": "张海燕",
+				"resUrl":"ftp://211.71.149.21/张海燕/授课材料/本科生/计算机组成原理A/ppt",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"51",
+				"majorname":"计算机类",
+				"itemname":"计算机组成原理B",
+				"author": "张海燕",
+				"resUrl":"ftp://211.71.149.21/张海燕/授课材料/本科生/计算机组成原理B/ppt",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"52",
+				"majorname":"计算机类",
+				"itemname":"物联网应用",
+				"author": "柏荣刚",
+				"resUrl":"ftp://211.71.149.21/柏荣刚/授课材料/物联网应用/ppt",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"53",
+				"majorname":"计算机类",
+				"itemname":"计算机硬件与系统软件实验",
+				"author": "蔡祥",
+				"resUrl":"ftp://211.71.149.87/蔡祥/课件/计算机硬件与系统软件实验",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"54",
+				"majorname":"计算机类",
+				"itemname":"计算机网络安全",
+				"author": "曹佳",
+				"resUrl":"ftp://211.71.149.87/曹佳/课件/计算机网络安全",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"55",
+				"majorname":"计算机类",
+				"itemname":"计算机网络安全",
+				"author": "蒋东辰",
+				"resUrl":"ftp://211.71.149.87/蒋东辰/讲稿/2016_计算机网络安全",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"56",
+				"majorname":"计算机类",
+				"itemname":"交换与路由",
+				"author": "蔡祥",
+				"resUrl":"ftp://211.71.149.87/蔡祥/课件/交换与路由",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"57",
+				"majorname":"信息",
+				"itemname":"面向对象程序设计",
+				"author": "陈钊",
+				"resUrl":"ftp://202.204.121.57/陈钊老师讲义下载/数学08面向对象程序设计",
+				"itemstatus": "regular",
+				"remarks":"用户名mis无密码"
+			},
+			{
+				"id":"58",
+				"majorname":"计算机类",
+				"itemname":"面向对象程序设计B",
+				"author": "张海燕",
+				"resUrl":"ftp://211.71.149.21/张海燕/授课材料/本科生/面向对象程序设计B/ppt",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"59",
+				"majorname":"计算机类",
+				"itemname":"程序设计基础",
+				"author": "王春玲",
+				"resUrl":"ftp://211.71.149.21/王春玲/授课材料/程序设计基础/课件",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"60",
+				"majorname":"信息",
+				"itemname":"c程序设计",
+				"author": "陈钊",
+				"resUrl":"ftp://202.204.121.57/陈钊老师讲义下载/陈钊C语言课件",
+				"itemstatus": "regular",
+				"remarks":"用户名mis无密码"
+			},
+			{
+				"id":"61",
+				"majorname":"计算机类",
+				"itemname":"C语言",
+				"author": "蔡娟",
+				"resUrl":"ftp://211.71.149.21/蔡娟/授课材料/C语言/0000000000000-讲义-201x",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"62",
+				"majorname":"计算机类",
+				"itemname":"C语言",
+				"author": "徐秋红",
+				"resUrl":"ftp://211.71.149.21/徐秋红/授课材料/C语言",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"63",
+				"majorname":"信息",
+				"itemname":"c++",
+				"author": "蓝海洋",
+				"resUrl":"ftp://202.204.121.57/蓝海洋老师讲义下载/c++",
+				"itemstatus": "regular",
+				"remarks":"用户名cpp无密码"
+			},
+			{
+				"id":"64",
+				"majorname":"计算机类",
+				"itemname":"c++",
+				"author": "孙国栋",
+				"resUrl":"ftp://211.71.149.21/孙国栋/授课材料/c++",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"65",
+				"majorname":"计算机类",
+				"itemname":"Java程序设计",
+				"author": "蔡娟",
+				"resUrl":"ftp://211.71.149.21/蔡娟/授课材料/Java语言程序设计/讲义",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"66",
+				"majorname":"计算机类",
+				"itemname":"Java",
+				"author": "孙钰",
+				"resUrl":"ftp://211.71.149.21/孙钰/授课材料/Java/课件",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"67",
+				"majorname":"计算机类",
+				"itemname":"Java EE",
+				"author": "田萱",
+				"resUrl":"ftp://211.71.149.21/田萱/授课材料/Java EE/slides",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"68",
+				"majorname":"计算机类",
+				"itemname":"senior java programing language",
+				"author": "崔晓晖",
+				"resUrl":"ftp://211.71.149.21/崔晓晖/授课材料/senior java programing language",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"69",
+				"majorname":"计算机类",
+				"itemname":"java progreaming language",
+				"author": "崔晓晖",
+				"resUrl":"ftp://211.71.149.21/崔晓晖/授课材料/java programing language",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"70",
+				"majorname":"计算机类",
+				"itemname":"vb",
+				"author": "孙俏",
+				"resUrl":"ftp://211.71.149.21/孙俏/vb",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"71",
+				"majorname":"计算机类",
+				"itemname":"UML",
+				"author": "田萱",
+				"resUrl":"ftp://211.71.149.21/田萱/授课材料/UML/slides/2014",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"72",
+				"majorname":"信息",
+				"itemname":"Web应用程序开发",
+				"author": "蓝海洋",
+				"resUrl":"ftp://202.204.121.57/蓝海洋老师讲义下载/Web应用程序开发/课件",
+				"itemstatus": "regular",
+				"remarks":"用户名cpp无密码"
+			},
+			{
+				"id":"73",
+				"majorname":"计算机类",
+				"itemname":"汇编语言程序设计",
+				"author": "蔡娟",
+				"resUrl":"ftp://211.71.149.21/蔡娟/授课材料/汇编语言程序设计",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"74",
+				"majorname":"计算机类",
+				"itemname":"网络编程",
+				"author": "曹佳",
+				"resUrl":"ftp://211.71.149.87/曹佳/课件/网络编程",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"75",
+				"majorname":"计算机类",
+				"itemname":"问题求解与编程",
+				"author": "徐艳艳",
+				"resUrl":"ftp://211.71.149.21/徐艳艳/授课材料/问题求解与编程",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"76",
+				"majorname":"计算机类",
+				"itemname":"数据仓库与数据挖掘概述",
+				"author": "韩慧",
+				"resUrl":"ftp://211.71.149.21/韩慧/授课材料/数据仓库与数据挖掘概述/课件下载",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"77",
+				"majorname":"计算机类",
+				"itemname":"数据库原理及应用",
+				"author": "李群",
+				"resUrl":"ftp://211.71.149.87/李群/课件/数据库原理及应用",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"78",
+				"majorname":"计算机类",
+				"itemname":"database",
+				"author": "崔晓晖",
+				"resUrl":"ftp://211.71.149.21/崔晓晖/授课材料/database/ppt",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"79",
+				"majorname":"计算机类",
+				"itemname":"数据库技术",
+				"author": "莫勇",
+				"resUrl":"ftp://211.71.149.21/莫勇/授课材料/数据库技术",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"80",
+				"majorname":"计算机类",
+				"itemname":"数据库系统",
+				"author": "韩慧",
+				"resUrl":"ftp://211.71.149.21/韩慧/授课材料/数据库系统/课件下载",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"81",
+				"majorname":"计算机类",
+				"itemname":"数据结构",
+				"author": "李冬梅",
+				"resUrl":"ftp://211.71.149.21/李冬梅/授课材料/数据结构/讲稿",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"82",
+				"majorname":"计算机类",
+				"itemname":"数据采集",
+				"author": "李巨虎",
+				"resUrl":"ftp://211.71.149.21/李巨虎/授课材料/数据采集/课件",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"83",
+				"majorname":"计算机类",
+				"itemname":"大数据-云计算",
+				"author": "马杰",
+				"resUrl":"ftp://211.71.149.21/马杰/授课材料/大数据-云计算",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"84",
+				"majorname":"计算机类",
+				"itemname":"操作系统",
+				"author": "李群",
+				"resUrl":"ftp://211.71.149.87/李群/课件/操作系统",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"85",
+				"majorname":"计算机类",
+				"itemname":"操作系统(os)",
+				"author": "李巨虎",
+				"resUrl":"ftp://211.71.149.21/李巨虎/授课材料/os/课件",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"86",
+				"majorname":"计算机类",
+				"itemname":"操作系统B",
+				"author": "马杰",
+				"resUrl":"ftp://211.71.149.21/马杰/授课材料/操作系统B",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"87",
+				"majorname":"计算机类",
+				"itemname":"操作系统C",
+				"author": "马杰",
+				"resUrl":"ftp://211.71.149.21/马杰/授课材料/数据结构C",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"88",
+				"majorname":"计算机类",
+				"itemname":"Android",
+				"author": "孙钰",
+				"resUrl":"ftp://211.71.149.21/孙钰/Android/PPT",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"89",
+				"majorname":"计算机类",
+				"itemname":"嵌入式系统",
+				"author": "孙钰",
+				"resUrl":"ftp://211.71.149.21/孙钰/授课材料/嵌入式系统",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"90",
+				"majorname":"计算机类",
+				"itemname":"嵌入式系统A",
+				"author": "张海燕",
+				"resUrl":"ftp://211.71.149.21/张海燕/授课材料/本科生/嵌入式系统A/ppt",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"91",
+				"majorname":"计算机类",
+				"itemname":"软件体系结构",
+				"author": "田萱",
+				"resUrl":"ftp://211.71.149.21/田萱/授课材料/软件体系结构/tx-ppt",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"92",
+				"majorname":"计算机类",
+				"itemname":"软件分析与建模",
+				"author": "张海燕",
+				"resUrl":"ftp://211.71.149.21/张海燕/授课材料/本科生/软件分析与建模",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"93",
+				"majorname":"计算机类",
+				"itemname":"软件工程A",
+				"author": "赵方",
+				"resUrl":"ftp://211.71.149.21/赵方/授课材料/软件工程A/讲稿",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"94",
+				"majorname":"计算机类",
+				"itemname":"软件工程B",
+				"author": "赵方",
+				"resUrl":"ftp://211.71.149.21/赵方/授课材料/软件工程B/讲稿",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"95",
+				"majorname":"计算机类",
+				"itemname":"软件工程C",
+				"author": "赵方",
+				"resUrl":"ftp://211.71.149.21/赵方/授课材料/软件工程C/讲稿",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"96",
+				"majorname":"计算机类",
+				"itemname":"software architecture",
+				"author": "崔晓晖",
+				"resUrl":"ftp://211.71.149.21/崔晓晖/授课材料/software architecture/ppt",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"97",
+				"majorname":"计算机类",
+				"itemname":"software engineering",
+				"author": "崔晓晖",
+				"resUrl":"ftp://211.71.149.21/崔晓晖/授课材料/software engineering/ppt",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"98",
+				"majorname":"计算机类",
+				"itemname":"software estimation",
+				"author": "崔晓晖",
+				"resUrl":"ftp://211.71.149.21/崔晓晖/授课材料/software estimation/ppt",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"99",
+				"majorname":"信息",
+				"itemname":"信息检索",
+				"author": "王海燕",
+				"resUrl":"ftp://202.204.121.57/王海燕老师讲义下载/信息检索",
+				"itemstatus": "regular",
+				"remarks":"用户名fim无密码"
+			},
+			{
+				"id":"100",
+				"majorname":"计算机类",
+				"itemname":"搜索引擎",
+				"author": "蒋东辰",
+				"resUrl":"ftp://211.71.149.87/蒋东辰/讲稿/搜索引擎",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"101",
+				"majorname":"信息",
+				"itemname":"信息管理导论",
+				"author": "李维",
+				"resUrl":"ftp://202.204.121.57/李维老师讲义下载/信息管理导论/PPT",
+				"itemstatus": "regular",
+				"remarks":"用户名itpm无密码"
+			},
+			{
+				"id":"102",
+				"majorname":"信息",
+				"itemname":"信息资源管理",
+				"author": "李昀",
+				"resUrl":"ftp://202.204.121.57/李昀老师讲义下载/IRM/lecturenotes",
+				"itemstatus": "regular",
+				"remarks":"用户名irm无密码"
+			},
+			{
+				"id":"103",
+				"majorname":"信息",
+				"itemname":"信息科学原理",
+				"author": "李昀",
+				"resUrl":"ftp://202.204.121.57李昀老师讲义下载/信息科学原理",
+				"itemstatus": "regular",
+				"remarks":"用户名irm无密码"
+			},
+			{
+				"id":"104",
+				"majorname":"信息",
+				"itemname":"信息系统可用性",
+				"author": "李昀",
+				"resUrl":"ftp://202.204.121.57/李维老师讲义下载/信息系统可用性",
+				"itemstatus": "regular",
+				"remarks":"用户名irm无密码"
+			},
+			{
+				"id":"105",
+				"majorname":"信息",
+				"itemname":"信息系统分析与设计",
+				"author": "陈钊",
+				"resUrl":"ftp://202.204.121.57/陈钊老师讲义下载/信息系统分析与设计",
+				"itemstatus": "regular",
+				"remarks":"用户名mis无密码"
+			},
+			{
+				"id":"106",
+				"majorname":"信息",
+				"itemname":"高级信息系统",
+				"author": "陈钊",
+				"resUrl":"ftp://202.204.121.57/陈钊老师讲义下载/mis-信息/mis-research",
+				"itemstatus": "regular",
+				"remarks":"用户名mis无密码"
+			},
+			{
+				"id":"107",
+				"majorname":"信息",
+				"itemname":"旅游管理信息系统",
+				"author": "陈钊",
+				"resUrl":"ftp://202.204.121.57/陈钊老师讲义下载/高级信息系统/ppt",
+				"itemstatus": "regular",
+				"remarks":"用户名mis无密码"
+			},
+			{
+				"id":"108",
+				"majorname":"信息",
+				"itemname":"财务信息管理",
+				"author": "王海燕",
+				"resUrl":"ftp://202.204.121.57/王海燕老师讲义下载/财务信息管理",
+				"itemstatus": "regular",
+				"remarks":"用户名fim无密码"
+			},
+			{
+				"id":"109",
+				"majorname":"信息",
+				"itemname":"信息服务专题",
+				"author": "王海燕",
+				"resUrl":"ftp://202.204.121.57/王海燕老师讲义下载/信息服务专题",
+				"itemstatus": "regular",
+				"remarks":"用户名fim无密码"
+			},
+			{
+				"id":"110",
+				"majorname":"信息",
+				"itemname":"服务科学与信息服务",
+				"author": "王海燕",
+				"resUrl":"ftp://202.204.121.57/王海燕老师讲义下载/服务科学与信息服务",
+				"itemstatus": "regular",
+				"remarks":"用户名fim无密码"
+			},
+			{
+				"id":"111",
+				"majorname":"信息",
+				"itemname":"IT项目管理",
+				"author": "李维",
+				"resUrl":"ftp://202.204.121.57/李维老师讲义下载/it项目管理",
+				"itemstatus": "regular",
+				"remarks":"用户名itpm无密码"
+			},
+			{
+				"id":"112",
+				"majorname":"信息",
+				"itemname":"多媒体演示",
+				"author": "李维",
+				"resUrl":"ftp://202.204.121.57/李维老师讲义下载/多媒体演示",
+				"itemstatus": "regular",
+				"remarks":"用户名itpm无密码"
+			},
+			{
+				"id":"113",
+				"majorname":"信息",
+				"itemname":"电子政务",
+				"author": "王海燕",
+				"resUrl":"ftp://202.204.121.57/王海燕老师讲义下载/电子政务",
+				"itemstatus": "regular",
+				"remarks":"用户名fim无密码"
+			},
+			{
+				"id":"114",
+				"majorname":"计算机类",
+				"itemname":"Design Patterns",
+				"author": "孙国栋",
+				"resUrl":"ftp://211.71.149.21/孙国栋/授课材料/Design Patterns",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"115",
+				"majorname":"计算机类",
+				"itemname":"网站设计",
+				"author": "孙俏",
+				"resUrl":"ftp://211.71.149.21/孙俏/网站设计",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"116",
+				"majorname":"计算机类",
+				"itemname":"离散结构",
+				"author": "王建新",
+				"resUrl":"ftp://211.71.149.21/王建新/授课材料/离散结构",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"117",
+				"majorname":"计算机类",
+				"itemname":"RFID应用系统",
+				"author": "李巨虎",
+				"resUrl":"ftp://211.71.149.21/李巨虎/授课材料/rfid/课件",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"118",
+				"majorname":"计算机类",
+				"itemname":"智能家居",
+				"author": "李巨虎",
+				"resUrl":"ftp://211.71.149.21/李巨虎/授课材料/智能家居/课件",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"119",
+				"majorname":"计算机类",
+				"itemname":"组成原理",
+				"author": "李巨虎",
+				"resUrl":"ftp://211.71.149.21/李巨虎/授课材料/组成原理/课件",
+				"itemstatus": "regular",
+				"remarks":""
 			}
 		]
 	}

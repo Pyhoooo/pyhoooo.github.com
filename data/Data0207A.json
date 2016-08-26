@@ -1,0 +1,188 @@
+[
+    {
+		"id":"0207A",
+		"shopname":"Matlab资源",
+		"items":[
+			{
+				"id":"1",
+				"majorname":"教程",
+				"itemname":"Matlab_MATLAB语言基础1",
+				"author": "pengyunxiong",
+				"resUrl":"http://wenku.baidu.com/view/55bb08a3b0717fd5360cdc42.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"2",
+				"majorname":"教程",
+				"itemname":"Matlab_MATLAB语言基础2",
+				"author": "shangrila",
+				"resUrl":"http://blog.163.com/shangrila_1211/blog/static/9854621200843013352873/",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"3",
+				"majorname":"软件",
+				"itemname":"Matlab_Matlab7.0",
+				"author": "",
+				"resUrl":"http://www.xp85.com/html/Matlab7.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"4",
+				"majorname":"案例",
+				"itemname":"Matlab_快速傅里叶变换分析信号频谱matlab程序",
+				"author": "jcsboy",
+				"resUrl":"http://jingyan.baidu.com/article/49ad8bce7aba395834d8fa8f.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"5",
+				"majorname":"案例",
+				"itemname":"Matlab_matlab实现图像的平移、旋转、缩放",
+				"author": "langyuewu",
+				"resUrl":"http://blog.csdn.net/langyuewu/article/details/4213201",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"6",
+				"majorname":"案例",
+				"itemname":"Matlab_基于matlab的简单人脸识别实例",
+				"author": "lyqmath",
+				"resUrl":"http://blog.csdn.net/lyqmath/article/details/6139043",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"7",
+				"majorname":"案例",
+				"itemname":"Matlab_简单遗传算法MATLAB实现",
+				"author": "Alex",
+				"resUrl":"http://www.cnblogs.com/biaoyu/archive/2011/12/03/2274604.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"8",
+				"majorname":"案例",
+				"itemname":"Matlab_Matlab实现多种图像配准",
+				"author": "robotwolf",
+				"resUrl":"http://blog.sina.com.cn/s/blog_6ef39eb80100rhfl.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"9",
+				"majorname":"案例",
+				"itemname":"Matlab_Matlab曲线拟合 最小二乘法",
+				"author": "ccpacer",
+				"resUrl":"http://blog.sina.com.cn/s/blog_4a0824490100v6cp.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"10",
+				"majorname":"案例",
+				"itemname":"Matlab_基于Matlab的离散小波变换",
+				"author": "lyqmath",
+				"resUrl":"http://blog.sina.com.cn/s/blog_725866260100ryh3.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"11",
+				"majorname":"案例",
+				"itemname":"Matlab_DFT的Matlab实现",
+				"author": "lttian",
+				"resUrl":"http://lttian1068.blog.163.com/blog/static/1321506082010590112458/",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"12",
+				"majorname":"案例",
+				"itemname":"Matlab_模拟和数字低通滤波器的MATLAB实现",
+				"author": "MATLAB",
+				"resUrl":"http://blog.sina.com.cn/s/blog_79ecf6980100vcrf.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"13",
+				"majorname":"案例",
+				"itemname":"Matlab_FFT的matlab实现",
+				"author": "Sophia",
+				"resUrl":"http://blog.sina.com.cn/s/blog_64b046c701014z14.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"14",
+				"majorname":"案例",
+				"itemname":"Matlab_基于Matlab来计算矩阵特征值和特征向量",
+				"author": "lyqmath",
+				"resUrl":"http://blog.sina.com.cn/s/blog_725866260100rzw0.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"15",
+				"majorname":"案例",
+				"itemname":"Matlab_基于MATLAB的卫星绕地球模拟系统",
+				"author": "lyqmath",
+				"resUrl":"http://blog.sina.com.cn/s/blog_725866260100rzex.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"16",
+				"majorname":"案例",
+				"itemname":"Matlab_Matlab的Figure窗口设置全屏方法",
+				"author": "lyqmath",
+				"resUrl":"http://blog.sina.com.cn/s/blog_725866260100rzee.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"17",
+				"majorname":"案例",
+				"itemname":"Matlab_基于Matlab制作带有情节的动画",
+				"author": "lyqmath",
+				"resUrl":"http://blog.sina.com.cn/s/blog_725866260100rzda.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"18",
+				"majorname":"案例",
+				"itemname":"Matlab_基于Matlab的色彩测试分析",
+				"author": "lyqmath",
+				"resUrl":"http://blog.sina.com.cn/s/blog_725866260100rzc8.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"19",
+				"majorname":"案例",
+				"itemname":"Matlab_基于Matlab的标记分水岭分割算法",
+				"author": "lyqmath",
+				"resUrl":"http://blog.sina.com.cn/s/blog_725866260100rz7x.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"20",
+				"majorname":"案例",
+				"itemname":"Matlab_基于Matlab生成高斯噪声",
+				"author": "lyqmath",
+				"resUrl":"http://blog.sina.com.cn/s/blog_725866260100ryj8.html",
+				"itemstatus": "regular",
+				"remarks":""
+			}
+		]
+	}
+]

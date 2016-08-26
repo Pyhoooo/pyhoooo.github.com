@@ -1,0 +1,152 @@
+[
+	{
+		"id":"0202A",
+		"shopname":"C语言标准库",
+		"items":[
+			{
+				"id":"1",
+				"majorname":"",
+				"itemname":"C 标准库 - 参考手册",
+				"author": "",
+				"resUrl":"http://www.runoob.com/cprogramming/c-standard-library.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"2",
+				"majorname":"",
+				"itemname":"C 标准库 - <assert.h>",
+				"author": "",
+				"resUrl":"http://www.runoob.com/cprogramming/c-standard-library-assert-h.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"3",
+				"majorname":"",
+				"itemname":"C 标准库 - <ctype.h>",
+				"author": "",
+				"resUrl":"http://www.runoob.com/cprogramming/c-standard-library-ctype-h.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"4",
+				"majorname":"",
+				"itemname":"C 标准库 - <errno.h>",
+				"author": "",
+				"resUrl":"http://www.runoob.com/cprogramming/c-standard-library-errno-h.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"5",
+				"majorname":"",
+				"itemname":"C 标准库 - <float.h>",
+				"author": "",
+				"resUrl":"http://www.runoob.com/cprogramming/c-standard-library-float-h.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"6",
+				"majorname":"",
+				"itemname":"C 标准库 - <limits.h>",
+				"author": "",
+				"resUrl":"http://www.runoob.com/cprogramming/c-standard-library-limits-h.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"7",
+				"majorname":"",
+				"itemname":"C 标准库 - <locale.h>",
+				"author": "",
+				"resUrl":"http://www.runoob.com/cprogramming/c-standard-library-locale-h.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"8",
+				"majorname":"",
+				"itemname":"C 标准库 - <math.h>",
+				"author": "",
+				"resUrl":"http://www.runoob.com/cprogramming/c-standard-library-math-h.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"9",
+				"majorname":"",
+				"itemname":"C 标准库 - <setjmp.h>",
+				"author": "",
+				"resUrl":"http://www.runoob.com/cprogramming/c-standard-library-setjmp-h.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"10",
+				"majorname":"",
+				"itemname":"C 标准库 - <signal.h>",
+				"author": "",
+				"resUrl":"http://www.runoob.com/cprogramming/c-standard-library-signal-h.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"11",
+				"majorname":"",
+				"itemname":"C 标准库 - <stdarg.h>",
+				"author": "",
+				"resUrl":"http://www.runoob.com/cprogramming/c-standard-library-stdarg-h.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"12",
+				"majorname":"",
+				"itemname":"C 标准库 - <stddef.h>",
+				"author": "",
+				"resUrl":"http://www.runoob.com/cprogramming/c-standard-library-stddef-h.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"13",
+				"majorname":"",
+				"itemname":"C 标准库 - <stdio.h>",
+				"author": "",
+				"resUrl":"http://www.runoob.com/cprogramming/c-standard-library-stdio-h.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"14",
+				"majorname":"",
+				"itemname":"C 标准库 - <stdlib.h>",
+				"author": "",
+				"resUrl":"http://www.runoob.com/cprogramming/c-standard-library-stdlib-h.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"15",
+				"majorname":"",
+				"itemname":"C 标准库 - <string.h>",
+				"author": "",
+				"resUrl":"http://www.runoob.com/cprogramming/c-standard-library-string-h.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"16",
+				"majorname":"",
+				"itemname":"C 标准库 - <time.h>",
+				"author": "",
+				"resUrl":"http://www.runoob.com/cprogramming/c-standard-library-time-h.html",
+				"itemstatus": "regular",
+				"remarks":""
+			}
+		]
+	}
+]

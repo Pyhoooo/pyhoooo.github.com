@@ -8,7 +8,25 @@
 				"majorname":"教程",
 				"itemname":"Ruby_Ruby语言学习系列--基本的ruby语法",
 				"author": "hahhah_08",
-				"resUrl":"http://pan.baidu.com/s/1hr2BOpQ",
+				"resUrl":"http://blog.csdn.net/hahhah_08/article/details/6438360",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"2",
+				"majorname":"教程",
+				"itemname":"Ruby_ ruby 关于目录操作",
+				"author": "hahhah_08",
+				"resUrl":"http://blog.csdn.net/hahhah_08/article/details/6741050",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"3",
+				"majorname":"教程",
+				"itemname":"Ruby_RUBY一些基础知识",
+				"author": "hahhah_08",
+				"resUrl":"http://blog.csdn.net/hahhah_08/article/details/6563019",
 				"itemstatus": "regular",
 				"remarks":""
 			},
@@ -18,6 +36,150 @@
 				"itemname":"Ruby_Ruby 2.3.1版本",
 				"author": "",
 				"resUrl":"https://www.ruby-lang.org/zh_cn/downloads/",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"5",
+				"majorname":"软件",
+				"itemname":"Ruby_Ruby 2.2.5版本",
+				"author": "",
+				"resUrl":"https://www.ruby-lang.org/zh_cn/downloads/",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"6",
+				"majorname":"案例",
+				"itemname":"Ruby_ruby元编程实际使用实例",
+				"author": "junjie",
+				"resUrl":"http://www.jb51.net/article/51945.htm",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"7",
+				"majorname":"案例",
+				"itemname":"Ruby_Ruby元编程的一些值得注意的地方",
+				"author": "goldensun",
+				"resUrl":"http://www.jb51.net/article/70526.htm",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"8",
+				"majorname":"案例",
+				"itemname":"Ruby_Ruby和元编程之万物皆为对象",
+				"author": "junjie",
+				"resUrl":"http://www.jb51.net/article/56741.htm",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"9",
+				"majorname":"案例",
+				"itemname":"Ruby_ruby元编程之创建自己的动态方法",
+				"author": "junjie",
+				"resUrl":"http://www.jb51.net/article/66708.htm",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"10",
+				"majorname":"案例",
+				"itemname":"Ruby_Ruby元编程之梦中情人method_missing方法详解",
+				"author": "junjie",
+				"resUrl":"http://www.jb51.net/article/66704.htm",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"11",
+				"majorname":"案例",
+				"itemname":"Ruby_ruby元编程之method_missing的一个使用细节",
+				"author": "junjie",
+				"resUrl":"http://www.jb51.net/article/66707.htm",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"12",
+				"majorname":"案例",
+				"itemname":"Ruby_Ruby中的迭代器详解",
+				"author": "junjie",
+				"resUrl":"http://www.jb51.net/article/54622.htm",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"13",
+				"majorname":"案例",
+				"itemname":"Ruby_ruby 迭代器使用方法",
+				"author": "",
+				"resUrl":"http://www.jb51.net/article/12868.htm",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"14",
+				"majorname":"案例",
+				"itemname":"Ruby_在Ruby中处理日期和时间的教程",
+				"author": "goldensun",
+				"resUrl":"http://www.jb51.net/article/63857.htm",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"15",
+				"majorname":"案例",
+				"itemname":"Ruby_使用Ruby编写脚本进行系统管理的教程",
+				"author": "goldensun",
+				"resUrl":"http://www.jb51.net/article/64149.htm",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"16",
+				"majorname":"案例",
+				"itemname":"Ruby_使用Ruby程序实现web信息抓取的教程",
+				"author": "goldensun",
+				"resUrl":"http://www.jb51.net/article/64146.htm",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"17",
+				"majorname":"案例",
+				"itemname":"Ruby_Ruby实现网页图片抓取",
+				"author": "yuluo",
+				"resUrl":"http://www.jb51.net/article/82185.htm",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"18",
+				"majorname":"案例",
+				"itemname":"Ruby_Ruby设计模式编程中对外观模式的应用实例分析",
+				"author": "范孝鹏",
+				"resUrl":"http://www.jb51.net/article/81050.htm",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"19",
+				"majorname":"案例",
+				"itemname":"Ruby_实例解析Ruby设计模式编程中Strategy策略模式的使用",
+				"author": "guolin",
+				"resUrl":"http://www.jb51.net/article/81042.htm",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"20",
+				"majorname":"案例",
+				"itemname":"Ruby_实例讲解Ruby使用设计模式中的装饰器模式的方法",
+				"author": "michael_roshen",
+				"resUrl":"http://www.jb51.net/article/81039.htm",
 				"itemstatus": "regular",
 				"remarks":""
 			}
