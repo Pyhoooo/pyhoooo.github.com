@@ -4,7 +4,7 @@
 		"shopname":"PS案例教程",
 		"items":[
 			{
-                            "id":"1",
+                "id":"1",
 				"majorname":"",
 				"itemname":"Photoshop制作非常大气的水果饮料海报",
 				"author": "",
@@ -12,34 +12,34 @@
 				"itemstatus": "regular",
 				"remarks":""
 			},
-                       {
-                            "id":"2",
+            {
+                "id":"2",
 				"majorname":"",
 				"itemname":"Photoshop从头学起案例",
 				"author": "",
 				"resUrl":"http://v.ku6.com/playlist/index_6563225.html",
 				"itemstatus": "regular",
 				"remarks":""
-                       }，
-                       {
-                            "id":"3",
+            },
+            {
+                "id":"3",
 				"majorname":"",
 				"itemname":"Photoshop经典实例1000例",
 				"author": "",
 				"resUrl":"http://wenku.baidu.com/link?url=94rmTZUnkT-jtx-iAwZm0Ji26XAjfL6vQQIBeGkZ1oIu_zBYUgKzHC-QwdVUSg-dePfA6gnfUM8LZ4LBoPhE5DyNgnxznIzWWXr7HcqtLce&pn=51",
 				"itemstatus": "regular",
 				"remarks":""
-                       }，
+            },
 
-                      {
-                            "id":"4",
+            {
+                "id":"4",
 				"majorname":"",
 				"itemname":"硅谷动力Photoshop案例教程",
 				"author": "",
 				"resUrl":"http://www.enet.com.cn/eschool/includes/zhuanti/photoshop/",
 				"itemstatus": "regular",
 				"remarks":""
-                       }，
+                       },
                       {
                             "id":"5",
 				"majorname":"",
@@ -48,7 +48,7 @@
 				"resUrl":"http://www.68ps.com/jc/big_ps_rm.asp?id=7518",
 				"itemstatus": "regular",
 				"remarks":""
-                       }，
+                       },
                       {
                             "id":"6",
 				"majorname":"",
@@ -57,7 +57,7 @@
 				"resUrl":"http://www.68ps.com/jc/big_ps_rm.asp?id=7398",
 				"itemstatus": "regular",
 				"remarks":""
-                       }，
+                       },
                       {
                             "id":"7",
 				"majorname":"",
@@ -66,7 +66,7 @@
 				"resUrl":"http://www.68ps.com/jc/big_ps_rm.asp?id=7345",
 				"itemstatus": "regular",
 				"remarks":""
-                       }，
+                       },
                       {
                             "id":"8",
 				"majorname":"",
@@ -75,7 +75,7 @@
 				"resUrl":"http://www.68ps.com/jc/big_ps_rm.asp?id=7257",
 				"itemstatus": "regular",
 				"remarks":""
-                       }，
+                       },
                       {
                             "id":"9",
 				"majorname":"",
@@ -84,7 +84,7 @@
 				"resUrl":"http://www.68ps.com/jc/big_ps_rm.asp?id=7201",
 				"itemstatus": "regular",
 				"remarks":""
-                       }，
+                       },
                       {
                             "id":"10",
 				"majorname":"",
@@ -93,7 +93,7 @@
 				"resUrl":"http://www.68ps.com/jc/big_ps_rm.asp?id=7131",
 				"itemstatus": "regular",
 				"remarks":""
-                       }，
+                       },
                       {
                             "id":"11",
 				"majorname":"",
@@ -102,7 +102,7 @@
 				"resUrl":"http://www.68ps.com/jc/big_ps_rm.asp?id=1622",
 				"itemstatus": "regular",
 				"remarks":""
-                       }，
+                       },
                       {
                             "id":"12",
 				"majorname":"",
@@ -111,7 +111,7 @@
 				"resUrl":"http://www.68ps.com/jc/big_ps_rm.asp?id=1659",
 				"itemstatus": "regular",
 				"remarks":""
-                       }，
+                       },
                       {
                             "id":"13",
 				"majorname":"",
@@ -120,7 +120,7 @@
 				"resUrl":"http://www.68ps.com/jc/big_ps_rm.asp?id=131",
 				"itemstatus": "regular",
 				"remarks":""
-                       }，
+                       },
                       {
                             "id":"14",
 				"majorname":"",
@@ -129,7 +129,7 @@
 				"resUrl":http://www.68ps.com/jc/big_ps_rm.asp?id=1498",
 				"itemstatus": "regular",
 				"remarks":""
-                       }，
+                       },
                       {
                             "id":"15",
 				"majorname":"",
@@ -138,7 +138,7 @@
 				"resUrl":"http://www.68ps.com/jc/big_ps_rm.asp?id=683",
 				"itemstatus": "regular",
 				"remarks":""
-                       }，
+                       },
                        {
                             "id":"16",
 				"majorname":"",
@@ -147,7 +147,7 @@
 				"resUrl":"http://wenku.baidu.com/view/ac0309f1ba0d4a7302763af7.html",
 				"itemstatus": "regular",
 				"remarks":""
-                       }，
+                       },
                       {
                             "id":"17",
 				"majorname":"",
@@ -156,7 +156,7 @@
 				"resUrl":"http://wenku.baidu.com/view/4bd0bd32eefdc8d376ee32f8.html?re=view",
 				"itemstatus": "regular",
 				"remarks":""
-                       }，
+                       },
                        {
                             "id":"18",
 				"majorname":"",
@@ -165,7 +165,7 @@
 				"resUrl":"http://wenku.baidu.com/view/76107538376baf1ffc4fadd8.html",
 				"itemstatus": "regular",
 				"remarks":""
-                       }，
+                       },
                       {
                             "id":"19",
 				"majorname":"",
@@ -174,7 +174,7 @@
 				"resUrl":"http://wenku.baidu.com/view/9bd8538fcc22bcd126ff0c37.html?re=view",
 				"itemstatus": "regular",
 				"remarks":""
-                       }，
+                       },
                       {
                             "id":"20",
 				"majorname":"",
@@ -183,7 +183,7 @@
 				"resUrl":"http://wenku.baidu.com/view/65f333060740be1e650e9af3.html?re=view",
 				"itemstatus": "regular",
 				"remarks":""
-                       }，
+                       },
                       {
                             "id":"21",
 				"majorname":"",

@@ -3,7 +3,11 @@
 		"id":"0503C",
 		"shopname":"日语日常用句",
 		"items":[
-			{,rl":"http://wenku.baidu.com/link?url=LtJ17g1eKqHmQsY5ZsyxDeyTNih_VOQSwbUmZXQiP6mqRW_CQ5Pcc2lmQ94NWrJznKu9J3Cd6CIdf2SBuxD5T89veYwy3AvRH-qonGoCCRW",
+			{	"id":"1",
+				"majorname":"",
+				"itemname":"日语的日常用语(中文发音)",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/link?url=LtJ17g1eKqHmQsY5ZsyxDeyTNih_VOQSwbUmZXQiP6mqRW_CQ5Pcc2lmQ94NWrJznKu9J3Cd6CIdf2SBuxD5T89veYwy3AvRH-qonGoCCRW",
 				"itemstatus": "regular",
 				"remarks":""
 			},

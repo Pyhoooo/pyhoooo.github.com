@@ -21,7 +21,7 @@
 				"itemstatus": "regular",
 				"remarks":""
 			},
-                       {
+            {
 				"id":"3",
 				"majorname":"",
 				"itemname":"爱语吧听歌学英语软件",
@@ -30,6 +30,6 @@
 				"itemstatus": "regular",
 				"remarks":""
 			}
-                   ]
-           }
+        ]
+    }
 ]
