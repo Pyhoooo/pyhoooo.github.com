@@ -1,0 +1,187 @@
+[
+	{
+		"id":"0503A",
+		"shopname":"日语发音表",
+		"items":[
+			{
+				"id":"1",
+				"majorname":"",
+				"itemname":"百度日语发音表",
+				"author": "",
+				"resUrl":"http://image.baidu.com/search/index?tn=baiduimage&ct=201326592&lm=-1&cl=2&ie=gbk&word=%C8%D5%D3%EF%B7%A2%D2%F4%B1%ED&hs=0&fr=ala&ori_query=%E6%97%A5%E8%AF%AD%E5%8F%91%E9%9F%B3%E8%A1%A8&ala=0&alatpl=sp&pos=0",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"2",
+				"majorname":"",
+				"itemname":"日语学习必备字母表发音大全",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/link?url=gEzSBJVze73iKCEN3dwBIOSpFFTXLrjX1G9YoqvIyAV-x5H73bB5SBfG1WRaKNVCM-XSVx53SLw4FBQ0FSrS-fBoqNKNJwmgl4XJAPU_kHa",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"3",
+				"majorname":"",
+				"itemname":"日语五十音图",
+				"author": "",
+				"resUrl":"http://jp.hjenglish.com/subject/pronounce/",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"4",
+				"majorname":"",
+				"itemname":"日语发音表",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/link?url=J9te_6fjQuz4PDJLli9JyhOIVuiqGRJVYrG3iysuDZvAAjgi4HYM9T1Unnxxeek8UEAyM6sEkVDACIL9kC7bJ7XRhW_HK18s7unmTVrghny",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"5",
+				"majorname":"",
+				"itemname":"一些基础日常日语发音对照表",
+				"author": "",
+				"resUrl":"https://www.douban.com/group/topic/14825498/",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"6",
+				"majorname":"",
+				"itemname":"日语1945个常用汉字发音、假名",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/link?url=8ssEUmqU63OCY1eOBDB-UDrNWYU6jH0fDcp5reN5uyXTJpyvsiA9TonL8lCRZ_Kjkoi8IMuLbf1fmsEhF_bubui_syFKDLXSQkGzFAHdAyG",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"7",
+				"majorname":"",
+				"itemname":"日语的1945个汉字读音",
+				"author": "",
+				"resUrl":"http://zhidao.baidu.com/link?url=znDfn992KI-hdp1L1GuUyBwzWXeum0Yp2OMNETtSvrHqpwj2gzcuQMoHziTidsenmBWJIZBWNsrFS_gl4rMqjULC1UZLPi5B3dkz5sNxvOe",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                        {
+				"id":"8",
+				"majorname":"",
+				"itemname":"日语汉字的发音",
+				"author": "",
+				"resUrl":"http://bulo.hujiang.com/u/14652738/diary/251526/",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                        {
+				"id":"9",
+				"majorname":"",
+				"itemname":"日语常用汉字读音",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/link?url=m8fPjYHf5Q8_6hke8GttfLN9qtHpICgFCVtUsC7TYbjq5wb5HPjGGJaMwWp-zFEd-baAFj2ElcbgmH8rIIEJe439SuIbD32CXvjEF5tADsa",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                        {
+				"id":"10",
+				"majorname":"",
+				"itemname":"日语1945个常用汉字发音、假名",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/link?url=Fj_eMJq6UzMJzBU5bArK0CBHvQHxTKbCSIaiv-JEv-w2PHbwZ-GH1Do0HO8yuniIds4BhUxwr-1ApdjTGV8QkHIhS1xIdADQJmDt5Cog9TO",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                        {
+				"id":"11",
+				"majorname":"",
+				"itemname":"日本语汉字发音一览表",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/link?url=zclUKYdmBC0KiZDShhXzCas7e3ORFg3KVwGw5WzDCgrGJtb0-L4ltIALm0GsT7yPeArkNvmZnIPQ2KyIythMXCkD2R0Z8VlFb2oOtYodlNS",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                        {
+				"id":"12",
+				"majorname":"",
+				"itemname":"日本汉字(大集合)",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/link?url=zfP9uz8hHkM7vOlZBqu_mQWGlhmlf8DtLCFSFJarclDUgNAi8y04fzg3NPfBz776OHhTeBdnljmU9s8WqBYNb5BGl5mpIVI749pTLQhEqS_",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                        {
+				"id":"13",
+				"majorname":"",
+				"itemname":"日语常用汉字读音表汇总",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/link?url=gYiW3CUeKngLOMGUrxOdQYX0SCH86f5vG7V37Msp_iZOpCY6eq-qUUDRjNvH50X8Vg4d38Q5mBexH_xk2bepnhODtr03_e4xQOiEfg5GrwW",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                        {
+				"id":"14",
+				"majorname":"",
+				"itemname":"日语汉字读音表",
+				"author": "",
+				"resUrl":"http://www.doc88.com/p-6009861390095.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                        {
+				"id":"15",
+				"majorname":"",
+				"itemname":"日语汉字发音一览表(22)",
+				"author": "",
+				"resUrl":http://www.v5jp.com/html/japan/hzyl22.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                        {
+				"id":"16",
+				"majorname":"",
+				"itemname":"日文汉字对照表",
+				"author": "",
+				"resUrl":"http://www.docin.com/p-1220770130.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"17",
+				"majorname":"",
+				"itemname":"日语假名与汉字来源对照表",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/link?url=Y3HLkwv4QmnfjWNbv6aQmkAX8M2qFgpQ-gVnP-I_S_H5zNBjzY1VcidTQ9dCwW2OAH8k_sNt5npk-uNHAlErhOlnhFf6d8idGxA2eopLsz7",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"18",
+				"majorname":"",
+				"itemname":"日语假名汉字对照表",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/link?url=eo9whTvfmaZtcF1Z564qtw2bA3HHscQxWTdyzcRtmxIwYPc3Uu577RBkX91mdfMLiGy_RXkwYPRm5DSqlkNDOAK9YA5x5I2C3xvvVpseliG",
+				"remarks":""
+			},
+                       {
+				"id":"19",
+				"majorname":"",
+				"itemname":"日文汉字对照表",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/view/799c9ee1524de518964b7d4f.html?re=view",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"20",
+				"majorname":"",
+				"itemname":"日语中文读音",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/link?url=cMjgZaD94qNJb2AvZ-TjhsVBdL5XILQbMKdiu6rvoz9riTKkTp52K2Q11stC2yEjLvQ4e8aHgixsDeQI2hveb7lHIjBKUiclwd-aKpKOq3K",
+				"itemstatus": "regular",
+				"remarks":""
+			}
+		]
+	}
+]

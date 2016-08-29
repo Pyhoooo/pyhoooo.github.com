@@ -1,0 +1,35 @@
+[
+	{
+		"id":"0502F",
+		"shopname":"英语软件介绍",
+		"items":[
+			{
+				"id":"1",
+				"majorname":"",
+				"itemname":"百度贴吧学英语软件介绍",
+				"author": "",
+				"resUrl":"http://tieba.baidu.com/p/2659967503",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"2",
+				"majorname":"",
+				"itemname":"手机有哪些学习英语的好软件",
+				"author": "",
+				"resUrl":"http://jingyan.baidu.com/article/15622f247d8f05fdfcbea52b.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"3",
+				"majorname":"",
+				"itemname":"爱语吧听歌学英语软件",
+				"author": "",
+				"resUrl":"http://www.downza.cn/soft/29791.html",
+				"itemstatus": "regular",
+				"remarks":""
+			}
+                   ]
+           }
+]

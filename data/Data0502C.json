@@ -1,0 +1,187 @@
+[
+	{
+		"id":"0502C",
+		"shopname":"考研资料",
+		"items":[
+			{
+				"id":"1",
+				"majorname":"",
+				"itemname":"新东方考研词汇",
+				"author": "",
+				"resUrl":"http://kaoyan.xdf.cn/201404/9962233.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"2",
+				"majorname":"",
+				"itemname":"中华考试网考研模拟试题",
+				"author": "",
+				"resUrl":"http://www.examw.com/kaoyan/kyyy/mnst/",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"3",
+				"majorname":"",
+				"itemname":"2016考研英语大纲词汇",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/view/b5a20b5f6f1aff00bfd51e31.html?from=search",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"4",
+				"majorname":"",
+				"itemname":"考研英语词汇打印版",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/view/ab41c1e7f705cc17552709ad.html?from=search",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"5",
+				"majorname":"",
+				"itemname":"2016最新版考研英语词汇下载",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/view/26092883fe4733687e21aae6.html?from=search",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"6",
+				"majorname":"",
+				"itemname":"最新考研英语词汇(免费下载)",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/view/e4ea423310661ed9ad51f3cf.html?from=search",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"7",
+				"majorname":"",
+				"itemname":"2015年最新考研英语词汇大全",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/view/c9103317a8956bec0875e33a.html?from=search",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                        {
+				"id":"8",
+				"majorname":"",
+				"itemname":"最新考研英语词汇大全",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/view/aedf3703bb4cf7ec4bfed0b1.html?from=search",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                        {
+				"id":"9",
+				"majorname":"",
+				"itemname":"考研英语词汇分类",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/view/85379a9080eb6294dd886c6c.html?from=search",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                        {
+				"id":"10",
+				"majorname":"",
+				"itemname":"2012考研英语单词",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/view/3b87e83b83c4bb4cf7ecd137.html?from=search",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                        {
+				"id":"11",
+				"majorname":"",
+				"itemname":"2015年最新考研英语词汇大全",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/view/c9103317a8956bec0875e33a.html?re=view",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                        {
+				"id":"12",
+				"majorname":"",
+				"itemname":"考研英语词汇辨析大全",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/view/c2f64edf50e2524de5187eeb.html?re=view",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                        {
+				"id":"13",
+				"majorname":"",
+				"itemname":"考研英语单词讲解大全",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/view/984db78383d049649b665867.html?re=view",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                        {
+				"id":"14",
+				"majorname":"",
+				"itemname":"考研英语单词串讲大全",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/view/cfa0ae2b915f804d2b16c163.html?re=view",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                        {
+				"id":"15",
+				"majorname":"",
+				"itemname":"2016考研英语一真题及答案解析",
+				"author": "",
+				"resUrl":http://wenku.baidu.com/view/df17fc2b102de2bd960588ef.html?from=search",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                        {
+				"id":"16",
+				"majorname":"",
+				"itemname":"2015年考研英语一真题完整版",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/view/bc310886856a561252d36f83.html?from=search",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"17",
+				"majorname":"",
+				"itemname":"2014考研英语真题及答案解析(详细)",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/view/47cea029f18583d048645934.html?from=search",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"18",
+				"majorname":"",
+				"itemname":"2012年考研英语一真题及答案完整解析",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/view/a6260dc9da38376baf1fae49.html?from=search",
+				"remarks":""
+			},
+                       {
+				"id":"19",
+				"majorname":"",
+				"itemname":"2013考研英语真题及答案解析(英语一)完整版",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/view/be2db03490c69ec3d5bb75c4.html?from=search",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"20",
+				"majorname":"",
+				"itemname":"2016考研英语一真题及答案解析",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/view/76e197e55901020207409cef.html?from=search",
+				"itemstatus": "regular",
+				"remarks":""
+			}
+		]
+	}
+]

@@ -1,0 +1,53 @@
+[
+	{
+		"id":"0501F",
+		"shopname":"韩语软件介绍",
+		"items":[
+			{
+				"id":"1",
+				"majorname":"",
+				"itemname":"学费全免网韩语学习",
+				"author": "",
+				"resUrl":"http://www.freexf.com",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"2",
+				"majorname":"",
+				"itemname":"韩语U学院-基础韩语学习",
+				"author": "",
+				"resUrl":"http://shouji.baidu.com/software/9722490.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"3",
+				"majorname":"",
+				"itemname":"韩语学习手机软件",
+				"author": "",
+				"resUrl":"http://shouji.baidu.com/s?wd=%BA%AB%D3%EF%D1%A7%CF%B0%CA%D6%BB%FA%C8%ED%BC%FE&data_type=app&from=web_alad_5",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"4",
+				"majorname":"",
+				"itemname":"免费学习韩语 5.3.3",
+				"author": "",
+				"resUrl":"http://dl.pconline.com.cn/download/135500.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"5",
+				"majorname":"",
+				"itemname":"学韩语的安卓软件专题",
+				"author": "",
+				"resUrl":"http://www.apk8.com/soft/zt_54.html",
+				"itemstatus": "regular",
+				"remarks":""
+			}
+		]
+	}
+]

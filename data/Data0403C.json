@@ -1,0 +1,71 @@
+[
+	{
+		"id":"0403C",
+		"shopname":"AE软件下载",
+		"items":[
+			{
+				"id":"1",
+				"majorname":"",
+				"itemname":"Adobe After Effects CC 2014(做视频的软件)官方中文版下载",
+				"author": "",
+				"resUrl":"http://www.xiazaiba.com/html/25796.html#j_down_list",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"2",
+				"majorname":"",
+				"itemname":"Adobe After Effects CC for Mac 2015官方中文版下载(AE MAC版)",
+				"author": "",
+				"resUrl":"http://www.xiazaiba.com/html/30140.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"3",
+				"majorname":"",
+				"itemname":"Adobe After Effects CS6(图形视频处理软件ae cs6下载) 11.0.2 官方下载x64位版本",
+				"author": "",
+				"resUrl":"http://www.xiazaiba.com/html/23918.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"4",
+				"majorname":"",
+				"itemname":"Adobe AfterEffects CC(制作视频软件) 12.0.0.404 官方中文版",
+				"author": "",
+				"resUrl":"http://www.xiazaiba.com/html/24812.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"5",
+				"majorname":"",
+				"itemname":"Adobe After Effects CS4(ae cs4中文版下载)中文版",
+				"author": "",
+				"resUrl":"http://www.xiazaiba.com/html/24646.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"6",
+				"majorname":"",
+				"itemname":"Adobe After Effects CC 2014 for Mac官方中文版下载(AE MAC)",
+				"author": "",
+				"resUrl":"http://www.xiazaiba.com/html/25798.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"7",
+				"majorname":"",
+				"itemname":"Adobe After Effects CC 2015(AE视频处理软件下载)官方中文版下载",
+				"author": "",
+				"resUrl":"http://www.xiazaiba.com/html/30139.html",
+				"itemstatus": "regular",
+				"remarks":""
+			}
+		]
+	}
+]

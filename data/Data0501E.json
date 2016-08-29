@@ -1,0 +1,53 @@
+[
+	{
+		"id":"0501E",
+		"shopname":"韩语娱乐推荐",
+		"items":[
+			{
+				"id":"1",
+				"majorname":"",
+				"itemname":"酷我音乐轻松学韩语",
+				"author": "",
+				"resUrl":"http://bd.kuwo.cn/album/436206/?from=baidu",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"2",
+				"majorname":"",
+				"itemname":"韩国全部娱乐推荐",
+				"author": "",
+				"resUrl":"http://www.mafengwo.cn/yl/10184/0-0-0-1-0-1.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"3",
+				"majorname":"",
+				"itemname":"韩国综艺节目排行榜",
+				"author": "",
+				"resUrl":"http://movie.8684.com/zongyi_r53",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"4",
+				"majorname":"",
+				"itemname":"值得看的30部韩国电影",
+				"author": "",
+				"resUrl":"http://www.dzwww.com/yule/yulezhuanti/mtcbg/201601/t20160118_10591691_1.htm",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"5",
+				"majorname":"",
+				"itemname":"韩国娱乐大全",
+				"author": "",
+				"resUrl":"http://trip.elong.com/korea/yule/",
+				"itemstatus": "regular",
+				"remarks":""
+			}
+		]
+	}
+]

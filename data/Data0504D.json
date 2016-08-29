@@ -1,0 +1,187 @@
+[
+	{
+		"id":"0504D",
+		"shopname":"法语视频教学",
+		"items":[
+			{
+				"id":"1",
+				"majorname":"",
+				"itemname":"法语自学视频",
+				"author": "",
+				"resUrl":"http://www.ifree-fr.net/playerV5/1.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"2",
+				"majorname":"",
+				"itemname":"法语视频教程",
+				"author": "",
+				"resUrl":"http://fr.olacio.com/?utm_source=baidu&utm_medium=cpc&utm_campaign=Fr%20%E9%AB%98%E9%A2%91%20%E5%9C%A8%E7%BA%BF%20D&utm_term=%E6%B3%95%E8%AF%AD%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"3",
+				"majorname":"",
+				"itemname":"简明法语教程",
+				"author": "",
+				"resUrl":"http://v.ku6.com/playlist/index_2387276.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"4",
+				"majorname":"",
+				"itemname":"法语视频教学",
+				"author": "",
+				"resUrl":"http://v.ku6.com/show/CEEcaQMWDEzg7DpD.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"5",
+				"majorname":"",
+				"itemname":"法语基础入门学习（字母）",
+				"author": "",
+				"resUrl":"http://v.dxsbb.com/waiyu/500/player-0-0.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"6",
+				"majorname":"",
+				"itemname":"法语基础入门学习（颜色）",
+				"author": "",
+				"resUrl":"http://v.dxsbb.com/waiyu/500/player-0-1.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"7",
+				"majorname":"",
+				"itemname":"法语基础入门学习（法语问候语）",
+				"author": "",
+				"resUrl":"http://v.dxsbb.com/waiyu/500/player-0-2.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                        {
+				"id":"8",
+				"majorname":"",
+				"itemname":"法语基础入门学习（日子的表达）",
+				"author": "",
+				"resUrl":"http://v.dxsbb.com/waiyu/500/player-0-3.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                        {
+				"id":"9",
+				"majorname":"",
+				"itemname":"法语基础入门学习（星期）",
+				"author": "",
+				"resUrl":"http://v.dxsbb.com/waiyu/500/player-0-4.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                        {
+				"id":"10",
+				"majorname":"",
+				"itemname":"法语基础入门学习（月份）",
+				"author": "",
+				"resUrl":"http://v.dxsbb.com/waiyu/500/player-0-5.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                        {
+				"id":"11",
+				"majorname":"",
+				"itemname":"法语基础入门学习（数字0到20）",
+				"author": "",
+				"resUrl":"http://v.dxsbb.com/waiyu/500/player-0-6.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                        {
+				"id":"12",
+				"majorname":"",
+				"itemname":"法语基础入门学习（季节）",
+				"author": "",
+				"resUrl":"http://v.dxsbb.com/waiyu/500/player-0-7.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                        {
+				"id":"13",
+				"majorname":"",
+				"itemname":"法语基础入门学习（时间）",
+				"author": "",
+				"resUrl":"http://v.dxsbb.com/waiyu/500/player-0-10.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                        {
+				"id":"14",
+				"majorname":"",
+				"itemname":"法语基础入门学习（冠词）",
+				"author": "",
+				"resUrl":"http://v.dxsbb.com/waiyu/500/player-0-15.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                        {
+				"id":"15",
+				"majorname":"",
+				"itemname":"法语基础入门学习（词汇）",
+				"author": "",
+				"resUrl":http://v.dxsbb.com/waiyu/500/player-0-16.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                        {
+				"id":"16",
+				"majorname":"",
+				"itemname":"法语基础入门学习（词汇—水果）",
+				"author": "",
+				"resUrl":"http://v.dxsbb.com/waiyu/500/player-0-22.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"17",
+				"majorname":"",
+				"itemname":"法语基础入门学习（词汇—运动）",
+				"author": "",
+				"resUrl":"http://v.dxsbb.com/waiyu/500/player-0-20.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"18",
+				"majorname":"",
+				"itemname":"法语基础入门学习（词汇）",
+				"author": "",
+				"resUrl":"http://v.dxsbb.com/waiyu/500/player-0-23.html",
+				"remarks":""
+			},
+                       {
+				"id":"19",
+				"majorname":"",
+				"itemname":"Conversation basique",
+				"author": "",
+				"resUrl":"http://v.dxsbb.com/waiyu/500/player-0-14.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"20",
+				"majorname":"",
+				"itemname":"法语基础入门学习（动词变位）",
+				"author": "",
+				"resUrl":"http://v.dxsbb.com/waiyu/500/player-0-18.html",
+				"itemstatus": "regular",
+				"remarks":""
+			}
+		]
+	}
+]

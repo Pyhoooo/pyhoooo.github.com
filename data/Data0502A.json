@@ -1,0 +1,187 @@
+[
+	{
+		"id":"0502A",
+		"shopname":"四级资料",
+		"items":[
+			{
+				"id":"1",
+				"majorname":"",
+				"itemname":"星火四级必备词汇",
+				"author": "",
+				"resUrl":"http://down.sparke.cn/Book.aspx?id=DCB151",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"2",
+				"majorname":"",
+				"itemname":"百度四级词汇",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/link?url=R5tJd9R1qti3GHCVMHcCbe2rra7BB9yRp45_kkbSTeGDPLon9l1liNWs8A0IOBErGTedg8e5FnoPti68DVPGFV4DjWDCvZfRiiprP4Rns-C",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"3",
+				"majorname":"",
+				"itemname":"恒星英语历年四级真题",
+				"author": "",
+				"resUrl":"http://www.hxen.com/CET46/CET4/zhenti/",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"4",
+				"majorname":"",
+				"itemname":"星火英语四级试题下载",
+				"author": "",
+				"resUrl":"http://down.sparke.cn/ResList.aspx?type=37",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"5",
+				"majorname":"",
+				"itemname":"百度四级词汇",
+				"author": "",
+				"resUrl":"http://zhidao.baidu.com/link?url=RM2SwPIY18Z2Yjcp2lerlODF5HEuvGaBZ1FTkBWrF3AjSi9BYtv2ywgddCTX2Qx-trdX1rT98WffFijKGPMcRe5ECeQyyXG2gw2v0hAYfjK",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"6",
+				"majorname":"",
+				"itemname":"2015大学英语四级词汇完整版",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/view/05cb3061c5da50e2534d7f19.html?from=search",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"7",
+				"majorname":"",
+				"itemname":"2015新版大学英语四级考试词汇表(新大纲)",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/view/d5453a66bb68a98270fefa23.html?from=search",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                        {
+				"id":"8",
+				"majorname":"",
+				"itemname":"2015新版英语四级词汇详解(强力推荐)",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/view/420f0a7776c66137ef061970.html?from=search",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                        {
+				"id":"9",
+				"majorname":"",
+				"itemname":"大学英语四级词汇带音标",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/view/681e8b683c1ec5da50e27056.html?from=search",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                        {
+				"id":"10",
+				"majorname":"",
+				"itemname":"2014英语四级单词、词组",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/view/6d93643df12d2af90242e6a4.html?from=search",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                        {
+				"id":"11",
+				"majorname":"",
+				"itemname":"四级高频词汇",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/view/fda928284b73f242336c5fd1.html?from=search",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                        {
+				"id":"12",
+				"majorname":"",
+				"itemname":"2016年大学英语四级cet4词汇表",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/view/12fc6f509ec3d5bbfc0a7495.html?from=search",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                        {
+				"id":"13",
+				"majorname":"",
+				"itemname":"2015大学英语四级词汇完整版",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/view/453f8c9752d380eb62946dde.html?from=search",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                        {
+				"id":"14",
+				"majorname":"",
+				"itemname":"2015大学英语四级词汇练习题及答案解析",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/view/a7bb927eb52acfc789ebc9ff.html?re=view",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                        {
+				"id":"15",
+				"majorname":"",
+				"itemname":"2016大学英语四级词汇完整版带音标",
+				"author": "",
+				"resUrl":http://wenku.baidu.com/view/bd01f73489eb172dec63b71b.html?re=view",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                        {
+				"id":"16",
+				"majorname":"",
+				"itemname":"2016年6月大学英语四级真题试卷完整版",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/view/a36f5b43284ac850ac02428f.html?re=view",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"17",
+				"majorname":"",
+				"itemname":"2014年6月大学英语四级真题(第2套)",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/view/70f6ded6a216147916112889.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"18",
+				"majorname":"",
+				"itemname":"2015年12月四级(第二套)大学英语四级真题卷",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/view/85517878d1f34693dbef3e97.html",
+				"remarks":""
+			},
+                       {
+				"id":"19",
+				"majorname":"",
+				"itemname":"2015年12月四级真题(三套全)",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/view/51eb885a6529647d262852b5.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"20",
+				"majorname":"",
+				"itemname":"2014年6月大学英语四级真题及答案",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/view/766e2a1133687e21af45a97d.html",
+				"itemstatus": "regular",
+				"remarks":""
+			}
+		]
+	}
+]

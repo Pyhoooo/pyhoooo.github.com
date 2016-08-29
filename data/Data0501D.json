@@ -1,185 +1,184 @@
 [
 	{
-		"id":"0602B",
-		"shopname":"妆容教学视频",
+		"id":"0501D",
+		"shopname":"韩语视频教学",
 		"items":[
 			{
 				"id":"1",
 				"majorname":"",
-				"itemname":"刘怡-简易妆容",
+				"itemname":"酷6网轻松学韩语视频",
 				"author": "",
-				"resUrl":"http://v.youku.com/v_show/id_XMTk4MzE1MTg4.html",
+				"resUrl":"http://v.ku6.com/show/FRayXZvvm-r77Ybtvnzq4w...html",
 				"itemstatus": "regular",
 				"remarks":""
 			},
 			{
 				"id":"2",
 				"majorname":"",
-				"itemname":"韩国美妆教主Pony",
+				"itemname":"基础韩语语法",
 				"author": "",
-				"resUrl":"http://toutiao.com/a6293464355656696322/",
+				"resUrl":"http://hanyu.liuxuekorea.com/Product/Product.aspx?ProductID=2",
 				"itemstatus": "regular",
 				"remarks":""
 			},
-                        {
+                       {
 				"id":"3",
 				"majorname":"",
-				"itemname":"Pony清新日常妆容",
+				"itemname":"韩语日常用语",
 				"author": "",
-				"resUrl":"http://toutiao.com/a6311840285404332290/",
+				"resUrl":"http://www.iqiyi.com/w_19rqx7wck9.html",
 				"itemstatus": "regular",
 				"remarks":""
 			},
-                        {
+                       {
 				"id":"4",
 				"majorname":"",
-				"itemname":"梁吉娜清新妆容",
+				"itemname":"韩语兴趣入门学习",
 				"author": "",
-				"resUrl":"http://www.tudou.com/programs/view/QiYOFtgFLlM",
+				"resUrl":"http://www.iqiyi.com/w_19rt6igeex.html",
 				"itemstatus": "regular",
 				"remarks":""
 			},
-                        {
+                       {
 				"id":"5",
 				"majorname":"",
-				"itemname":"掌握欧美妆容精髓",
+				"itemname":"韩语日常用语学习",
 				"author": "",
-				"resUrl":"http://toutiao.com/a6314798889322414338/",
+				"resUrl":"http://www.iqiyi.com/w_19rqq2kzbx.html",
 				"itemstatus": "regular",
 				"remarks":""
 			},
-                        {
+                       {
 				"id":"6",
 				"majorname":"",
-				"itemname":"彭佳慧小烟熏妆容仿妆",
+				"itemname":"韩国语日常用语350句",
 				"author": "",
-				"resUrl":"http://toutiao.com/a6315282805908488450/",
+				"resUrl":"http://www.tudou.com/programs/view/KD7UESmDNTo/",
 				"itemstatus": "regular",
 				"remarks":""
 			},
-                        {
+                       {
 				"id":"7",
 				"majorname":"",
-				"itemname":"欧美妆容教程",
+				"itemname":"韩语基本发音：元音&辅音",
 				"author": "",
-				"resUrl":"http://toutiao.com/a6309599435781587201/",
+				"resUrl":"http://wenku.baidu.com/course/view/b1c44028915f804d2b16c103?cid=2",
 				"itemstatus": "regular",
 				"remarks":""
 			},
                         {
 				"id":"8",
 				"majorname":"",
-				"itemname":"暖暖春日樱花妆容",
+				"itemname":"韩国语发音精讲",
 				"author": "",
-				"resUrl":"http://toutiao.com/a6311893923811934465/",
+				"resUrl":"http://wenku.baidu.com/course/view/a0868762caaedd3383c4d305?cid=2",
 				"itemstatus": "regular",
 				"remarks":""
 			},
                         {
 				"id":"9",
 				"majorname":"",
-				"itemname":"小欧美妆容和打扮",
+				"itemname":"韩国语快速入门",
 				"author": "",
-				"resUrl":"http://toutiao.com/a6309593780203979009/",
+				"resUrl":"http://wenku.baidu.com/course/view/bc8a02d8ce2f0066f533228d?cid=205",
 				"itemstatus": "regular",
 				"remarks":""
 			},
                         {
 				"id":"10",
 				"majorname":"",
-				"itemname":"韩国春夏可爱精灵妆容学起来吧",
+				"itemname":"看漫画学韩语",
 				"author": "",
-				"resUrl":"http://toutiao.com/a6307446452809367810/",
+				"resUrl":"http://wenku.baidu.com/course/view/ced080eb6294dd88d0d26b06?cid=2",
 				"itemstatus": "regular",
 				"remarks":""
 			},
                         {
 				"id":"11",
 				"majorname":"",
-				"itemname":"中字Jessica16步护肤及妆容分享",
+				"itemname":"可爱又活泼的韩国语",
 				"author": "",
-				"resUrl":"http://toutiao.com/a6315307295812305153/",
+				"resUrl":"http://wenku.baidu.com/course/view/dd2ebd64783e0912a2162a02?cid=2",
 				"itemstatus": "regular",
 				"remarks":""
 			},
                         {
 				"id":"12",
 				"majorname":"",
-				"itemname":"时尚欧美妆容",
+				"itemname":"快乐韩语发音",
 				"author": "",
-				"resUrl":"http://toutiao.com/a6313402969036275970/",
+				"resUrl":"http://wenku.baidu.com/course/view/d85b77a20029bd64783e2c8c?cid=205",
 				"itemstatus": "regular",
 				"remarks":""
 			},
                         {
 				"id":"13",
 				"majorname":"",
-				"itemname":"暑假约会妆容",
+				"itemname":"韩语零基础入门",
 				"author": "",
-				"resUrl":"http://toutiao.com/a6304025986010710530/",
+				"resUrl":"http://www.chuanke.com/1036575-93444.html",
 				"itemstatus": "regular",
 				"remarks":""
 			},
                         {
 				"id":"14",
 				"majorname":"",
-				"itemname":"韩式清新日常妆和欧美系妆容",
+				"itemname":"延世韩国语1",
 				"author": "",
-				"resUrl":"http://toutiao.com/a6309600257274085633/",
+				"resUrl":"http://www.chuanke.com/1036575-99362.html",
 				"itemstatus": "regular",
 				"remarks":""
 			},
                         {
 				"id":"15",
 				"majorname":"",
-				"itemname":"欧美系浓妆",
+				"itemname":"韩语-首尔大学韩国语",
 				"author": "",
-				"resUrl":"http://toutiao.com/a6289695582428594689/",
+				"resUrl":http://www.chuanke.com/1887062-104642.html",
 				"itemstatus": "regular",
 				"remarks":""
 			},
                         {
 				"id":"16",
 				"majorname":"",
-				"itemname":"美妆博主教你打造女神妆容",
+				"itemname":"韩语语音入门",
 				"author": "",
-				"resUrl":"http://toutiao.com/a6297084997446664705/",
+				"resUrl":"http://www.chuanke.com/1887062-104773.html",
 				"itemstatus": "regular",
 				"remarks":""
 			},
-                        {
+                       {
 				"id":"17",
 				"majorname":"",
-				"itemname":"气质OL妆容 VS Party日系妆容",
+				"itemname":"韩语 每日一句",
 				"author": "",
-				"resUrl":"http://toutiao.com/a6281507931624866050/",
+				"resUrl":"http://www.chuanke.com/1666678-123935.html",
 				"itemstatus": "regular",
 				"remarks":""
 			},
-                        {
+                       {
 				"id":"18",
 				"majorname":"",
-				"itemname":"韩国女团妆容教程",
+				"itemname":"学唱流行韩语歌",
 				"author": "",
-				"resUrl":"http://toutiao.com/a6288125346696921602/",
-				"itemstatus": "regular",
+				"resUrl":"http://www.chuanke.com/1666678-124448.html",
 				"remarks":""
 			},
-                        {
+                       {
 				"id":"19",
 				"majorname":"",
-				"itemname":"优雅混血妆容视频-",
+				"itemname":"韩语",
 				"author": "",
-				"resUrl":"http://toutiao.com/a6312685399043719426/",
+				"resUrl":"http://www.chuanke.com/1905560-108995.html",
 				"itemstatus": "regular",
 				"remarks":""
 			},
-                        {
+                       {
 				"id":"20",
 				"majorname":"",
-				"itemname":"上班族快速妆容",
+				"itemname":"90分钟会读所有韩文字—韩语入门发音课程",
 				"author": "",
-				"resUrl":"http://toutiao.com/a6307798176536150273/",
+				"resUrl":"http://www.chuanke.com/2349341-125557.html",
 				"itemstatus": "regular",
 				"remarks":""
 			}

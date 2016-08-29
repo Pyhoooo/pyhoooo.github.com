@@ -1,0 +1,187 @@
+[
+	{
+		"id":"0504A",
+		"shopname":"法语发音表",
+		"items":[
+			{
+				"id":"1",
+				"majorname":"",
+				"itemname":"百度图片法语发音表",
+				"author": "",
+				"resUrl":"http://image.baidu.com/search/index?tn=baiduimage&ct=201326592&lm=-1&cl=2&ie=gbk&word=%B7%A8%D3%EF%B7%A2%D2%F4%B1%ED&hs=0&fr=ala&ori_query=%E6%B3%95%E8%AF%AD%E5%8F%91%E9%9F%B3%E8%A1%A8&ala=0&alatpl=sp&pos=0",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+			{
+				"id":"2",
+				"majorname":"",
+				"itemname":"法语音素一览表",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/link?url=xiiPNCN1IcjBNsxcicedIcjIA7mge6Pu9AFE0oqDEzdPVp4K8kwjRZxlvZsBZNg_Oo-mvZQtkzkHhYG76NOaitsh1aOYZzcDkt_9FQ_u8Ya,"
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"3",
+				"majorname":"",
+				"itemname":"法语字母表及发音",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/link?url=ZkhtCiAOBjaBZwUrmMMO9m9PTZU1LB3Zo0f8CI3-GvgdUE4FB4tZHPlVBQ7GGjsKTISPQTXcjTWysttOHAPwz5XNaJgWJlKe7vISQg6eIXS",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"4",
+				"majorname":"",
+				"itemname":"法语读音规则总表",
+				"author": "",
+				"resUrl":"http://baidu.ku6.com/watch/9152121271890893906.html?page=videoMultiNeed",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"5",
+				"majorname":"",
+				"itemname":"法语音素与读音规则表",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/link?url=ZkhtCiAOBjaBZwUrmMMO9m9PTZU1LB3Zo0f8CI3-GvgdUE4FB4tZHPlVBQ7GGjsKz57ARxVUeBBP5tOERV3KqimjkAR8UWuqGyOil2LSGa7",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"6",
+				"majorname":"",
+				"itemname":"法语26个字母和音标",
+				"author": "",
+				"resUrl":"http://zhidao.baidu.com/link?url=asWhvV5mUdBmvVZqlu_F0GdPXF9wm8UGqlLWmT-3rYJFdZT2rCCRq59m5JV6YQ1jvA8yKgq4eqESZ3OAiT0-Ea",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"7",
+				"majorname":"",
+				"itemname":"法语",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/link?url=1eBcgWtQ52KMvhgmng9T52AN_mC6HvbkcNi7uO0BdLh_kFSfg1JjHT7A7Ro2-_bCyhE2HT_hLIj97HNwNXE9prMBuBlw1vNGfC3WHxVTlpu",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                        {
+				"id":"8",
+				"majorname":"",
+				"itemname":"法语的26个字母发音及简单法语中文发音",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/link?url=7rjxmF7OqfVG0jjyEK4BcHUqgR6UwvK6w4JV9aBbFvE8NvbDMnoQlj04RAFOj-52647t6eiANBp5XcsxgsYGIV7_cGnVG8S26M0DU3pFvf_",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                        {
+				"id":"9",
+				"majorname":"",
+				"itemname":"法语26个字母的发音",
+				"author": "",
+				"resUrl":"http://www.hjenglish.com/fr/p4928/",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                        {
+				"id":"10",
+				"majorname":"",
+				"itemname":"法语26字母发音法语法国网站原创精华版 ",
+				"author": "",
+				"resUrl":"http://www.myfrfr.com/frfr/view.asp?id=4089",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                        {
+				"id":"11",
+				"majorname":"",
+				"itemname":"法语字母发音",
+				"author": "",
+				"resUrl":"http://zhidao.baidu.com/link?url=9QcB6roBRdvTwZhC9xyycFhbrAc4sTqN_xcwQGreLSUFLY8N7mEuXsUXrTTGYCoW2ko3cWhhx2ljQA-p3aDVZq",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                        {
+				"id":"12",
+				"majorname":"",
+				"itemname":"法语音素发音表",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/link?url=eAYeZcANsiPIqCuoKaEgCwNKQ3vrPDGzbIdvCN0LSSqEdYPpL0Zhq7YOBqlzn1xnhaVna-SOkKYuY3X8wdrVHsl8ICMBpsE6bgKE1AcNdpu",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                        {
+				"id":"13",
+				"majorname":"",
+				"itemname":"法语音标详解,发音规则详解",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/link?url=fRRSLS8o1z9l6xuPtfrIYz1oldWt-Pz9Vy_ufZNW0HM5VaU-VfOSM4sEp8Gq35WPhKshOTu_YfHCQKIf2yI0HfhbX7mvFQME4RjwsPlyJbK",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                        {
+				"id":"14",
+				"majorname":"",
+				"itemname":"法语音素与读音规则表",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/link?url=fRRSLS8o1z9l6xuPtfrIYz1oldWt-Pz9Vy_ufZNW0HM5VaU-VfOSM4sEp8Gq35WPsrAuMEPQjeq_4q-U3_VxhGVxRCWxlWG_8QZ30ddp5aK",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                        {
+				"id":"15",
+				"majorname":"",
+				"itemname":"法语音标发音表",
+				"author": "",
+				"resUrl":"http://v.ku6.com/show/rjgv7s6y1cMP4OZOSBz2Ew...html?from=my",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                        {
+				"id":"16",
+				"majorname":"",
+				"itemname":"法语的36个音素发音规则表",
+				"author": "",
+				"resUrl":"http://blog.sina.com.cn/s/blog_6d41b8810100m79f.html",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"17",
+				"majorname":"",
+				"itemname":"法语音素与读音规则表",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/link?url=VoGA-zOTz3QLWDfcoQPwKkI3BLlC6GC7glS1jTESVUgwplLGk7bPY3PI_j9iX9zh9g1N_09hKCYWnqnAKNFpJ4ugeC1hgPkD7Sd0u4rHRzi",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"18",
+				"majorname":"",
+				"itemname":"法语音素一览表",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/link?url=39q5iHrFZzG4Rm9zS0WXM3Poel1rabp1jGksNrkeE6qQ4FXJLBUq7ueOgwxYe3krEAhleMpXWMwfyKK_JG3uWBShFzEYqUtM0huBOMCKdiS",				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"19",
+				"majorname":"",
+				"itemname":"法语音素-音标版",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/link?url=j2zHbI-JaVZg4FUR3cw_6VG8wmiioekm3zXEMfRfTLaFcb1puXO1nMoARfvF-THYg_d6YmVH-D3SQeT56awkOAHegSGyjGS6fc4ffy3yf77",
+				"itemstatus": "regular",
+				"remarks":""
+			},
+                       {
+				"id":"20",
+				"majorname":"",
+				"itemname":"法语音素表",
+				"author": "",
+				"resUrl":"http://wenku.baidu.com/link?url=N_fUkh1Ij_wUAfTXcxb75rsHzvVldVZSQpT55cgY74BBk4VxE8qhhjH5LsgixfVzFel_ZPICxlSBH4hanlfc6H4CuYwNgmjA_EgHXbfbOf3",
+				"itemstatus": "regular",
+				"remarks":""
+			}
+		]
+	}
+]
