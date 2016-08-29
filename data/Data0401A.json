@@ -1,12 +1,12 @@
 [
 	{
 		"id":"0401A",
-		"shopname":"PSÊÓÆµ½ÌÑ§",
+		"shopname":"PSè§†é¢‘æ•™å­¦",
 		"items":[
 			{
 				"id":"1",
 				"majorname":"",
-				"itemname":"Photoshop µÄ´°¿ÚºÍÊÓÍ¼",
+				"itemname":"Photoshop çš„çª—å£å’Œè§†å›¾",
 				"author": "",
 				"resUrl":"http://www.jikexueyuan.com/course/667.html",
 				"itemstatus": "regular",
@@ -15,7 +15,7 @@
 			{
 				"id":"2",
 				"majorname":"",
-				"itemname":"Photoshop Èí¼ş¹¤×÷½çÃæ",
+				"itemname":"Photoshop è½¯ä»¶å·¥ä½œç•Œé¢",
 				"author": "",
 				"resUrl":"http://www.jikexueyuan.com/course/637.html",
 				"itemstatus": "regular",
@@ -24,7 +24,7 @@
                        {
 				"id":"3",
 				"majorname":"",
-				"itemname":"Photoshop Í¼²ãÑùÊ½¿ìËÙÑ§",
+				"itemname":"Photoshop å›¾å±‚æ ·å¼å¿«é€Ÿå­¦",
 				"author": "",
 				"resUrl":"http://www.jikexueyuan.com/course/2580.html",
 				"itemstatus": "regular",
@@ -33,7 +33,7 @@
                          {
 				"id":"4",
 				"majorname":"",
-				"itemname":"Photoshop ÈçºÎÑ¡ÔñÑÕÉ«",
+				"itemname":"Photoshop å¦‚ä½•é€‰æ‹©é¢œè‰²",
 				"author": "",
 				"resUrl":"http://www.jikexueyuan.com/course/2538.html",
 				"itemstatus": "regular",
@@ -42,7 +42,7 @@
                        {
 				"id":"5",
 				"majorname":"",
-				"itemname":"Photoshop Íæ×ªÍ¼±êÊµÀı",
+				"itemname":"Photoshop ç©è½¬å›¾æ ‡å®ä¾‹",
 				"author": "",
 				"resUrl":"http://www.jikexueyuan.com/course/2529.html",
 				"itemstatus": "regular",
@@ -51,7 +51,7 @@
                        {
 				"id":"6",
 				"majorname":"",
-				"itemname":"Photoshop ÈëÃÅ¹¤¾ß´ò°üÑ§",
+				"itemname":"Photoshop å…¥é—¨å·¥å…·æ‰“åŒ…å­¦",
 				"author": "",
 				"resUrl":"http://www.jikexueyuan.com/course/2522.html",
 				"itemstatus": "regular",
@@ -60,7 +60,7 @@
  		       {
 				"id":"7",
 				"majorname":"",
-				"itemname":"Photoshop ²¼¾ÖÉè¼Æ",
+				"itemname":"Photoshop å¸ƒå±€è®¾è®¡",
 				"author": "",
 				"resUrl":"http://www.jikexueyuan.com/course/2518.html",
 				"itemstatus": "regular",
@@ -69,7 +69,7 @@
  		       {
 				"id":"8",
 				"majorname":"",
-				"itemname":"Photoshop ´óÇ°¶ËÈëÃÅ±ØÑ§",
+				"itemname":"Photoshop å¤§å‰ç«¯å…¥é—¨å¿…å­¦",
 				"author": "",
 				"resUrl":"http://www.jikexueyuan.com/course/2511.html",
 				"itemstatus": "regular",
@@ -78,7 +78,7 @@
 		       {
 				"id":"9",
 				"majorname":"",
-				"itemname":"Photoshop¡ª¡ªÍ¼Ïñµ÷Õû",
+				"itemname":"Photoshopâ€”â€”å›¾åƒè°ƒæ•´",
 				"author": "",
 				"resUrl":"http://www.jikexueyuan.com/course/2443.html",
 				"itemstatus": "regular",
@@ -87,7 +87,7 @@
                        {
 				"id":"10",
 				"majorname":"",
-				"itemname":"Photoshop ´óÇ°¶ËÑ§Ç°±Ø¿´",
+				"itemname":"Photoshop å¤§å‰ç«¯å­¦å‰å¿…çœ‹",
 				"author": "",
 				"resUrl":"http://www.jikexueyuan.com/course/2467.html",
 				"itemstatus": "regular",
@@ -96,7 +96,7 @@
                        {
 				"id":"11",
 				"majorname":"",
-				"itemname":"Photoshop¡ª¡ªÎÄ×ÖÔËÓÃ",
+				"itemname":"Photoshopâ€”â€”æ–‡å­—è¿ç”¨",
 				"author": "",
 				"resUrl":"http://www.jikexueyuan.com/course/2284.html",
 				"itemstatus": "regular",
@@ -105,7 +105,7 @@
                        {
 				"id":"12",
 				"majorname":"",
-				"itemname":"Photoshop¡ª¡ªĞÎ×´Óë²¼¶ûÔËËã",
+				"itemname":"Photoshopâ€”â€”å½¢çŠ¶ä¸å¸ƒå°”è¿ç®—",
 				"author": "",
 				"resUrl":"http://www.jikexueyuan.com/course/2206.html",
 				"itemstatus": "regular",
@@ -114,7 +114,7 @@
                        {
 				"id":"13",
 				"majorname":"",
-				"itemname":"Photoshop¡ª¡ªÂ·¾¶»æÖÆÓë±à¼­",
+				"itemname":"Photoshopâ€”â€”è·¯å¾„ç»˜åˆ¶ä¸ç¼–è¾‘",
 				"author": "",
 				"resUrl":"http://www.jikexueyuan.com/course/2183.html",
 				"itemstatus": "regular",
@@ -123,7 +123,7 @@
                        {
 				"id":"14",
 				"majorname":"",
-				"itemname":"»­±ÊÃæ°å½ø½×",
+				"itemname":"ç”»ç¬”é¢æ¿è¿›é˜¶",
 				"author": "",
 				"resUrl":"http://www.jikexueyuan.com/course/1769.html",
 				"itemstatus": "regular",
@@ -132,7 +132,7 @@
                        {
 				"id":"15",
 				"majorname":"",
-				"itemname":"É«²ÊĞÄÀí",
+				"itemname":"è‰²å½©å¿ƒç†",
 				"author": "",
 				"resUrl":"http://www.jikexueyuan.com/course/1309.html",
 				"itemstatus": "regular",
@@ -141,7 +141,7 @@
                        {
 				"id":"16",
 				"majorname":"",
-				"itemname":"Photoshop ±äĞÎ¹¤¾ß",
+				"itemname":"Photoshop å˜å½¢å·¥å…·",
 				"author": "",
 				"resUrl":"http://www.jikexueyuan.com/course/831.html",
 				"itemstatus": "regular",
@@ -150,7 +150,7 @@
                        {
 				"id":"17",
 				"majorname":"",
-				"itemname":"Photoshop Ñ¡È¡¹¤¾ß",
+				"itemname":"Photoshop é€‰å–å·¥å…·",
 				"author": "",
 				"resUrl":"http://www.jikexueyuan.com/course/773.html",
 				"itemstatus": "regular",
@@ -159,7 +159,7 @@
                        {
 				"id":"18",
 				"majorname":"",
-				"itemname":"Photoshop µÄ3D¹¦ÄÜ³õÌ½",
+				"itemname":"Photoshop çš„3DåŠŸèƒ½åˆæ¢",
 				"author": "",
 				"resUrl":"http://www.jikexueyuan.com/course/363.html",
 				"itemstatus": "regular",
@@ -168,7 +168,7 @@
                        {
 				"id":"19",
 				"majorname":"",
-				"itemname":"Photoshop µÄ 3D ¹¦ÄÜÔÙÌ½",
+				"itemname":"Photoshop çš„ 3D åŠŸèƒ½å†æ¢",
 				"author": "",
 				"resUrl":"http://www.jikexueyuan.com/course/415.html",
 				"itemstatus": "regular",
@@ -177,7 +177,7 @@
                        {
 				"id":"20",
 				"majorname":"",
-				"itemname":"Photoshop¡ª¡ª»ìºÏÄ£Ê½Ïê½â",
+				"itemname":"Photoshopâ€”â€”æ··åˆæ¨¡å¼è¯¦è§£",
 				"author": "",
 				"resUrl":"http://www.jikexueyuan.com/course/2027.html",
 				"itemstatus": "regular",

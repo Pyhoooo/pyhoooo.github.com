@@ -1,12 +1,12 @@
 [
 	{
 		"id":"0501F",
-		"shopname":"º«ÓïÈí¼ş½éÉÜ",
+		"shopname":"éŸ©è¯­è½¯ä»¶ä»‹ç»",
 		"items":[
 			{
 				"id":"1",
 				"majorname":"",
-				"itemname":"Ñ§·ÑÈ«ÃâÍøº«ÓïÑ§Ï°",
+				"itemname":"å­¦è´¹å…¨å…ç½‘éŸ©è¯­å­¦ä¹ ",
 				"author": "",
 				"resUrl":"http://www.freexf.com",
 				"itemstatus": "regular",
@@ -15,7 +15,7 @@
 			{
 				"id":"2",
 				"majorname":"",
-				"itemname":"º«ÓïUÑ§Ôº-»ù´¡º«ÓïÑ§Ï°",
+				"itemname":"éŸ©è¯­Uå­¦é™¢-åŸºç¡€éŸ©è¯­å­¦ä¹ ",
 				"author": "",
 				"resUrl":"http://shouji.baidu.com/software/9722490.html",
 				"itemstatus": "regular",
@@ -24,7 +24,7 @@
                        {
 				"id":"3",
 				"majorname":"",
-				"itemname":"º«ÓïÑ§Ï°ÊÖ»úÈí¼ş",
+				"itemname":"éŸ©è¯­å­¦ä¹ æ‰‹æœºè½¯ä»¶",
 				"author": "",
 				"resUrl":"http://shouji.baidu.com/s?wd=%BA%AB%D3%EF%D1%A7%CF%B0%CA%D6%BB%FA%C8%ED%BC%FE&data_type=app&from=web_alad_5",
 				"itemstatus": "regular",
@@ -33,7 +33,7 @@
                        {
 				"id":"4",
 				"majorname":"",
-				"itemname":"Ãâ·ÑÑ§Ï°º«Óï 5.3.3",
+				"itemname":"å…è´¹å­¦ä¹ éŸ©è¯­ 5.3.3",
 				"author": "",
 				"resUrl":"http://dl.pconline.com.cn/download/135500.html",
 				"itemstatus": "regular",
@@ -42,7 +42,7 @@
                        {
 				"id":"5",
 				"majorname":"",
-				"itemname":"Ñ§º«ÓïµÄ°²×¿Èí¼ş×¨Ìâ",
+				"itemname":"å­¦éŸ©è¯­çš„å®‰å“è½¯ä»¶ä¸“é¢˜",
 				"author": "",
 				"resUrl":"http://www.apk8.com/soft/zt_54.html",
 				"itemstatus": "regular",

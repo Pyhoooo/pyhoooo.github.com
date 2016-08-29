@@ -1,12 +1,12 @@
 [
 	{
 		"id":"0502F",
-		"shopname":"Ó¢ÓïÈí¼ş½éÉÜ",
+		"shopname":"è‹±è¯­è½¯ä»¶ä»‹ç»",
 		"items":[
 			{
 				"id":"1",
 				"majorname":"",
-				"itemname":"°Ù¶ÈÌù°ÉÑ§Ó¢ÓïÈí¼ş½éÉÜ",
+				"itemname":"ç™¾åº¦è´´å§å­¦è‹±è¯­è½¯ä»¶ä»‹ç»",
 				"author": "",
 				"resUrl":"http://tieba.baidu.com/p/2659967503",
 				"itemstatus": "regular",
@@ -15,7 +15,7 @@
 			{
 				"id":"2",
 				"majorname":"",
-				"itemname":"ÊÖ»úÓĞÄÄĞ©Ñ§Ï°Ó¢ÓïµÄºÃÈí¼ş",
+				"itemname":"æ‰‹æœºæœ‰å“ªäº›å­¦ä¹ è‹±è¯­çš„å¥½è½¯ä»¶",
 				"author": "",
 				"resUrl":"http://jingyan.baidu.com/article/15622f247d8f05fdfcbea52b.html",
 				"itemstatus": "regular",
@@ -24,7 +24,7 @@
                        {
 				"id":"3",
 				"majorname":"",
-				"itemname":"°®Óï°ÉÌı¸èÑ§Ó¢ÓïÈí¼ş",
+				"itemname":"çˆ±è¯­å§å¬æ­Œå­¦è‹±è¯­è½¯ä»¶",
 				"author": "",
 				"resUrl":"http://www.downza.cn/soft/29791.html",
 				"itemstatus": "regular",

@@ -1,12 +1,12 @@
 [
 	{
 		"id":"0402A",
-		"shopname":"PRÊÓÆµ½ÌÑ§",
+		"shopname":"PRè§†é¢‘æ•™å­¦",
 		"items":[
 			{
 				"id":"1",
 				"majorname":"",
-				"itemname":"ÊìÏ¤premiere cs4¹¤×÷»·¾³-»·¾³½çÃæ",
+				"itemname":"ç†Ÿæ‚‰premiere cs4å·¥ä½œç¯å¢ƒ-ç¯å¢ƒç•Œé¢",
 				"author": "",
 				"resUrl":"http://www.51zxw.net/show.aspx?id=17555&cid=30",
 				"itemstatus": "regular",
@@ -15,7 +15,7 @@
 			{
 				"id":"2",
 				"majorname":"",
-				"itemname":"Ì«Æ½ÑóµçÄÔÍøprÊÓÆµ½ÌÑ§",
+				"itemname":"å¤ªå¹³æ´‹ç”µè„‘ç½‘prè§†é¢‘æ•™å­¦",
 				"author": "",
 				"resUrl":"http://pcedu.pconline.com.cn/470/4704577.html",
 				"itemstatus": "regular",
@@ -24,7 +24,7 @@
                        {
 				"id":"3",
 				"majorname":"",
-				"itemname":"Premiere³£¼ûÎÊÌâ»ã×Ü",
+				"itemname":"Premiereå¸¸è§é—®é¢˜æ±‡æ€»",
 				"author": "",
 				"resUrl":"http://www.51zxw.net/show.aspx?id=17593&cid=30",
 				"itemstatus": "regular",
@@ -33,7 +33,7 @@
                        {
 				"id":"4",
 				"majorname":"",
-				"itemname":"ÊÓÆµµÄ¼òÒ×Êä³ö",
+				"itemname":"è§†é¢‘çš„ç®€æ˜“è¾“å‡º",
 				"author": "",
 				"resUrl":"http://www.51zxw.net/show.aspx?id=17592&cid=30",
 				"itemstatus": "regular",
@@ -42,7 +42,7 @@
                        {
 				"id":"5",
 				"majorname":"",
-				"itemname":"ÊµÀı×÷Æ·Ğ¡½á",
+				"itemname":"å®ä¾‹ä½œå“å°ç»“",
 				"author": "",
 				"resUrl":"http://www.51zxw.net/show.aspx?id=17597&cid=30",
 				"itemstatus": "regular",
@@ -51,7 +51,7 @@
                        {
 				"id":"6",
 				"majorname":"",
-				"itemname":"Premiere½ø½×ÊÓÆµ½Ì³Ì",
+				"itemname":"Premiereè¿›é˜¶è§†é¢‘æ•™ç¨‹",
 				"author": "",
 				"resUrl":"http://www.51zxw.net/list.aspx?cid=362",
 				"itemstatus": "regular",
@@ -60,7 +60,7 @@
                        {
 				"id":"7",
 				"majorname":"",
-				"itemname":"PremiereÊÓÆµ½Ì³Ì",
+				"itemname":"Premiereè§†é¢‘æ•™ç¨‹",
 				"author": "",
 				"resUrl":"http://www.51zxw.net/list.aspx?cid=30",
 				"itemstatus": "regular",
@@ -69,7 +69,7 @@
                         {
 				"id":"8",
 				"majorname":"",
-				"itemname":"Ê¹ÓÃAdobe Premiere¼ô¼­ÊÓÆµ£¨Ò»£©Èí¼ş½éÉÜ",
+				"itemname":"ä½¿ç”¨Adobe Premiereå‰ªè¾‘è§†é¢‘ï¼ˆä¸€ï¼‰è½¯ä»¶ä»‹ç»",
 				"author": "",
 				"resUrl":"http://toutiao.com/a6308302051487973633/",
 				"itemstatus": "regular",
@@ -78,7 +78,7 @@
                         {
 				"id":"9",
 				"majorname":"",
-				"itemname":"PremiereÔõÃ´Í¬²½ÇĞ¶ÏÊÓÆµ»òÒôÆµ",
+				"itemname":"Premiereæ€ä¹ˆåŒæ­¥åˆ‡æ–­è§†é¢‘æˆ–éŸ³é¢‘",
 				"author": "",
 				"resUrl":"http://toutiao.com/a6312172257661682177/",
 				"itemstatus": "regular",
@@ -87,7 +87,7 @@
                         {
 				"id":"10",
 				"majorname":"",
-				"itemname":"PremiereÖĞÊÓÆµ¶à»úÎ»¼ô¼­µÄÊ¹ÓÃ·½·¨ºÍ¼¼ÇÉ ",
+				"itemname":"Premiereä¸­è§†é¢‘å¤šæœºä½å‰ªè¾‘çš„ä½¿ç”¨æ–¹æ³•å’ŒæŠ€å·§ ",
 				"author": "",
 				"resUrl":"http://toutiao.com/a6312014672913400065/",
 				"itemstatus": "regular",
@@ -96,7 +96,7 @@
                         {
 				"id":"11",
 				"majorname":"",
-				"itemname":"Adobe Premiere¼ô¼­ÊÓÆµ£¨Îå£©Ğ§¹û×ÖÄ»Òô",
+				"itemname":"Adobe Premiereå‰ªè¾‘è§†é¢‘ï¼ˆäº”ï¼‰æ•ˆæœå­—å¹•éŸ³",
 				"author": "",
 				"resUrl":"http://toutiao.com/a6311829976312725761/",
 				"itemstatus": "regular",
@@ -105,7 +105,7 @@
                         {
 				"id":"12",
 				"majorname":"",
-				"itemname":"Adobe Premiere¼ô¼­ÊÓÆµ£¨ËÄ£©µÚÒ»¸öÊÓÆµ",
+				"itemname":"Adobe Premiereå‰ªè¾‘è§†é¢‘ï¼ˆå››ï¼‰ç¬¬ä¸€ä¸ªè§†é¢‘",
 				"author": "",
 				"resUrl":"http://toutiao.com/a6310561581420216577/",
 				"itemstatus": "regular",
@@ -114,7 +114,7 @@
                         {
 				"id":"13",
 				"majorname":"",
-				"itemname":"Adobe Premiere¼ô¼­ÊÓÆµ£¨Èı£©- Ñ§Ç°Ğ¡³£Ê¶",
+				"itemname":"Adobe Premiereå‰ªè¾‘è§†é¢‘ï¼ˆä¸‰ï¼‰- å­¦å‰å°å¸¸è¯†",
 				"author": "",
 				"resUrl":"http://toutiao.com/a6309978338124824833/",
 				"itemstatus": "regular",
@@ -123,7 +123,7 @@
                         {
 				"id":"14",
 				"majorname":"",
-				"itemname":"Adobe Premiere¼ô¼­ÊÓÆµ£¨¶ş£©ÒôÀÖ¼ô¼­",
+				"itemname":"Adobe Premiereå‰ªè¾‘è§†é¢‘ï¼ˆäºŒï¼‰éŸ³ä¹å‰ªè¾‘",
 				"author": "",
 				"resUrl":"http://toutiao.com/a6309066910319509761/",
 				"itemstatus": "regular",
@@ -132,7 +132,7 @@
                         {
 				"id":"15",
 				"majorname":"",
-				"itemname":"Adobe Premiere¿ªÆôVRÊÓÆµ±à¼­Ä£Ê½",
+				"itemname":"Adobe Premiereå¼€å¯VRè§†é¢‘ç¼–è¾‘æ¨¡å¼",
 				"author": "",
 				"resUrl":"http://toutiao.com/a6299182556529787137/",
 				"itemstatus": "regular",
@@ -141,7 +141,7 @@
                         {
 				"id":"16",
 				"majorname":"",
-				"itemname":"PR»ù±¾ÊÓÆµµ÷É«",
+				"itemname":"PRåŸºæœ¬è§†é¢‘è°ƒè‰²",
 				"author": "",
 				"resUrl":"http://toutiao.com/a6274784222596071682/",
 				"itemstatus": "regular",
@@ -150,7 +150,7 @@
                        {
 				"id":"17",
 				"majorname":"",
-				"itemname":"premiere½Ì³Ì",
+				"itemname":"premiereæ•™ç¨‹",
 				"author": "",
 				"resUrl":"http://www.chuanke.com/1330850-103922.html",
 				"itemstatus": "regular",
@@ -159,7 +159,7 @@
                        {
 				"id":"18",
 				"majorname":"",
-				"itemname":"PremiereÖÆ×÷»éÀñMV",
+				"itemname":"Premiereåˆ¶ä½œå©šç¤¼MV",
 				"author": "",
 				"resUrl":"http://www.chuanke.com/6185965-170066.html",
 				"itemstatus": "regular",
@@ -168,7 +168,7 @@
                        {
 				"id":"19",
 				"majorname":"",
-				"itemname":"Premiere¿ìËÙÉÏÊÖ",
+				"itemname":"Premiereå¿«é€Ÿä¸Šæ‰‹",
 				"author": "",
 				"resUrl":"http://www.chuanke.com/2150206-166748.html",
 				"itemstatus": "regular",
@@ -177,7 +177,7 @@
                        {
 				"id":"20",
 				"majorname":"",
-				"itemname":"Premiere¼ô¼­ÊµÕ½Ö®ÈëÃÅÆª",
+				"itemname":"Premiereå‰ªè¾‘å®æˆ˜ä¹‹å…¥é—¨ç¯‡",
 				"author": "",
 				"resUrl":"http://www.chuanke.com/2704857-174620.html",
 				"itemstatus": "regular",

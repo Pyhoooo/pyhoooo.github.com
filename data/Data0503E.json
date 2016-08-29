@@ -1,12 +1,12 @@
 [
 	{
 		"id":"0503E",
-		"shopname":"日语视频教学",
+		"shopname":"鏃ヨ瑙嗛鏁欏",
 		"items":[
 			{
 				"id":"1",
 				"majorname":"",
-				"itemname":"日语自学视频",
+				"itemname":"鏃ヨ鑷瑙嗛",
 				"author": "",
 				"resUrl":"http://www.free-jp.net/free/0.html",
 				"itemstatus": "regular",
@@ -15,7 +15,7 @@
 			{
 				"id":"2",
 				"majorname":"",
-				"itemname":"基础日语视频教程",
+				"itemname":"鍩虹鏃ヨ瑙嗛鏁欑▼",
 				"author": "",
 				"resUrl":"http://www.free-jp.net/free/0.html",
 				"itemstatus": "regular",
@@ -24,7 +24,7 @@
                        {
 				"id":"3",
 				"majorname":"",
-				"itemname":"基础日语视频教程",
+				"itemname":"鍩虹鏃ヨ瑙嗛鏁欑▼",
 				"author": "",
 				"resUrl":"http://v.baidu.com/v?s=8&word=%C8%D5%D3%EF%CA%D3%C6%B5%BD%CC%B3%CC&fr=ala11",
 				"itemstatus": "regular",
@@ -33,7 +33,7 @@
                        {
 				"id":"4",
 				"majorname":"",
-				"itemname":"中央广播电视大学日语基础教学1-40全集",
+				"itemname":"涓ぎ骞挎挱鐢佃澶у鏃ヨ鍩虹鏁欏1-40鍏ㄩ泦",
 				"author": "",
 				"resUrl":"http://v.ku6.com/playlist/index_2516100.html",
 				"itemstatus": "regular",
@@ -42,7 +42,7 @@
                        {
 				"id":"5",
 				"majorname":"",
-				"itemname":"基础日语视频教程",
+				"itemname":"鍩虹鏃ヨ瑙嗛鏁欑▼",
 				"author": "",
 				"resUrl":"http://www.21edu8.com/foreign/otherforeign/46934/show.html?-0-0",
 				"itemstatus": "regular",
@@ -51,7 +51,7 @@
                        {
 				"id":"6",
 				"majorname":"",
-				"itemname":"日语教学视频",
+				"itemname":"鏃ヨ鏁欏瑙嗛",
 				"author": "",
 				"resUrl":"http://www.iqiyi.com/w_19rs20klrd.html",
 				"itemstatus": "regular",
@@ -60,7 +60,7 @@
                        {
 				"id":"7",
 				"majorname":"",
-				"itemname":"日语入门学习视频教程全集",
+				"itemname":"鏃ヨ鍏ラ棬瀛︿範瑙嗛鏁欑▼鍏ㄩ泦",
 				"author": "",
 				"resUrl":"http://v.dxsbb.com/waiyu/394/",
 				"itemstatus": "regular",
@@ -69,7 +69,7 @@
                         {
 				"id":"8",
 				"majorname":"",
-				"itemname":"日语学习视频",
+				"itemname":"鏃ヨ瀛︿範瑙嗛",
 				"author": "",
 				"resUrl":"http://www.iqiyi.com/w_19rsjvv04p.html",
 				"itemstatus": "regular",
@@ -78,7 +78,7 @@
                         {
 				"id":"9",
 				"majorname":"",
-				"itemname":"日语学习教程",
+				"itemname":"鏃ヨ瀛︿範鏁欑▼",
 				"author": "",
 				"resUrl":"http://i.youku.com/i/UMTkxMDgwOTAzMg==",
 				"itemstatus": "regular",

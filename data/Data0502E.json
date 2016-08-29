@@ -1,12 +1,12 @@
 [
 	{
 		"id":"0502E",
-		"shopname":"ÍĞ¸£×ÊÁÏ",
+		"shopname":"æ‰˜ç¦èµ„æ–™",
 		"items":[
 			{
 				"id":"1",
 				"majorname":"",
-				"itemname":"°Ù¶ÈÍĞ¸£´Ê»ã",
+				"itemname":"ç™¾åº¦æ‰˜ç¦è¯æ±‡",
 				"author": "",
 				"resUrl":"http://wenku.baidu.com/link?url=kuXDPqoQXQGOlWOImPpjR73fzJFhmxBTaUSkFsKutXvWEGiCb3ecFJpcjPYL_lC5I4Gre4aEkN2Ze1gQ4iw_xOfxichtbcAiOjnXaG3b68m",
 				"itemstatus": "regular",
@@ -15,7 +15,7 @@
 			{
 				"id":"2",
 				"majorname":"",
-				"itemname":"ÎŞÓÇ¿¼Íø2016ÄêÑÅË¼ÕæÌâ",
+				"itemname":"æ— å¿§è€ƒç½‘2016å¹´é›…æ€çœŸé¢˜",
 				"author": "",
 				"resUrl":"http://www.51test.net/toefl/kszt/",
 				"itemstatus": "regular",
@@ -24,7 +24,7 @@
                        {
 				"id":"3",
 				"majorname":"",
-				"itemname":"¡¾ÀúÄêÕæÌâ¡¿TOEFL´Ê»ãÌâ¾«Ñ¡440Ìâ+´ğ°¸",
+				"itemname":"ã€å†å¹´çœŸé¢˜ã€‘TOEFLè¯æ±‡é¢˜ç²¾é€‰440é¢˜+ç­”æ¡ˆ",
 				"author": "",
 				"resUrl":"http://wenku.baidu.com/view/275479045acfa1c7aa00cc90",
 				"itemstatus": "regular",
@@ -33,7 +33,7 @@
                        {
 				"id":"4",
 				"majorname":"",
-				"itemname":"ÍĞ¸£´Ê»ãword°æ",
+				"itemname":"æ‰˜ç¦è¯æ±‡wordç‰ˆ",
 				"author": "",
 				"resUrl":"http://wenku.baidu.com/link?url=69hi0l1hQU_jwVNCjM0yGN4ATFEBIbjHwRflgeVJNQTgklQIz9SPQlAW8h2MH29aClitnWc33i0iRdo863wjYrKnca2jE201Gi2w2gdykXq",
 				"itemstatus": "regular",
@@ -42,7 +42,7 @@
                        {
 				"id":"5",
 				"majorname":"",
-				"itemname":"ÍĞ¸£µ¥´Ê±í",
+				"itemname":"æ‰˜ç¦å•è¯è¡¨",
 				"author": "",
 				"resUrl":"http://wenku.baidu.com/link?url=imNdY7dF_771qXEn2EGbukQyE8E2wujlClzX7ZJ8IRe6E7nnJOpydjAA3axBBZWMuvETtLWQ_V6ccdCHe1GI2xz7cRgnsobThdogmuZOS4i",
 				"itemstatus": "regular",
@@ -51,7 +51,7 @@
                        {
 				"id":"6",
 				"majorname":"",
-				"itemname":"ÍĞ¸£ºËĞÄ´Ê»ã",
+				"itemname":"æ‰˜ç¦æ ¸å¿ƒè¯æ±‡",
 				"author": "",
 				"resUrl":"http://wenku.baidu.com/link?url=6cm9wJ1Vc7BQ5Qn1SHCDCiTXhaCy9SFoGiY9nNLLo90Kz4IUGlikzOxZnCKwmCybloPEDxFHwo9xwVEx35BPtVeRO5YmBqnAFgGUPi7plCC",
 				"itemstatus": "regular",
@@ -60,7 +60,7 @@
                        {
 				"id":"7",
 				"majorname":"",
-				"itemname":"ÍĞ¸£ºËĞÄ´Ê»ã21ÌìÍ»ÆÆ",
+				"itemname":"æ‰˜ç¦æ ¸å¿ƒè¯æ±‡21å¤©çªç ´",
 				"author": "",
 				"resUrl":"http://wenku.baidu.com/view/07eddc9a852458fb760b5608.html?re=view",
 				"itemstatus": "regular",
@@ -69,7 +69,7 @@
                         {
 				"id":"8",
 				"majorname":"",
-				"itemname":"ÅÌµãÍĞ¸£ºËĞÄ´Ê»ã",
+				"itemname":"ç›˜ç‚¹æ‰˜ç¦æ ¸å¿ƒè¯æ±‡",
 				"author": "",
 				"resUrl":"http://wenku.baidu.com/view/d6047dc9c281e53a5902ff2f.html?re=view",
 				"itemstatus": "regular",
@@ -78,7 +78,7 @@
                         {
 				"id":"9",
 				"majorname":"",
-				"itemname":"ÍĞ¸£ºËĞÄ´Ê»ãÁĞ±í",
+				"itemname":"æ‰˜ç¦æ ¸å¿ƒè¯æ±‡åˆ—è¡¨",
 				"author": "",
 				"resUrl":"http://wenku.baidu.com/view/343a2b9a852458fb760b56c7.html?re=view",
 				"itemstatus": "regular",
@@ -87,7 +87,7 @@
                         {
 				"id":"10",
 				"majorname":"",
-				"itemname":"ÅÌµãÍĞ¸£ÌıÁ¦ÖĞ³£¼ûµÄ´Ê»ã",
+				"itemname":"ç›˜ç‚¹æ‰˜ç¦å¬åŠ›ä¸­å¸¸è§çš„è¯æ±‡",
 				"author": "",
 				"resUrl":"http://wenku.baidu.com/view/65b10df30722192e4436f67e.html",
 				"itemstatus": "regular",
@@ -96,7 +96,7 @@
                         {
 				"id":"11",
 				"majorname":"",
-				"itemname":"ÅÌµãÍĞ¸£ÌıÁ¦³£¼ûµÄÌØÉ«´Ê»ã",
+				"itemname":"ç›˜ç‚¹æ‰˜ç¦å¬åŠ›å¸¸è§çš„ç‰¹è‰²è¯æ±‡",
 				"author": "",
 				"resUrl":"http://wenku.baidu.com/view/0af4089fcf84b9d529ea7ac4.html",
 				"itemstatus": "regular",
@@ -105,7 +105,7 @@
                         {
 				"id":"12",
 				"majorname":"",
-				"itemname":"ÅÌµãÍĞ¸£Ğ´×÷ÖĞµÄÂÛµã´Ê»ã",
+				"itemname":"ç›˜ç‚¹æ‰˜ç¦å†™ä½œä¸­çš„è®ºç‚¹è¯æ±‡",
 				"author": "",
 				"resUrl":"http://wenku.baidu.com/view/03a7bad46c175f0e7cd137ea.html",
 				"itemstatus": "regular",
@@ -114,7 +114,7 @@
                         {
 				"id":"13",
 				"majorname":"",
-				"itemname":"ÍĞ¸£ÌıÁ¦³£¼ûµÄÕşÖÎ´Ê»ã",
+				"itemname":"æ‰˜ç¦å¬åŠ›å¸¸è§çš„æ”¿æ²»è¯æ±‡",
 				"author": "",
 				"resUrl":"http://wenku.baidu.com/view/a9e07aee580216fc710afd33.html",
 				"itemstatus": "regular",
@@ -123,7 +123,7 @@
                         {
 				"id":"14",
 				"majorname":"",
-				"itemname":"ÍĞ¸£´Ê»ãÖ®ÌıÁ¦³£¼ûµÄÅ©Òµ´Ê»ã",
+				"itemname":"æ‰˜ç¦è¯æ±‡ä¹‹å¬åŠ›å¸¸è§çš„å†œä¸šè¯æ±‡",
 				"author": "",
 				"resUrl":"http://wenku.baidu.com/view/1ca2030780eb6294dc886c81.html",
 				"itemstatus": "regular",
@@ -132,7 +132,7 @@
                         {
 				"id":"15",
 				"majorname":"",
-				"itemname":"ÍĞ¸£´Ê»ãÖ®ÌıÁ¦³£¼ûµÄÉúÌ¬Ñ§´Ê»ã»ã×Ü",
+				"itemname":"æ‰˜ç¦è¯æ±‡ä¹‹å¬åŠ›å¸¸è§çš„ç”Ÿæ€å­¦è¯æ±‡æ±‡æ€»",
 				"author": "",
 				"resUrl":http://wenku.baidu.com/view/62f417cc10a6f524ccbf85f7.html",
 				"itemstatus": "regular",
@@ -141,7 +141,7 @@
                         {
 				"id":"16",
 				"majorname":"",
-				"itemname":"ÍĞ¸£ÌıÁ¦·ÖÀà³¡¾°´Ê»ã¡¾Å©ÒµÀà¡¿",
+				"itemname":"æ‰˜ç¦å¬åŠ›åˆ†ç±»åœºæ™¯è¯æ±‡ã€å†œä¸šç±»ã€‘",
 				"author": "",
 				"resUrl":"http://wenku.baidu.com/view/b93a4df72f60ddccdb38a03a.html",
 				"itemstatus": "regular",
@@ -150,7 +150,7 @@
                        {
 				"id":"17",
 				"majorname":"",
-				"itemname":"¡¾ÍĞ¸£ÌıÁ¦³¡¾°´Ê»ã¡¿ÍĞ¸£ÌıÁ¦³¡¾°´Ê»ã·ÖÀà»ã×Ü",
+				"itemname":"ã€æ‰˜ç¦å¬åŠ›åœºæ™¯è¯æ±‡ã€‘æ‰˜ç¦å¬åŠ›åœºæ™¯è¯æ±‡åˆ†ç±»æ±‡æ€»",
 				"author": "",
 				"resUrl":"http://wenku.baidu.com/view/bb4ea6f971fe910ef12df8a4.html",
 				"itemstatus": "regular",
@@ -159,7 +159,7 @@
                        {
 				"id":"18",
 				"majorname":"",
-				"itemname":"ÍĞ¸£¿¼ÊÔÕæÌâ»ØÒä¼°´ğ°¸½âÎö",
+				"itemname":"æ‰˜ç¦è€ƒè¯•çœŸé¢˜å›å¿†åŠç­”æ¡ˆè§£æ",
 				"author": "",
 				"resUrl":"http://toefl.xdf.cn/201508/10328047.html",
 				"remarks":""
@@ -167,7 +167,7 @@
                        {
 				"id":"19",
 				"majorname":"",
-				"itemname":"2016ÄêÍĞ¸£ÅàÑµÔÄ¶Á±¸¿¼³å´ÌÁ·Ï°Ìâ",
+				"itemname":"2016å¹´æ‰˜ç¦åŸ¹è®­é˜…è¯»å¤‡è€ƒå†²åˆºç»ƒä¹ é¢˜",
 				"author": "",
 				"resUrl":"http://www.examw.com/toefl/moniti/560292/",
 				"itemstatus": "regular",
@@ -176,7 +176,7 @@
                        {
 				"id":"20",
 				"majorname":"",
-				"itemname":"2016Äê6ÔÂ4ÈÕÍĞ¸£Ğ´×÷ÕæÌâ´ğ°¸¼°½âÎö",
+				"itemname":"2016å¹´6æœˆ4æ—¥æ‰˜ç¦å†™ä½œçœŸé¢˜ç­”æ¡ˆåŠè§£æ",
 				"author": "",
 				"resUrl":"http://www.kekenet.com/toefl/201606/448975.shtml",
 				"itemstatus": "regular",

@@ -1,12 +1,12 @@
 [
 	{
 		"id":"0504D",
-		"shopname":"·¨ÓïÊÓÆµ½ÌÑ§",
+		"shopname":"æ³•è¯­è§†é¢‘æ•™å­¦",
 		"items":[
 			{
 				"id":"1",
 				"majorname":"",
-				"itemname":"·¨Óï×ÔÑ§ÊÓÆµ",
+				"itemname":"æ³•è¯­è‡ªå­¦è§†é¢‘",
 				"author": "",
 				"resUrl":"http://www.ifree-fr.net/playerV5/1.html",
 				"itemstatus": "regular",
@@ -15,7 +15,7 @@
 			{
 				"id":"2",
 				"majorname":"",
-				"itemname":"·¨ÓïÊÓÆµ½Ì³Ì",
+				"itemname":"æ³•è¯­è§†é¢‘æ•™ç¨‹",
 				"author": "",
 				"resUrl":"http://fr.olacio.com/?utm_source=baidu&utm_medium=cpc&utm_campaign=Fr%20%E9%AB%98%E9%A2%91%20%E5%9C%A8%E7%BA%BF%20D&utm_term=%E6%B3%95%E8%AF%AD%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B",
 				"itemstatus": "regular",
@@ -24,7 +24,7 @@
                        {
 				"id":"3",
 				"majorname":"",
-				"itemname":"¼òÃ÷·¨Óï½Ì³Ì",
+				"itemname":"ç®€æ˜æ³•è¯­æ•™ç¨‹",
 				"author": "",
 				"resUrl":"http://v.ku6.com/playlist/index_2387276.html",
 				"itemstatus": "regular",
@@ -33,7 +33,7 @@
                        {
 				"id":"4",
 				"majorname":"",
-				"itemname":"·¨ÓïÊÓÆµ½ÌÑ§",
+				"itemname":"æ³•è¯­è§†é¢‘æ•™å­¦",
 				"author": "",
 				"resUrl":"http://v.ku6.com/show/CEEcaQMWDEzg7DpD.html",
 				"itemstatus": "regular",
@@ -42,7 +42,7 @@
                        {
 				"id":"5",
 				"majorname":"",
-				"itemname":"·¨Óï»ù´¡ÈëÃÅÑ§Ï°£¨×ÖÄ¸£©",
+				"itemname":"æ³•è¯­åŸºç¡€å…¥é—¨å­¦ä¹ ï¼ˆå­—æ¯ï¼‰",
 				"author": "",
 				"resUrl":"http://v.dxsbb.com/waiyu/500/player-0-0.html",
 				"itemstatus": "regular",
@@ -51,7 +51,7 @@
                        {
 				"id":"6",
 				"majorname":"",
-				"itemname":"·¨Óï»ù´¡ÈëÃÅÑ§Ï°£¨ÑÕÉ«£©",
+				"itemname":"æ³•è¯­åŸºç¡€å…¥é—¨å­¦ä¹ ï¼ˆé¢œè‰²ï¼‰",
 				"author": "",
 				"resUrl":"http://v.dxsbb.com/waiyu/500/player-0-1.html",
 				"itemstatus": "regular",
@@ -60,7 +60,7 @@
                        {
 				"id":"7",
 				"majorname":"",
-				"itemname":"·¨Óï»ù´¡ÈëÃÅÑ§Ï°£¨·¨ÓïÎÊºòÓï£©",
+				"itemname":"æ³•è¯­åŸºç¡€å…¥é—¨å­¦ä¹ ï¼ˆæ³•è¯­é—®å€™è¯­ï¼‰",
 				"author": "",
 				"resUrl":"http://v.dxsbb.com/waiyu/500/player-0-2.html",
 				"itemstatus": "regular",
@@ -69,7 +69,7 @@
                         {
 				"id":"8",
 				"majorname":"",
-				"itemname":"·¨Óï»ù´¡ÈëÃÅÑ§Ï°£¨ÈÕ×ÓµÄ±í´ï£©",
+				"itemname":"æ³•è¯­åŸºç¡€å…¥é—¨å­¦ä¹ ï¼ˆæ—¥å­çš„è¡¨è¾¾ï¼‰",
 				"author": "",
 				"resUrl":"http://v.dxsbb.com/waiyu/500/player-0-3.html",
 				"itemstatus": "regular",
@@ -78,7 +78,7 @@
                         {
 				"id":"9",
 				"majorname":"",
-				"itemname":"·¨Óï»ù´¡ÈëÃÅÑ§Ï°£¨ĞÇÆÚ£©",
+				"itemname":"æ³•è¯­åŸºç¡€å…¥é—¨å­¦ä¹ ï¼ˆæ˜ŸæœŸï¼‰",
 				"author": "",
 				"resUrl":"http://v.dxsbb.com/waiyu/500/player-0-4.html",
 				"itemstatus": "regular",
@@ -87,7 +87,7 @@
                         {
 				"id":"10",
 				"majorname":"",
-				"itemname":"·¨Óï»ù´¡ÈëÃÅÑ§Ï°£¨ÔÂ·İ£©",
+				"itemname":"æ³•è¯­åŸºç¡€å…¥é—¨å­¦ä¹ ï¼ˆæœˆä»½ï¼‰",
 				"author": "",
 				"resUrl":"http://v.dxsbb.com/waiyu/500/player-0-5.html",
 				"itemstatus": "regular",
@@ -96,7 +96,7 @@
                         {
 				"id":"11",
 				"majorname":"",
-				"itemname":"·¨Óï»ù´¡ÈëÃÅÑ§Ï°£¨Êı×Ö0µ½20£©",
+				"itemname":"æ³•è¯­åŸºç¡€å…¥é—¨å­¦ä¹ ï¼ˆæ•°å­—0åˆ°20ï¼‰",
 				"author": "",
 				"resUrl":"http://v.dxsbb.com/waiyu/500/player-0-6.html",
 				"itemstatus": "regular",
@@ -105,7 +105,7 @@
                         {
 				"id":"12",
 				"majorname":"",
-				"itemname":"·¨Óï»ù´¡ÈëÃÅÑ§Ï°£¨¼¾½Ú£©",
+				"itemname":"æ³•è¯­åŸºç¡€å…¥é—¨å­¦ä¹ ï¼ˆå­£èŠ‚ï¼‰",
 				"author": "",
 				"resUrl":"http://v.dxsbb.com/waiyu/500/player-0-7.html",
 				"itemstatus": "regular",
@@ -114,7 +114,7 @@
                         {
 				"id":"13",
 				"majorname":"",
-				"itemname":"·¨Óï»ù´¡ÈëÃÅÑ§Ï°£¨Ê±¼ä£©",
+				"itemname":"æ³•è¯­åŸºç¡€å…¥é—¨å­¦ä¹ ï¼ˆæ—¶é—´ï¼‰",
 				"author": "",
 				"resUrl":"http://v.dxsbb.com/waiyu/500/player-0-10.html",
 				"itemstatus": "regular",
@@ -123,7 +123,7 @@
                         {
 				"id":"14",
 				"majorname":"",
-				"itemname":"·¨Óï»ù´¡ÈëÃÅÑ§Ï°£¨¹Ú´Ê£©",
+				"itemname":"æ³•è¯­åŸºç¡€å…¥é—¨å­¦ä¹ ï¼ˆå† è¯ï¼‰",
 				"author": "",
 				"resUrl":"http://v.dxsbb.com/waiyu/500/player-0-15.html",
 				"itemstatus": "regular",
@@ -132,7 +132,7 @@
                         {
 				"id":"15",
 				"majorname":"",
-				"itemname":"·¨Óï»ù´¡ÈëÃÅÑ§Ï°£¨´Ê»ã£©",
+				"itemname":"æ³•è¯­åŸºç¡€å…¥é—¨å­¦ä¹ ï¼ˆè¯æ±‡ï¼‰",
 				"author": "",
 				"resUrl":http://v.dxsbb.com/waiyu/500/player-0-16.html",
 				"itemstatus": "regular",
@@ -141,7 +141,7 @@
                         {
 				"id":"16",
 				"majorname":"",
-				"itemname":"·¨Óï»ù´¡ÈëÃÅÑ§Ï°£¨´Ê»ã¡ªË®¹û£©",
+				"itemname":"æ³•è¯­åŸºç¡€å…¥é—¨å­¦ä¹ ï¼ˆè¯æ±‡â€”æ°´æœï¼‰",
 				"author": "",
 				"resUrl":"http://v.dxsbb.com/waiyu/500/player-0-22.html",
 				"itemstatus": "regular",
@@ -150,7 +150,7 @@
                        {
 				"id":"17",
 				"majorname":"",
-				"itemname":"·¨Óï»ù´¡ÈëÃÅÑ§Ï°£¨´Ê»ã¡ªÔË¶¯£©",
+				"itemname":"æ³•è¯­åŸºç¡€å…¥é—¨å­¦ä¹ ï¼ˆè¯æ±‡â€”è¿åŠ¨ï¼‰",
 				"author": "",
 				"resUrl":"http://v.dxsbb.com/waiyu/500/player-0-20.html",
 				"itemstatus": "regular",
@@ -159,7 +159,7 @@
                        {
 				"id":"18",
 				"majorname":"",
-				"itemname":"·¨Óï»ù´¡ÈëÃÅÑ§Ï°£¨´Ê»ã£©",
+				"itemname":"æ³•è¯­åŸºç¡€å…¥é—¨å­¦ä¹ ï¼ˆè¯æ±‡ï¼‰",
 				"author": "",
 				"resUrl":"http://v.dxsbb.com/waiyu/500/player-0-23.html",
 				"remarks":""
@@ -176,7 +176,7 @@
                        {
 				"id":"20",
 				"majorname":"",
-				"itemname":"·¨Óï»ù´¡ÈëÃÅÑ§Ï°£¨¶¯´Ê±äÎ»£©",
+				"itemname":"æ³•è¯­åŸºç¡€å…¥é—¨å­¦ä¹ ï¼ˆåŠ¨è¯å˜ä½ï¼‰",
 				"author": "",
 				"resUrl":"http://v.dxsbb.com/waiyu/500/player-0-18.html",
 				"itemstatus": "regular",

@@ -1,12 +1,12 @@
 [
 	{
 		"id":"0501D",
-		"shopname":"º«ÓïÊÓÆµ½ÌÑ§",
+		"shopname":"éŸ©è¯­è§†é¢‘æ•™å­¦",
 		"items":[
 			{
 				"id":"1",
 				"majorname":"",
-				"itemname":"¿á6ÍøÇáËÉÑ§º«ÓïÊÓÆµ",
+				"itemname":"é…·6ç½‘è½»æ¾å­¦éŸ©è¯­è§†é¢‘",
 				"author": "",
 				"resUrl":"http://v.ku6.com/show/FRayXZvvm-r77Ybtvnzq4w...html",
 				"itemstatus": "regular",
@@ -15,7 +15,7 @@
 			{
 				"id":"2",
 				"majorname":"",
-				"itemname":"»ù´¡º«ÓïÓï·¨",
+				"itemname":"åŸºç¡€éŸ©è¯­è¯­æ³•",
 				"author": "",
 				"resUrl":"http://hanyu.liuxuekorea.com/Product/Product.aspx?ProductID=2",
 				"itemstatus": "regular",
@@ -24,7 +24,7 @@
                        {
 				"id":"3",
 				"majorname":"",
-				"itemname":"º«ÓïÈÕ³£ÓÃÓï",
+				"itemname":"éŸ©è¯­æ—¥å¸¸ç”¨è¯­",
 				"author": "",
 				"resUrl":"http://www.iqiyi.com/w_19rqx7wck9.html",
 				"itemstatus": "regular",
@@ -33,7 +33,7 @@
                        {
 				"id":"4",
 				"majorname":"",
-				"itemname":"º«ÓïĞËÈ¤ÈëÃÅÑ§Ï°",
+				"itemname":"éŸ©è¯­å…´è¶£å…¥é—¨å­¦ä¹ ",
 				"author": "",
 				"resUrl":"http://www.iqiyi.com/w_19rt6igeex.html",
 				"itemstatus": "regular",
@@ -42,7 +42,7 @@
                        {
 				"id":"5",
 				"majorname":"",
-				"itemname":"º«ÓïÈÕ³£ÓÃÓïÑ§Ï°",
+				"itemname":"éŸ©è¯­æ—¥å¸¸ç”¨è¯­å­¦ä¹ ",
 				"author": "",
 				"resUrl":"http://www.iqiyi.com/w_19rqq2kzbx.html",
 				"itemstatus": "regular",
@@ -51,7 +51,7 @@
                        {
 				"id":"6",
 				"majorname":"",
-				"itemname":"º«¹úÓïÈÕ³£ÓÃÓï350¾ä",
+				"itemname":"éŸ©å›½è¯­æ—¥å¸¸ç”¨è¯­350å¥",
 				"author": "",
 				"resUrl":"http://www.tudou.com/programs/view/KD7UESmDNTo/",
 				"itemstatus": "regular",
@@ -60,7 +60,7 @@
                        {
 				"id":"7",
 				"majorname":"",
-				"itemname":"º«Óï»ù±¾·¢Òô£ºÔªÒô&¸¨Òô",
+				"itemname":"éŸ©è¯­åŸºæœ¬å‘éŸ³ï¼šå…ƒéŸ³&è¾…éŸ³",
 				"author": "",
 				"resUrl":"http://wenku.baidu.com/course/view/b1c44028915f804d2b16c103?cid=2",
 				"itemstatus": "regular",
@@ -69,7 +69,7 @@
                         {
 				"id":"8",
 				"majorname":"",
-				"itemname":"º«¹úÓï·¢Òô¾«½²",
+				"itemname":"éŸ©å›½è¯­å‘éŸ³ç²¾è®²",
 				"author": "",
 				"resUrl":"http://wenku.baidu.com/course/view/a0868762caaedd3383c4d305?cid=2",
 				"itemstatus": "regular",
@@ -78,7 +78,7 @@
                         {
 				"id":"9",
 				"majorname":"",
-				"itemname":"º«¹úÓï¿ìËÙÈëÃÅ",
+				"itemname":"éŸ©å›½è¯­å¿«é€Ÿå…¥é—¨",
 				"author": "",
 				"resUrl":"http://wenku.baidu.com/course/view/bc8a02d8ce2f0066f533228d?cid=205",
 				"itemstatus": "regular",
@@ -87,7 +87,7 @@
                         {
 				"id":"10",
 				"majorname":"",
-				"itemname":"¿´Âş»­Ñ§º«Óï",
+				"itemname":"çœ‹æ¼«ç”»å­¦éŸ©è¯­",
 				"author": "",
 				"resUrl":"http://wenku.baidu.com/course/view/ced080eb6294dd88d0d26b06?cid=2",
 				"itemstatus": "regular",
@@ -96,7 +96,7 @@
                         {
 				"id":"11",
 				"majorname":"",
-				"itemname":"¿É°®ÓÖ»îÆÃµÄº«¹úÓï",
+				"itemname":"å¯çˆ±åˆæ´»æ³¼çš„éŸ©å›½è¯­",
 				"author": "",
 				"resUrl":"http://wenku.baidu.com/course/view/dd2ebd64783e0912a2162a02?cid=2",
 				"itemstatus": "regular",
@@ -105,7 +105,7 @@
                         {
 				"id":"12",
 				"majorname":"",
-				"itemname":"¿ìÀÖº«Óï·¢Òô",
+				"itemname":"å¿«ä¹éŸ©è¯­å‘éŸ³",
 				"author": "",
 				"resUrl":"http://wenku.baidu.com/course/view/d85b77a20029bd64783e2c8c?cid=205",
 				"itemstatus": "regular",
@@ -114,7 +114,7 @@
                         {
 				"id":"13",
 				"majorname":"",
-				"itemname":"º«ÓïÁã»ù´¡ÈëÃÅ",
+				"itemname":"éŸ©è¯­é›¶åŸºç¡€å…¥é—¨",
 				"author": "",
 				"resUrl":"http://www.chuanke.com/1036575-93444.html",
 				"itemstatus": "regular",
@@ -123,7 +123,7 @@
                         {
 				"id":"14",
 				"majorname":"",
-				"itemname":"ÑÓÊÀº«¹úÓï1",
+				"itemname":"å»¶ä¸–éŸ©å›½è¯­1",
 				"author": "",
 				"resUrl":"http://www.chuanke.com/1036575-99362.html",
 				"itemstatus": "regular",
@@ -132,7 +132,7 @@
                         {
 				"id":"15",
 				"majorname":"",
-				"itemname":"º«Óï-Ê×¶û´óÑ§º«¹úÓï",
+				"itemname":"éŸ©è¯­-é¦–å°”å¤§å­¦éŸ©å›½è¯­",
 				"author": "",
 				"resUrl":http://www.chuanke.com/1887062-104642.html",
 				"itemstatus": "regular",
@@ -141,7 +141,7 @@
                         {
 				"id":"16",
 				"majorname":"",
-				"itemname":"º«ÓïÓïÒôÈëÃÅ",
+				"itemname":"éŸ©è¯­è¯­éŸ³å…¥é—¨",
 				"author": "",
 				"resUrl":"http://www.chuanke.com/1887062-104773.html",
 				"itemstatus": "regular",
@@ -150,7 +150,7 @@
                        {
 				"id":"17",
 				"majorname":"",
-				"itemname":"º«Óï Ã¿ÈÕÒ»¾ä",
+				"itemname":"éŸ©è¯­ æ¯æ—¥ä¸€å¥",
 				"author": "",
 				"resUrl":"http://www.chuanke.com/1666678-123935.html",
 				"itemstatus": "regular",
@@ -159,7 +159,7 @@
                        {
 				"id":"18",
 				"majorname":"",
-				"itemname":"Ñ§³ªÁ÷ĞĞº«Óï¸è",
+				"itemname":"å­¦å”±æµè¡ŒéŸ©è¯­æ­Œ",
 				"author": "",
 				"resUrl":"http://www.chuanke.com/1666678-124448.html",
 				"remarks":""
@@ -167,7 +167,7 @@
                        {
 				"id":"19",
 				"majorname":"",
-				"itemname":"º«Óï",
+				"itemname":"éŸ©è¯­",
 				"author": "",
 				"resUrl":"http://www.chuanke.com/1905560-108995.html",
 				"itemstatus": "regular",
@@ -176,7 +176,7 @@
                        {
 				"id":"20",
 				"majorname":"",
-				"itemname":"90·ÖÖÓ»á¶ÁËùÓĞº«ÎÄ×Ö¡ªº«ÓïÈëÃÅ·¢Òô¿Î³Ì",
+				"itemname":"90åˆ†é’Ÿä¼šè¯»æ‰€æœ‰éŸ©æ–‡å­—â€”éŸ©è¯­å…¥é—¨å‘éŸ³è¯¾ç¨‹",
 				"author": "",
 				"resUrl":"http://www.chuanke.com/2349341-125557.html",
 				"itemstatus": "regular",

@@ -1,12 +1,12 @@
 [
 	{
 		"id":"0403B",
-		"shopname":"AE°¸Àı½Ì³Ì",
+		"shopname":"AEæ¡ˆä¾‹æ•™ç¨‹",
 		"items":[
 			{
 				"id":"1",
 				"majorname":"",
-				"itemname":"·ÉÌØÍøaeÊµÀı½Ì³Ì",
+				"itemname":"é£ç‰¹ç½‘aeå®ä¾‹æ•™ç¨‹",
 				"author": "",
 				"resUrl":"http://www.fevte.com/moive/AE/AESL/",
 				"itemstatus": "regular",
@@ -15,7 +15,7 @@
 			{
 				"id":"2",
 				"majorname":"",
-				"itemname":"After.Effects.CS4ÍêÈ«Ñ§Ï°ÊÖ²á DVD2·¶Àı½ÌÑ§",
+				"itemname":"After.Effects.CS4å®Œå…¨å­¦ä¹ æ‰‹å†Œ DVD2èŒƒä¾‹æ•™å­¦",
 				"author": "",
 				"resUrl":"http://www.iqiyi.com/w_19rshp1fip.html",
 				"itemstatus": "regular",
@@ -24,7 +24,7 @@
                        {
 				"id":"3",
 				"majorname":"",
-				"itemname":"AEÊµÀı½Ì³Ì",
+				"itemname":"AEå®ä¾‹æ•™ç¨‹",
 				"author": "",
 				"resUrl":"http://my.tv.sohu.com/pl/6793553/67914009.shtml",
 				"itemstatus": "regular",
@@ -33,7 +33,7 @@
                        {
 				"id":"4",
 				"majorname":"",
-				"itemname":"ae½Ì³Ì_»éÇìÓ°Â¥ºóÆÚµ÷É«°¸Àı",
+				"itemname":"aeæ•™ç¨‹_å©šåº†å½±æ¥¼åæœŸè°ƒè‰²æ¡ˆä¾‹",
 				"author": "",
 				"resUrl":"http://www.56.com/u12/v_OTkwMzY1MjE.html",
 				"itemstatus": "regular",
@@ -42,7 +42,7 @@
                        {
 				"id":"5",
 				"majorname":"",
-				"itemname":"AE½Ì³Ì_Á£×Ó²å¼ş½Ì³Ì²¿·Ö°¸Àı",
+				"itemname":"AEæ•™ç¨‹_ç²’å­æ’ä»¶æ•™ç¨‹éƒ¨åˆ†æ¡ˆä¾‹",
 				"author": "",
 				"resUrl":"http://www.56.com/u31/v_OTkwMzY4OTI.html",
 				"itemstatus": "regular",
@@ -51,7 +51,7 @@
                        {
 				"id":"6",
 				"majorname":"",
-				"itemname":"After Effects CS4 °¸Àı½Ì³Ì1Ë®Ä«µ´¿ªĞ§¹û",
+				"itemname":"After Effects CS4 æ¡ˆä¾‹æ•™ç¨‹1æ°´å¢¨è¡å¼€æ•ˆæœ",
 				"author": "",
 				"resUrl":"http://www.tudou.com/listplay/REEn-WbR_q4/XFpHNcCpxRg.html",
 				"itemstatus": "regular",
@@ -60,7 +60,7 @@
                        {
 				"id":"7",
 				"majorname":"",
-				"itemname":"AE½Ì³Ì04-2ÈıÎ¬ºÏ³É-ÉãÏñ»úÉèÖÃ",
+				"itemname":"AEæ•™ç¨‹04-2ä¸‰ç»´åˆæˆ-æ‘„åƒæœºè®¾ç½®",
 				"author": "",
 				"resUrl":"http://my.tv.sohu.com/pl/6793553/67914304.shtml",
 				"itemstatus": "regular",
@@ -69,7 +69,7 @@
                         {
 				"id":"8",
 				"majorname":"",
-				"itemname":"¡ºAE½Ì³Ì¡»03-6ÈËÅ¼ÊµÊ±¶¯»­µÄÉèÖÃ",
+				"itemname":"ã€AEæ•™ç¨‹ã€03-6äººå¶å®æ—¶åŠ¨ç”»çš„è®¾ç½®",
 				"author": "",
 				"resUrl":"http://my.tv.sohu.com/pl/6793553/67913477.shtml",
 				"itemstatus": "regular",
@@ -78,7 +78,7 @@
                         {
 				"id":"9",
 				"majorname":"",
-				"itemname":"¡ºAE½Ì³Ì¡»01-7ÎÄ×ÖĞ§¹ûµÄÊ¹ÓÃ",
+				"itemname":"ã€AEæ•™ç¨‹ã€01-7æ–‡å­—æ•ˆæœçš„ä½¿ç”¨",
 				"author": "",
 				"resUrl":"http://my.tv.sohu.com/pl/6793553/67913730.shtml",
 				"itemstatus": "regular",
@@ -87,7 +87,7 @@
                         {
 				"id":"10",
 				"majorname":"",
-				"itemname":"¡ºAE½Ì³Ì¡»01-8¹ìµÀÃÉ°å452",
+				"itemname":"ã€AEæ•™ç¨‹ã€01-8è½¨é“è’™æ¿452",
 				"author": "",
 				"resUrl":"http://my.tv.sohu.com/pl/6793553/67913749.shtml",
 				"itemstatus": "regular",
@@ -96,7 +96,7 @@
                         {
 				"id":"11",
 				"majorname":"",
-				"itemname":"¡ºAE½Ì³Ì¡»04-3ÎÄ×ÖµÄÈıÎ¬ÊôĞÔ",
+				"itemname":"ã€AEæ•™ç¨‹ã€04-3æ–‡å­—çš„ä¸‰ç»´å±æ€§",
 				"author": "",
 				"resUrl":"http://my.tv.sohu.com/us/63351236/68178346.shtml",
 				"itemstatus": "regular",
@@ -105,7 +105,7 @@
                         {
 				"id":"12",
 				"majorname":"",
-				"itemname":"¡ºAE½Ì³Ì¡»06-1¿ÙÏñ¹¤¾ß",
+				"itemname":"ã€AEæ•™ç¨‹ã€06-1æŠ åƒå·¥å…·",
 				"author": "",
 				"resUrl":"http://my.tv.sohu.com/pl/6793553/67913607.shtml",
 				"itemstatus": "regular",
@@ -114,7 +114,7 @@
                         {
 				"id":"13",
 				"majorname":"",
-				"itemname":"¡ºAE½Ì³Ì¡»01-3²ãµÄ»ù±¾ÊôĞÔ",
+				"itemname":"ã€AEæ•™ç¨‹ã€01-3å±‚çš„åŸºæœ¬å±æ€§",
 				"author": "",
 				"resUrl":"http://my.tv.sohu.com/pl/6793553/67913744.shtml",
 				"itemstatus": "regular",
@@ -123,7 +123,7 @@
                         {
 				"id":"14",
 				"majorname":"",
-				"itemname":"¡ºAE½Ì³Ì¡»03-7FlashÊä³ö",
+				"itemname":"ã€AEæ•™ç¨‹ã€03-7Flashè¾“å‡º",
 				"author": "",
 				"resUrl":"http://my.tv.sohu.com/pl/6793553/67913415.shtml",
 				"itemstatus": "regular",
@@ -132,7 +132,7 @@
                         {
 				"id":"15",
 				"majorname":"",
-				"itemname":"After EffectsºÏ³É",
+				"itemname":"After Effectsåˆæˆ",
 				"author": "",
 				"resUrl":"http://v.youku.com/v_show/id_XNjAxNTUxODg0.html",
 				"itemstatus": "regular",
