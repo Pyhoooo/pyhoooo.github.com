@@ -12,6 +12,103 @@
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	
+	<script language="JavaScript">
+	var expDays = 10;<!--cookie的期限-->
+var exp = new Date(); <!--新的时间变量-->
+exp.setTime(exp.getTime() + (expDays*24*60*60*1000));<!--过期的日期-->
+
+function Who(info){<!--获得访问者的昵称-->
+var VisitorName = GetCookie('VisitorName')<!--先从cookie中查找visitorName字段
+if (VisitorName == null) {<!--如果没有找到，则提示用户输入昵称-->
+VisitorName = prompt("请输入你的称呢：",'');<!--弹出提示窗口-->
+SetCookie ('VisitorName', VisitorName, exp);<!--将用户输入的昵称写入cookie中-->
+}
+return VisitorName;<!--返回用户的昵称-->
+} 
+
+function When(info){<!--返回用户的上次访问时间-->
+var rightNow = new Date()<!--构造变量-->
+var WWHTime = 0;
+WWHTime = GetCookie('WWhenH')<!--从cookie中获取上一次的时间-->
+
+WWHTime = WWHTime * 1
+var lastHereFormatting = new Date(WWHTime); 
+var intLastVisit = (lastHereFormatting.getYear() * 10000)+(lastHereFormatting.getMonth() * 100) + lastHereFormatting.getDate()<!--转化时间格式-->
+var lastHereInDateFormat = "" + lastHereFormatting;
+var dayOfWeek = lastHereInDateFormat.substring(0,3)<!--获取日子-->
+var dateMonth = lastHereInDateFormat.substring(4,11)<!--获取日期-->
+var timeOfDay = lastHereInDateFormat.substring(11,16)<!--获取时间-->
+var year = lastHereInDateFormat.substring(23,25)<!--获取年份-->
+var WWHText = dayOfWeek + " " + dateMonth+ timeOfDay<!--按日、月、年重新组合日期-->
+SetCookie ("WWhenH", rightNow.getTime(), exp)<!--将用户访问时间和过期时间均写入cookie中-->
+return WWHText;
+}
+
+function Count(info){<!--返回用户上站次数-->
+var WWHCount = GetCookie('WWHCount')<!--从cookie中读取wwwhcount字段-->
+if (WWHCount == null) {<!--如果返回值为空-->
+WWHCount = 0;<!--上站次数为0-->
+}
+else{
+WWHCount++;<!--否则，上站次数加1-->
+}
+SetCookie ('WWHCount', WWHCount, exp);<!--同时将更新过的信息写入cookie中-->
+return WWHCount;<!--返回上站次数-->
+}
+
+function set(){
+VisitorName = prompt("请输入你的新称呢：",'');<!--弹出窗口，提示输入昵称-->
+SetCookie ('VisitorName', VisitorName, exp);<!--将用户昵称写入cookie中-->
+SetCookie ('WWHCount', 0, exp);<!--将用户上站次数0写入cookie中-->
+SetCookie ('WWhenH', 0, exp);<!--将用户最后上站时间写入cookie中-->
+}
+
+function getCookieVal (offset) {<!--返回cookie中一定位置的字段-->
+   var endstr = document.cookie.indexOf (";", offset);<!--获取指定位置字段的末尾的位置-->
+   if (endstr == -1)<!--如果返回值为－1-->
+     endstr = document.cookie.length;<!--则将给定位置后的所有字符串均返回-->
+  return unescape(document.cookie.substring(offset, endstr));<!--返回字符串-->
+}
+
+
+function GetCookie (name) {<!--从cookie中获取字段的值-->
+        var arg = name + "=";<!--变量-->
+      var alen = arg.length;<!--字段的长度-->
+        var clen = document.cookie.length;<!--cookie的长度-->
+        var i = 0;
+        while (i < clen) {<!--在cookie中-->
+               var j = i + alen;<!--移动一个字段的宽度-->
+                if (document.cookie.substring(i, j) == arg)<!--如果是待找字段-->
+                        return getCookieVal (j);<!--返回字段的值-->
+                i = document.cookie.indexOf(" ", i) + 1;<!--更新i的值-->
+                        if (i == 0)
+                                break;<!--如果找完了，返回-->
+               }
+   return null;
+}
+
+
+
+
+function SetCookie (name, value) {<!--向cookie中写入-->
+        var argv = SetCookie.arguments;<!--写入的变量数组-->
+        var argc = SetCookie.arguments.length;<!--变量的个数-->
+        var expires = (argc > 2) ? argv[2] : null;<!--变量数组中的第二个表示过期的时间-->
+        var path = (argc > 3) ? argv[3] : null;<!--变量的第三个表示路径-->
+        var domain = (argc > 4) ? argv[4] : null;<!--变量的第四个表示域-->
+        var secure = (argc > 5) ? argv[5] : false;<!--变量的第五个表示权限-->
+        document.cookie = name + "=" + escape (value) +
+                ((expires == null) ? "" : ("; expires=" +
+expires.toGMTString())) +
+                ((path == null) ? "" : ("; path=" + path)) +
+                ((domain == null) ? "" : ("; domain=" + domain)) +
+                ((secure == true) ? "; secure" : "");<!--按照给定的格式写入cookie-->
+
+}
+
+
+</script>
 </head>
 <body>
       <!--左装饰-->
@@ -58,58 +155,10 @@
       <!--页脚-->
 	  
     <footer style="margin: 95px 0 0 0px;"><p><small>访问人次：
-		<script language=JavaScript>
-<!--
-var caution = false
-function setCookie(name, value, expires, path, domain, secure) {
-var curCookie = name + "=" + escape(value) +
-((expires) ? "; expires=" + expires.toGMTString() : "") +
-((path) ? "; path=" + path : "") +
-((domain) ? "; domain=" + domain : "") +
-((secure) ? "; secure" : "")
-if (!caution || (name + "=" + escape(value)).length <= 4000)
-document.cookie = curCookie
-else
-if (confirm("Cookie exceeds 4KB and will be cut!"))
-document.cookie = curCookie
-}
-function getCookie(name) {
-var prefix = name + "="
-var cookieStartIndex = document.cookie.indexOf(prefix)
-if (cookieStartIndex == -1)
-return null
-var cookieEndIndex = document.cookie.indexOf(";", cookieStartIndex + prefix.length)
-if (cookieEndIndex == -1)
-cookieEndIndex = document.cookie.length
-return unescape(document.cookie.substring(cookieStartIndex + prefix.length, cookieEndIndex))
-}
-function deleteCookie(name, path, domain) {
-if (getCookie(name)) {
-document.cookie = name + "=" +
-((path) ? "; path=" + path : "") +
-((domain) ? "; domain=" + domain : "") +
-"; expires=Thu, 01-Jan-70 00:00:01 GMT"
-}
-}
-function fixDate(date) {
-var base = new Date(0)
-var skew = base.getTime()
-if (skew > 0)
-date.setTime(date.getTime() - skew)
-}
-var now = new Date()
-fixDate(now)
-now.setTime(now.getTime() + 365 * 24 * 60 * 60 * 1000)
-var visits = getCookie("counter")
-if (!visits)
-visits = 1
-else
-visits = parseInt(visits) + 1
-setCookie("counter", visits, now)
-document.write(visits)
-// -->
+		
+	<script language="JavaScript">
+document.write(Who() + "&nbsp;&nbsp;" + Count() + "&nbsp;&nbsp;" + When())
 </script>
-	
 	
 	<!-- <script type="text/javascript">
 
