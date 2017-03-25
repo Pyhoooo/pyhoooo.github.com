@@ -13,11 +13,16 @@ body{
   height:3px;
   margin:-7px 0 0 260px;
   background-color:#0b1013;
+  animation:widthchange 2s;
+  -webkit-animation:widthchange 2s;
 }
 #menu
 {
   width:174px;
   margin:-262px 0 0 320px;
+  opacity:1.0;
+  animation:opacitychange 2s;
+  -webkit-animation:opacitychange 2s;
 }
 #menu ul
 {
@@ -38,4 +43,39 @@ body{
   border-right-width:3px;
   border-right-color:#0b1013;
   border-right-style:solid;
+}
+
+
+@keyframes widthchange
+{
+from {width:0px;opacity:0.0;}
+to {width: 261px;opacity:1.0;}
+}
+
+@-webkit-keyframes widthchange /* Safari ºÍ Chrome */
+{
+from {width:0px;opacity:0.0;}
+to {width: 261px;opacity:1.0;}
+}
+@keyframes heightchange
+{
+from {height:0px;opacity:0.0;}
+to {height: 306px;opacity:1.0;}
+}
+
+@-webkit-keyframes heightchange /* Safari ºÍ Chrome */
+{
+from {height:0px;opacity:0.0;}
+to {height: 306px;opacity:1.0;}
+}
+@keyframes opacitychange
+{
+from {opacity:0.0;}
+to {opacity:1.0;}
+}
+
+@-webkit-keyframes opacitychange /* Safari ºÍ Chrome */
+{
+from {opacity:0.0;}
+to {opacity:1.0;}
 }

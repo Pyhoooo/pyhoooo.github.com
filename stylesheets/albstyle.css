@@ -98,3 +98,55 @@
   border-bottom:3px solid black;/*注意修改成黑橡*/
   margin:40px 0 0 32px;
 }
+.example
+{
+  font-size:20px;/*知道行间距怎么改后注意修改字体大小为30*/
+  font-family:Consolas;
+  margin-top:30px;
+  text-align:center;
+  padding:150px;
+  -webkit-box-shadow:0px 0px 10px rgba(100, 100, 100, .5);
+  box-shadow:0px 0px 10px rgba(100, 100, 100, .5);
+  transition: background-color 0.5s;
+  -webkit-transition: background-color 0.5s;
+}
+.example:hover
+{
+  background-image:url(../images/alb/example/1.png);
+  background-color:Black;
+}
+.example2
+{
+  font-size:20px;/*知道行间距怎么改后注意修改字体大小为30*/
+  font-family:Consolas;
+  margin-top:30px;
+  text-align:center;
+  padding:150px;
+  -webkit-box-shadow:0px 0px 10px rgba(100, 100, 100, .5);
+  box-shadow:0px 0px 10px rgba(100, 100, 100, .5);
+  transition: background-color 0.5s;
+  -webkit-transition: background-color 0.5s;
+}
+.example2:hover
+{
+  background-color:Black;
+  background-image:url(../images/alb/example/2.png);
+}
+.example3
+{
+  font-size:20px;/*知道行间距怎么改后注意修改字体大小为30*/
+  font-family:Consolas;
+  margin-top:30px;
+  text-align:center;
+  padding:150px;
+  -webkit-box-shadow:0px 0px 10px rgba(100, 100, 100, .5);
+  box-shadow:0px 0px 10px rgba(100, 100, 100, .5);
+  transition: background-color 0.5s;
+  -webkit-transition: background-color 0.5s;
+}
+.example3:hover
+{
+  background-color:Black;
+  background-image:url(../images/alb/example/3.png);
+}
+
