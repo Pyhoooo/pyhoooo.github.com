@@ -1,0 +1,41 @@
+/*µÚÒ»µ¼º½À¸*/
+#nav1
+{
+  width:112px;
+  height:675px;
+  background-image:url(../images/blueNav.png);
+  position:fixed;
+}
+#nav1 ul
+{
+  margin:275px 0 0 -30px;
+  position:absolute;
+  list-style:none;
+}
+#nav1 ul li
+{
+  padding-bottom:22px;
+  text-align:center;
+}
+#nav1 ul li a:link,#nav1 ul li a:visited
+{
+  color:White;
+  font-family:Consolas;
+  font-size:27px;
+  padding:0px 11px 0px 11px;
+}
+#nav1 ul li a:hover
+{
+  border:1px solid white;
+  text-decoration:none;
+}
+#nav1 ul li a:active
+{
+  color:#563f2e;
+  background-color:White;
+}
+#nav1 ul li a.selected
+{
+  color:#563f2e;
+  background-color:White;
+}

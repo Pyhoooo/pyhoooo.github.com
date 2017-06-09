@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'consola';
+  src: url("../fonts/consola¡£ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+body{
+  background-image:url(../images/bg.png);
+}
+#top
+{
+  width:261px;
+  height:3px;
+  margin:-7px 0 0 260px;
+  background-color:#0b1013;
+  animation:widthchange 2s;
+  -webkit-animation:widthchange 2s;
+}
+#menu
+{
+  width:174px;
+  margin:-262px 0 0 320px;
+  opacity:1.0;
+  animation:opacitychange 2s;
+  -webkit-animation:opacitychange 2s;
+}
+#menu ul
+{
+  list-style:none;
+}
+#menu ul li
+{
+  height:43px;
+}
+#menu ul li a:link,#menu ul li a:visited
+{
+  font:consola;
+  font-size:27px;
+  color:#0b1013;
+}
+#menu ul li a:hover,#menu ul li a:active
+{
+  border-right-width:3px;
+  border-right-color:#0b1013;
+  border-right-style:solid;
+}
+
+
+@keyframes widthchange
+{
+from {width:0px;opacity:0.0;}
+to {width: 261px;opacity:1.0;}
+}
+
+@-webkit-keyframes widthchange /* Safari ºÍ Chrome */
+{
+from {width:0px;opacity:0.0;}
+to {width: 261px;opacity:1.0;}
+}
+@keyframes heightchange
+{
+from {height:0px;opacity:0.0;}
+to {height: 306px;opacity:1.0;}
+}
+
+@-webkit-keyframes heightchange /* Safari ºÍ Chrome */
+{
+from {height:0px;opacity:0.0;}
+to {height: 306px;opacity:1.0;}
+}
+@keyframes opacitychange
+{
+from {opacity:0.0;}
+to {opacity:1.0;}
+}
+
+@-webkit-keyframes opacitychange /* Safari ºÍ Chrome */
+{
+from {opacity:0.0;}
+to {opacity:1.0;}
+}

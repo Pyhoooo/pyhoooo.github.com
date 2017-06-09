@@ -1,0 +1,45 @@
+#login126{
+	text-align: center;
+}
+
+#login126 input{
+	padding-left: 10px;
+	border: 1px solid #aaa;
+	border-radius: 3px;
+	width: 240px;
+	height: 45px;
+	margin-bottom: 20px;
+	outline: 0;
+}
+
+#login126 input:focus{
+	border-color: #10a0ea;
+}
+
+.loginFormBtn{
+
+}
+
+#loginBtn,#lfBtnReg{
+	color: #FFF;
+	font-size: 15px;
+	width: 240px;
+	height: 45px;
+	line-height: 45px;
+	border-radius: 3px;
+	display: inline-block;
+	margin-bottom: 0;
+	text-align: center;
+	border: 1px solid transparent;
+	cursor: pointer;
+	outline: 0;
+	margin-bottom: 20px;
+}
+
+#loginBtn{
+	background-color: #5eb95e;
+}
+
+#lfBtnReg{
+	background-color: #19a7f0;
+}
