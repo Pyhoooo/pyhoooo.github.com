@@ -1,4 +1,4 @@
-/*第二导航栏*/
+/*碌脷露镁碌录潞陆脌赂*/
 #nav2
 {
     width: 220px;
@@ -20,7 +20,7 @@
 }
 #nav2 ul li a:link, #nav2 ul li a:visited
 {
-    color: black; /*注意修改成黑橡*/
+    color: black; /*脳垄脪芒脨脼赂脛鲁脡潞脷脧冒*/
     font-family: Consolas;
     font-size: 21px;
     transition: color 0.3s;
@@ -74,9 +74,9 @@
 
 .title
 {
-    font-size: 48px;
+    font-size: 40px;
     font-family: Consolas;
-    color: black; /*注意修改成黑橡*/
+    color: black; /*脳垄脪芒脨脼赂脛鲁脡潞脷脧冒*/
     margin: 50px 0 0 20px;
     position: inherit;
     padding-top: 50px;
@@ -86,22 +86,24 @@
     font-size: 24px;
     font-family: Consolas;
     color: #787d7b;
-    margin: 20px 0 0 52px;
+    margin: 20px 0 0 68px;
 }
 .descrip
 {
-    width: 363px;
+    width: 693px;
     height: 388px;
-    font-size: 20px; /*知道行间距怎么改后注意修改字体大小为30*/
+    font-size: 18px; /*脰陋碌脌脨脨录盲戮脿脭玫脙麓赂脛潞贸脳垄脪芒脨脼赂脛脳脰脤氓麓贸脨隆脦陋30*/
     font-family: Consolas;
     color: #3a3226;
-    margin: 60px 0 0 52px;
+    margin: 60px 0 0 70px;
+    line-height: 30px;
+    letter-spacing: 2px;
 }
 .show
 {
     width: 100%;
     height: 388px;
-    border-top: 3px solid black; /*注意修改成黑橡*/
-    border-bottom: 3px solid black; /*注意修改成黑橡*/
+    border-top: 3px solid black; /*脳垄脪芒脨脼赂脛鲁脡潞脷脧冒*/
+    border-bottom: 3px solid black; /*脳垄脪芒脨脼赂脛鲁脡潞脷脧冒*/
     margin-top: 30px;
 }

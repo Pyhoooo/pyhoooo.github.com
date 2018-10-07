@@ -1,41 +1,53 @@
 /*µÚÒ»µ¼º½À¸*/
+body{
+  background-image:url(../images/pages_bg.png);
+}
 #nav1
 {
   width:112px;
   height:675px;
-  background-image:url(../images/blueNav.png);
+  /*background-image:url(../images/blueNav.png);*/
   position:fixed;
 }
 #nav1 ul
 {
-  margin:275px 0 0 -30px;
+  margin:20% 0 0 -15px;
   position:absolute;
   list-style:none;
 }
 #nav1 ul li
 {
-  padding-bottom:22px;
-  text-align:center;
+  padding-bottom:11px;
+  text-align:right;
 }
+
+#nav1 ul li a
+{
+  outline:none;
+  letter-spacing:3px;
+}
+
 #nav1 ul li a:link,#nav1 ul li a:visited
 {
-  color:White;
+  color:black;
   font-family:Consolas;
-  font-size:27px;
-  padding:0px 11px 0px 11px;
+  font-size:16px;
+  padding:3px 11px 4px 11px;
 }
 #nav1 ul li a:hover
 {
-  border:1px solid white;
+  border:1px solid #563f2e;
   text-decoration:none;
 }
 #nav1 ul li a:active
 {
-  color:#563f2e;
-  background-color:White;
+  color:white;
+  background-color:#563f2e;
 }
 #nav1 ul li a.selected
 {
-  color:#563f2e;
-  background-color:White;
+  color:white;
+  border:1px solid #563f2e;
+  text-decoration:none;   
+  background-color:#563f2e;
 }

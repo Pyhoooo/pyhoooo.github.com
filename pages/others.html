@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Others by 徒步</title>
+    <link rel="stylesheet" href="../stylesheets/styles.css">
+    <link rel="stylesheet" href="../stylesheets/pages.css">
+    <link rel="stylesheet" href="../stylesheets/albimgstyle.css">
+    <link href="../stylesheets/albstyle.css" rel="stylesheet" media="all">
+</head>
+<body style="overflow-x:hidden;">
+    <!--µÚÒ»µ¼º½À¸-->
+    <div id="nav1">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="videos.html">Videos</a></li>
+            <li><a href="U3D.html">U3D(Games)</a></li>
+            <li><a href="website.html">Website</a></li>
+            <li><a href="others.html" class="selected">Others</a></li>
+        </ul>
+    </div>
+    <!--µÚ¶þµ¼º½À¸-->
+    <div id="nav">
+        <ul>
+            <li><a href="Iframes/others/The Fattest Bird.pdf" target="pro_frame"><b>绘本</b></a></li>
+            <li><a href="Iframes/others/comicinwuya.html" target="pro_frame"><b>Comic</b></a></li>
+            <li><a href="Iframes/others/photography.html" target="pro_frame"><b>Photography</b></a></li>
+            <li><a href="Iframes/others/articles.html" target="pro_frame"><b>文章</b></a></li>
+        </ul>
+    </div>
+
+    <iframe src="indexIframes/blank.html"  name="pro_frame" scrolling="yes" frameborder="0"
+        width="1020px" height="100%" style="position: absolute; margin: 0px 0 0 362px;">
+    </iframe>
+
+
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <!--<![endif]-->
+    <script src="../javascripts/jquery.nav.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#nav').onePageNav();
+        });
+    </script>
+    <script type="text/javascript">
+        // È¥³ýÎ¢ÐÅä¯ÀÀÆ÷µÄÍÏÀ­Ð§¹û
+        document.addEventListener('touchmove', function (event) {
+            event.preventDefault();
+        }, false);
+    </script>
+
+</body>
+</html>

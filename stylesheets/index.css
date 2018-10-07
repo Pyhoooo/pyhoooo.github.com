@@ -32,17 +32,25 @@ body{
 {
   height:43px;
 }
+
+#menu ul li a
+{
+  outline:none;
+  font-family:Consolas;
+}
+
 #menu ul li a:link,#menu ul li a:visited
 {
-  font:consola;
   font-size:27px;
   color:#0b1013;
+  
 }
 #menu ul li a:hover,#menu ul li a:active
 {
   border-right-width:3px;
   border-right-color:#0b1013;
   border-right-style:solid;
+  
 }
 
 
